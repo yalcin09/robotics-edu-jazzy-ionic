@@ -1,0 +1,15 @@
+[  5%] [32mBuilding CXX object CMakeFiles/robot_command_server_node.dir/src/robot_command_server.cpp.o[0m
+[ 22%] Built target robot_command_client_node
+[ 16%] [32mBuilding CXX object CMakeFiles/robot_status_service_node.dir/src/robot_status_service.cpp.o[0m
+[ 33%] Built target robot_publisher_node
+[ 44%] Built target message_analyzer_node
+[ 55%] Built target filtering_subscriber_node
+[ 61%] [32mBuilding CXX object CMakeFiles/performance_test_node.dir/src/performance_test.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/robot_subscriber_node.dir/src/robot_subscriber.cpp.o[0m
+[ 77%] Built target sensor_simulator_node
+[ 83%] [32m[1mLinking CXX executable robot_command_server_node[0m
+[ 83%] Built target robot_command_server_node
+[ 88%] [32m[1mLinking CXX executable robot_subscriber_node[0m
+[ 88%] Built target robot_subscriber_node
+[ 94%] [32m[1mLinking CXX executable robot_status_service_node[0m
+[ 94%] Built target robot_status_service_node

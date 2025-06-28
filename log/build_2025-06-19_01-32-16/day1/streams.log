@@ -1,0 +1,77 @@
+[0.011s] Invoking command in '/home/yalcinolgac/ros2_ws/build/day1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/yalcinolgac/ros2_ws/build/day1 -- -j32 -l32
+[0.068s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.207s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.257s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.265s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.277s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.289s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.344s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.346s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.397s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.451s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.519s] -- Configuring done (0.5s)
+[0.533s] -- Generating done (0.0s)
+[0.537s] -- Build files have been written to: /home/yalcinolgac/ros2_ws/build/day1
+[0.561s] [ 50%] [32mBuilding CXX object CMakeFiles/subscriber_node.dir/src/subscriber.cpp.o[0m
+[0.561s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher_node.dir/src/publisher.cpp.o[0m
+[1.905s] [01m[K/home/yalcinolgac/ros2_ws/src/day1/src/publisher.cpp:62:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[1.905s]    62 |  }
+[1.905s]       |   [01;31m[K^[m[K
+[1.905s]       |   [32m[K;[m[K
+[1.905s] [01m[K/home/yalcinolgac/ros2_ws/src/day1/src/publisher.cpp:[m[K In constructor ‘[01m[KSimplePublisher::[01;32m[KSimplePublisher[m[K()[m[K’:
+[1.905s] [01m[K/home/yalcinolgac/ros2_ws/src/day1/src/publisher.cpp:25:59:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kstd_msgs[m[K’; did you mean ‘[01m[Kstd_msgs::msg::String[m[K’?
+[1.905s]    25 |             publisher_ = this->create_publisher<std_msgs::[01;31m[KString[m[K>("robot_info", 10);
+[1.906s]       |                                                           [01;31m[K^~~~~~[m[K
+[1.906s] In file included from [01m[K/opt/ros/jazzy/include/std_msgs/std_msgs/msg/string.hpp:7[m[K,
+[1.906s]                  from [01m[K/home/yalcinolgac/ros2_ws/src/day1/src/publisher.cpp:8[m[K:
+[1.906s] [01m[K/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/string__struct.hpp:125:7:[m[K [01;36m[Knote: [m[K‘[01m[Kstd_msgs::msg::String[m[K’ declared here
+[1.906s]   125 | using [01;36m[KString[m[K =
+[1.906s]       |       [01;36m[K^~~~~~[m[K
+[1.908s] [01m[K/home/yalcinolgac/ros2_ws/src/day1/src/publisher.cpp:25:66:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KSimplePublisher::create_publisher<<expression error> >(const char [11], int)[m[K’
+[1.908s]    25 |         publisher_ = [01;31m[Kthis->create_publisher<std_msgs::String>("robot_info", 10)[m[K;
+[1.908s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[1.908s] 
+[1.908s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.908s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[1.908s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+[1.908s]                  from [01m[K/home/yalcinolgac/ros2_ws/src/day1/src/publisher.cpp:7[m[K:
+[1.908s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:197:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::[01;32m[Kcreate_publisher[m[K(const std::string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[1.908s]   197 |   [01;36m[Kcreate_publisher[m[K(
+[1.908s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[1.909s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:197:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.909s] [01m[K/home/yalcinolgac/ros2_ws/src/day1/src/publisher.cpp:25:66:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.909s]    25 |         publisher_ = [01;31m[Kthis->create_publisher<std_msgs::String>("robot_info", 10)[m[K;
+[1.909s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[1.909s] 
+[1.909s] [01m[K/home/yalcinolgac/ros2_ws/src/day1/src/publisher.cpp:31:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublish_message[m[K’ is not a member of ‘[01m[KSimplePublisher[m[K’
+[1.909s]    31 |                 std::bind(&SimplePublisher::[01;31m[Kpublish_message[m[K, this)  // callback fonksiyonu
+[1.909s]       |                                             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.917s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[1.917s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K:
+[1.917s] [01m[K/home/yalcinolgac/ros2_ws/src/day1/src/publisher.cpp:35:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass SimplePublisher[m[K’ has no member named ‘[01m[Kgetlogger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[1.917s]    35 |             RCLCPP_INFO(this->[01;31m[Kgetlogger[m[K(), "Publisher Node başlatird....");
+[1.917s]       |                               [01;31m[K^~~~~~~~~[m[K
+[1.917s] [01m[K/home/yalcinolgac/ros2_ws/src/day1/src/publisher.cpp:35:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass SimplePublisher[m[K’ has no member named ‘[01m[Kgetlogger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[1.917s] [01m[K/home/yalcinolgac/ros2_ws/src/day1/src/publisher.cpp:35:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.917s]    35 |             [01;31m[KRCLCPP_INFO[m[K(this->getlogger(), "Publisher Node başlatird....");
+[1.917s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[1.917s] [01m[K/home/yalcinolgac/ros2_ws/src/day1/src/publisher.cpp:35:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.917s]    35 |             [01;31m[KRCLCPP_INFO[m[K(this->getlogger(), "Publisher Node başlatird....");
+[1.917s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[1.917s] [01m[K/home/yalcinolgac/ros2_ws/src/day1/src/publisher.cpp:35:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.917s]    35 |             [01;31m[KRCLCPP_INFO[m[K(this->getlogger(), "Publisher Node başlatird....");
+[1.917s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[1.917s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K:
+[1.917s] [01m[K/home/yalcinolgac/ros2_ws/src/day1/src/publisher.cpp:35:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass SimplePublisher[m[K’ has no member named ‘[01m[Kgetlogger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[1.917s]    35 |             RCLCPP_INFO(this->[01;31m[Kgetlogger[m[K(), "Publisher Node başlatird....");
+[1.917s]       |                               [01;31m[K^~~~~~~~~[m[K
+[1.917s] [01m[K/home/yalcinolgac/ros2_ws/src/day1/src/publisher.cpp:35:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass SimplePublisher[m[K’ has no member named ‘[01m[Kgetlogger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[1.917s]    35 |             RCLCPP_INFO(this->[01;31m[Kgetlogger[m[K(), "Publisher Node başlatird....");
+[1.917s]       |                               [01;31m[K^~~~~~~~~[m[K
+[2.288s] gmake[2]: *** [CMakeFiles/publisher_node.dir/build.make:76: CMakeFiles/publisher_node.dir/src/publisher.cpp.o] Error 1
+[2.288s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/publisher_node.dir/all] Error 2
+[2.288s] gmake[1]: *** Waiting for unfinished jobs....
+[4.464s] [ 75%] [32m[1mLinking CXX executable subscriber_node[0m
+[4.631s] [ 75%] Built target subscriber_node
+[4.631s] gmake: *** [Makefile:146: all] Error 2
+[4.632s] Invoked command in '/home/yalcinolgac/ros2_ws/build/day1' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/yalcinolgac/ros2_ws/build/day1 -- -j32 -l32

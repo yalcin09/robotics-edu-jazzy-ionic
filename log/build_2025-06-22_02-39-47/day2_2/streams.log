@@ -1,0 +1,52 @@
+[0.007s] Invoking command in '/home/yalcinolgac/ros2_ws/build/day2_2': CMAKE_PREFIX_PATH=/home/yalcinolgac/ros2_ws/install/day2:/home/yalcinolgac/ros2_ws/install/day2_2:/home/yalcinolgac/ros2_ws/install/day1:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yalcinolgac/ros2_ws/build/day2_2 -- -j32 -l32
+[0.046s] [ 22%] Built target filtering_subscriber_node
+[0.046s] [ 22%] Built target robot_publisher_node
+[0.047s] [ 33%] Built target message_analyzer_node
+[0.048s] [ 44%] Built target robot_command_client_node
+[0.049s] [ 55%] Built target sensor_simulator_node
+[0.049s] [ 72%] Built target robot_command_server_node
+[0.049s] [ 77%] Built target robot_subscriber_node
+[0.051s] [ 83%] [32mBuilding CXX object CMakeFiles/performance_test_node.dir/src/performance_test.cpp.o[0m
+[0.053s] [ 94%] Built target robot_status_service_node
+[4.291s] [100%] [32m[1mLinking CXX executable performance_test_node[0m
+[4.497s] [100%] Built target performance_test_node
+[4.503s] Invoked command in '/home/yalcinolgac/ros2_ws/build/day2_2' returned '0': CMAKE_PREFIX_PATH=/home/yalcinolgac/ros2_ws/install/day2:/home/yalcinolgac/ros2_ws/install/day2_2:/home/yalcinolgac/ros2_ws/install/day1:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yalcinolgac/ros2_ws/build/day2_2 -- -j32 -l32
+[4.504s] Invoking command in '/home/yalcinolgac/ros2_ws/build/day2_2': CMAKE_PREFIX_PATH=/home/yalcinolgac/ros2_ws/install/day2:/home/yalcinolgac/ros2_ws/install/day2_2:/home/yalcinolgac/ros2_ws/install/day1:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yalcinolgac/ros2_ws/build/day2_2
+[4.509s] -- Install configuration: ""
+[4.510s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2_2/lib/day2_2/robot_publisher_node
+[4.513s] -- Set non-toolchain portion of runtime path of "/home/yalcinolgac/ros2_ws/install/day2_2/lib/day2_2/robot_publisher_node" to ""
+[4.514s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2_2/lib/day2_2/robot_subscriber_node
+[4.520s] -- Set non-toolchain portion of runtime path of "/home/yalcinolgac/ros2_ws/install/day2_2/lib/day2_2/robot_subscriber_node" to ""
+[4.521s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2_2/lib/day2_2/sensor_simulator_node
+[4.522s] -- Set non-toolchain portion of runtime path of "/home/yalcinolgac/ros2_ws/install/day2_2/lib/day2_2/sensor_simulator_node" to ""
+[4.523s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2_2/lib/day2_2/message_analyzer_node
+[4.532s] -- Set non-toolchain portion of runtime path of "/home/yalcinolgac/ros2_ws/install/day2_2/lib/day2_2/message_analyzer_node" to ""
+[4.532s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2_2/lib/day2_2/filtering_subscriber_node
+[4.538s] -- Set non-toolchain portion of runtime path of "/home/yalcinolgac/ros2_ws/install/day2_2/lib/day2_2/filtering_subscriber_node" to ""
+[4.538s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2_2/lib/day2_2/performance_test_node
+[4.540s] -- Set non-toolchain portion of runtime path of "/home/yalcinolgac/ros2_ws/install/day2_2/lib/day2_2/performance_test_node" to ""
+[4.540s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2_2/lib/day2_2/robot_command_server_node
+[4.542s] -- Set non-toolchain portion of runtime path of "/home/yalcinolgac/ros2_ws/install/day2_2/lib/day2_2/robot_command_server_node" to ""
+[4.542s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2_2/lib/day2_2/robot_command_client_node
+[4.544s] -- Set non-toolchain portion of runtime path of "/home/yalcinolgac/ros2_ws/install/day2_2/lib/day2_2/robot_command_client_node" to ""
+[4.544s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2_2/lib/day2_2/robot_status_service_node
+[4.550s] -- Set non-toolchain portion of runtime path of "/home/yalcinolgac/ros2_ws/install/day2_2/lib/day2_2/robot_status_service_node" to ""
+[4.550s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/launch
+[4.551s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/launch/day2_3.launch.py
+[4.551s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/launch/day2_2.launch.py
+[4.551s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2_2/share/ament_index/resource_index/package_run_dependencies/day2_2
+[4.551s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2_2/share/ament_index/resource_index/parent_prefix_path/day2_2
+[4.552s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/environment/ament_prefix_path.sh
+[4.552s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/environment/ament_prefix_path.dsv
+[4.552s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/environment/path.sh
+[4.552s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/environment/path.dsv
+[4.552s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/local_setup.bash
+[4.552s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/local_setup.sh
+[4.552s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/local_setup.zsh
+[4.552s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/local_setup.dsv
+[4.552s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/package.dsv
+[4.552s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2_2/share/ament_index/resource_index/packages/day2_2
+[4.553s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/cmake/day2_2Config.cmake
+[4.553s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/cmake/day2_2Config-version.cmake
+[4.553s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/package.xml
+[4.554s] Invoked command in '/home/yalcinolgac/ros2_ws/build/day2_2' returned '0': CMAKE_PREFIX_PATH=/home/yalcinolgac/ros2_ws/install/day2:/home/yalcinolgac/ros2_ws/install/day2_2:/home/yalcinolgac/ros2_ws/install/day1:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yalcinolgac/ros2_ws/build/day2_2

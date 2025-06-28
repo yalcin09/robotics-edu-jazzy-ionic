@@ -1,0 +1,49 @@
+# REQUEST KISMI
+# Acil durdurma komut parametreleri
+uint32 robot_id                         # Hedef robot ID (0 = tüm robotlar)
+string reason                           # Durdurma sebebi
+uint8 stop_type                         # Durdurma türü
+uint8 SOFT_STOP=0                       # Yumuşak durdurma (yavaşlayarak)
+uint8 IMMEDIATE_STOP=1                  # Anında durdurma
+uint8 EMERGENCY_STOP=2                  # Acil durdurma (güç kesimi)
+
+bool disable_motors                     # Motorları devre dışı bırak
+bool lock_brakes                        # Frenleri kilitle
+bool sound_alarm                        # Alarm çal
+string operator_id                      # Komutu veren operatör
+uint8 priority_level                    # Öncelik seviyesi (1-10)
+
+---
+
+# RESPONSE KISMI
+# Durdurma işlemi sonucu
+bool success                            # Durdurma başarılı mı?
+string message                          # Detay mesaj
+builtin_interfaces/Time stop_timestamp  # Durdurma zamanı
+
+# Etkilenen robotlar
+uint32[] stopped_robot_ids              # Durdurulan robot ID'leri
+string[] robot_responses                # Her robottan gelen yanıt
+float32[] stop_distances                # Her robotun durma mesafesi
+
+# Sistem durumu
+bool system_safe_state                  # Sistem güvenli durumda mı?
+string[] active_alarms                  # Aktif alarmlar
+string[] required_actions               # Gerekli müdahaleler
+
+# Recovery bilgileri
+bool manual_reset_required              # Manuel reset gerekli mi?
+string[] reset_procedures               # Reset prosedürleri
+float32 estimated_recovery_time         # Tahmini recovery süresi
+
+# Incident bilgileri
+uint32 incident_id                      # Olay ID'si
+string incident_classification          # Olay sınıflandırması
+bool requires_investigation             # Soruşturma gerekli mi?
+
+uint32 error_code                       # Hata kodu
+uint32 ERROR_NONE=0                     # Başarı
+uint32 ERROR_ROBOT_NOT_FOUND=1          # Robot bulunamadı
+uint32 ERROR_ALREADY_STOPPED=2          # Zaten durdurulmuş
+uint32 ERROR_STOP_FAILED=3              # Durdurma başarısız
+uint32 ERROR_COMMUNICATION_FAILED=4     # İletişim hatası

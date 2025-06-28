@@ -1,0 +1,27 @@
+[0.008s] Invoking command in '/home/yalcinolgac/ros2_ws/build/day2_2': AMENT_PREFIX_PATH=/home/yalcinolgac/ros2_ws/install/day2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yalcinolgac/ros2_ws/install/day2:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/yalcinolgac/ros2_ws/install/day2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/yalcinolgac/ros2_ws/src/day2_2 -DCMAKE_INSTALL_PREFIX=/home/yalcinolgac/ros2_ws/install/day2_2
+[0.016s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.144s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.168s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.173s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.180s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.187s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.223s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.223s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.260s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.296s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.304s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.312s] -- Found day2: 1.0.0 (/home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake)
+[0.324s] [31mCMake Error at CMakeLists.txt:18 (target_include_directories):
+[0.324s]   Cannot specify include directories for target "robot_status_publisher"
+[0.324s]   which is not built by this project.
+[0.324s] 
+[0.324s] [0m
+[0.324s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.324s]   ament_target_dependencies() the passed package name 'robot_interfaces' was
+[0.324s]   not found before
+[0.324s] Call Stack (most recent call first):
+[0.324s]   CMakeLists.txt:23 (ament_target_dependencies)
+[0.324s] 
+[0.325s] [0m
+[0.325s] -- Configuring incomplete, errors occurred!
+[0.329s] Invoked command in '/home/yalcinolgac/ros2_ws/build/day2_2' returned '1': AMENT_PREFIX_PATH=/home/yalcinolgac/ros2_ws/install/day2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yalcinolgac/ros2_ws/install/day2:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/yalcinolgac/ros2_ws/install/day2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/yalcinolgac/ros2_ws/src/day2_2 -DCMAKE_INSTALL_PREFIX=/home/yalcinolgac/ros2_ws/install/day2_2

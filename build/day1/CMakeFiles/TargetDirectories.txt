@@ -1,0 +1,11 @@
+/home/yalcinolgac/ros2_ws/build/day1/CMakeFiles/uninstall.dir
+/home/yalcinolgac/ros2_ws/build/day1/CMakeFiles/day1_uninstall.dir
+/home/yalcinolgac/ros2_ws/build/day1/CMakeFiles/publisher_node.dir
+/home/yalcinolgac/ros2_ws/build/day1/CMakeFiles/subscriber_node.dir
+/home/yalcinolgac/ros2_ws/build/day1/CMakeFiles/test.dir
+/home/yalcinolgac/ros2_ws/build/day1/CMakeFiles/edit_cache.dir
+/home/yalcinolgac/ros2_ws/build/day1/CMakeFiles/rebuild_cache.dir
+/home/yalcinolgac/ros2_ws/build/day1/CMakeFiles/list_install_components.dir
+/home/yalcinolgac/ros2_ws/build/day1/CMakeFiles/install.dir
+/home/yalcinolgac/ros2_ws/build/day1/CMakeFiles/install/local.dir
+/home/yalcinolgac/ros2_ws/build/day1/CMakeFiles/install/strip.dir

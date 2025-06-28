@@ -1,0 +1,112 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from day2/srv/GetRobotStatus.srv
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+#include "day2/msg/RobotStatus.idl"
+#include "day2/msg/SensorData.idl"
+
+module day2 {
+  module srv {
+    @verbatim (language="comment", text=
+      "REQUEST KISMI" "\n"
+      "Hangi robot(lar)ın durumu isteniyor?")
+    struct GetRobotStatus_Request {
+      @verbatim (language="comment", text=
+        "Belirli robot ID (0 = tüm robotlar)")
+      uint32 robot_id;
+
+      @verbatim (language="comment", text=
+        "Robot adı (boş = ID kullan)")
+      string robot_name;
+
+      @verbatim (language="comment", text=
+        "Sensör detayları dahil edilsin mi?")
+      boolean include_sensors;
+
+      @verbatim (language="comment", text=
+        "Diagnostic bilgiler dahil edilsin mi?")
+      boolean include_diagnostics;
+
+      @verbatim (language="comment", text=
+        "Son 10 durum geçmişi dahil edilsin mi?")
+      boolean include_history;
+
+      @verbatim (language="comment", text=
+        "Sadece belirli alanlar (boş = hepsi)")
+      sequence<string> requested_fields;
+    };
+    struct GetRobotStatus_Response {
+      @verbatim (language="comment", text=
+        "RESPONSE KISMI" "\n"
+        "Robot durumu bilgileri" "\n"
+        "Sorgu başarılı mı?")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "Açıklama mesajı")
+      string message;
+
+      @verbatim (language="comment", text=
+        "Ana robot bilgileri" "\n"
+        "Mevcut robot durumu (custom message)")
+      day2::msg::RobotStatus current_status;
+
+      @verbatim (language="comment", text=
+        "Ek bilgiler (istenirse)" "\n"
+        "Tüm sensör verileri")
+      sequence<day2::msg::SensorData> sensor_data;
+
+      @verbatim (language="comment", text=
+        "Diagnostic mesajları")
+      sequence<string> diagnostic_messages;
+
+      @verbatim (language="comment", text=
+        "Son durum geçmişi")
+      sequence<day2::msg::RobotStatus> status_history;
+
+      @verbatim (language="comment", text=
+        "İstatistikler" "\n"
+        "Kaç saattir açık")
+      float uptime_hours;
+
+      @verbatim (language="comment", text=
+        "Toplam komut sayısı")
+      uint32 total_commands_executed;
+
+      @verbatim (language="comment", text=
+        "Kat edilen mesafe")
+      float total_distance_traveled;
+
+      @verbatim (language="comment", text=
+        "Bugünkü hata sayısı")
+      uint32 error_count_today;
+
+      @verbatim (language="comment", text=
+        "Performans metrikleri" "\n"
+        "Ortalama tepki süresi")
+      float average_response_time_ms;
+
+      @verbatim (language="comment", text=
+        "CPU kullanımı")
+      float cpu_usage_percent;
+
+      @verbatim (language="comment", text=
+        "Memory kullanımı")
+      float memory_usage_percent;
+
+      @verbatim (language="comment", text=
+        "Ağ gecikmesi")
+      float network_latency_ms;
+
+      @verbatim (language="comment", text=
+        "Timestamps" "\n"
+        "Sorgu zamanı")
+      builtin_interfaces::msg::Time query_timestamp;
+
+      @verbatim (language="comment", text=
+        "Son güncelleme zamanı")
+      builtin_interfaces::msg::Time last_update_time;
+    };
+  };
+};

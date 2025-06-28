@@ -1,0 +1,11 @@
+[0.012s] Invoking command in '/home/yalcinolgac/ros2_ws/build/day1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/yalcinolgac/ros2_ws/build/day1 -- -j32 -l32
+[0.089s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher_node.dir/src/publisher.cpp.o[0m
+[0.089s] [ 75%] Built target subscriber_node
+[1.425s] [01m[K/home/yalcinolgac/ros2_ws/src/day1/src/publisher.cpp:62:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[1.425s]    62 |  }
+[1.425s]       |   [01;31m[K^[m[K
+[1.425s]       |   [32m[K;[m[K
+[1.990s] gmake[2]: *** [CMakeFiles/publisher_node.dir/build.make:76: CMakeFiles/publisher_node.dir/src/publisher.cpp.o] Error 1
+[1.990s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/publisher_node.dir/all] Error 2
+[1.991s] gmake: *** [Makefile:146: all] Error 2
+[1.992s] Invoked command in '/home/yalcinolgac/ros2_ws/build/day1' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/yalcinolgac/ros2_ws/build/day1 -- -j32 -l32

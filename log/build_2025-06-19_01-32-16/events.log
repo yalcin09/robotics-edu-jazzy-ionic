@@ -1,0 +1,130 @@
+[0.000000] (-) TimerEvent: {}
+[0.000345] (day1) JobQueued: {'identifier': 'day1', 'dependencies': OrderedDict()}
+[0.000373] (day1) JobStarted: {'identifier': 'day1'}
+[0.009084] (day1) JobProgress: {'identifier': 'day1', 'progress': 'cmake'}
+[0.009749] (day1) JobProgress: {'identifier': 'day1', 'progress': 'build'}
+[0.010333] (day1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yalcinolgac/ros2_ws/build/day1', '--', '-j32', '-l32'], 'cwd': '/home/yalcinolgac/ros2_ws/build/day1', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yalcinolgac', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/yalcinolgac', 'OLDPWD': '/home/yalcinolgac/ros2_ws/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/yalcinolgac/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'yalcinolgac', 'NAME': 'yalcinolgac', 'WSL_INTEROP': '/run/WSL/511_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/yalcinolgac/ros2_ws/install/day1:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/yalcinolgac/ros2_ws/build/day1', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/yalcinolgac/ros2_ws/install/day1:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[0.067835] (day1) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099876] (-) TimerEvent: {}
+[0.200089] (-) TimerEvent: {}
+[0.207542] (day1) StdoutLine: {'line': b'-- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.257634] (day1) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.265657] (day1) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.277350] (day1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.289532] (day1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.300168] (-) TimerEvent: {}
+[0.344126] (day1) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.345953] (day1) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.396999] (day1) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.400250] (-) TimerEvent: {}
+[0.451241] (day1) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.500501] (-) TimerEvent: {}
+[0.519282] (day1) StdoutLine: {'line': b'-- Configuring done (0.5s)\n'}
+[0.533295] (day1) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.536900] (day1) StdoutLine: {'line': b'-- Build files have been written to: /home/yalcinolgac/ros2_ws/build/day1\n'}
+[0.561288] (day1) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/subscriber_node.dir/src/subscriber.cpp.o\x1b[0m\n'}
+[0.561436] (day1) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/publisher_node.dir/src/publisher.cpp.o\x1b[0m\n'}
+[0.600606] (-) TimerEvent: {}
+[0.700847] (-) TimerEvent: {}
+[0.801113] (-) TimerEvent: {}
+[0.901444] (-) TimerEvent: {}
+[1.001735] (-) TimerEvent: {}
+[1.102158] (-) TimerEvent: {}
+[1.202633] (-) TimerEvent: {}
+[1.303061] (-) TimerEvent: {}
+[1.403325] (-) TimerEvent: {}
+[1.503594] (-) TimerEvent: {}
+[1.603955] (-) TimerEvent: {}
+[1.704378] (-) TimerEvent: {}
+[1.804842] (-) TimerEvent: {}
+[1.904953] (day1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yalcinolgac/ros2_ws/src/day1/src/publisher.cpp:62:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 after class definition\n'}
+[1.905147] (-) TimerEvent: {}
+[1.905217] (day1) StderrLine: {'line': b'   62 |  }\n'}
+[1.905270] (day1) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.905301] (day1) StderrLine: {'line': b'      |   \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.905637] (day1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yalcinolgac/ros2_ws/src/day1/src/publisher.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KSimplePublisher::\x1b[01;32m\x1b[KSimplePublisher\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.905720] (day1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yalcinolgac/ros2_ws/src/day1/src/publisher.cpp:25:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KString\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.905808] (day1) StderrLine: {'line': b'   25 |             publisher_ = this->create_publisher<std_msgs::\x1b[01;31m\x1b[KString\x1b[m\x1b[K>("robot_info", 10);\n'}
+[1.905891] (day1) StderrLine: {'line': b'      |                                                           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.906199] (day1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/std_msgs/std_msgs/msg/string.hpp:7\x1b[m\x1b[K,\n'}
+[1.906252] (day1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yalcinolgac/ros2_ws/src/day1/src/publisher.cpp:8\x1b[m\x1b[K:\n'}
+[1.906283] (day1) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/string__struct.hpp:125:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[1.906314] (day1) StderrLine: {'line': b'  125 | using \x1b[01;36m\x1b[KString\x1b[m\x1b[K =\n'}
+[1.906343] (day1) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.907850] (day1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yalcinolgac/ros2_ws/src/day1/src/publisher.cpp:25:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KSimplePublisher::create_publisher<<expression error> >(const char [11], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.907920] (day1) StderrLine: {'line': b'   25 |         publisher_ = \x1b[01;31m\x1b[Kthis->create_publisher<std_msgs::String>("robot_info", 10)\x1b[m\x1b[K;\n'}
+[1.907981] (day1) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.908017] (day1) StderrLine: {'line': b'\n'}
+[1.908391] (day1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.908445] (day1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.908474] (day1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172\x1b[m\x1b[K,\n'}
+[1.908503] (day1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yalcinolgac/ros2_ws/src/day1/src/publisher.cpp:7\x1b[m\x1b[K:\n'}
+[1.908531] (day1) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:197:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::\x1b[01;32m\x1b[Kcreate_publisher\x1b[m\x1b[K(const std::string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.908571] (day1) StderrLine: {'line': b'  197 |   \x1b[01;36m\x1b[Kcreate_publisher\x1b[m\x1b[K(\n'}
+[1.908614] (day1) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.909000] (day1) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:197:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.909050] (day1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yalcinolgac/ros2_ws/src/day1/src/publisher.cpp:25:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.909080] (day1) StderrLine: {'line': b'   25 |         publisher_ = \x1b[01;31m\x1b[Kthis->create_publisher<std_msgs::String>("robot_info", 10)\x1b[m\x1b[K;\n'}
+[1.909108] (day1) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.909138] (day1) StderrLine: {'line': b'\n'}
+[1.909166] (day1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yalcinolgac/ros2_ws/src/day1/src/publisher.cpp:31:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublish_message\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[KSimplePublisher\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.909196] (day1) StderrLine: {'line': b'   31 |                 std::bind(&SimplePublisher::\x1b[01;31m\x1b[Kpublish_message\x1b[m\x1b[K, this)  // callback fonksiyonu\n'}
+[1.909222] (day1) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.910077] (day1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27\x1b[m\x1b[K,\n'}
+[1.917253] (day1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171\x1b[m\x1b[K:\n'}
+[1.917301] (day1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yalcinolgac/ros2_ws/src/day1/src/publisher.cpp:35:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass SimplePublisher\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kgetlogger\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.917336] (day1) StderrLine: {'line': b'   35 |             RCLCPP_INFO(this->\x1b[01;31m\x1b[Kgetlogger\x1b[m\x1b[K(), "Publisher Node ba\xc5\x9flatird....");\n'}
+[1.917366] (day1) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.917395] (day1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yalcinolgac/ros2_ws/src/day1/src/publisher.cpp:35:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass SimplePublisher\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kgetlogger\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.917435] (day1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yalcinolgac/ros2_ws/src/day1/src/publisher.cpp:35:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.917463] (day1) StderrLine: {'line': b'   35 |             \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->getlogger(), "Publisher Node ba\xc5\x9flatird....");\n'}
+[1.917491] (day1) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.917517] (day1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yalcinolgac/ros2_ws/src/day1/src/publisher.cpp:35:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.917545] (day1) StderrLine: {'line': b'   35 |             \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->getlogger(), "Publisher Node ba\xc5\x9flatird....");\n'}
+[1.917572] (day1) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.917599] (day1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yalcinolgac/ros2_ws/src/day1/src/publisher.cpp:35:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.917626] (day1) StderrLine: {'line': b'   35 |             \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->getlogger(), "Publisher Node ba\xc5\x9flatird....");\n'}
+[1.917653] (day1) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.917685] (day1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K:\n'}
+[1.917711] (day1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yalcinolgac/ros2_ws/src/day1/src/publisher.cpp:35:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass SimplePublisher\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kgetlogger\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.917738] (day1) StderrLine: {'line': b'   35 |             RCLCPP_INFO(this->\x1b[01;31m\x1b[Kgetlogger\x1b[m\x1b[K(), "Publisher Node ba\xc5\x9flatird....");\n'}
+[1.917765] (day1) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.917792] (day1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yalcinolgac/ros2_ws/src/day1/src/publisher.cpp:35:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass SimplePublisher\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kgetlogger\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.917818] (day1) StderrLine: {'line': b'   35 |             RCLCPP_INFO(this->\x1b[01;31m\x1b[Kgetlogger\x1b[m\x1b[K(), "Publisher Node ba\xc5\x9flatird....");\n'}
+[1.917846] (day1) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.005418] (-) TimerEvent: {}
+[2.105836] (-) TimerEvent: {}
+[2.206257] (-) TimerEvent: {}
+[2.288035] (day1) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/publisher_node.dir/build.make:76: CMakeFiles/publisher_node.dir/src/publisher.cpp.o] Error 1\n'}
+[2.288179] (day1) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/publisher_node.dir/all] Error 2\n'}
+[2.288215] (day1) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[2.306352] (-) TimerEvent: {}
+[2.406626] (-) TimerEvent: {}
+[2.506923] (-) TimerEvent: {}
+[2.607394] (-) TimerEvent: {}
+[2.707710] (-) TimerEvent: {}
+[2.808020] (-) TimerEvent: {}
+[2.908301] (-) TimerEvent: {}
+[3.008557] (-) TimerEvent: {}
+[3.108908] (-) TimerEvent: {}
+[3.209129] (-) TimerEvent: {}
+[3.309350] (-) TimerEvent: {}
+[3.409543] (-) TimerEvent: {}
+[3.509714] (-) TimerEvent: {}
+[3.610010] (-) TimerEvent: {}
+[3.710290] (-) TimerEvent: {}
+[3.810640] (-) TimerEvent: {}
+[3.910988] (-) TimerEvent: {}
+[4.011282] (-) TimerEvent: {}
+[4.111479] (-) TimerEvent: {}
+[4.211651] (-) TimerEvent: {}
+[4.311872] (-) TimerEvent: {}
+[4.412119] (-) TimerEvent: {}
+[4.464043] (day1) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable subscriber_node\x1b[0m\n'}
+[4.512202] (-) TimerEvent: {}
+[4.612405] (-) TimerEvent: {}
+[4.630892] (day1) StdoutLine: {'line': b'[ 75%] Built target subscriber_node\n'}
+[4.631568] (day1) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.632667] (day1) CommandEnded: {'returncode': 2}
+[4.644142] (day1) JobEnded: {'identifier': 'day1', 'rc': 2}
+[4.654593] (-) EventReactorShutdown: {}

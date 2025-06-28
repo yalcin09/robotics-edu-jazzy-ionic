@@ -1,0 +1,63 @@
+# REQUEST KISMI
+# Path planning parametreleri
+geometry_msgs/Point start_position          # Başlangıç pozisyonu
+geometry_msgs/Point goal_position           # Hedef pozisyon
+geometry_msgs/Vector3 start_orientation     # Başlangıç oryantasyonu
+geometry_msgs/Vector3 goal_orientation      # Hedef oryantasyon
+
+# Planning constraints
+float32 max_velocity                        # Maksimum hız kısıtı
+float32 max_acceleration                    # Maksimum ivme kısıtı
+float32 turning_radius                      # Minimum dönüş yarıçapı
+float32 safety_margin                       # Engellere olan güvenlik mesafesi
+
+# Planning options
+string planning_algorithm                   # Kullanılacak algoritma ("A*", "RRT", "PRM")
+float32 planning_timeout                    # Planning için maksimum süre
+bool optimize_for_speed                     # Hız için optimize et
+bool optimize_for_smoothness                # Yumuşaklık için optimize et
+bool avoid_dynamic_obstacles                # Dinamik engelleri kaçın
+
+# Ek kısıtlar
+geometry_msgs/Point[] waypoints             # Zorunlu geçiş noktaları
+geometry_msgs/Point[] forbidden_zones       # Yasak bölgeler
+string[] special_constraints                # Özel kısıtlar
+
+---
+
+# RESPONSE KISMI
+# Path planning sonucu
+bool success                                # Path başarıyla hesaplandı mı?
+string message                              # Detaylı açıklama
+
+# Hesaplanan path
+geometry_msgs/Point[] path_points           # Path üzerindeki noktalar
+geometry_msgs/Vector3[] path_orientations   # Her noktadaki oryantasyon
+float32[] path_velocities                   # Her segment için hız
+float32[] path_timestamps                   # Her noktadaki zaman
+
+# Path quality metrics
+float32 total_distance                      # Toplam mesafe
+float32 total_time                          # Tahmini toplam süre
+float32 path_smoothness                     # Path yumuşaklık skoru (0-1)
+float32 safety_score                        # Güvenlik skoru (0-1)
+uint32 num_waypoints                        # Path'deki nokta sayısı
+
+# Alternative paths (opsiyonel)
+geometry_msgs/Point[] alternative_paths   # Alternatif yollar
+float32[] alternative_scores                # Her alternatifin skoru
+
+# Planning statistics
+float32 planning_time_ms                    # Planning süresi
+string algorithm_used                       # Kullanılan algoritma
+uint32 nodes_explored                       # Araştırılan node sayısı
+uint32 iterations_count                     # İterasyon sayısı
+
+# Hata bilgileri
+uint32 error_code                           # Hata kodu
+uint32 ERROR_NONE=0                         # Başarı
+uint32 ERROR_NO_PATH_FOUND=1                # Path bulunamadı
+uint32 ERROR_START_OCCUPIED=2               # Başlangıç noktası dolu
+uint32 ERROR_GOAL_OCCUPIED=3                # Hedef nokta dolu
+uint32 ERROR_TIMEOUT=4                      # Zaman aşımı
+uint32 ERROR_INVALID_CONSTRAINTS=5          # Geçersiz kısıtlar

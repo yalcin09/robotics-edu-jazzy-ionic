@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "day2__py",
+		"source" : "/home/yalcinolgac/ros2_ws/build/day2/day2__py"
+	}
+}

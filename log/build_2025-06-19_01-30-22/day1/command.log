@@ -1,0 +1,2 @@
+Invoking command in '/home/yalcinolgac/ros2_ws/build/day1': /usr/bin/cmake --build /home/yalcinolgac/ros2_ws/build/day1 -- -j32 -l32
+Invoked command in '/home/yalcinolgac/ros2_ws/build/day1' returned '2': /usr/bin/cmake --build /home/yalcinolgac/ros2_ws/build/day1 -- -j32 -l32

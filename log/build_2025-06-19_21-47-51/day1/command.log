@@ -1,0 +1,4 @@
+Invoking command in '/home/yalcinolgac/ros2_ws/build/day1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/yalcinolgac/ros2_ws/build/day1 -- -j32 -l32
+Invoked command in '/home/yalcinolgac/ros2_ws/build/day1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/yalcinolgac/ros2_ws/build/day1 -- -j32 -l32
+Invoking command in '/home/yalcinolgac/ros2_ws/build/day1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/yalcinolgac/ros2_ws/build/day1
+Invoked command in '/home/yalcinolgac/ros2_ws/build/day1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/yalcinolgac/ros2_ws/build/day1

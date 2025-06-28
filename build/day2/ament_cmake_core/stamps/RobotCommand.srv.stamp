@@ -1,0 +1,32 @@
+# REQUEST KISMI (Client → Server)
+# Komut türü ve parametreleri
+string command_type                         # Komut türü (örn: "move_to", "rotate", "stop", "home")
+geometry_msgs/Point target_position         # Hedef pozisyon (x, y, z)
+geometry_msgs/Vector3 target_orientation    # Hedef oryantasyon (roll, pitch, yaw)
+float32 max_velocity                        # Maksimum hız (m/s)
+float32 max_acceleration                    # Maksimum ivme (m/s²)
+float32 timeout_seconds                     # Komut timeout süresi
+bool force_execution                        # Güvenlik kontrollerini atla
+string[] additional_params                  # Ek parametreler
+builtin_interfaces/Time deadline            # Komutun tamamlanması gereken zaman
+
+---
+
+# RESPONSE KISMI (Server → Client)
+# Komut kabul edildi mi?
+bool success                                        # Komut başarıyla alındı ve işleme başlandı
+string message                                      # Detaylı mesaj (başarı/hata açıklaması)
+uint32 command_id                                   # Bu komut için benzersiz ID
+float32 estimated_duration                          # Tahmini tamamlanma süresi (saniye)
+geometry_msgs/Point actual_target                   # Gerçekte gidilecek pozisyon (güvenlik sınırları)
+builtin_interfaces/Time estimated_completion        # Tahmini tamamlanma zamanı
+
+# Hata kodları
+uint32 error_code                   # Hata kodu (0 = başarı)
+uint32 ERROR_NONE=0                 # Hata yok
+uint32 ERROR_INVALID_COMMAND=1      # Geçersiz komut
+uint32 ERROR_OUT_OF_BOUNDS=2        # Erişilemez pozisyon
+uint32 ERROR_ROBOT_BUSY=3           # Robot meşgul
+uint32 ERROR_SAFETY_VIOLATION=4     # Güvenlik ihlali
+uint32 ERROR_HARDWARE_FAILURE=5     # Donanım arızası
+uint32 ERROR_TIMEOUT=6              # Zaman aşımı

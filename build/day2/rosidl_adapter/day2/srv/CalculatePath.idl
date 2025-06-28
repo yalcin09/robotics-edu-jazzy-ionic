@@ -1,0 +1,182 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from day2/srv/CalculatePath.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "geometry_msgs/msg/Vector3.idl"
+
+module day2 {
+  module srv {
+    @verbatim (language="comment", text=
+      "REQUEST KISMI" "\n"
+      "Path planning parametreleri")
+    struct CalculatePath_Request {
+      @verbatim (language="comment", text=
+        "Başlangıç pozisyonu")
+      geometry_msgs::msg::Point start_position;
+
+      @verbatim (language="comment", text=
+        "Hedef pozisyon")
+      geometry_msgs::msg::Point goal_position;
+
+      @verbatim (language="comment", text=
+        "Başlangıç oryantasyonu")
+      geometry_msgs::msg::Vector3 start_orientation;
+
+      @verbatim (language="comment", text=
+        "Hedef oryantasyon")
+      geometry_msgs::msg::Vector3 goal_orientation;
+
+      @verbatim (language="comment", text=
+        "Planning constraints" "\n"
+        "Maksimum hız kısıtı")
+      float max_velocity;
+
+      @verbatim (language="comment", text=
+        "Maksimum ivme kısıtı")
+      float max_acceleration;
+
+      @verbatim (language="comment", text=
+        "Minimum dönüş yarıçapı")
+      float turning_radius;
+
+      @verbatim (language="comment", text=
+        "Engellere olan güvenlik mesafesi")
+      float safety_margin;
+
+      @verbatim (language="comment", text=
+        "Planning options" "\n"
+        "Kullanılacak algoritma (\"A*\", \"RRT\", \"PRM\")")
+      string planning_algorithm;
+
+      @verbatim (language="comment", text=
+        "Planning için maksimum süre")
+      float planning_timeout;
+
+      @verbatim (language="comment", text=
+        "Hız için optimize et")
+      boolean optimize_for_speed;
+
+      @verbatim (language="comment", text=
+        "Yumuşaklık için optimize et")
+      boolean optimize_for_smoothness;
+
+      @verbatim (language="comment", text=
+        "Dinamik engelleri kaçın")
+      boolean avoid_dynamic_obstacles;
+
+      @verbatim (language="comment", text=
+        "Ek kısıtlar" "\n"
+        "Zorunlu geçiş noktaları")
+      sequence<geometry_msgs::msg::Point> waypoints;
+
+      @verbatim (language="comment", text=
+        "Yasak bölgeler")
+      sequence<geometry_msgs::msg::Point> forbidden_zones;
+
+      @verbatim (language="comment", text=
+        "Özel kısıtlar")
+      sequence<string> special_constraints;
+    };
+    module CalculatePath_Response_Constants {
+      @verbatim (language="comment", text=
+        "Başarı")
+      const uint32 ERROR_NONE = 0;
+      @verbatim (language="comment", text=
+        "Path bulunamadı")
+      const uint32 ERROR_NO_PATH_FOUND = 1;
+      @verbatim (language="comment", text=
+        "Başlangıç noktası dolu")
+      const uint32 ERROR_START_OCCUPIED = 2;
+      @verbatim (language="comment", text=
+        "Hedef nokta dolu")
+      const uint32 ERROR_GOAL_OCCUPIED = 3;
+      @verbatim (language="comment", text=
+        "Zaman aşımı")
+      const uint32 ERROR_TIMEOUT = 4;
+      @verbatim (language="comment", text=
+        "Geçersiz kısıtlar")
+      const uint32 ERROR_INVALID_CONSTRAINTS = 5;
+    };
+    struct CalculatePath_Response {
+      @verbatim (language="comment", text=
+        "RESPONSE KISMI" "\n"
+        "Path planning sonucu" "\n"
+        "Path başarıyla hesaplandı mı?")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "Detaylı açıklama")
+      string message;
+
+      @verbatim (language="comment", text=
+        "Hesaplanan path" "\n"
+        "Path üzerindeki noktalar")
+      sequence<geometry_msgs::msg::Point> path_points;
+
+      @verbatim (language="comment", text=
+        "Her noktadaki oryantasyon")
+      sequence<geometry_msgs::msg::Vector3> path_orientations;
+
+      @verbatim (language="comment", text=
+        "Her segment için hız")
+      sequence<float> path_velocities;
+
+      @verbatim (language="comment", text=
+        "Her noktadaki zaman")
+      sequence<float> path_timestamps;
+
+      @verbatim (language="comment", text=
+        "Path quality metrics" "\n"
+        "Toplam mesafe")
+      float total_distance;
+
+      @verbatim (language="comment", text=
+        "Tahmini toplam süre")
+      float total_time;
+
+      @verbatim (language="comment", text=
+        "Path yumuşaklık skoru (0-1)")
+      float path_smoothness;
+
+      @verbatim (language="comment", text=
+        "Güvenlik skoru (0-1)")
+      float safety_score;
+
+      @verbatim (language="comment", text=
+        "Path'deki nokta sayısı")
+      uint32 num_waypoints;
+
+      @verbatim (language="comment", text=
+        "Alternative paths (opsiyonel)" "\n"
+        "Alternatif yollar")
+      sequence<geometry_msgs::msg::Point> alternative_paths;
+
+      @verbatim (language="comment", text=
+        "Her alternatifin skoru")
+      sequence<float> alternative_scores;
+
+      @verbatim (language="comment", text=
+        "Planning statistics" "\n"
+        "Planning süresi")
+      float planning_time_ms;
+
+      @verbatim (language="comment", text=
+        "Kullanılan algoritma")
+      string algorithm_used;
+
+      @verbatim (language="comment", text=
+        "Araştırılan node sayısı")
+      uint32 nodes_explored;
+
+      @verbatim (language="comment", text=
+        "İterasyon sayısı")
+      uint32 iterations_count;
+
+      @verbatim (language="comment", text=
+        "Hata bilgileri" "\n"
+        "Hata kodu")
+      uint32 error_code;
+    };
+  };
+};

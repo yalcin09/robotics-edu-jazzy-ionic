@@ -1,0 +1,4 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/robot_subscriber_node.dir/src/robot_subscriber.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/robot_publisher_node.dir/src/robot_publisher.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable robot_publisher_node[0m
+[ 75%] Built target robot_publisher_node

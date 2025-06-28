@@ -1,0 +1,8 @@
+/home/yalcinolgac/ros2_ws/build/day2/rosidl_adapter/day2:msg/RobotStatus.idl
+/home/yalcinolgac/ros2_ws/build/day2/rosidl_adapter/day2:msg/SensorData.idl
+/home/yalcinolgac/ros2_ws/build/day2/rosidl_adapter/day2:msg/MotorStatus.idl
+/home/yalcinolgac/ros2_ws/build/day2/rosidl_adapter/day2:msg/RobotArray.idl
+/home/yalcinolgac/ros2_ws/build/day2/rosidl_adapter/day2:srv/RobotCommand.idl
+/home/yalcinolgac/ros2_ws/build/day2/rosidl_adapter/day2:srv/GetRobotStatus.idl
+/home/yalcinolgac/ros2_ws/build/day2/rosidl_adapter/day2:srv/CalculatePath.idl
+/home/yalcinolgac/ros2_ws/build/day2/rosidl_adapter/day2:srv/EmergencyStop.idl

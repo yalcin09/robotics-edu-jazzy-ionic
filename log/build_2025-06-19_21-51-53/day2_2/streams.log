@@ -1,0 +1,270 @@
+[0.008s] Invoking command in '/home/yalcinolgac/ros2_ws/build/day2_2': AMENT_PREFIX_PATH=/home/yalcinolgac/ros2_ws/install/day2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yalcinolgac/ros2_ws/install/day2:/home/yalcinolgac/ros2_ws/install/day1:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/yalcinolgac/ros2_ws/install/day2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yalcinolgac/ros2_ws/build/day2_2 -- -j32 -l32
+[0.041s] [ 25%] [32mBuilding CXX object CMakeFiles/robot_subscriber_node.dir/src/robot_subscriber.cpp.o[0m
+[0.042s] [ 50%] [32mBuilding CXX object CMakeFiles/robot_publisher_node.dir/src/robot_publisher.cpp.o[0m
+[1.383s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_subscriber.cpp:31:32:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_interfaces[m[K’ does not name a type
+[1.383s]    31 |     void status_callback(const [01;31m[Krobot_interfaces[m[K::msg::RobotStatus::SharedPtr msg)
+[1.383s]       |                                [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.383s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_subscriber.cpp:31:53:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[1.383s]    31 |     void status_callback(const robot_interfaces::msg[01;31m[K::[m[KRobotStatus::SharedPtr msg)
+[1.383s]       |                                                     [01;31m[K^~[m[K
+[1.383s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_subscriber.cpp:31:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[1.383s]    31 |     void status_callback[34m[K([m[Kconst robot_interfaces::msg[01;31m[K:[m[K[32m[K:[m[KRobotStatus::SharedPtr msg)
+[1.383s]       |                         [34m[K~[m[K                           [01;31m[K^[m[K[32m[K~[m[K
+[1.383s]       |                                                     [32m[K)[m[K
+[1.384s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_subscriber.cpp:31:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.384s]    31 |     void status_callback(const robot_interfaces::[01;31m[Kmsg[m[K::RobotStatus::SharedPtr msg)
+[1.384s]       |                                                  [01;31m[K^~~[m[K
+[1.384s]       |                                                     [32m[K;[m[K
+[1.386s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_subscriber.cpp:31:55:[m[K [01;31m[Kerror: [m[K‘[01m[KRobotStatus[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+[1.386s]    31 |     void status_callback(const robot_interfaces::msg::[01;31m[KRobotStatus[m[K::SharedPtr msg)
+[1.386s]       |                                                       [01;31m[K^~~~~~~~~~~[m[K
+[1.387s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_subscriber.cpp:53:44:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_interfaces[m[K’ does not name a type
+[1.387s]    53 |     std::string create_status_report(const [01;31m[Krobot_interfaces[m[K::msg::RobotStatus::SharedPtr msg)
+[1.387s]       |                                            [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.387s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_subscriber.cpp:53:65:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[1.387s]    53 |     std::string create_status_report(const robot_interfaces::msg[01;31m[K::[m[KRobotStatus::SharedPtr msg)
+[1.387s]       |                                                                 [01;31m[K^~[m[K
+[1.388s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_subscriber.cpp:53:65:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[1.388s]    53 |     std::string create_status_report[34m[K([m[Kconst robot_interfaces::msg[01;31m[K:[m[K[32m[K:[m[KRobotStatus::SharedPtr msg)
+[1.388s]       |                                     [34m[K~[m[K                           [01;31m[K^[m[K[32m[K~[m[K
+[1.388s]       |                                                                 [32m[K)[m[K
+[1.388s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_subscriber.cpp:53:62:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.388s]    53 |     std::string create_status_report(const robot_interfaces::[01;31m[Kmsg[m[K::RobotStatus::SharedPtr msg)
+[1.388s]       |                                                              [01;31m[K^~~[m[K
+[1.388s]       |                                                                 [32m[K;[m[K
+[1.389s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_subscriber.cpp:53:67:[m[K [01;31m[Kerror: [m[K‘[01m[KRobotStatus[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+[1.389s]    53 |     std::string create_status_report(const robot_interfaces::msg::[01;31m[KRobotStatus[m[K::SharedPtr msg)
+[1.389s]       |                                                                   [01;31m[K^~~~~~~~~~~[m[K
+[1.391s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_subscriber.cpp:97:42:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_interfaces[m[K’ does not name a type
+[1.391s]    97 |     void check_critical_conditions(const [01;31m[Krobot_interfaces[m[K::msg::RobotStatus::SharedPtr msg)
+[1.391s]       |                                          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.391s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_subscriber.cpp:97:63:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[1.391s]    97 |     void check_critical_conditions(const robot_interfaces::msg[01;31m[K::[m[KRobotStatus::SharedPtr msg)
+[1.391s]       |                                                               [01;31m[K^~[m[K
+[1.391s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_subscriber.cpp:97:63:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[1.391s]    97 |     void check_critical_conditions[34m[K([m[Kconst robot_interfaces::msg[01;31m[K:[m[K[32m[K:[m[KRobotStatus::SharedPtr msg)
+[1.391s]       |                                   [34m[K~[m[K                           [01;31m[K^[m[K[32m[K~[m[K
+[1.391s]       |                                                               [32m[K)[m[K
+[1.391s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_subscriber.cpp:97:60:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.391s]    97 |     void check_critical_conditions(const robot_interfaces::[01;31m[Kmsg[m[K::RobotStatus::SharedPtr msg)
+[1.391s]       |                                                            [01;31m[K^~~[m[K
+[1.391s]       |                                                               [32m[K;[m[K
+[1.392s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_subscriber.cpp:97:65:[m[K [01;31m[Kerror: [m[K‘[01m[KRobotStatus[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+[1.393s]    97 |     void check_critical_conditions(const robot_interfaces::msg::[01;31m[KRobotStatus[m[K::SharedPtr msg)
+[1.393s]       |                                                                 [01;31m[K^~~~~~~~~~~[m[K
+[1.394s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_subscriber.cpp:132:34:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_interfaces[m[K’ does not name a type
+[1.394s]   132 |     void update_statistics(const [01;31m[Krobot_interfaces[m[K::msg::RobotStatus::SharedPtr msg)
+[1.394s]       |                                  [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.394s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_subscriber.cpp:132:55:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[1.394s]   132 |     void update_statistics(const robot_interfaces::msg[01;31m[K::[m[KRobotStatus::SharedPtr msg)
+[1.394s]       |                                                       [01;31m[K^~[m[K
+[1.394s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_subscriber.cpp:132:55:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[1.394s]   132 |     void update_statistics[34m[K([m[Kconst robot_interfaces::msg[01;31m[K:[m[K[32m[K:[m[KRobotStatus::SharedPtr msg)
+[1.394s]       |                           [34m[K~[m[K                           [01;31m[K^[m[K[32m[K~[m[K
+[1.394s]       |                                                       [32m[K)[m[K
+[1.394s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_subscriber.cpp:132:52:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.394s]   132 |     void update_statistics(const robot_interfaces::[01;31m[Kmsg[m[K::RobotStatus::SharedPtr msg)
+[1.394s]       |                                                    [01;31m[K^~~[m[K
+[1.395s]       |                                                       [32m[K;[m[K
+[1.396s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_subscriber.cpp:132:57:[m[K [01;31m[Kerror: [m[K‘[01m[KRobotStatus[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+[1.396s]   132 |     void update_statistics(const robot_interfaces::msg::[01;31m[KRobotStatus[m[K::SharedPtr msg)
+[1.396s]       |                                                         [01;31m[K^~~~~~~~~~~[m[K
+[1.401s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_subscriber.cpp:210:26:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+[1.401s]   210 |     rclcpp::Subscription<[01;31m[Krobot_interfaces[m[K::msg::RobotStatus>::SharedPtr subscription_;
+[1.401s]       |                          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.401s]       |                          [32m[Krcl_interfaces[m[K
+[1.401s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_subscriber.cpp:210:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.401s]   210 |     rclcpp::Subscription<robot_interfaces::msg::RobotStatus[01;31m[K>[m[K::SharedPtr subscription_;
+[1.401s]       |                                                            [01;31m[K^[m[K
+[1.401s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_subscriber.cpp:210:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[1.401s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_subscriber.cpp:210:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[1.401s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_subscriber.cpp:210:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[1.401s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_subscriber.cpp:210:63:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.401s]   210 |     rclcpp::Subscription<robot_interfaces::msg::RobotStatus>::[01;31m[KSharedPtr[m[K subscription_;
+[1.401s]       |                                                               [01;31m[K^~~~~~~~~[m[K
+[1.401s]       |                                                                        [32m[K;[m[K
+[1.402s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_subscriber.cpp:210:73:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[1.402s]   210 |     rclcpp::Subscription<robot_interfaces::msg::RobotStatus>::SharedPtr [01;31m[Ksubscription_[m[K;
+[1.402s]       |                                                                         [01;31m[K^~~~~~~~~~~~~[m[K
+[1.402s]       |                                                                         [32m[Krmw_subscription_t[m[K
+[1.410s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_subscriber.cpp:[m[K In constructor ‘[01m[KRobotStatusSubscriber::[01;32m[KRobotStatusSubscriber[m[K()[m[K’:
+[1.410s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_subscriber.cpp:20:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[1.410s]    20 |         [01;31m[Ksubscription_[m[K = this->create_subscription<robot_interfaces::msg::RobotStatus>(
+[1.410s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[1.410s]       |         [32m[Krmw_subscription_t[m[K
+[1.414s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_subscriber.cpp:20:51:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+[1.414s]    20 |         subscription_ = this->create_subscription<[01;31m[Krobot_interfaces[m[K::msg::RobotStatus>(
+[1.414s]       |                                                   [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.414s]       |                                                   [32m[Krcl_interfaces[m[K
+[1.414s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_subscriber.cpp:20:31:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[1.414s]    20 |         subscription_ = this->[01;31m[Kcreate_subscription<robot_interfaces::msg::RobotStatus>[m[K(
+[1.414s]       |                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.415s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_publisher.cpp:229:23:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+[1.415s]   229 |     rclcpp::Publisher<[01;31m[Krobot_interfaces[m[K::msg::RobotStatus>::SharedPtr publisher_;
+[1.416s]       |                       [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.416s]       |                       [32m[Krcl_interfaces[m[K
+[1.416s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_publisher.cpp:229:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.416s]   229 |     rclcpp::Publisher<robot_interfaces::msg::RobotStatus[01;31m[K>[m[K::SharedPtr publisher_;
+[1.416s]       |                                                         [01;31m[K^[m[K
+[1.416s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_publisher.cpp:229:60:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.416s]   229 |     rclcpp::Publisher<robot_interfaces::msg::RobotStatus>::[01;31m[KSharedPtr[m[K publisher_;
+[1.416s]       |                                                            [01;31m[K^~~~~~~~~[m[K
+[1.416s]       |                                                                     [32m[K;[m[K
+[1.417s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_publisher.cpp:229:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[1.417s]   229 |   rclcpp::Publisher<robot_interfaces::msg::RobotStatus>::SharedPtr [01;31m[Kpublisher_[m[K;
+[1.417s]       |                                                                    [01;31m[K^~~~~~~~~~[m[K
+[1.417s]       |                                                                    [32m[Krmw_publisher_t[m[K
+[1.417s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_publisher.cpp:[m[K In constructor ‘[01m[KRobotStatusPublisher::[01;32m[KRobotStatusPublisher[m[K()[m[K’:
+[1.417s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_publisher.cpp:25:44:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_interfaces[m[K’ has not been declared
+[1.417s]    25 |                            current_status_([01;31m[Krobot_interfaces[m[K::msg::RobotStatus::STATUS_IDLE)
+[1.417s]       |                                            [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.418s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_subscriber.cpp:20:86:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRobotStatusSubscriber::create_subscription<<expression error> >(const char [22], int, std::_Bind_helper<false, void (RobotStatusSubscriber::*)(...), RobotStatusSubscriber*, const std::_Placeholder<1>&>::type)[m[K’
+[1.418s]    20 |         subscription_ = [01;31m[Kthis->create_subscription<robot_interfaces::msg::RobotStatus>([m[K
+[1.418s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[1.418s]    21 | [01;31m[K            "robot_status_detailed", 10,[m[K
+[1.418s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                              
+[1.418s]    22 | [01;31m[K            std::bind(&RobotStatusSubscriber::status_callback, this, std::placeholders::_1))[m[K;
+[1.418s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.418s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.418s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[1.419s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+[1.419s]                  from [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_subscriber.cpp:7[m[K:
+[1.419s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:221:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::[01;32m[Kcreate_subscription[m[K(const std::string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+[1.419s]   221 |   [01;36m[Kcreate_subscription[m[K(
+[1.419s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.419s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:221:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.419s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_subscriber.cpp:20:86:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.419s]    20 |         subscription_ = [01;31m[Kthis->create_subscription<robot_interfaces::msg::RobotStatus>([m[K
+[1.419s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[1.419s]    21 | [01;31m[K            "robot_status_detailed", 10,[m[K
+[1.419s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                              
+[1.419s]    22 | [01;31m[K            std::bind(&RobotStatusSubscriber::status_callback, this, std::placeholders::_1))[m[K;
+[1.419s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.421s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_publisher.cpp:28:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[1.421s]    28 |         [01;31m[Kpublisher_[m[K = this->create_publisher<robot_interfaces::msg::RobotStatus>(
+[1.421s]       |         [01;31m[K^~~~~~~~~~[m[K
+[1.421s]       |         [32m[Krmw_publisher_t[m[K
+[1.422s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_subscriber.cpp:[m[K In member function ‘[01m[Kstd::string RobotStatusSubscriber::[01;32m[Kget_status_string[m[K(uint8_t)[m[K’:
+[1.422s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_subscriber.cpp:200:18:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_interfaces[m[K’ has not been declared
+[1.422s]   200 |             case [01;31m[Krobot_interfaces[m[K::msg::RobotStatus::STATUS_IDLE: return "IDLE";
+[1.422s]       |                  [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.422s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_subscriber.cpp:201:18:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_interfaces[m[K’ has not been declared
+[1.422s]   201 |             case [01;31m[Krobot_interfaces[m[K::msg::RobotStatus::STATUS_MOVING: return "MOVING";
+[1.423s]       |                  [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.423s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_subscriber.cpp:202:18:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_interfaces[m[K’ has not been declared
+[1.423s]   202 |             case [01;31m[Krobot_interfaces[m[K::msg::RobotStatus::STATUS_WORKING: return "WORKING";
+[1.423s]       |                  [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.423s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_subscriber.cpp:203:18:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_interfaces[m[K’ has not been declared
+[1.423s]   203 |             case [01;31m[Krobot_interfaces[m[K::msg::RobotStatus::STATUS_CHARGING: return "CHARGING";
+[1.423s]       |                  [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.423s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_subscriber.cpp:204:18:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_interfaces[m[K’ has not been declared
+[1.423s]   204 |             case [01;31m[Krobot_interfaces[m[K::msg::RobotStatus::STATUS_ERROR: return "ERROR";
+[1.423s]       |                  [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.425s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_publisher.cpp:28:45:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+[1.425s]    28 |         publisher_ = this->create_publisher<[01;31m[Krobot_interfaces[m[K::msg::RobotStatus>(
+[1.425s]       |                                             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.425s]       |                                             [32m[Krcl_interfaces[m[K
+[1.425s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_publisher.cpp:28:28:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[1.425s]    28 |         publisher_ = this->[01;31m[Kcreate_publisher<robot_interfaces::msg::RobotStatus>[m[K(
+[1.425s]       |                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.425s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_publisher.cpp:28:80:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRobotStatusPublisher::create_publisher<<expression error> >(const char [22], int)[m[K’
+[1.425s]    28 |       publisher_ = [01;31m[Kthis->create_publisher<robot_interfaces::msg::RobotStatus>([m[K
+[1.425s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[1.425s] 
+[1.425s]    29 | [01;31m[K          "robot_status_detailed", 10)[m[K;
+[1.425s]       |           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                        
+[1.426s] 
+[1.426s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.426s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[1.426s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+[1.426s]                  from [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_publisher.cpp:7[m[K:
+[1.426s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:197:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::[01;32m[Kcreate_publisher[m[K(const std::string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[1.426s]   197 |   [01;36m[Kcreate_publisher[m[K(
+[1.426s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[1.426s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:197:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.426s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_publisher.cpp:28:80:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.426s]    28 |       publisher_ = [01;31m[Kthis->create_publisher<robot_interfaces::msg::RobotStatus>([m[K
+[1.426s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[1.426s] 
+[1.426s]    29 | [01;31m[K          "robot_status_detailed", 10)[m[K;
+[1.426s]       |           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                        
+[1.426s] 
+[1.430s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_publisher.cpp:[m[K In member function ‘[01m[Kvoid RobotStatusPublisher::[01;32m[Kpublish_status[m[K()[m[K’:
+[1.430s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_publisher.cpp:48:27:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_interfaces[m[K’ has not been declared
+[1.430s]    48 |         auto status_msg = [01;31m[Krobot_interfaces[m[K::msg::RobotStatus();
+[1.430s]       |                           [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.431s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_publisher.cpp:92:32:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_interfaces[m[K’ has not been declared
+[1.431s]    92 |         if (current_status_ == [01;31m[Krobot_interfaces[m[K::msg::RobotStatus::STATUS_ERROR) {
+[1.431s]       |                                [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.434s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_publisher.cpp:99:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[1.434s]    99 |         [01;31m[Kpublisher_[m[K->publish(status_msg);
+[1.434s]       |         [01;31m[K^~~~~~~~~~[m[K
+[1.434s]       |         [32m[Krmw_publisher_t[m[K
+[1.435s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_publisher.cpp:[m[K In member function ‘[01m[Kvoid RobotStatusPublisher::[01;32m[Kupdate_robot_simulation[m[K()[m[K’:
+[1.435s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_publisher.cpp:116:18:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_interfaces[m[K’ has not been declared
+[1.435s]   116 |             case [01;31m[Krobot_interfaces[m[K::msg::RobotStatus::STATUS_MOVING:
+[1.435s]       |                  [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.435s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_publisher.cpp:128:18:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_interfaces[m[K’ has not been declared
+[1.435s]   128 |             case [01;31m[Krobot_interfaces[m[K::msg::RobotStatus::STATUS_CHARGING:
+[1.435s]       |                  [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.435s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_publisher.cpp:133:18:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_interfaces[m[K’ has not been declared
+[1.435s]   133 |             case [01;31m[Krobot_interfaces[m[K::msg::RobotStatus::STATUS_WORKING:
+[1.435s]       |                  [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.435s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_publisher.cpp:149:32:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_interfaces[m[K’ has not been declared
+[1.435s]   149 |         if (current_status_ == [01;31m[Krobot_interfaces[m[K::msg::RobotStatus::STATUS_MOVING) {
+[1.435s]       |                                [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.436s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_publisher.cpp:[m[K In member function ‘[01m[Kvoid RobotStatusPublisher::[01;32m[Kupdate_robot_state[m[K()[m[K’:
+[1.436s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_publisher.cpp:164:56:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_interfaces[m[K’ has not been declared
+[1.436s]   164 |         if (battery_level_ < 0.2 && current_status_ != [01;31m[Krobot_interfaces[m[K::msg::RobotStatus::STATUS_CHARGING) {
+[1.436s]       |                                                        [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.436s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_publisher.cpp:165:31:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_interfaces[m[K’ has not been declared
+[1.436s]   165 |             current_status_ = [01;31m[Krobot_interfaces[m[K::msg::RobotStatus::STATUS_CHARGING;
+[1.436s]       |                               [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.436s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_publisher.cpp:171:57:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_interfaces[m[K’ has not been declared
+[1.436s]   171 |         if (battery_level_ > 0.95 && current_status_ == [01;31m[Krobot_interfaces[m[K::msg::RobotStatus::STATUS_CHARGING) {
+[1.436s]       |                                                         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.436s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_publisher.cpp:172:31:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_interfaces[m[K’ has not been declared
+[1.436s]   172 |             current_status_ = [01;31m[Krobot_interfaces[m[K::msg::RobotStatus::STATUS_IDLE;
+[1.436s]       |                               [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.437s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_publisher.cpp:178:31:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_interfaces[m[K’ has not been declared
+[1.437s]   178 |             current_status_ = [01;31m[Krobot_interfaces[m[K::msg::RobotStatus::STATUS_IDLE;
+[1.437s]       |                               [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.437s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_publisher.cpp:184:32:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_interfaces[m[K’ has not been declared
+[1.437s]   184 |         if (current_status_ == [01;31m[Krobot_interfaces[m[K::msg::RobotStatus::STATUS_IDLE) {
+[1.437s]       |                                [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.437s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_publisher.cpp:186:35:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_interfaces[m[K’ has not been declared
+[1.437s]   186 |                 current_status_ = [01;31m[Krobot_interfaces[m[K::msg::RobotStatus::STATUS_MOVING;
+[1.437s]       |                                   [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.437s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_publisher.cpp:[m[K In member function ‘[01m[Kstd::string RobotStatusPublisher::[01;32m[Kget_status_string[m[K(uint8_t)[m[K’:
+[1.437s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_publisher.cpp:197:18:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_interfaces[m[K’ has not been declared
+[1.437s]   197 |             case [01;31m[Krobot_interfaces[m[K::msg::RobotStatus::STATUS_IDLE: return "IDLE";
+[1.437s]       |                  [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.437s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_publisher.cpp:198:18:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_interfaces[m[K’ has not been declared
+[1.437s]   198 |             case [01;31m[Krobot_interfaces[m[K::msg::RobotStatus::STATUS_MOVING: return "MOVING";
+[1.437s]       |                  [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.438s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_publisher.cpp:199:18:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_interfaces[m[K’ has not been declared
+[1.438s]   199 |             case [01;31m[Krobot_interfaces[m[K::msg::RobotStatus::STATUS_WORKING: return "WORKING";
+[1.438s]       |                  [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.438s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_publisher.cpp:200:18:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_interfaces[m[K’ has not been declared
+[1.438s]   200 |             case [01;31m[Krobot_interfaces[m[K::msg::RobotStatus::STATUS_CHARGING: return "CHARGING";
+[1.438s]       |                  [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.438s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_publisher.cpp:201:18:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_interfaces[m[K’ has not been declared
+[1.438s]   201 |             case [01;31m[Krobot_interfaces[m[K::msg::RobotStatus::STATUS_ERROR: return "ERROR";
+[1.438s]       |                  [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.438s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_publisher.cpp:[m[K In member function ‘[01m[Kstd::string RobotStatusPublisher::[01;32m[Kget_current_task_name[m[K()[m[K’:
+[1.438s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_publisher.cpp:212:18:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_interfaces[m[K’ has not been declared
+[1.438s]   212 |             case [01;31m[Krobot_interfaces[m[K::msg::RobotStatus::STATUS_MOVING: return "Navigation to target";
+[1.438s]       |                  [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.438s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_publisher.cpp:213:18:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_interfaces[m[K’ has not been declared
+[1.438s]   213 |             case [01;31m[Krobot_interfaces[m[K::msg::RobotStatus::STATUS_WORKING: return "Object manipulation";
+[1.438s]       |                  [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.438s] [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_publisher.cpp:214:18:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_interfaces[m[K’ has not been declared
+[1.438s]   214 |             case [01;31m[Krobot_interfaces[m[K::msg::RobotStatus::STATUS_CHARGING: return "Battery charging";
+[1.438s]       |                  [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.778s] gmake[2]: *** [CMakeFiles/robot_subscriber_node.dir/build.make:76: CMakeFiles/robot_subscriber_node.dir/src/robot_subscriber.cpp.o] Error 1
+[1.778s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/robot_subscriber_node.dir/all] Error 2
+[1.778s] gmake[1]: *** Waiting for unfinished jobs....
+[1.814s] gmake[2]: *** [CMakeFiles/robot_publisher_node.dir/build.make:76: CMakeFiles/robot_publisher_node.dir/src/robot_publisher.cpp.o] Error 1
+[1.814s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/robot_publisher_node.dir/all] Error 2
+[1.814s] gmake: *** [Makefile:146: all] Error 2
+[1.815s] Invoked command in '/home/yalcinolgac/ros2_ws/build/day2_2' returned '2': AMENT_PREFIX_PATH=/home/yalcinolgac/ros2_ws/install/day2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yalcinolgac/ros2_ws/install/day2:/home/yalcinolgac/ros2_ws/install/day1:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/yalcinolgac/ros2_ws/install/day2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yalcinolgac/ros2_ws/build/day2_2 -- -j32 -l32

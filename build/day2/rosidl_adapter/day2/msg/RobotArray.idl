@@ -1,0 +1,143 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from day2/msg/RobotArray.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+#include "day2/msg/RobotStatus.idl"
+#include "geometry_msgs/msg/Point.idl"
+#include "std_msgs/msg/Header.idl"
+
+module day2 {
+  module msg {
+    module RobotArray_Constants {
+      @verbatim (language="comment", text=
+        "Fleet boşta")
+      const uint8 FLEET_IDLE = 0;
+      @verbatim (language="comment", text=
+        "Fleet çalışıyor")
+      const uint8 FLEET_ACTIVE = 1;
+      @verbatim (language="comment", text=
+        "Acil durum")
+      const uint8 FLEET_EMERGENCY = 2;
+      @verbatim (language="comment", text=
+        "Bakım modu")
+      const uint8 FLEET_MAINTENANCE = 3;
+    };
+    @verbatim (language="comment", text=
+      "Header bilgisi")
+    struct RobotArray {
+      @verbatim (language="comment", text=
+        "Timestamp ve frame bilgisi")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Fleet bilgileri" "\n"
+        "Fleet adı (örn: \"warehouse_fleet\", \"delivery_robots\")")
+      string fleet_name;
+
+      @verbatim (language="comment", text=
+        "Fleet benzersiz ID'si")
+      uint32 fleet_id;
+
+      @verbatim (language="comment", text=
+        "Fleet'i koordine eden node adı")
+      string coordinator_node;
+
+      @verbatim (language="comment", text=
+        "Robot array'i - ana veri" "\n"
+        "Robot durumları array'i (custom message kullanıyor)")
+      sequence<day2::msg::RobotStatus> robots;
+
+      @verbatim (language="comment", text=
+        "Fleet istatistikleri" "\n"
+        "Toplam robot sayısı")
+      uint32 total_robots;
+
+      @verbatim (language="comment", text=
+        "Aktif robot sayısı")
+      uint32 active_robots;
+
+      @verbatim (language="comment", text=
+        "Boşta olan robot sayısı")
+      uint32 idle_robots;
+
+      @verbatim (language="comment", text=
+        "Şarj olan robot sayısı")
+      uint32 charging_robots;
+
+      @verbatim (language="comment", text=
+        "Hata durumundaki robot sayısı")
+      uint32 error_robots;
+
+      @verbatim (language="comment", text=
+        "Fleet genel durumu" "\n"
+        "Fleet'in genel durumu")
+      uint8 fleet_status;
+
+      @verbatim (language="comment", text=
+        "Performans metrikleri" "\n"
+        "Ortalama batarya seviyesi")
+      float average_battery_level;
+
+      @verbatim (language="comment", text=
+        "Toplam kat edilen mesafe (m)")
+      float total_distance_traveled;
+
+      @verbatim (language="comment", text=
+        "Ortalama hız (m/s)")
+      float average_speed;
+
+      @verbatim (language="comment", text=
+        "Tamamlanan görev sayısı")
+      uint32 completed_tasks;
+
+      @verbatim (language="comment", text=
+        "Bekleyen görev sayısı")
+      uint32 pending_tasks;
+
+      @verbatim (language="comment", text=
+        "Coğrafi bilgiler (fleet'in çalıştığı alan)" "\n"
+        "Çalışma alanı minimum köşesi")
+      geometry_msgs::msg::Point workspace_min;
+
+      @verbatim (language="comment", text=
+        "Çalışma alanı maksimum köşesi")
+      geometry_msgs::msg::Point workspace_max;
+
+      @verbatim (language="comment", text=
+        "Çalışma alanı adı")
+      string workspace_name;
+
+      @verbatim (language="comment", text=
+        "Acil durum bilgileri" "\n"
+        "Acil durdurma aktif mi?")
+      boolean emergency_stop;
+
+      @verbatim (language="comment", text=
+        "Acil durdurma sebebi")
+      string emergency_reason;
+
+      @verbatim (language="comment", text=
+        "Acil durdurma zamanı")
+      builtin_interfaces::msg::Time emergency_timestamp;
+
+      @verbatim (language="comment", text=
+        "Sistem sağlığı" "\n"
+        "Sistem sağlık skoru (0.0-1.0)")
+      float system_health_score;
+
+      @verbatim (language="comment", text=
+        "Kritik uyarılar")
+      sequence<string> critical_warnings;
+
+      @verbatim (language="comment", text=
+        "Sistem mesajları")
+      sequence<string> system_messages;
+
+      @verbatim (language="comment", text=
+        "Update frequency bilgisi" "\n"
+        "Bu mesajın güncellenme frekansı")
+      float update_frequency_hz;
+    };
+  };
+};

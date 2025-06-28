@@ -1,0 +1,39 @@
+# REQUEST KISMI
+# Hangi robot(lar)ın durumu isteniyor?
+uint32 robot_id                         # Belirli robot ID (0 = tüm robotlar)
+string robot_name                       # Robot adı (boş = ID kullan)
+bool include_sensors                    # Sensör detayları dahil edilsin mi?
+bool include_diagnostics                # Diagnostic bilgiler dahil edilsin mi?
+bool include_history                    # Son 10 durum geçmişi dahil edilsin mi?
+string[] requested_fields               # Sadece belirli alanlar (boş = hepsi)
+
+---
+
+# RESPONSE KISMI
+# Robot durumu bilgileri
+bool success                                    # Sorgu başarılı mı?
+string message                                  # Açıklama mesajı
+
+# Ana robot bilgileri
+RobotStatus current_status                      # Mevcut robot durumu (custom message)
+
+# Ek bilgiler (istenirse)
+SensorData[] sensor_data                        # Tüm sensör verileri
+string[] diagnostic_messages                    # Diagnostic mesajları
+RobotStatus[] status_history                    # Son durum geçmişi
+
+# İstatistikler
+float32 uptime_hours                            # Kaç saattir açık
+uint32 total_commands_executed                  # Toplam komut sayısı
+float32 total_distance_traveled                 # Kat edilen mesafe
+uint32 error_count_today                        # Bugünkü hata sayısı
+
+# Performans metrikleri
+float32 average_response_time_ms                # Ortalama tepki süresi
+float32 cpu_usage_percent                       # CPU kullanımı
+float32 memory_usage_percent                    # Memory kullanımı
+float32 network_latency_ms                      # Ağ gecikmesi
+
+# Timestamps
+builtin_interfaces/Time query_timestamp         # Sorgu zamanı
+builtin_interfaces/Time last_update_time        # Son güncelleme zamanı

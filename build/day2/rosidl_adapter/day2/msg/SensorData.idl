@@ -1,0 +1,52 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from day2/msg/SensorData.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module day2 {
+  module msg {
+    @verbatim (language="comment", text=
+      "Header bilgisi - standart ROS2 header")
+    struct SensorData {
+      @verbatim (language="comment", text=
+        "Timestamp ve frame_id içerir")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Sensör kimlik bilgileri" "\n"
+        "Sensörün adı")
+      string sensor_name;
+
+      @verbatim (language="comment", text=
+        "Sensörün ID'si")
+      uint32 sensor_id;
+
+      @verbatim (language="comment", text=
+        "Sensör değerleri - farklı sensör türleri için" "\n"
+        "Sensör değerleri array'i")
+      sequence<double> values;
+
+      @verbatim (language="comment", text=
+        "Her değerin ne anlama geldiği")
+      sequence<string> value_names;
+
+      @verbatim (language="comment", text=
+        "Ölçü birimi (örn: \"meters\", \"degrees\", \"volts\")")
+      string unit;
+
+      @verbatim (language="comment", text=
+        "Sensör durumu" "\n"
+        "Sensör aktif mi?")
+      boolean is_active;
+
+      @verbatim (language="comment", text=
+        "Doğruluk oranı (0.0-1.0)")
+      float accuracy;
+
+      @verbatim (language="comment", text=
+        "Hata kodu (0 = hata yok)")
+      uint32 error_code;
+    };
+  };
+};

@@ -1,0 +1,30 @@
+[ 75%] Built target sensor_simulator_node
+[ 75%] Built target robot_publisher_node
+[ 75%] Built target robot_subscriber_node
+[ 87%] [32mBuilding CXX object CMakeFiles/message_analyzer_node.dir/src/message_analyzer.cpp.o[0m
+[100%] [32m[1mLinking CXX executable message_analyzer_node[0m
+[100%] Built target message_analyzer_node
+-- Install configuration: ""
+-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2_2/lib/day2_2/robot_publisher_node
+-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2_2/lib/day2_2/robot_subscriber_node
+-- Installing: /home/yalcinolgac/ros2_ws/install/day2_2/lib/day2_2/sensor_simulator_node
+-- Set non-toolchain portion of runtime path of "/home/yalcinolgac/ros2_ws/install/day2_2/lib/day2_2/sensor_simulator_node" to ""
+-- Installing: /home/yalcinolgac/ros2_ws/install/day2_2/lib/day2_2/message_analyzer_node
+-- Set non-toolchain portion of runtime path of "/home/yalcinolgac/ros2_ws/install/day2_2/lib/day2_2/message_analyzer_node" to ""
+-- Installing: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/launch
+-- Installing: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/launch/day2_2.launch.py
+-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2_2/share/ament_index/resource_index/package_run_dependencies/day2_2
+-- Installing: /home/yalcinolgac/ros2_ws/install/day2_2/share/ament_index/resource_index/parent_prefix_path/day2_2
+-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/environment/ament_prefix_path.sh
+-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/environment/path.sh
+-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/environment/path.dsv
+-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/local_setup.bash
+-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/local_setup.sh
+-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/local_setup.zsh
+-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/local_setup.dsv
+-- Installing: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/package.dsv
+-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2_2/share/ament_index/resource_index/packages/day2_2
+-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/cmake/day2_2Config.cmake
+-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/cmake/day2_2Config-version.cmake
+-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/package.xml

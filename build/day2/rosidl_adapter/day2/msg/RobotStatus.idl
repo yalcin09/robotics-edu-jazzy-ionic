@@ -1,0 +1,93 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from day2/msg/RobotStatus.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+#include "geometry_msgs/msg/Point.idl"
+#include "geometry_msgs/msg/Twist.idl"
+#include "geometry_msgs/msg/Vector3.idl"
+
+module day2 {
+  module msg {
+    module RobotStatus_Constants {
+      @verbatim (language="comment", text=
+        "Bekleme durumu")
+      const uint8 STATUS_IDLE = 0;
+      @verbatim (language="comment", text=
+        "Hareket halinde")
+      const uint8 STATUS_MOVING = 1;
+      @verbatim (language="comment", text=
+        "İş yapıyor")
+      const uint8 STATUS_WORKING = 2;
+      @verbatim (language="comment", text=
+        "Şarj oluyor")
+      const uint8 STATUS_CHARGING = 3;
+      @verbatim (language="comment", text=
+        "Hata durumu")
+      const uint8 STATUS_ERROR = 4;
+    };
+    @verbatim (language="comment", text=
+      "Robot ID ve temel bilgiler")
+    struct RobotStatus {
+      @verbatim (language="comment", text=
+        "Robotun adı (örn: \"robot_01\")")
+      string robot_name;
+
+      @verbatim (language="comment", text=
+        "Robotun benzersiz ID'si")
+      int32 robot_id;
+
+      @verbatim (language="comment", text=
+        "Mesajın oluşturulma zamanı")
+      builtin_interfaces::msg::Time timestamp;
+
+      @verbatim (language="comment", text=
+        "Robot pozisyon bilgileri" "\n"
+        "X, Y, Z koordinatları")
+      geometry_msgs::msg::Point position;
+
+      @verbatim (language="comment", text=
+        "Roll, Pitch, Yaw (radian)")
+      geometry_msgs::msg::Vector3 orientation;
+
+      @verbatim (language="comment", text=
+        "Linear ve angular hızlar")
+      geometry_msgs::msg::Twist velocity;
+
+      @verbatim (language="comment", text=
+        "Robot durumu" "\n"
+        "Robot durumu (enum gibi kullanılacak)")
+      uint8 status;
+
+      @verbatim (language="comment", text=
+        "Sensör verileri" "\n"
+        "Batarya seviyesi (0.0-1.0)")
+      float battery_level;
+
+      @verbatim (language="comment", text=
+        "Sıcaklık (Celsius)")
+      float temperature;
+
+      @verbatim (language="comment", text=
+        "Sensörlerin durumu (her sensör için true/false)")
+      sequence<boolean> sensor_status;
+
+      @verbatim (language="comment", text=
+        "Sensörlerin isimleri")
+      sequence<string> sensor_names;
+
+      @verbatim (language="comment", text=
+        "Ek bilgiler" "\n"
+        "Şu anki görev")
+      string current_task;
+
+      @verbatim (language="comment", text=
+        "Görev tamamlanma oranı (0.0-1.0)")
+      float task_progress;
+
+      @verbatim (language="comment", text=
+        "Hata durumunda hata mesajı")
+      string error_message;
+    };
+  };
+};

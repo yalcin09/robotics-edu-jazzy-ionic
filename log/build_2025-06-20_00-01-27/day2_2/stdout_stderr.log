@@ -1,0 +1,87 @@
+[ 37%] Built target robot_publisher_node
+[ 62%] Built target sensor_simulator_node
+[ 75%] Built target robot_subscriber_node
+[ 87%] [32mBuilding CXX object CMakeFiles/message_analyzer_node.dir/src/message_analyzer.cpp.o[0m
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/message_analyzer.cpp:8[m[K:
+[01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/message_analyzer.cpp:[m[K In member function ‘[01m[Kvoid MessageAnalyzer::[01;32m[Kgenerate_report[m[K()[m[K’:
+[01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/message_analyzer.cpp:138:40:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator+[m[K’ (operand types are ‘[01m[Krclcpp::Logger[m[K’ and ‘[01m[Kconst char [2][m[K’)
+  138 |         RCLCPP_INFO([01;31m[Kthis->get_logger() + "\n"[m[K + create_analysis_report().c_str());
+      |                     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/time.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/clock.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:38[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp:22[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:38[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp:164:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbuiltin_interfaces::msg::Time rclcpp::[01;32m[Koperator+[m[K(const builtin_interfaces::msg::Time&, const Duration&)[m[K’
+  164 | [01;36m[Koperator[m[K+(const builtin_interfaces::msg::Time & lhs, const rclcpp::Duration & rhs);
+      | [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp:164:49:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::Logger[m[K’ to ‘[01m[Kconst builtin_interfaces::msg::Time&[m[K’ {aka ‘[01m[Kconst builtin_interfaces::msg::Time_<std::allocator<void> >&[m[K’}
+  164 | operator+([01;36m[Kconst builtin_interfaces::msg::Time & lhs[m[K, const rclcpp::Duration & rhs);
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/time.hpp:235:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Time rclcpp::[01;32m[Koperator+[m[K(const Duration&, const Time&)[m[K’
+  235 | [01;36m[Koperator[m[K+(const rclcpp::Duration & lhs, const rclcpp::Time & rhs);
+      | [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/time.hpp:235:36:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::Logger[m[K’ to ‘[01m[Kconst rclcpp::Duration&[m[K’
+  235 | operator+([01;36m[Kconst rclcpp::Duration & lhs[m[K, const rclcpp::Time & rhs);
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/message_analyzer.cpp:138:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  138 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger() + "\n" + create_analysis_report().c_str());
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/message_analyzer.cpp:138:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  138 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger() + "\n" + create_analysis_report().c_str());
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/message_analyzer.cpp:138:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  138 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger() + "\n" + create_analysis_report().c_str());
+      |         [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K:
+[01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/message_analyzer.cpp:138:40:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator+[m[K’ (operand types are ‘[01m[Krclcpp::Logger[m[K’ and ‘[01m[Kconst char [2][m[K’)
+  138 |         RCLCPP_INFO([32m[Kthis->get_logger()[m[K [01;31m[K+[m[K [34m[K"\n"[m[K + create_analysis_report().c_str());
+      |                     [32m[K~~~~~~~~~~~~~~~~~~[m[K [01;31m[K^[m[K [34m[K~~~~[m[K
+      |                                     [32m[K|[m[K    [34m[K|[m[K
+      |                                     [32m[K|[m[K    [34m[Kconst char [2][m[K
+      |                                     [32m[Krclcpp::Logger[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp:164:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbuiltin_interfaces::msg::Time rclcpp::[01;32m[Koperator+[m[K(const builtin_interfaces::msg::Time&, const Duration&)[m[K’
+  164 | [01;36m[Koperator[m[K+(const builtin_interfaces::msg::Time & lhs, const rclcpp::Duration & rhs);
+      | [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp:164:49:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::Logger[m[K’ to ‘[01m[Kconst builtin_interfaces::msg::Time&[m[K’ {aka ‘[01m[Kconst builtin_interfaces::msg::Time_<std::allocator<void> >&[m[K’}
+  164 | operator+([01;36m[Kconst builtin_interfaces::msg::Time & lhs[m[K, const rclcpp::Duration & rhs);
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/time.hpp:235:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Time rclcpp::[01;32m[Koperator+[m[K(const Duration&, const Time&)[m[K’
+  235 | [01;36m[Koperator[m[K+(const rclcpp::Duration & lhs, const rclcpp::Time & rhs);
+      | [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/time.hpp:235:36:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::Logger[m[K’ to ‘[01m[Kconst rclcpp::Duration&[m[K’
+  235 | operator+([01;36m[Kconst rclcpp::Duration & lhs[m[K, const rclcpp::Time & rhs);
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/message_analyzer.cpp:138:40:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator+[m[K’ (operand types are ‘[01m[Krclcpp::Logger[m[K’ and ‘[01m[Kconst char [2][m[K’)
+  138 |         RCLCPP_INFO([32m[Kthis->get_logger()[m[K [01;31m[K+[m[K [34m[K"\n"[m[K + create_analysis_report().c_str());
+      |                     [32m[K~~~~~~~~~~~~~~~~~~[m[K [01;31m[K^[m[K [34m[K~~~~[m[K
+      |                                     [32m[K|[m[K    [34m[K|[m[K
+      |                                     [32m[K|[m[K    [34m[Kconst char [2][m[K
+      |                                     [32m[Krclcpp::Logger[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp:164:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbuiltin_interfaces::msg::Time rclcpp::[01;32m[Koperator+[m[K(const builtin_interfaces::msg::Time&, const Duration&)[m[K’
+  164 | [01;36m[Koperator[m[K+(const builtin_interfaces::msg::Time & lhs, const rclcpp::Duration & rhs);
+      | [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp:164:49:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::Logger[m[K’ to ‘[01m[Kconst builtin_interfaces::msg::Time&[m[K’ {aka ‘[01m[Kconst builtin_interfaces::msg::Time_<std::allocator<void> >&[m[K’}
+  164 | operator+([01;36m[Kconst builtin_interfaces::msg::Time & lhs[m[K, const rclcpp::Duration & rhs);
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/time.hpp:235:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Time rclcpp::[01;32m[Koperator+[m[K(const Duration&, const Time&)[m[K’
+  235 | [01;36m[Koperator[m[K+(const rclcpp::Duration & lhs, const rclcpp::Time & rhs);
+      | [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/time.hpp:235:36:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::Logger[m[K’ to ‘[01m[Kconst rclcpp::Duration&[m[K’
+  235 | operator+([01;36m[Kconst rclcpp::Duration & lhs[m[K, const rclcpp::Time & rhs);
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/message_analyzer.cpp:138:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+  138 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger() + "\n" + create_analysis_report().c_str());
+      |         [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/message_analyzer_node.dir/build.make:76: CMakeFiles/message_analyzer_node.dir/src/message_analyzer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/message_analyzer_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,14 @@
+[01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_subscriber.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Krobot_interfaces/msg/robot_status.hpp: No such file or directory
+    8 | #include [01;31m[K"robot_interfaces/msg/robot_status.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/robot_publisher.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Krobot_interfaces/msg/robot_status.hpp: No such file or directory
+    8 | #include [01;31m[K"robot_interfaces/msg/robot_status.hpp"[m[K    // Custom message include
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+compilation terminated.
+gmake[2]: *** [CMakeFiles/robot_publisher_node.dir/build.make:76: CMakeFiles/robot_publisher_node.dir/src/robot_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/robot_publisher_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/robot_subscriber_node.dir/build.make:76: CMakeFiles/robot_subscriber_node.dir/src/robot_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/robot_subscriber_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

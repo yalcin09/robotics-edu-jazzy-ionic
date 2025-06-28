@@ -1,0 +1,152 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from day2/msg/MotorStatus.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module day2 {
+  module msg {
+    module MotorStatus_Constants {
+      @verbatim (language="comment", text=
+        "Motor durdu")
+      const uint8 STATUS_STOPPED = 0;
+      @verbatim (language="comment", text=
+        "Motor başlıyor")
+      const uint8 STATUS_STARTING = 1;
+      @verbatim (language="comment", text=
+        "Motor çalışıyor")
+      const uint8 STATUS_RUNNING = 2;
+      @verbatim (language="comment", text=
+        "Motor duruyor")
+      const uint8 STATUS_STOPPING = 3;
+      @verbatim (language="comment", text=
+        "Motor hatası")
+      const uint8 STATUS_ERROR = 4;
+      @verbatim (language="comment", text=
+        "Bakım modu")
+      const uint8 STATUS_MAINTENANCE = 5;
+      @verbatim (language="comment", text=
+        "Hata yok")
+      const uint32 ERROR_NONE = 0;
+      @verbatim (language="comment", text=
+        "Aşırı akım (bit 0)")
+      const uint32 ERROR_OVERCURRENT = 1;
+      @verbatim (language="comment", text=
+        "Aşırı ısınma (bit 1)")
+      const uint32 ERROR_OVERHEAT = 2;
+      @verbatim (language="comment", text=
+        "Aşırı voltaj (bit 2)")
+      const uint32 ERROR_OVERVOLTAGE = 4;
+      @verbatim (language="comment", text=
+        "Düşük voltaj (bit 3)")
+      const uint32 ERROR_UNDERVOLTAGE = 8;
+      @verbatim (language="comment", text=
+        "Encoder hatası (bit 4)")
+      const uint32 ERROR_ENCODER = 16;
+      @verbatim (language="comment", text=
+        "İletişim hatası (bit 5)")
+      const uint32 ERROR_COMMUNICATION = 32;
+      @verbatim (language="comment", text=
+        "Mekanik hata (bit 6)")
+      const uint32 ERROR_MECHANICAL = 64;
+    };
+    @verbatim (language="comment", text=
+      "Header ve temel bilgiler")
+    struct MotorStatus {
+      @verbatim (language="comment", text=
+        "Timestamp ve frame bilgisi")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Motor adı (örn: \"left_wheel\", \"right_wheel\", \"arm_joint_1\")")
+      string motor_name;
+
+      @verbatim (language="comment", text=
+        "Motor benzersiz ID'si")
+      uint32 motor_id;
+
+      @verbatim (language="comment", text=
+        "Motor performans verileri" "\n"
+        "Dakikadaki devir sayısı (Revolutions Per Minute)")
+      float rpm;
+
+      @verbatim (language="comment", text=
+        "Hedef RPM değeri")
+      float target_rpm;
+
+      @verbatim (language="comment", text=
+        "Motor akımı (Ampere)")
+      float current;
+
+      @verbatim (language="comment", text=
+        "Motor voltajı (Volt)")
+      float voltage;
+
+      @verbatim (language="comment", text=
+        "Güç tüketimi (Watt)")
+      float power;
+
+      @verbatim (language="comment", text=
+        "Thermal verileri" "\n"
+        "Motor sıcaklığı (Celsius)")
+      float temperature;
+
+      @verbatim (language="comment", text=
+        "Maksimum çalışma sıcaklığı")
+      float max_temperature;
+
+      @verbatim (language="comment", text=
+        "Pozisyon verileri (encoder'dan gelen)" "\n"
+        "Mevcut pozisyon (radyan veya derece)")
+      double position;
+
+      @verbatim (language="comment", text=
+        "Hedef pozisyon")
+      double target_position;
+
+      @verbatim (language="comment", text=
+        "Açısal hız (rad/s)")
+      double velocity;
+
+      @verbatim (language="comment", text=
+        "Açısal ivme (rad/s²)")
+      double acceleration;
+
+      @verbatim (language="comment", text=
+        "Motor durumu ve hata flags" "\n"
+        "Motor durumu")
+      uint8 status;
+
+      @verbatim (language="comment", text=
+        "Hata flag'leri (bitwise operations için)" "\n"
+        "Hata bayrakları")
+      uint32 error_flags;
+
+      @verbatim (language="comment", text=
+        "Control verileri" "\n"
+        "Kontrol çıkışı (-1.0 to 1.0)")
+      float control_effort;
+
+      @verbatim (language="comment", text=
+        "PID hata değeri")
+      float pid_error;
+
+      @verbatim (language="comment", text=
+        "PID çıkış değeri")
+      float pid_output;
+
+      @verbatim (language="comment", text=
+        "İstatistik verileri" "\n"
+        "Toplam tur sayısı")
+      uint64 total_revolutions;
+
+      @verbatim (language="comment", text=
+        "Çalışma süresi (saat)")
+      float uptime_hours;
+
+      @verbatim (language="comment", text=
+        "Kaç kez başlatıldı")
+      uint32 start_count;
+    };
+  };
+};

@@ -1,0 +1,31 @@
+[0.015s] Invoking command in '/home/yalcinolgac/ros2_ws/build/day2_2': /usr/bin/cmake /home/yalcinolgac/ros2_ws/src/day2_2 -DCMAKE_INSTALL_PREFIX=/home/yalcinolgac/ros2_ws/install/day2_2
+[0.022s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.146s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.161s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.165s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.171s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.179s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.212s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.213s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.249s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.284s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.292s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.319s] [31mCMake Error at CMakeLists.txt:14 (find_package):
+[0.319s]   By not providing "Findrobot_interfaces.cmake" in CMAKE_MODULE_PATH this
+[0.320s]   project has asked CMake to find a package configuration file provided by
+[0.320s]   "robot_interfaces", but CMake did not find one.
+[0.320s] 
+[0.320s]   Could not find a package configuration file provided by "robot_interfaces"
+[0.320s]   with any of the following names:
+[0.320s] 
+[0.320s]     robot_interfacesConfig.cmake
+[0.320s]     robot_interfaces-config.cmake
+[0.320s] 
+[0.320s]   Add the installation prefix of "robot_interfaces" to CMAKE_PREFIX_PATH or
+[0.320s]   set "robot_interfaces_DIR" to a directory containing one of the above
+[0.320s]   files.  If "robot_interfaces" provides a separate development package or
+[0.320s]   SDK, be sure it has been installed.
+[0.320s] 
+[0.320s] [0m
+[0.320s] -- Configuring incomplete, errors occurred!
+[0.324s] Invoked command in '/home/yalcinolgac/ros2_ws/build/day2_2' returned '1': /usr/bin/cmake /home/yalcinolgac/ros2_ws/src/day2_2 -DCMAKE_INSTALL_PREFIX=/home/yalcinolgac/ros2_ws/install/day2_2

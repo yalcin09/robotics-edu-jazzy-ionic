@@ -1,0 +1,43 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found day2: 1.0.0 (/home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake)
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/yalcinolgac/ros2_ws/build/day2_2
+[ 12%] [32mBuilding CXX object CMakeFiles/message_analyzer_node.dir/src/message_analyzer.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/sensor_simulator_node.dir/src/sensor_simulator.cpp.o[0m
+[ 50%] Built target robot_publisher_node
+[ 75%] Built target robot_subscriber_node
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/message_analyzer.cpp:8[m[K:
+[01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/message_analyzer.cpp:[m[K In member function ‘[01m[Kvoid MessageAnalyzer::[01;32m[Kgenerate_report[m[K()[m[K’:
+[01m[K/home/yalcinolgac/ros2_ws/src/day2_2/src/message_analyzer.cpp:138:46:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kconst char*[m[K’
+  138 |         RCLCPP_INFO(this->get_logger(), [01;31m[K"\n" + create_analysis_report()[m[K);
+      |                                         [01;31m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                              [01;31m[K|[m[K
+      |                                              [01;31m[Kstd::__cxx11::basic_string<char>[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rmw/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rcl/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/exceptions/exceptions.hpp:23[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/exceptions.hpp:18[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/parameter.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:25[m[K:
+[01m[K/opt/ros/jazzy/include/rcutils/rcutils/logging.h:473:16:[m[K [01;36m[Knote: [m[K  initializing argument 4 of ‘[01m[Kvoid[01;32m[K rcutils_log_internal[m[K(const rcutils_log_location_t*, int, const char*, const char*, ...)[m[K’
+  473 |   [01;36m[Kconst char * format[m[K,
+      |   [01;36m[K~~~~~~~~~~~~~^~~~~~[m[K
+[ 87%] [32m[1mLinking CXX executable sensor_simulator_node[0m
+[ 87%] Built target sensor_simulator_node
+gmake[2]: *** [CMakeFiles/message_analyzer_node.dir/build.make:76: CMakeFiles/message_analyzer_node.dir/src/message_analyzer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/message_analyzer_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

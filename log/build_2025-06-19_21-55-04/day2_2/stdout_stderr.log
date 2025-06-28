@@ -1,0 +1,24 @@
+[ 75%] [32mBuilding CXX object CMakeFiles/robot_subscriber_node.dir/src/robot_subscriber.cpp.o[0m
+[ 75%] Built target robot_publisher_node
+[100%] [32m[1mLinking CXX executable robot_subscriber_node[0m
+[100%] Built target robot_subscriber_node
+-- Install configuration: ""
+-- Installing: /home/yalcinolgac/ros2_ws/install/day2_2/lib/day2_2/robot_publisher_node
+-- Set non-toolchain portion of runtime path of "/home/yalcinolgac/ros2_ws/install/day2_2/lib/day2_2/robot_publisher_node" to ""
+-- Installing: /home/yalcinolgac/ros2_ws/install/day2_2/lib/day2_2/robot_subscriber_node
+-- Set non-toolchain portion of runtime path of "/home/yalcinolgac/ros2_ws/install/day2_2/lib/day2_2/robot_subscriber_node" to ""
+-- Installing: /home/yalcinolgac/ros2_ws/install/day2_2/share/ament_index/resource_index/package_run_dependencies/day2_2
+-- Installing: /home/yalcinolgac/ros2_ws/install/day2_2/share/ament_index/resource_index/parent_prefix_path/day2_2
+-- Installing: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/environment/ament_prefix_path.sh
+-- Installing: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/environment/ament_prefix_path.dsv
+-- Installing: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/environment/path.sh
+-- Installing: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/environment/path.dsv
+-- Installing: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/local_setup.bash
+-- Installing: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/local_setup.sh
+-- Installing: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/local_setup.zsh
+-- Installing: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/local_setup.dsv
+-- Installing: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/package.dsv
+-- Installing: /home/yalcinolgac/ros2_ws/install/day2_2/share/ament_index/resource_index/packages/day2_2
+-- Installing: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/cmake/day2_2Config.cmake
+-- Installing: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/cmake/day2_2Config-version.cmake
+-- Installing: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/package.xml

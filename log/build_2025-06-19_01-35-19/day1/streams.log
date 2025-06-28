@@ -1,0 +1,28 @@
+[0.008s] Invoking command in '/home/yalcinolgac/ros2_ws/build/day1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/yalcinolgac/ros2_ws/build/day1 -- -j32 -l32
+[0.042s] [ 50%] Built target subscriber_node
+[0.044s] [ 75%] [32mBuilding CXX object CMakeFiles/publisher_node.dir/src/publisher.cpp.o[0m
+[2.262s] [100%] [32m[1mLinking CXX executable publisher_node[0m
+[2.391s] [100%] Built target publisher_node
+[2.398s] Invoked command in '/home/yalcinolgac/ros2_ws/build/day1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/yalcinolgac/ros2_ws/build/day1 -- -j32 -l32
+[2.404s] Invoking command in '/home/yalcinolgac/ros2_ws/build/day1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/yalcinolgac/ros2_ws/build/day1
+[2.411s] -- Install configuration: ""
+[2.411s] -- Installing: /home/yalcinolgac/ros2_ws/install/day1/lib/day1/publisher_node
+[2.411s] -- Set non-toolchain portion of runtime path of "/home/yalcinolgac/ros2_ws/install/day1/lib/day1/publisher_node" to ""
+[2.411s] -- Installing: /home/yalcinolgac/ros2_ws/install/day1/lib/day1/subscriber_node
+[2.417s] -- Set non-toolchain portion of runtime path of "/home/yalcinolgac/ros2_ws/install/day1/lib/day1/subscriber_node" to ""
+[2.417s] -- Installing: /home/yalcinolgac/ros2_ws/install/day1/share/ament_index/resource_index/package_run_dependencies/day1
+[2.418s] -- Installing: /home/yalcinolgac/ros2_ws/install/day1/share/ament_index/resource_index/parent_prefix_path/day1
+[2.419s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day1/share/day1/environment/ament_prefix_path.sh
+[2.419s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day1/share/day1/environment/ament_prefix_path.dsv
+[2.419s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day1/share/day1/environment/path.sh
+[2.419s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day1/share/day1/environment/path.dsv
+[2.419s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day1/share/day1/local_setup.bash
+[2.419s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day1/share/day1/local_setup.sh
+[2.419s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day1/share/day1/local_setup.zsh
+[2.419s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day1/share/day1/local_setup.dsv
+[2.419s] -- Installing: /home/yalcinolgac/ros2_ws/install/day1/share/day1/package.dsv
+[2.419s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day1/share/ament_index/resource_index/packages/day1
+[2.419s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day1/share/day1/cmake/day1Config.cmake
+[2.419s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day1/share/day1/cmake/day1Config-version.cmake
+[2.419s] -- Installing: /home/yalcinolgac/ros2_ws/install/day1/share/day1/package.xml
+[2.421s] Invoked command in '/home/yalcinolgac/ros2_ws/build/day1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/yalcinolgac/ros2_ws/build/day1

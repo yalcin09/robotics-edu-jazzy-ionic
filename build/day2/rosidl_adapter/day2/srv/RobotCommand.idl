@@ -1,0 +1,107 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from day2/srv/RobotCommand.srv
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+#include "geometry_msgs/msg/Point.idl"
+#include "geometry_msgs/msg/Vector3.idl"
+
+module day2 {
+  module srv {
+    @verbatim (language="comment", text=
+      "REQUEST KISMI (Client → Server)" "\n"
+      "Komut türü ve parametreleri")
+    struct RobotCommand_Request {
+      @verbatim (language="comment", text=
+        "Komut türü (örn: \"move_to\", \"rotate\", \"stop\", \"home\")")
+      string command_type;
+
+      @verbatim (language="comment", text=
+        "Hedef pozisyon (x, y, z)")
+      geometry_msgs::msg::Point target_position;
+
+      @verbatim (language="comment", text=
+        "Hedef oryantasyon (roll, pitch, yaw)")
+      geometry_msgs::msg::Vector3 target_orientation;
+
+      @verbatim (language="comment", text=
+        "Maksimum hız (m/s)")
+      float max_velocity;
+
+      @verbatim (language="comment", text=
+        "Maksimum ivme (m/s²)")
+      float max_acceleration;
+
+      @verbatim (language="comment", text=
+        "Komut timeout süresi")
+      float timeout_seconds;
+
+      @verbatim (language="comment", text=
+        "Güvenlik kontrollerini atla")
+      boolean force_execution;
+
+      @verbatim (language="comment", text=
+        "Ek parametreler")
+      sequence<string> additional_params;
+
+      @verbatim (language="comment", text=
+        "Komutun tamamlanması gereken zaman")
+      builtin_interfaces::msg::Time deadline;
+    };
+    module RobotCommand_Response_Constants {
+      @verbatim (language="comment", text=
+        "Hata yok")
+      const uint32 ERROR_NONE = 0;
+      @verbatim (language="comment", text=
+        "Geçersiz komut")
+      const uint32 ERROR_INVALID_COMMAND = 1;
+      @verbatim (language="comment", text=
+        "Erişilemez pozisyon")
+      const uint32 ERROR_OUT_OF_BOUNDS = 2;
+      @verbatim (language="comment", text=
+        "Robot meşgul")
+      const uint32 ERROR_ROBOT_BUSY = 3;
+      @verbatim (language="comment", text=
+        "Güvenlik ihlali")
+      const uint32 ERROR_SAFETY_VIOLATION = 4;
+      @verbatim (language="comment", text=
+        "Donanım arızası")
+      const uint32 ERROR_HARDWARE_FAILURE = 5;
+      @verbatim (language="comment", text=
+        "Zaman aşımı")
+      const uint32 ERROR_TIMEOUT = 6;
+    };
+    struct RobotCommand_Response {
+      @verbatim (language="comment", text=
+        "RESPONSE KISMI (Server → Client)" "\n"
+        "Komut kabul edildi mi?" "\n"
+        "Komut başarıyla alındı ve işleme başlandı")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "Detaylı mesaj (başarı/hata açıklaması)")
+      string message;
+
+      @verbatim (language="comment", text=
+        "Bu komut için benzersiz ID")
+      uint32 command_id;
+
+      @verbatim (language="comment", text=
+        "Tahmini tamamlanma süresi (saniye)")
+      float estimated_duration;
+
+      @verbatim (language="comment", text=
+        "Gerçekte gidilecek pozisyon (güvenlik sınırları)")
+      geometry_msgs::msg::Point actual_target;
+
+      @verbatim (language="comment", text=
+        "Tahmini tamamlanma zamanı")
+      builtin_interfaces::msg::Time estimated_completion;
+
+      @verbatim (language="comment", text=
+        "Hata kodları" "\n"
+        "Hata kodu (0 = başarı)")
+      uint32 error_code;
+    };
+  };
+};

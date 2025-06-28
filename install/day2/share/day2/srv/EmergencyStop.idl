@@ -1,0 +1,145 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from day2/srv/EmergencyStop.srv
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module day2 {
+  module srv {
+    module EmergencyStop_Request_Constants {
+      @verbatim (language="comment", text=
+        "Yumuşak durdurma (yavaşlayarak)")
+      const uint8 SOFT_STOP = 0;
+      @verbatim (language="comment", text=
+        "Anında durdurma")
+      const uint8 IMMEDIATE_STOP = 1;
+      @verbatim (language="comment", text=
+        "Acil durdurma (güç kesimi)")
+      const uint8 EMERGENCY_STOP = 2;
+    };
+    @verbatim (language="comment", text=
+      "REQUEST KISMI" "\n"
+      "Acil durdurma komut parametreleri")
+    struct EmergencyStop_Request {
+      @verbatim (language="comment", text=
+        "Hedef robot ID (0 = tüm robotlar)")
+      uint32 robot_id;
+
+      @verbatim (language="comment", text=
+        "Durdurma sebebi")
+      string reason;
+
+      @verbatim (language="comment", text=
+        "Durdurma türü")
+      uint8 stop_type;
+
+      @verbatim (language="comment", text=
+        "Motorları devre dışı bırak")
+      boolean disable_motors;
+
+      @verbatim (language="comment", text=
+        "Frenleri kilitle")
+      boolean lock_brakes;
+
+      @verbatim (language="comment", text=
+        "Alarm çal")
+      boolean sound_alarm;
+
+      @verbatim (language="comment", text=
+        "Komutu veren operatör")
+      string operator_id;
+
+      @verbatim (language="comment", text=
+        "Öncelik seviyesi (1-10)")
+      uint8 priority_level;
+    };
+    module EmergencyStop_Response_Constants {
+      @verbatim (language="comment", text=
+        "Başarı")
+      const uint32 ERROR_NONE = 0;
+      @verbatim (language="comment", text=
+        "Robot bulunamadı")
+      const uint32 ERROR_ROBOT_NOT_FOUND = 1;
+      @verbatim (language="comment", text=
+        "Zaten durdurulmuş")
+      const uint32 ERROR_ALREADY_STOPPED = 2;
+      @verbatim (language="comment", text=
+        "Durdurma başarısız")
+      const uint32 ERROR_STOP_FAILED = 3;
+      @verbatim (language="comment", text=
+        "İletişim hatası")
+      const uint32 ERROR_COMMUNICATION_FAILED = 4;
+    };
+    struct EmergencyStop_Response {
+      @verbatim (language="comment", text=
+        "RESPONSE KISMI" "\n"
+        "Durdurma işlemi sonucu" "\n"
+        "Durdurma başarılı mı?")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "Detay mesaj")
+      string message;
+
+      @verbatim (language="comment", text=
+        "Durdurma zamanı")
+      builtin_interfaces::msg::Time stop_timestamp;
+
+      @verbatim (language="comment", text=
+        "Etkilenen robotlar" "\n"
+        "Durdurulan robot ID'leri")
+      sequence<uint32> stopped_robot_ids;
+
+      @verbatim (language="comment", text=
+        "Her robottan gelen yanıt")
+      sequence<string> robot_responses;
+
+      @verbatim (language="comment", text=
+        "Her robotun durma mesafesi")
+      sequence<float> stop_distances;
+
+      @verbatim (language="comment", text=
+        "Sistem durumu" "\n"
+        "Sistem güvenli durumda mı?")
+      boolean system_safe_state;
+
+      @verbatim (language="comment", text=
+        "Aktif alarmlar")
+      sequence<string> active_alarms;
+
+      @verbatim (language="comment", text=
+        "Gerekli müdahaleler")
+      sequence<string> required_actions;
+
+      @verbatim (language="comment", text=
+        "Recovery bilgileri" "\n"
+        "Manuel reset gerekli mi?")
+      boolean manual_reset_required;
+
+      @verbatim (language="comment", text=
+        "Reset prosedürleri")
+      sequence<string> reset_procedures;
+
+      @verbatim (language="comment", text=
+        "Tahmini recovery süresi")
+      float estimated_recovery_time;
+
+      @verbatim (language="comment", text=
+        "Incident bilgileri" "\n"
+        "Olay ID'si")
+      uint32 incident_id;
+
+      @verbatim (language="comment", text=
+        "Olay sınıflandırması")
+      string incident_classification;
+
+      @verbatim (language="comment", text=
+        "Soruşturma gerekli mi?")
+      boolean requires_investigation;
+
+      @verbatim (language="comment", text=
+        "Hata kodu")
+      uint32 error_code;
+    };
+  };
+};

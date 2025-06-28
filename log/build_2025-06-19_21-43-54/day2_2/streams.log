@@ -1,0 +1,45 @@
+[0.018s] Invoking command in '/home/yalcinolgac/ros2_ws/build/day2_2': /usr/bin/cmake /home/yalcinolgac/ros2_ws/src/day2_2 -DCMAKE_INSTALL_PREFIX=/home/yalcinolgac/ros2_ws/install/day2_2
+[0.141s] -- The C compiler identification is GNU 13.3.0
+[0.212s] -- The CXX compiler identification is GNU 13.3.0
+[0.225s] -- Detecting C compiler ABI info
+[0.281s] -- Detecting C compiler ABI info - done
+[0.286s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.286s] -- Detecting C compile features
+[0.286s] -- Detecting C compile features - done
+[0.293s] -- Detecting CXX compiler ABI info
+[0.350s] -- Detecting CXX compiler ABI info - done
+[0.355s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.355s] -- Detecting CXX compile features
+[0.355s] -- Detecting CXX compile features - done
+[0.377s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.466s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.564s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.618s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.631s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.650s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.668s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.742s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.746s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.813s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.827s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.841s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.915s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.924s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.952s] [31mCMake Error at CMakeLists.txt:14 (find_package):
+[0.952s]   By not providing "Findrobot_interfaces.cmake" in CMAKE_MODULE_PATH this
+[0.952s]   project has asked CMake to find a package configuration file provided by
+[0.952s]   "robot_interfaces", but CMake did not find one.
+[0.952s] 
+[0.952s]   Could not find a package configuration file provided by "robot_interfaces"
+[0.952s]   with any of the following names:
+[0.952s] 
+[0.952s]     robot_interfacesConfig.cmake
+[0.952s]     robot_interfaces-config.cmake
+[0.952s] 
+[0.952s]   Add the installation prefix of "robot_interfaces" to CMAKE_PREFIX_PATH or
+[0.952s]   set "robot_interfaces_DIR" to a directory containing one of the above
+[0.952s]   files.  If "robot_interfaces" provides a separate development package or
+[0.952s]   SDK, be sure it has been installed.
+[0.952s] 
+[0.952s] [0m
+[0.952s] -- Configuring incomplete, errors occurred!

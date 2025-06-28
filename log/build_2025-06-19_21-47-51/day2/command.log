@@ -1,0 +1,6 @@
+Invoking command in '/home/yalcinolgac/ros2_ws/build/day2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/yalcinolgac/ros2_ws/src/day2 -DCMAKE_INSTALL_PREFIX=/home/yalcinolgac/ros2_ws/install/day2
+Invoked command in '/home/yalcinolgac/ros2_ws/build/day2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/yalcinolgac/ros2_ws/src/day2 -DCMAKE_INSTALL_PREFIX=/home/yalcinolgac/ros2_ws/install/day2
+Invoking command in '/home/yalcinolgac/ros2_ws/build/day2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/yalcinolgac/ros2_ws/build/day2 -- -j32 -l32
+Invoked command in '/home/yalcinolgac/ros2_ws/build/day2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/yalcinolgac/ros2_ws/build/day2 -- -j32 -l32
+Invoking command in '/home/yalcinolgac/ros2_ws/build/day2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/yalcinolgac/ros2_ws/build/day2
+Invoked command in '/home/yalcinolgac/ros2_ws/build/day2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/yalcinolgac/ros2_ws/build/day2

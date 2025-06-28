@@ -1,0 +1,4 @@
+[ 37%] Built target robot_publisher_node
+[ 62%] Built target sensor_simulator_node
+[ 75%] Built target robot_subscriber_node
+[ 87%] [32mBuilding CXX object CMakeFiles/message_analyzer_node.dir/src/message_analyzer.cpp.o[0m

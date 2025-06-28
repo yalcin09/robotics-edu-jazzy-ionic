@@ -1,0 +1,17 @@
+/home/yalcinolgac/ros2_ws/install/day1/lib/day1/publisher_node
+/home/yalcinolgac/ros2_ws/install/day1/lib/day1/subscriber_node
+/home/yalcinolgac/ros2_ws/install/day1/share/ament_index/resource_index/package_run_dependencies/day1
+/home/yalcinolgac/ros2_ws/install/day1/share/ament_index/resource_index/parent_prefix_path/day1
+/home/yalcinolgac/ros2_ws/install/day1/share/day1/environment/ament_prefix_path.sh
+/home/yalcinolgac/ros2_ws/install/day1/share/day1/environment/ament_prefix_path.dsv
+/home/yalcinolgac/ros2_ws/install/day1/share/day1/environment/path.sh
+/home/yalcinolgac/ros2_ws/install/day1/share/day1/environment/path.dsv
+/home/yalcinolgac/ros2_ws/install/day1/share/day1/local_setup.bash
+/home/yalcinolgac/ros2_ws/install/day1/share/day1/local_setup.sh
+/home/yalcinolgac/ros2_ws/install/day1/share/day1/local_setup.zsh
+/home/yalcinolgac/ros2_ws/install/day1/share/day1/local_setup.dsv
+/home/yalcinolgac/ros2_ws/install/day1/share/day1/package.dsv
+/home/yalcinolgac/ros2_ws/install/day1/share/ament_index/resource_index/packages/day1
+/home/yalcinolgac/ros2_ws/install/day1/share/day1/cmake/day1Config.cmake
+/home/yalcinolgac/ros2_ws/install/day1/share/day1/cmake/day1Config-version.cmake
+/home/yalcinolgac/ros2_ws/install/day1/share/day1/package.xml

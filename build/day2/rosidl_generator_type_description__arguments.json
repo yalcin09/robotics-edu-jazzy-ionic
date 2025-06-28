@@ -1,0 +1,20 @@
+{
+  "package_name": "day2",
+  "output_dir": "/home/yalcinolgac/ros2_ws/build/day2/rosidl_generator_type_description/day2",
+  "idl_tuples": [
+    "/home/yalcinolgac/ros2_ws/build/day2/rosidl_adapter/day2:msg/RobotStatus.idl",
+    "/home/yalcinolgac/ros2_ws/build/day2/rosidl_adapter/day2:msg/SensorData.idl",
+    "/home/yalcinolgac/ros2_ws/build/day2/rosidl_adapter/day2:msg/MotorStatus.idl",
+    "/home/yalcinolgac/ros2_ws/build/day2/rosidl_adapter/day2:msg/RobotArray.idl",
+    "/home/yalcinolgac/ros2_ws/build/day2/rosidl_adapter/day2:srv/RobotCommand.idl",
+    "/home/yalcinolgac/ros2_ws/build/day2/rosidl_adapter/day2:srv/GetRobotStatus.idl",
+    "/home/yalcinolgac/ros2_ws/build/day2/rosidl_adapter/day2:srv/CalculatePath.idl",
+    "/home/yalcinolgac/ros2_ws/build/day2/rosidl_adapter/day2:srv/EmergencyStop.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs"
+  ]
+}
