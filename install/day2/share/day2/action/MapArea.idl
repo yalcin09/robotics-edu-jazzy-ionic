@@ -1,0 +1,267 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from day2/action/MapArea.action
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+#include "geometry_msgs/msg/Point.idl"
+
+module day2 {
+  module action {
+    @verbatim (language="comment", text=
+      "Dosya: ~/ros2_ws/src/day2/action/MapArea.action")
+    struct MapArea_Goal {
+      @verbatim (language="comment", text=
+        "GOAL - Mapping görevi parametreleri" "\n"
+        "Haritalaması istenen alan sınırları")
+      sequence<geometry_msgs::msg::Point> boundary_points;
+
+      @verbatim (language="comment", text=
+        "Harita çözünürlüğü (m/pixel)")
+      float resolution;
+
+      @verbatim (language="comment", text=
+        "Mapping modu (\"exploration\", \"detailed\", \"fast\")")
+      string mapping_mode;
+
+      @verbatim (language="comment", text=
+        "İstenen kapsama yüzdesi (%)")
+      float coverage_percentage;
+
+      @verbatim (language="comment", text=
+        "3D veri dahil edilsin mi?")
+      boolean include_3d_data;
+
+      @verbatim (language="comment", text=
+        "Motion parameters" "\n"
+        "Maksimum keşif hızı")
+      float max_exploration_speed;
+
+      @verbatim (language="comment", text=
+        "Sensör veri çakışma oranı")
+      float sensor_overlap_ratio;
+
+      @verbatim (language="comment", text=
+        "Waypoint arası mesafe")
+      float waypoint_spacing;
+
+      @verbatim (language="comment", text=
+        "Keşif pattern'i (\"spiral\", \"grid\", \"adaptive\")")
+      string exploration_pattern;
+
+      @verbatim (language="comment", text=
+        "Sensor configuration" "\n"
+        "Aktif sensörler listesi")
+      sequence<string> active_sensors;
+
+      @verbatim (language="comment", text=
+        "Sensör menzili")
+      float sensor_range;
+
+      @verbatim (language="comment", text=
+        "SLAM kullan")
+      boolean use_slam;
+
+      @verbatim (language="comment", text=
+        "SLAM algoritması")
+      string slam_algorithm;
+
+      @verbatim (language="comment", text=
+        "Quality parameters" "\n"
+        "Minimum kalite eşiği")
+      float min_quality_threshold;
+
+      @verbatim (language="comment", text=
+        "Doğruluk için optimize et")
+      boolean optimize_for_accuracy;
+
+      @verbatim (language="comment", text=
+        "Hız için optimize et")
+      boolean optimize_for_speed;
+
+      @verbatim (language="comment", text=
+        "Maksimum süre")
+      float timeout_seconds;
+    };
+    module MapArea_Result_Constants {
+      const uint32 ERROR_NONE = 0;
+      const uint32 ERROR_AREA_TOO_LARGE = 1;
+      const uint32 ERROR_SENSOR_FAILURE = 2;
+      const uint32 ERROR_LOCALIZATION_LOST = 3;
+      const uint32 ERROR_INSUFFICIENT_COVERAGE = 4;
+      const uint32 ERROR_MAP_QUALITY_LOW = 5;
+      const uint32 ERROR_TIMEOUT = 6;
+    };
+    struct MapArea_Result {
+      @verbatim (language="comment", text=
+        "RESULT - Mapping tamamlandığında sonuç" "\n"
+        "Mapping başarılı mı?")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "Sonuç mesajı")
+      string result_message;
+
+      @verbatim (language="comment", text=
+        "Haritanın yayınlandığı topic")
+      string map_topic;
+
+      @verbatim (language="comment", text=
+        "Kaydedilen harita dosyası yolu")
+      string map_file_path;
+
+      @verbatim (language="comment", text=
+        "Map quality metrics" "\n"
+        "Haritalanan alan (m²)")
+      float area_covered;
+
+      @verbatim (language="comment", text=
+        "Kapsama yüzdesi")
+      float coverage_percentage;
+
+      @verbatim (language="comment", text=
+        "Harita doğruluğu (0.0-1.0)")
+      float map_accuracy;
+
+      @verbatim (language="comment", text=
+        "Özellik yoğunluğu (features/m²)")
+      float feature_density;
+
+      @verbatim (language="comment", text=
+        "Performance statistics" "\n"
+        "Toplam mapping süresi")
+      float total_mapping_time;
+
+      @verbatim (language="comment", text=
+        "Kat edilen mesafe")
+      float total_distance_traveled;
+
+      @verbatim (language="comment", text=
+        "Toplam sensör okuması")
+      uint32 total_sensor_readings;
+
+      @verbatim (language="comment", text=
+        "Ortalama mapping hızı")
+      float average_mapping_speed;
+
+      @verbatim (language="comment", text=
+        "Map data summary" "\n"
+        "Harita genişliği (pixel)")
+      uint32 map_width_pixels;
+
+      @verbatim (language="comment", text=
+        "Harita yüksekliği (pixel)")
+      uint32 map_height_pixels;
+
+      @verbatim (language="comment", text=
+        "Dolu hücre sayısı")
+      uint32 occupied_cells;
+
+      @verbatim (language="comment", text=
+        "Boş hücre sayısı")
+      uint32 free_cells;
+
+      @verbatim (language="comment", text=
+        "Bilinmeyen hücre sayısı")
+      uint32 unknown_cells;
+
+      @verbatim (language="comment", text=
+        "Error information")
+      uint32 error_code;
+    };
+    struct MapArea_Feedback {
+      @verbatim (language="comment", text=
+        "FEEDBACK - Mapping sırasında sürekli feedback" "\n"
+        "Şu anki pozisyon")
+      geometry_msgs::msg::Point current_position;
+
+      @verbatim (language="comment", text=
+        "Şimdiye kadar haritalanan alan")
+      float area_mapped_so_far;
+
+      @verbatim (language="comment", text=
+        "Kapsama yüzdesi")
+      float coverage_percentage;
+
+      @verbatim (language="comment", text=
+        "Tahmini kalan süre")
+      float estimated_time_remaining;
+
+      @verbatim (language="comment", text=
+        "Current mapping state" "\n"
+        "Şu anki faz (\"exploring\", \"detailing\", \"returning\")")
+      string current_phase;
+
+      @verbatim (language="comment", text=
+        "Sonraki hedef nokta")
+      geometry_msgs::msg::Point next_target;
+
+      @verbatim (language="comment", text=
+        "Tamamlanan waypoint sayısı")
+      uint32 waypoints_completed;
+
+      @verbatim (language="comment", text=
+        "Toplam waypoint sayısı")
+      uint32 total_waypoints;
+
+      @verbatim (language="comment", text=
+        "Real-time map data" "\n"
+        "Şu anki harita genişliği")
+      uint32 current_map_width;
+
+      @verbatim (language="comment", text=
+        "Şu anki harita yüksekliği")
+      uint32 current_map_height;
+
+      @verbatim (language="comment", text=
+        "Şu anki çözünürlük")
+      float current_resolution;
+
+      @verbatim (language="comment", text=
+        "Yeni tespit edilen özellikler")
+      uint32 new_features_detected;
+
+      @verbatim (language="comment", text=
+        "Sensor status" "\n"
+        "Her sensörün aktif durumu")
+      sequence<boolean> sensor_active_status;
+
+      @verbatim (language="comment", text=
+        "Sensör veri kalitesi")
+      sequence<float> sensor_data_quality;
+
+      @verbatim (language="comment", text=
+        "Saniyedeki sensör okuması")
+      uint32 sensor_readings_per_second;
+
+      @verbatim (language="comment", text=
+        "SLAM status (if enabled)" "\n"
+        "Lokalizasyon güveni")
+      float localization_confidence;
+
+      @verbatim (language="comment", text=
+        "Tespit edilen loop closure'lar")
+      uint32 loop_closures_detected;
+
+      @verbatim (language="comment", text=
+        "Pozisyon belirsizliği")
+      float pose_uncertainty;
+
+      @verbatim (language="comment", text=
+        "Performance monitoring" "\n"
+        "CPU kullanımı")
+      float cpu_usage;
+
+      @verbatim (language="comment", text=
+        "Memory kullanımı")
+      float memory_usage;
+
+      @verbatim (language="comment", text=
+        "Kullanılan depolama alanı (MB)")
+      float storage_space_used;
+
+      @verbatim (language="comment", text=
+        "Son sensör güncellemesi")
+      builtin_interfaces::msg::Time last_sensor_update;
+    };
+  };
+};

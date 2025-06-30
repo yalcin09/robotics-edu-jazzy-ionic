@@ -77,8 +77,13 @@ include /home/yalcinolgac/ros2_ws/build/day2/day2__py/CMakeFiles/day2__py.dir/pr
 /home/yalcinolgac/ros2_ws/build/day2/day2__py/CMakeFiles/day2__py: rosidl_generator_py/day2/srv/_get_robot_status.py
 /home/yalcinolgac/ros2_ws/build/day2/day2__py/CMakeFiles/day2__py: rosidl_generator_py/day2/srv/_calculate_path.py
 /home/yalcinolgac/ros2_ws/build/day2/day2__py/CMakeFiles/day2__py: rosidl_generator_py/day2/srv/_emergency_stop.py
+/home/yalcinolgac/ros2_ws/build/day2/day2__py/CMakeFiles/day2__py: rosidl_generator_py/day2/action/_navigate.py
+/home/yalcinolgac/ros2_ws/build/day2/day2__py/CMakeFiles/day2__py: rosidl_generator_py/day2/action/_pick_and_place.py
+/home/yalcinolgac/ros2_ws/build/day2/day2__py/CMakeFiles/day2__py: rosidl_generator_py/day2/action/_map_area.py
+/home/yalcinolgac/ros2_ws/build/day2/day2__py/CMakeFiles/day2__py: rosidl_generator_py/day2/action/_charge_battery.py
 /home/yalcinolgac/ros2_ws/build/day2/day2__py/CMakeFiles/day2__py: rosidl_generator_py/day2/msg/__init__.py
 /home/yalcinolgac/ros2_ws/build/day2/day2__py/CMakeFiles/day2__py: rosidl_generator_py/day2/srv/__init__.py
+/home/yalcinolgac/ros2_ws/build/day2/day2__py/CMakeFiles/day2__py: rosidl_generator_py/day2/action/__init__.py
 /home/yalcinolgac/ros2_ws/build/day2/day2__py/CMakeFiles/day2__py: rosidl_generator_py/day2/msg/_robot_status_s.c
 /home/yalcinolgac/ros2_ws/build/day2/day2__py/CMakeFiles/day2__py: rosidl_generator_py/day2/msg/_sensor_data_s.c
 /home/yalcinolgac/ros2_ws/build/day2/day2__py/CMakeFiles/day2__py: rosidl_generator_py/day2/msg/_motor_status_s.c
@@ -87,6 +92,10 @@ include /home/yalcinolgac/ros2_ws/build/day2/day2__py/CMakeFiles/day2__py.dir/pr
 /home/yalcinolgac/ros2_ws/build/day2/day2__py/CMakeFiles/day2__py: rosidl_generator_py/day2/srv/_get_robot_status_s.c
 /home/yalcinolgac/ros2_ws/build/day2/day2__py/CMakeFiles/day2__py: rosidl_generator_py/day2/srv/_calculate_path_s.c
 /home/yalcinolgac/ros2_ws/build/day2/day2__py/CMakeFiles/day2__py: rosidl_generator_py/day2/srv/_emergency_stop_s.c
+/home/yalcinolgac/ros2_ws/build/day2/day2__py/CMakeFiles/day2__py: rosidl_generator_py/day2/action/_navigate_s.c
+/home/yalcinolgac/ros2_ws/build/day2/day2__py/CMakeFiles/day2__py: rosidl_generator_py/day2/action/_pick_and_place_s.c
+/home/yalcinolgac/ros2_ws/build/day2/day2__py/CMakeFiles/day2__py: rosidl_generator_py/day2/action/_map_area_s.c
+/home/yalcinolgac/ros2_ws/build/day2/day2__py/CMakeFiles/day2__py: rosidl_generator_py/day2/action/_charge_battery_s.c
 
 rosidl_generator_py/day2/_day2_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/day2/_day2_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_py/__init__.py
@@ -109,6 +118,10 @@ rosidl_generator_py/day2/_day2_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adap
 rosidl_generator_py/day2/_day2_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/day2/srv/GetRobotStatus.idl
 rosidl_generator_py/day2/_day2_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/day2/srv/CalculatePath.idl
 rosidl_generator_py/day2/_day2_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/day2/srv/EmergencyStop.idl
+rosidl_generator_py/day2/_day2_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/day2/action/Navigate.idl
+rosidl_generator_py/day2/_day2_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/day2/action/PickAndPlace.idl
+rosidl_generator_py/day2/_day2_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/day2/action/MapArea.idl
+rosidl_generator_py/day2/_day2_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/day2/action/ChargeBattery.idl
 rosidl_generator_py/day2/_day2_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_py/day2/_day2_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
 rosidl_generator_py/day2/_day2_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/std_msgs/msg/Bool.idl
@@ -174,6 +187,11 @@ rosidl_generator_py/day2/_day2_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/ja
 rosidl_generator_py/day2/_day2_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/Wrench.idl
 rosidl_generator_py/day2/_day2_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/WrenchStamped.idl
 rosidl_generator_py/day2/_day2_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
+rosidl_generator_py/day2/_day2_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/action_msgs/msg/GoalInfo.idl
+rosidl_generator_py/day2/_day2_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/action_msgs/msg/GoalStatus.idl
+rosidl_generator_py/day2/_day2_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/action_msgs/msg/GoalStatusArray.idl
+rosidl_generator_py/day2/_day2_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/action_msgs/srv/CancelGoal.idl
+rosidl_generator_py/day2/_day2_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/yalcinolgac/ros2_ws/build/day2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
 	cd /home/yalcinolgac/ros2_ws/build/day2/day2__py && /usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/yalcinolgac/ros2_ws/build/day2/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
@@ -207,11 +225,26 @@ rosidl_generator_py/day2/srv/_calculate_path.py: rosidl_generator_py/day2/_day2_
 rosidl_generator_py/day2/srv/_emergency_stop.py: rosidl_generator_py/day2/_day2_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/day2/srv/_emergency_stop.py
 
+rosidl_generator_py/day2/action/_navigate.py: rosidl_generator_py/day2/_day2_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/day2/action/_navigate.py
+
+rosidl_generator_py/day2/action/_pick_and_place.py: rosidl_generator_py/day2/_day2_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/day2/action/_pick_and_place.py
+
+rosidl_generator_py/day2/action/_map_area.py: rosidl_generator_py/day2/_day2_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/day2/action/_map_area.py
+
+rosidl_generator_py/day2/action/_charge_battery.py: rosidl_generator_py/day2/_day2_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/day2/action/_charge_battery.py
+
 rosidl_generator_py/day2/msg/__init__.py: rosidl_generator_py/day2/_day2_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/day2/msg/__init__.py
 
 rosidl_generator_py/day2/srv/__init__.py: rosidl_generator_py/day2/_day2_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/day2/srv/__init__.py
+
+rosidl_generator_py/day2/action/__init__.py: rosidl_generator_py/day2/_day2_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/day2/action/__init__.py
 
 rosidl_generator_py/day2/msg/_robot_status_s.c: rosidl_generator_py/day2/_day2_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/day2/msg/_robot_status_s.c
@@ -237,10 +270,31 @@ rosidl_generator_py/day2/srv/_calculate_path_s.c: rosidl_generator_py/day2/_day2
 rosidl_generator_py/day2/srv/_emergency_stop_s.c: rosidl_generator_py/day2/_day2_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/day2/srv/_emergency_stop_s.c
 
+rosidl_generator_py/day2/action/_navigate_s.c: rosidl_generator_py/day2/_day2_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/day2/action/_navigate_s.c
+
+rosidl_generator_py/day2/action/_pick_and_place_s.c: rosidl_generator_py/day2/_day2_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/day2/action/_pick_and_place_s.c
+
+rosidl_generator_py/day2/action/_map_area_s.c: rosidl_generator_py/day2/_day2_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/day2/action/_map_area_s.c
+
+rosidl_generator_py/day2/action/_charge_battery_s.c: rosidl_generator_py/day2/_day2_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/day2/action/_charge_battery_s.c
+
 day2__py: /home/yalcinolgac/ros2_ws/build/day2/day2__py/CMakeFiles/day2__py
 day2__py: rosidl_generator_py/day2/_day2_s.ep.rosidl_typesupport_c.c
 day2__py: rosidl_generator_py/day2/_day2_s.ep.rosidl_typesupport_fastrtps_c.c
 day2__py: rosidl_generator_py/day2/_day2_s.ep.rosidl_typesupport_introspection_c.c
+day2__py: rosidl_generator_py/day2/action/__init__.py
+day2__py: rosidl_generator_py/day2/action/_charge_battery.py
+day2__py: rosidl_generator_py/day2/action/_charge_battery_s.c
+day2__py: rosidl_generator_py/day2/action/_map_area.py
+day2__py: rosidl_generator_py/day2/action/_map_area_s.c
+day2__py: rosidl_generator_py/day2/action/_navigate.py
+day2__py: rosidl_generator_py/day2/action/_navigate_s.c
+day2__py: rosidl_generator_py/day2/action/_pick_and_place.py
+day2__py: rosidl_generator_py/day2/action/_pick_and_place_s.c
 day2__py: rosidl_generator_py/day2/msg/__init__.py
 day2__py: rosidl_generator_py/day2/msg/_motor_status.py
 day2__py: rosidl_generator_py/day2/msg/_motor_status_s.c

@@ -1,0 +1,237 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from day2/action/PickAndPlace.action
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+#include "geometry_msgs/msg/Point.idl"
+#include "geometry_msgs/msg/Twist.idl"
+#include "geometry_msgs/msg/Vector3.idl"
+
+module day2 {
+  module action {
+    @verbatim (language="comment", text=
+      "Dosya: ~/ros2_ws/src/day2/action/PickAndPlace.action")
+    struct PickAndPlace_Goal {
+      @verbatim (language="comment", text=
+        "GOAL - Pick and place görevi için parametreler" "\n"
+        "Alınacak objenin ID'si")
+      string object_id;
+
+      @verbatim (language="comment", text=
+        "Alma pozisyonu")
+      geometry_msgs::msg::Point pickup_location;
+
+      @verbatim (language="comment", text=
+        "Bırakma pozisyonu")
+      geometry_msgs::msg::Point place_location;
+
+      @verbatim (language="comment", text=
+        "Obje türü (\"box\", \"cylinder\", etc.)")
+      string object_type;
+
+      @verbatim (language="comment", text=
+        "Obje ağırlığı (kg)")
+      float object_weight;
+
+      @verbatim (language="comment", text=
+        "Obje boyutları (m)")
+      geometry_msgs::msg::Vector3 object_dimensions;
+
+      @verbatim (language="comment", text=
+        "Grasping parameters" "\n"
+        "Kavrama türü (\"top\", \"side\", \"custom\")")
+      string grasp_type;
+
+      @verbatim (language="comment", text=
+        "Kavrama kuvveti (N)")
+      float grasp_force;
+
+      @verbatim (language="comment", text=
+        "Yaklaşma mesafesi (m)")
+      float approach_distance;
+
+      @verbatim (language="comment", text=
+        "Kaldırma yüksekliği (m)")
+      float lift_height;
+
+      @verbatim (language="comment", text=
+        "Motion parameters" "\n"
+        "Maksimum hareket hızı")
+      float max_velocity;
+
+      @verbatim (language="comment", text=
+        "Maksimum ivme")
+      float max_acceleration;
+
+      @verbatim (language="comment", text=
+        "Dikkatli mod (hassas objeler için)")
+      boolean use_careful_mode;
+
+      @verbatim (language="comment", text=
+        "Maksimum süre")
+      float timeout_seconds;
+
+      @verbatim (language="comment", text=
+        "Safety parameters" "\n"
+        "Çarpışma eşiği")
+      float collision_threshold;
+
+      @verbatim (language="comment", text=
+        "Kuvvet geri bildirimi")
+      boolean enable_force_feedback;
+
+      @verbatim (language="comment", text=
+        "Yasak bölgeler")
+      sequence<string> forbidden_zones;
+    };
+    module PickAndPlace_Result_Constants {
+      const uint32 ERROR_NONE = 0;
+      const uint32 ERROR_OBJECT_NOT_FOUND = 1;
+      const uint32 ERROR_GRASP_FAILED = 2;
+      const uint32 ERROR_OBJECT_DROPPED = 3;
+      const uint32 ERROR_COLLISION_DETECTED = 4;
+      const uint32 ERROR_PLACE_LOCATION_BLOCKED = 5;
+      const uint32 ERROR_FORCE_LIMIT_EXCEEDED = 6;
+      const uint32 ERROR_TIMEOUT = 7;
+    };
+    struct PickAndPlace_Result {
+      @verbatim (language="comment", text=
+        "RESULT - Pick and place tamamlandığında sonuç" "\n"
+        "Görev başarılı mı?")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "Detaylı sonuç açıklaması")
+      string result_message;
+
+      @verbatim (language="comment", text=
+        "Objenin son pozisyonu")
+      geometry_msgs::msg::Point final_object_location;
+
+      @verbatim (language="comment", text=
+        "Toplam görev süresi")
+      float total_task_time;
+
+      @verbatim (language="comment", text=
+        "Task phases completion" "\n"
+        "Alma başarılı mı?")
+      boolean pickup_successful;
+
+      @verbatim (language="comment", text=
+        "Taşıma başarılı mı?")
+      boolean transport_successful;
+
+      @verbatim (language="comment", text=
+        "Bırakma başarılı mı?")
+      boolean place_successful;
+
+      @verbatim (language="comment", text=
+        "Performance metrics" "\n"
+        "Alma süresi")
+      float pickup_duration;
+
+      @verbatim (language="comment", text=
+        "Taşıma süresi")
+      float transport_duration;
+
+      @verbatim (language="comment", text=
+        "Bırakma süresi")
+      float place_duration;
+
+      @verbatim (language="comment", text=
+        "Doğruluk skoru (0.0-1.0)")
+      float accuracy_score;
+
+      @verbatim (language="comment", text=
+        "Force/torque information" "\n"
+        "Uygulanan maksimum kuvvet")
+      float max_force_applied;
+
+      @verbatim (language="comment", text=
+        "Kavrama kalitesi (0.0-1.0)")
+      float grasp_quality;
+
+      @verbatim (language="comment", text=
+        "Error information")
+      uint32 error_code;
+
+      @verbatim (language="comment", text=
+        "Detaylı hata bilgisi")
+      string error_details;
+    };
+    struct PickAndPlace_Feedback {
+      @verbatim (language="comment", text=
+        "FEEDBACK - Pick and place sırasında sürekli feedback" "\n"
+        "Şu anki faz (\"approaching\", \"grasping\", etc.)")
+      string current_phase;
+
+      @verbatim (language="comment", text=
+        "Tamamlanma yüzdesi")
+      float completion_percentage;
+
+      @verbatim (language="comment", text=
+        "Gripper'ın pozisyonu")
+      geometry_msgs::msg::Point gripper_position;
+
+      @verbatim (language="comment", text=
+        "Objenin pozisyonu")
+      geometry_msgs::msg::Point object_position;
+
+      @verbatim (language="comment", text=
+        "Phase-specific feedback" "\n"
+        "Obje tespit edildi mi?")
+      boolean object_detected;
+
+      @verbatim (language="comment", text=
+        "Obje kavrandı mı?")
+      boolean object_in_grasp;
+
+      @verbatim (language="comment", text=
+        "Şu anki kavrama kuvveti")
+      float current_grasp_force;
+
+      @verbatim (language="comment", text=
+        "Taşıma ilerlemesi (%)")
+      float transport_progress;
+
+      @verbatim (language="comment", text=
+        "Real-time sensor data" "\n"
+        "Kuvvet/tork sensör değerleri")
+      sequence<float> force_torque_readings;
+
+      @verbatim (language="comment", text=
+        "Çarpışma uyarısı")
+      boolean collision_warning;
+
+      @verbatim (language="comment", text=
+        "Tahmini kalan süre")
+      float estimated_time_remaining;
+
+      @verbatim (language="comment", text=
+        "Motion state" "\n"
+        "Şu anki hız")
+      geometry_msgs::msg::Twist current_velocity;
+
+      @verbatim (language="comment", text=
+        "Şu anki davranış")
+      string current_behavior;
+
+      @verbatim (language="comment", text=
+        "Hareket halinde mi?")
+      boolean is_moving;
+
+      @verbatim (language="comment", text=
+        "Quality indicators" "\n"
+        "Kavrama kararlılığı")
+      float grasp_stability;
+
+      @verbatim (language="comment", text=
+        "Planlanan yoldan sapma")
+      float path_deviation;
+
+      @verbatim (language="comment", text=
+        "Faz başlangıç zamanı")
+      builtin_interfaces::msg::Time phase_start_time;
+    };
+  };
+};

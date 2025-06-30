@@ -1,0 +1,13 @@
+[ 18%] Built target robot_command_server_node
+[ 18%] Built target filtering_subscriber_node
+[ 27%] Built target robot_publisher_node
+[ 36%] Built target robot_status_service_node
+[ 45%] Built target robot_subscriber_node
+[ 50%] [32mBuilding CXX object CMakeFiles/navigate_action_client.dir/src/navigate_action_client.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/navigate_action_server.dir/src/navigate_action_server.cpp.o[0m
+[ 63%] Built target robot_command_client_node
+[ 72%] Built target sensor_simulator_node
+[ 90%] Built target performance_test_node
+[ 90%] Built target message_analyzer_node
+[ 95%] [32m[1mLinking CXX executable navigate_action_server[0m
+[ 95%] Built target navigate_action_server

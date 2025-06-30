@@ -1,0 +1,633 @@
+[0.014s] Invoking command in '/home/yalcinolgac/ros2_ws/build/day2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yalcinolgac/ros2_ws/build/day2 -- -j32 -l32
+[0.096s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.117s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.183s] -- Found builtin_interfaces: 2.0.2 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[0.224s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.232s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.244s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.256s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.266s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.277s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.289s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.297s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.612s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.780s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.848s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.850s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.045s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[1.072s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.090s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.091s] -- Added test 'lint_cmake' to check CMake code style
+[1.093s] -- Added test 'xmllint' to check XML markup files
+[1.095s] -- Configuring done (1.0s)
+[1.149s] -- Generating done (0.0s)
+[1.157s] -- Build files have been written to: /home/yalcinolgac/ros2_ws/build/day2
+[1.179s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[1.196s] [  1%] Built target ament_cmake_python_copy_day2
+[1.318s] running egg_info
+[1.329s] writing day2.egg-info/PKG-INFO
+[1.330s] writing dependency_links to day2.egg-info/dependency_links.txt
+[1.330s] writing top-level names to day2.egg-info/top_level.txt
+[1.365s] reading manifest file 'day2.egg-info/SOURCES.txt'
+[1.365s] writing manifest file 'day2.egg-info/SOURCES.txt'
+[1.382s] [  1%] Built target ament_cmake_python_build_day2_egg
+[3.299s] [  1%] Built target day2__rosidl_generator_type_description
+[3.306s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.312s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.075s] [  2%] Built target day2__cpp
+[6.181s] [  4%] [32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/msg/detail/robot_status__type_support.c.o[0m
+[6.181s] [  4%] [32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/msg/detail/robot_status__functions.c.o[0m
+[6.181s] [  4%] [32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/msg/detail/robot_status__description.c.o[0m
+[6.181s] [  4%] [32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/msg/detail/sensor_data__description.c.o[0m
+[6.182s] [  5%] [32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/msg/detail/sensor_data__functions.c.o[0m
+[6.182s] [  6%] [32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/msg/detail/sensor_data__type_support.c.o[0m
+[6.183s] [  7%] [32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/msg/detail/motor_status__type_support.c.o[0m
+[6.185s] [  8%] [32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/msg/detail/robot_array__type_support.c.o[0m
+[6.186s] [  8%] [32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/msg/detail/motor_status__description.c.o[0m
+[6.187s] [  8%] [32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/srv/detail/get_robot_status__functions.c.o[0m
+[6.187s] [  9%] [32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/msg/detail/motor_status__functions.c.o[0m
+[6.188s] [ 10%] [32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/msg/detail/robot_array__description.c.o[0m
+[6.188s] [ 10%] [32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/msg/detail/robot_array__functions.c.o[0m
+[6.189s] [ 11%] [32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/srv/detail/robot_command__type_support.c.o[0m
+[6.189s] [ 14%] [32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/srv/detail/get_robot_status__description.c.o[0m
+[6.189s] [ 14%] [32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/srv/detail/robot_command__description.c.o[0m
+[6.189s] [ 14%] [32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/srv/detail/get_robot_status__type_support.c.o[0m
+[6.189s] [ 14%] [32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/srv/detail/robot_command__functions.c.o[0m
+[6.190s] [ 15%] [32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/srv/detail/emergency_stop__description.c.o[0m
+[6.190s] [ 15%] [32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/srv/detail/calculate_path__functions.c.o[0m
+[6.191s] [ 16%] [32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/srv/detail/calculate_path__description.c.o[0m
+[6.192s] [ 17%] [32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/navigate__description.c.o[0m
+[6.192s] [ 18%] [32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/navigate__functions.c.o[0m
+[6.192s] [ 18%] [32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/navigate__type_support.c.o[0m
+[6.193s] [ 19%] [32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/pick_and_place__description.c.o[0m
+[6.193s] [ 20%] [32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/srv/detail/calculate_path__type_support.c.o[0m
+[6.194s] [ 21%] [32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/srv/detail/emergency_stop__functions.c.o[0m
+[6.194s] [ 21%] [32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/srv/detail/emergency_stop__type_support.c.o[0m
+[6.196s] [ 22%] [32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/pick_and_place__functions.c.o[0m
+[6.196s] [ 22%] [32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/pick_and_place__type_support.c.o[0m
+[6.197s] [ 23%] [32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/map_area__description.c.o[0m
+[6.202s] [ 24%] [32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/map_area__functions.c.o[0m
+[6.265s] [ 25%] [32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/map_area__type_support.c.o[0m
+[6.265s] [ 26%] [32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/charge_battery__type_support.c.o[0m
+[6.266s] [ 27%] [32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/charge_battery__functions.c.o[0m
+[6.270s] [ 27%] [32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/charge_battery__description.c.o[0m
+[6.391s] [ 27%] [32m[1mLinking C shared library libday2__rosidl_generator_c.so[0m
+[6.432s] [ 27%] Built target day2__rosidl_generator_c
+[6.438s] [ 30%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.439s] [ 30%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.439s] [ 30%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.439s] [ 30%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.439s] [ 30%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.439s] [ 31%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[8.935s] [ 32%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_c.dir/rosidl_typesupport_c/day2/msg/sensor_data__type_support.cpp.o[0m
+[8.936s] [ 33%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_c.dir/rosidl_typesupport_c/day2/msg/motor_status__type_support.cpp.o[0m
+[8.936s] [ 33%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_c.dir/rosidl_typesupport_c/day2/msg/robot_array__type_support.cpp.o[0m
+[8.937s] [ 33%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_c.dir/rosidl_typesupport_c/day2/msg/robot_status__type_support.cpp.o[0m
+[8.938s] [ 34%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_c.dir/rosidl_typesupport_c/day2/srv/robot_command__type_support.cpp.o[0m
+[8.938s] [ 34%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_c.dir/rosidl_typesupport_c/day2/srv/emergency_stop__type_support.cpp.o[0m
+[8.939s] [ 35%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_c.dir/rosidl_typesupport_c/day2/srv/calculate_path__type_support.cpp.o[0m
+[8.940s] [ 35%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_c.dir/rosidl_typesupport_c/day2/action/map_area__type_support.cpp.o[0m
+[8.940s] [ 36%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_c.dir/rosidl_typesupport_c/day2/srv/get_robot_status__type_support.cpp.o[0m
+[8.941s] [ 37%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_c.dir/rosidl_typesupport_c/day2/action/navigate__type_support.cpp.o[0m
+[8.941s] [ 38%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_c.dir/rosidl_typesupport_c/day2/action/pick_and_place__type_support.cpp.o[0m
+[8.942s] [ 39%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_c.dir/rosidl_typesupport_c/day2/action/charge_battery__type_support.cpp.o[0m
+[8.961s] [ 39%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/day2/msg/robot_array__type_support.cpp.o[0m
+[8.961s] [ 39%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/day2/srv/calculate_path__type_support.cpp.o[0m
+[8.961s] [ 40%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/day2/srv/emergency_stop__type_support.cpp.o[0m
+[8.962s] [ 41%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/day2/msg/robot_status__type_support.cpp.o[0m
+[8.962s] [ 44%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/day2/srv/get_robot_status__type_support.cpp.o[0m
+[8.962s] [ 44%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/day2/msg/sensor_data__type_support.cpp.o[0m
+[8.962s] [ 44%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/day2/msg/motor_status__type_support.cpp.o[0m
+[8.963s] [ 45%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/day2/srv/robot_command__type_support.cpp.o[0m
+[8.963s] [ 45%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/day2/action/pick_and_place__type_support.cpp.o[0m
+[8.964s] [ 46%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/day2/action/map_area__type_support.cpp.o[0m
+[8.964s] [ 47%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/day2/action/charge_battery__type_support.cpp.o[0m
+[8.964s] [ 48%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/day2/action/navigate__type_support.cpp.o[0m
+[9.043s] [ 49%] [32m[1mLinking CXX shared library libday2__rosidl_typesupport_c.so[0m
+[9.093s] [ 49%] Built target day2__rosidl_typesupport_c
+[9.188s] [ 50%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/day2/msg/detail/sensor_data__type_support.cpp.o[0m
+[9.189s] [ 51%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/day2/msg/detail/robot_status__type_support.cpp.o[0m
+[9.189s] [ 52%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/day2/msg/detail/robot_array__type_support.cpp.o[0m
+[9.190s] [ 53%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/day2/srv/detail/emergency_stop__type_support.cpp.o[0m
+[9.192s] [ 54%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/day2/srv/detail/calculate_path__type_support.cpp.o[0m
+[9.192s] [ 55%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/day2/msg/detail/motor_status__type_support.cpp.o[0m
+[9.192s] [ 55%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/day2/srv/detail/robot_command__type_support.cpp.o[0m
+[9.193s] [ 55%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/day2/srv/detail/get_robot_status__type_support.cpp.o[0m
+[9.194s] [ 56%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/day2/action/detail/navigate__type_support.cpp.o[0m
+[9.194s] [ 57%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/day2/action/detail/charge_battery__type_support.cpp.o[0m
+[9.196s] [ 57%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/day2/action/detail/pick_and_place__type_support.cpp.o[0m
+[9.196s] [ 58%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/day2/action/detail/map_area__type_support.cpp.o[0m
+[9.440s] [ 59%] [32mBuilding C object CMakeFiles/day2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/day2/msg/detail/motor_status__type_support.c.o[0m
+[9.441s] [ 59%] [32mBuilding C object CMakeFiles/day2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/day2/msg/detail/robot_status__type_support.c.o[0m
+[9.441s] [ 59%] [32mBuilding C object CMakeFiles/day2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/day2/msg/detail/robot_array__type_support.c.o[0m
+[9.442s] [ 60%] [32mBuilding C object CMakeFiles/day2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/day2/msg/detail/sensor_data__type_support.c.o[0m
+[9.442s] [ 60%] [32mBuilding C object CMakeFiles/day2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/day2/srv/detail/calculate_path__type_support.c.o[0m
+[9.442s] [ 62%] [32mBuilding C object CMakeFiles/day2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/day2/srv/detail/robot_command__type_support.c.o[0m
+[9.443s] [ 62%] [32mBuilding C object CMakeFiles/day2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/day2/srv/detail/get_robot_status__type_support.c.o[0m
+[9.443s] [ 63%] [32mBuilding C object CMakeFiles/day2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/day2/srv/detail/emergency_stop__type_support.c.o[0m
+[9.444s] [ 64%] [32mBuilding C object CMakeFiles/day2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/day2/action/detail/navigate__type_support.c.o[0m
+[9.446s] [ 65%] [32mBuilding C object CMakeFiles/day2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/day2/action/detail/pick_and_place__type_support.c.o[0m
+[9.485s] [ 65%] [32mBuilding C object CMakeFiles/day2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/day2/action/detail/map_area__type_support.c.o[0m
+[9.495s] [ 66%] [32mBuilding C object CMakeFiles/day2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/day2/action/detail/charge_battery__type_support.c.o[0m
+[9.580s] [ 67%] [32m[1mLinking C shared library libday2__rosidl_typesupport_introspection_c.so[0m
+[9.626s] [ 67%] Built target day2__rosidl_typesupport_introspection_c
+[9.855s] [ 67%] [32m[1mLinking CXX shared library libday2__rosidl_typesupport_cpp.so[0m
+[9.934s] [ 67%] Built target day2__rosidl_typesupport_cpp
+[10.061s] [ 68%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/day2/msg/detail/dds_fastrtps/robot_status__type_support.cpp.o[0m
+[10.061s] [ 68%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/day2/msg/detail/dds_fastrtps/sensor_data__type_support.cpp.o[0m
+[10.062s] [ 69%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/day2/msg/detail/dds_fastrtps/robot_array__type_support.cpp.o[0m
+[10.063s] [ 70%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/day2/srv/detail/dds_fastrtps/calculate_path__type_support.cpp.o[0m
+[10.063s] [ 71%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/navigate__type_support.cpp.o[0m
+[10.063s] [ 72%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/map_area__type_support.cpp.o[0m
+[10.063s] [ 72%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/day2/srv/detail/dds_fastrtps/robot_command__type_support.cpp.o[0m
+[10.063s] [ 72%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/charge_battery__type_support.cpp.o[0m
+[10.064s] [ 73%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/day2/msg/detail/dds_fastrtps/motor_status__type_support.cpp.o[0m
+[10.066s] [ 75%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/day2/srv/detail/dds_fastrtps/get_robot_status__type_support.cpp.o[0m
+[10.066s] [ 75%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/pick_and_place__type_support.cpp.o[0m
+[10.066s] [ 75%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/day2/srv/detail/dds_fastrtps/emergency_stop__type_support.cpp.o[0m
+[10.071s] [ 75%] [32m[1mLinking CXX shared library libday2__rosidl_typesupport_introspection_cpp.so[0m
+[10.091s] [ 76%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/day2/msg/detail/robot_status__type_support_c.cpp.o[0m
+[10.095s] [ 77%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/day2/msg/detail/robot_array__type_support_c.cpp.o[0m
+[10.096s] [ 78%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/day2/msg/detail/sensor_data__type_support_c.cpp.o[0m
+[10.096s] [ 78%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/day2/msg/detail/motor_status__type_support_c.cpp.o[0m
+[10.097s] [ 79%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/day2/srv/detail/robot_command__type_support_c.cpp.o[0m
+[10.097s] [ 80%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/day2/action/detail/map_area__type_support_c.cpp.o[0m
+[10.097s] [ 80%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/day2/srv/detail/get_robot_status__type_support_c.cpp.o[0m
+[10.098s] [ 81%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/day2/action/detail/pick_and_place__type_support_c.cpp.o[0m
+[10.098s] [ 82%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/day2/srv/detail/emergency_stop__type_support_c.cpp.o[0m
+[10.099s] [ 83%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/day2/srv/detail/calculate_path__type_support_c.cpp.o[0m
+[10.100s] [ 83%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/day2/action/detail/navigate__type_support_c.cpp.o[0m
+[10.100s] [ 83%] [32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/day2/action/detail/charge_battery__type_support_c.cpp.o[0m
+[10.225s] [ 83%] Built target day2__rosidl_typesupport_introspection_cpp
+[10.869s] [ 84%] [32m[1mLinking CXX shared library libday2__rosidl_typesupport_fastrtps_c.so[0m
+[10.950s] [ 84%] Built target day2__rosidl_typesupport_fastrtps_c
+[11.172s] [ 85%] [32m[1mLinking CXX shared library libday2__rosidl_typesupport_fastrtps_cpp.so[0m
+[11.246s] [ 85%] Built target day2__rosidl_typesupport_fastrtps_cpp
+[11.259s] [ 85%] Built target day2
+[11.272s] [ 86%] [34m[1mGenerating Python code for ROS interfaces[0m
+[16.656s] [ 86%] Built target day2__py
+[16.677s] [ 87%] [32mBuilding C object CMakeFiles/day2__rosidl_generator_py.dir/rosidl_generator_py/day2/msg/_robot_status_s.c.o[0m
+[16.677s] [ 88%] [32mBuilding C object CMakeFiles/day2__rosidl_generator_py.dir/rosidl_generator_py/day2/msg/_sensor_data_s.c.o[0m
+[16.678s] [ 88%] [32mBuilding C object CMakeFiles/day2__rosidl_generator_py.dir/rosidl_generator_py/day2/msg/_motor_status_s.c.o[0m
+[16.678s] [ 89%] [32mBuilding C object CMakeFiles/day2__rosidl_generator_py.dir/rosidl_generator_py/day2/msg/_robot_array_s.c.o[0m
+[16.678s] [ 90%] [32mBuilding C object CMakeFiles/day2__rosidl_generator_py.dir/rosidl_generator_py/day2/srv/_robot_command_s.c.o[0m
+[16.680s] [ 91%] [32mBuilding C object CMakeFiles/day2__rosidl_generator_py.dir/rosidl_generator_py/day2/srv/_calculate_path_s.c.o[0m
+[16.681s] [ 91%] [32mBuilding C object CMakeFiles/day2__rosidl_generator_py.dir/rosidl_generator_py/day2/srv/_get_robot_status_s.c.o[0m
+[16.682s] [ 93%] [32mBuilding C object CMakeFiles/day2__rosidl_generator_py.dir/rosidl_generator_py/day2/action/_navigate_s.c.o[0m
+[16.683s] [ 93%] [32mBuilding C object CMakeFiles/day2__rosidl_generator_py.dir/rosidl_generator_py/day2/srv/_emergency_stop_s.c.o[0m
+[16.684s] [ 94%] [32mBuilding C object CMakeFiles/day2__rosidl_generator_py.dir/rosidl_generator_py/day2/action/_charge_battery_s.c.o[0m
+[16.685s] [ 95%] [32mBuilding C object CMakeFiles/day2__rosidl_generator_py.dir/rosidl_generator_py/day2/action/_map_area_s.c.o[0m
+[16.685s] [ 95%] [32mBuilding C object CMakeFiles/day2__rosidl_generator_py.dir/rosidl_generator_py/day2/action/_pick_and_place_s.c.o[0m
+[16.906s] [ 95%] [32m[1mLinking C shared library libday2__rosidl_generator_py.so[0m
+[16.941s] [ 95%] Built target day2__rosidl_generator_py
+[16.956s] [ 95%] [32mBuilding C object CMakeFiles/day2_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/day2/_day2_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[16.957s] [ 96%] [32mBuilding C object CMakeFiles/day2_s__rosidl_typesupport_c.dir/rosidl_generator_py/day2/_day2_s.ep.rosidl_typesupport_c.c.o[0m
+[16.957s] [ 97%] [32mBuilding C object CMakeFiles/day2_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/day2/_day2_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[17.106s] [ 99%] [32m[1mLinking C shared module rosidl_generator_py/day2/day2_s__rosidl_typesupport_fastrtps_c.so[0m
+[17.106s] [ 99%] [32m[1mLinking C shared module rosidl_generator_py/day2/day2_s__rosidl_typesupport_c.so[0m
+[17.109s] [100%] [32m[1mLinking C shared module rosidl_generator_py/day2/day2_s__rosidl_typesupport_introspection_c.so[0m
+[17.126s] [100%] Built target day2_s__rosidl_typesupport_c
+[17.126s] [100%] Built target day2_s__rosidl_typesupport_fastrtps_c
+[17.129s] [100%] Built target day2_s__rosidl_typesupport_introspection_c
+[17.137s] Invoked command in '/home/yalcinolgac/ros2_ws/build/day2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yalcinolgac/ros2_ws/build/day2 -- -j32 -l32
+[17.137s] Invoking command in '/home/yalcinolgac/ros2_ws/build/day2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yalcinolgac/ros2_ws/build/day2
+[17.142s] -- Install configuration: ""
+[17.143s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/ament_index/resource_index/rosidl_interfaces/day2
+[17.143s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/msg/RobotStatus.json
+[17.143s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/msg/SensorData.json
+[17.143s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/msg/MotorStatus.json
+[17.143s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/msg/RobotArray.json
+[17.143s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/srv/RobotCommand.json
+[17.143s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/srv/GetRobotStatus.json
+[17.143s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/srv/CalculatePath.json
+[17.143s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/srv/EmergencyStop.json
+[17.143s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/action/Navigate.json
+[17.143s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/action/PickAndPlace.json
+[17.144s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/action/MapArea.json
+[17.144s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/action/ChargeBattery.json
+[17.144s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2
+[17.144s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg
+[17.144s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail
+[17.144s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/motor_status__functions.h
+[17.144s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_array__struct.h
+[17.144s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_array__functions.h
+[17.144s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_status__functions.h
+[17.144s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/sensor_data__functions.h
+[17.144s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_array__type_support.c
+[17.145s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/motor_status__description.c
+[17.145s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/motor_status__struct.h
+[17.145s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/sensor_data__functions.c
+[17.145s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_status__description.c
+[17.145s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/sensor_data__type_support.c
+[17.145s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_status__type_support.h
+[17.145s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_array__description.c
+[17.145s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_status__struct.h
+[17.145s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_array__functions.c
+[17.145s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/motor_status__type_support.h
+[17.145s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/motor_status__type_support.c
+[17.146s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_status__functions.c
+[17.146s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/sensor_data__type_support.h
+[17.146s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/motor_status__functions.c
+[17.146s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_status__type_support.c
+[17.146s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/sensor_data__description.c
+[17.146s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/sensor_data__struct.h
+[17.146s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_array__type_support.h
+[17.146s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/motor_status.h
+[17.146s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/robot_array.h
+[17.147s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/sensor_data.h
+[17.147s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/robot_status.h
+[17.147s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/rosidl_generator_c__visibility_control.h
+[17.147s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action
+[17.147s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail
+[17.147s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/map_area__description.c
+[17.147s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/map_area__struct.h
+[17.147s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/map_area__type_support.h
+[17.147s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/pick_and_place__description.c
+[17.147s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/navigate__type_support.h
+[17.147s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/navigate__struct.h
+[17.147s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/charge_battery__functions.c
+[17.148s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/navigate__functions.h
+[17.148s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/charge_battery__description.c
+[17.148s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/navigate__functions.c
+[17.148s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/pick_and_place__type_support.h
+[17.148s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/map_area__type_support.c
+[17.148s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/pick_and_place__struct.h
+[17.148s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/charge_battery__type_support.c
+[17.148s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/charge_battery__functions.h
+[17.148s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/navigate__type_support.c
+[17.148s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/pick_and_place__functions.c
+[17.148s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/navigate__description.c
+[17.148s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/pick_and_place__functions.h
+[17.148s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/map_area__functions.c
+[17.149s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/pick_and_place__type_support.c
+[17.149s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/map_area__functions.h
+[17.149s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/charge_battery__struct.h
+[17.149s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/charge_battery__type_support.h
+[17.149s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/pick_and_place.h
+[17.149s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/charge_battery.h
+[17.149s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/map_area.h
+[17.149s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/navigate.h
+[17.149s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv
+[17.149s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail
+[17.149s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/robot_command__type_support.c
+[17.149s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/calculate_path__struct.h
+[17.150s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/calculate_path__type_support.c
+[17.150s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/robot_command__type_support.h
+[17.150s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/get_robot_status__description.c
+[17.150s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/get_robot_status__type_support.h
+[17.150s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/calculate_path__description.c
+[17.150s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/robot_command__description.c
+[17.150s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/emergency_stop__struct.h
+[17.150s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/robot_command__struct.h
+[17.150s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/get_robot_status__functions.h
+[17.150s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/emergency_stop__type_support.c
+[17.150s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/robot_command__functions.h
+[17.150s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/calculate_path__functions.h
+[17.151s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/get_robot_status__type_support.c
+[17.151s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/emergency_stop__description.c
+[17.151s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/calculate_path__type_support.h
+[17.151s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/robot_command__functions.c
+[17.151s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/get_robot_status__functions.c
+[17.151s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/emergency_stop__type_support.h
+[17.151s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/calculate_path__functions.c
+[17.151s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/emergency_stop__functions.h
+[17.151s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/get_robot_status__struct.h
+[17.151s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/emergency_stop__functions.c
+[17.151s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/get_robot_status.h
+[17.151s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/robot_command.h
+[17.151s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/calculate_path.h
+[17.151s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/emergency_stop.h
+[17.151s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/environment/library_path.sh
+[17.152s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/environment/library_path.dsv
+[17.152s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/libday2__rosidl_generator_c.so
+[17.152s] -- Set non-toolchain portion of runtime path of "/home/yalcinolgac/ros2_ws/install/day2/lib/libday2__rosidl_generator_c.so" to ""
+[17.153s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2
+[17.153s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg
+[17.153s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail
+[17.153s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/sensor_data__rosidl_typesupport_fastrtps_c.h
+[17.153s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_array__rosidl_typesupport_fastrtps_c.h
+[17.153s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/motor_status__rosidl_typesupport_fastrtps_c.h
+[17.153s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_status__rosidl_typesupport_fastrtps_c.h
+[17.153s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[17.153s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action
+[17.153s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail
+[17.153s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/pick_and_place__rosidl_typesupport_fastrtps_c.h
+[17.154s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/charge_battery__rosidl_typesupport_fastrtps_c.h
+[17.154s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/navigate__rosidl_typesupport_fastrtps_c.h
+[17.154s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/map_area__rosidl_typesupport_fastrtps_c.h
+[17.154s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv
+[17.154s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail
+[17.154s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/robot_command__rosidl_typesupport_fastrtps_c.h
+[17.154s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/emergency_stop__rosidl_typesupport_fastrtps_c.h
+[17.154s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/get_robot_status__rosidl_typesupport_fastrtps_c.h
+[17.154s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/calculate_path__rosidl_typesupport_fastrtps_c.h
+[17.154s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/libday2__rosidl_typesupport_fastrtps_c.so
+[17.155s] -- Set non-toolchain portion of runtime path of "/home/yalcinolgac/ros2_ws/install/day2/lib/libday2__rosidl_typesupport_fastrtps_c.so" to ""
+[17.155s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2
+[17.155s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg
+[17.155s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/sensor_data.hpp
+[17.156s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/robot_array.hpp
+[17.156s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail
+[17.156s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_status__builder.hpp
+[17.156s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/motor_status__traits.hpp
+[17.156s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_array__traits.hpp
+[17.156s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_array__builder.hpp
+[17.156s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/sensor_data__builder.hpp
+[17.156s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_array__struct.hpp
+[17.156s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/sensor_data__struct.hpp
+[17.156s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/motor_status__builder.hpp
+[17.156s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/sensor_data__type_support.hpp
+[17.157s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/motor_status__type_support.hpp
+[17.157s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_array__type_support.hpp
+[17.157s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/sensor_data__traits.hpp
+[17.157s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_status__traits.hpp
+[17.157s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/motor_status__struct.hpp
+[17.157s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_status__struct.hpp
+[17.157s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_status__type_support.hpp
+[17.157s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/motor_status.hpp
+[17.157s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/rosidl_generator_cpp__visibility_control.hpp
+[17.157s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/robot_status.hpp
+[17.157s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action
+[17.157s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/charge_battery.hpp
+[17.157s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail
+[17.157s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/pick_and_place__type_support.hpp
+[17.158s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/map_area__type_support.hpp
+[17.158s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/pick_and_place__traits.hpp
+[17.158s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/navigate__type_support.hpp
+[17.158s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/charge_battery__builder.hpp
+[17.158s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/navigate__builder.hpp
+[17.158s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/navigate__struct.hpp
+[17.158s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/map_area__traits.hpp
+[17.158s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/charge_battery__struct.hpp
+[17.158s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/pick_and_place__builder.hpp
+[17.158s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/pick_and_place__struct.hpp
+[17.158s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/navigate__traits.hpp
+[17.158s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/charge_battery__traits.hpp
+[17.159s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/charge_battery__type_support.hpp
+[17.159s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/map_area__struct.hpp
+[17.159s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/map_area__builder.hpp
+[17.159s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/map_area.hpp
+[17.159s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/navigate.hpp
+[17.159s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/pick_and_place.hpp
+[17.159s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv
+[17.159s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/get_robot_status.hpp
+[17.159s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail
+[17.159s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/get_robot_status__type_support.hpp
+[17.159s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/emergency_stop__builder.hpp
+[17.159s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/robot_command__struct.hpp
+[17.160s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/emergency_stop__struct.hpp
+[17.160s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/get_robot_status__builder.hpp
+[17.160s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/robot_command__type_support.hpp
+[17.160s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/robot_command__builder.hpp
+[17.160s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/get_robot_status__traits.hpp
+[17.160s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/calculate_path__builder.hpp
+[17.160s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/emergency_stop__type_support.hpp
+[17.160s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/emergency_stop__traits.hpp
+[17.160s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/calculate_path__struct.hpp
+[17.160s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/get_robot_status__struct.hpp
+[17.160s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/calculate_path__type_support.hpp
+[17.160s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/robot_command__traits.hpp
+[17.160s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/calculate_path__traits.hpp
+[17.161s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/robot_command.hpp
+[17.161s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/calculate_path.hpp
+[17.161s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/emergency_stop.hpp
+[17.161s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2
+[17.161s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg
+[17.161s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail
+[17.161s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_array__rosidl_typesupport_fastrtps_cpp.hpp
+[17.161s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/motor_status__rosidl_typesupport_fastrtps_cpp.hpp
+[17.161s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/sensor_data__rosidl_typesupport_fastrtps_cpp.hpp
+[17.161s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/dds_fastrtps
+[17.161s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_status__rosidl_typesupport_fastrtps_cpp.hpp
+[17.161s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[17.161s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action
+[17.161s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail
+[17.161s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/dds_fastrtps
+[17.161s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/map_area__rosidl_typesupport_fastrtps_cpp.hpp
+[17.161s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/charge_battery__rosidl_typesupport_fastrtps_cpp.hpp
+[17.161s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/navigate__rosidl_typesupport_fastrtps_cpp.hpp
+[17.161s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/pick_and_place__rosidl_typesupport_fastrtps_cpp.hpp
+[17.161s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv
+[17.161s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail
+[17.161s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/get_robot_status__rosidl_typesupport_fastrtps_cpp.hpp
+[17.161s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/emergency_stop__rosidl_typesupport_fastrtps_cpp.hpp
+[17.161s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/dds_fastrtps
+[17.161s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/robot_command__rosidl_typesupport_fastrtps_cpp.hpp
+[17.161s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/calculate_path__rosidl_typesupport_fastrtps_cpp.hpp
+[17.162s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/libday2__rosidl_typesupport_fastrtps_cpp.so
+[17.164s] -- Set non-toolchain portion of runtime path of "/home/yalcinolgac/ros2_ws/install/day2/lib/libday2__rosidl_typesupport_fastrtps_cpp.so" to ""
+[17.164s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2
+[17.164s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg
+[17.164s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail
+[17.164s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_status__rosidl_typesupport_introspection_c.h
+[17.164s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_array__type_support.c
+[17.164s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/sensor_data__type_support.c
+[17.164s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/motor_status__rosidl_typesupport_introspection_c.h
+[17.164s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_array__rosidl_typesupport_introspection_c.h
+[17.164s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/motor_status__type_support.c
+[17.164s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/sensor_data__rosidl_typesupport_introspection_c.h
+[17.164s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_status__type_support.c
+[17.165s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[17.165s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action
+[17.165s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail
+[17.165s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/map_area__type_support.c
+[17.165s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/navigate__rosidl_typesupport_introspection_c.h
+[17.165s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/charge_battery__rosidl_typesupport_introspection_c.h
+[17.165s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/charge_battery__type_support.c
+[17.165s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/navigate__type_support.c
+[17.165s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/pick_and_place__type_support.c
+[17.165s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/map_area__rosidl_typesupport_introspection_c.h
+[17.165s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/pick_and_place__rosidl_typesupport_introspection_c.h
+[17.165s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv
+[17.165s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail
+[17.165s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/robot_command__type_support.c
+[17.165s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/calculate_path__type_support.c
+[17.166s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/get_robot_status__rosidl_typesupport_introspection_c.h
+[17.166s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/emergency_stop__type_support.c
+[17.166s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/robot_command__rosidl_typesupport_introspection_c.h
+[17.166s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/get_robot_status__type_support.c
+[17.166s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/calculate_path__rosidl_typesupport_introspection_c.h
+[17.166s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/emergency_stop__rosidl_typesupport_introspection_c.h
+[17.166s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/libday2__rosidl_typesupport_introspection_c.so
+[17.167s] -- Set non-toolchain portion of runtime path of "/home/yalcinolgac/ros2_ws/install/day2/lib/libday2__rosidl_typesupport_introspection_c.so" to ""
+[17.168s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/libday2__rosidl_typesupport_c.so
+[17.168s] -- Set non-toolchain portion of runtime path of "/home/yalcinolgac/ros2_ws/install/day2/lib/libday2__rosidl_typesupport_c.so" to ""
+[17.168s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2
+[17.168s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg
+[17.168s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail
+[17.168s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/motor_status__type_support.cpp
+[17.168s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/motor_status__rosidl_typesupport_introspection_cpp.hpp
+[17.168s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/sensor_data__rosidl_typesupport_introspection_cpp.hpp
+[17.168s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_array__type_support.cpp
+[17.169s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_status__type_support.cpp
+[17.169s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_array__rosidl_typesupport_introspection_cpp.hpp
+[17.169s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/sensor_data__type_support.cpp
+[17.169s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_status__rosidl_typesupport_introspection_cpp.hpp
+[17.169s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action
+[17.169s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail
+[17.169s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/navigate__rosidl_typesupport_introspection_cpp.hpp
+[17.169s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/map_area__type_support.cpp
+[17.169s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/navigate__type_support.cpp
+[17.169s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/charge_battery__type_support.cpp
+[17.169s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/map_area__rosidl_typesupport_introspection_cpp.hpp
+[17.170s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/charge_battery__rosidl_typesupport_introspection_cpp.hpp
+[17.170s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/pick_and_place__rosidl_typesupport_introspection_cpp.hpp
+[17.170s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/pick_and_place__type_support.cpp
+[17.170s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv
+[17.170s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail
+[17.170s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/robot_command__type_support.cpp
+[17.170s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/calculate_path__rosidl_typesupport_introspection_cpp.hpp
+[17.170s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/emergency_stop__rosidl_typesupport_introspection_cpp.hpp
+[17.170s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/get_robot_status__type_support.cpp
+[17.170s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/robot_command__rosidl_typesupport_introspection_cpp.hpp
+[17.170s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/get_robot_status__rosidl_typesupport_introspection_cpp.hpp
+[17.170s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/emergency_stop__type_support.cpp
+[17.170s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/calculate_path__type_support.cpp
+[17.171s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/libday2__rosidl_typesupport_introspection_cpp.so
+[17.173s] -- Set non-toolchain portion of runtime path of "/home/yalcinolgac/ros2_ws/install/day2/lib/libday2__rosidl_typesupport_introspection_cpp.so" to ""
+[17.173s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/libday2__rosidl_typesupport_cpp.so
+[17.174s] -- Set non-toolchain portion of runtime path of "/home/yalcinolgac/ros2_ws/install/day2/lib/libday2__rosidl_typesupport_cpp.so" to ""
+[17.174s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/environment/pythonpath.sh
+[17.174s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/environment/pythonpath.dsv
+[17.175s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2-1.0.0-py3.12.egg-info
+[17.175s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2-1.0.0-py3.12.egg-info/PKG-INFO
+[17.175s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2-1.0.0-py3.12.egg-info/SOURCES.txt
+[17.175s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2-1.0.0-py3.12.egg-info/dependency_links.txt
+[17.175s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2-1.0.0-py3.12.egg-info/top_level.txt
+[17.175s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2
+[17.175s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/_day2_s.ep.rosidl_typesupport_fastrtps_c.c
+[17.175s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/msg
+[17.175s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/msg/_robot_status_s.c
+[17.175s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/msg/_sensor_data.py
+[17.175s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/msg/_robot_array_s.c
+[17.176s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/msg/_sensor_data_s.c
+[17.176s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/msg/_motor_status_s.c
+[17.176s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/msg/__init__.py
+[17.176s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/msg/_motor_status.py
+[17.176s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/msg/_robot_status.py
+[17.176s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/msg/_robot_array.py
+[17.176s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/day2_s__rosidl_typesupport_fastrtps_c.so
+[17.176s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/_day2_s.ep.rosidl_typesupport_introspection_c.c
+[17.176s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/action
+[17.176s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/action/_charge_battery_s.c
+[17.176s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/action/_charge_battery.py
+[17.176s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/action/_pick_and_place.py
+[17.176s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/action/_navigate.py
+[17.177s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/action/_navigate_s.c
+[17.177s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/action/_pick_and_place_s.c
+[17.177s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/action/_map_area.py
+[17.177s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/action/__init__.py
+[17.177s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/action/_map_area_s.c
+[17.177s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/__init__.py
+[17.177s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/day2_s__rosidl_typesupport_c.so
+[17.177s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/srv
+[17.177s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/srv/_get_robot_status.py
+[17.177s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/srv/_robot_command_s.c
+[17.177s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/srv/_calculate_path.py
+[17.178s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/srv/_emergency_stop_s.c
+[17.178s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/srv/__init__.py
+[17.178s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/srv/_emergency_stop.py
+[17.178s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/srv/_robot_command.py
+[17.178s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/srv/_get_robot_status_s.c
+[17.178s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/srv/_calculate_path_s.c
+[17.178s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/day2_s__rosidl_typesupport_introspection_c.so
+[17.178s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/_day2_s.ep.rosidl_typesupport_c.c
+[17.262s] Listing '/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2'...
+[17.262s] Compiling '/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/__init__.py'...
+[17.262s] Listing '/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/action'...
+[17.262s] Compiling '/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/action/__init__.py'...
+[17.262s] Compiling '/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/action/_charge_battery.py'...
+[17.262s] Compiling '/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/action/_map_area.py'...
+[17.262s] Compiling '/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/action/_navigate.py'...
+[17.262s] Compiling '/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/action/_pick_and_place.py'...
+[17.262s] Listing '/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/msg'...
+[17.262s] Compiling '/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/msg/__init__.py'...
+[17.262s] Compiling '/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/msg/_motor_status.py'...
+[17.262s] Compiling '/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/msg/_robot_array.py'...
+[17.262s] Compiling '/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/msg/_robot_status.py'...
+[17.262s] Compiling '/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/msg/_sensor_data.py'...
+[17.262s] Listing '/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/srv'...
+[17.262s] Compiling '/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/srv/__init__.py'...
+[17.262s] Compiling '/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/srv/_calculate_path.py'...
+[17.262s] Compiling '/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/srv/_emergency_stop.py'...
+[17.262s] Compiling '/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/srv/_get_robot_status.py'...
+[17.262s] Compiling '/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/srv/_robot_command.py'...
+[17.265s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/day2_s__rosidl_typesupport_fastrtps_c.so
+[17.266s] -- Set non-toolchain portion of runtime path of "/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/day2_s__rosidl_typesupport_fastrtps_c.so" to ""
+[17.266s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/day2_s__rosidl_typesupport_introspection_c.so
+[17.266s] -- Set non-toolchain portion of runtime path of "/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/day2_s__rosidl_typesupport_introspection_c.so" to ""
+[17.266s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/day2_s__rosidl_typesupport_c.so
+[17.266s] -- Set non-toolchain portion of runtime path of "/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/day2_s__rosidl_typesupport_c.so" to ""
+[17.267s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/libday2__rosidl_generator_py.so
+[17.268s] -- Set non-toolchain portion of runtime path of "/home/yalcinolgac/ros2_ws/install/day2/lib/libday2__rosidl_generator_py.so" to ""
+[17.268s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/msg/RobotStatus.idl
+[17.268s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/msg/SensorData.idl
+[17.268s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/msg/MotorStatus.idl
+[17.269s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/msg/RobotArray.idl
+[17.269s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/srv/RobotCommand.idl
+[17.269s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/srv/GetRobotStatus.idl
+[17.269s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/srv/CalculatePath.idl
+[17.269s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/srv/EmergencyStop.idl
+[17.269s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/action/Navigate.idl
+[17.269s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/action/PickAndPlace.idl
+[17.269s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/action/MapArea.idl
+[17.269s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/action/ChargeBattery.idl
+[17.269s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/msg/RobotStatus.msg
+[17.269s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/msg/SensorData.msg
+[17.269s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/msg/MotorStatus.msg
+[17.269s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/msg/RobotArray.msg
+[17.269s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/srv/RobotCommand.srv
+[17.269s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/srv/GetRobotStatus.srv
+[17.269s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/srv/CalculatePath.srv
+[17.269s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/srv/EmergencyStop.srv
+[17.269s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/action/Navigate.action
+[17.269s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/action/PickAndPlace.action
+[17.269s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/action/MapArea.action
+[17.270s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/action/ChargeBattery.action
+[17.270s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/ament_index/resource_index/package_run_dependencies/day2
+[17.270s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/ament_index/resource_index/parent_prefix_path/day2
+[17.270s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/environment/ament_prefix_path.sh
+[17.270s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/environment/ament_prefix_path.dsv
+[17.270s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/environment/path.sh
+[17.270s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/environment/path.dsv
+[17.270s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/local_setup.bash
+[17.270s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/local_setup.sh
+[17.270s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/local_setup.zsh
+[17.270s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/local_setup.dsv
+[17.270s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/package.dsv
+[17.270s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/ament_index/resource_index/packages/day2
+[17.270s] -- Old export file "/home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/export_day2__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/export_day2__rosidl_generator_cExport-noconfig.cmake].
+[17.270s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/export_day2__rosidl_generator_cExport.cmake
+[17.270s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/export_day2__rosidl_generator_cExport-noconfig.cmake
+[17.270s] -- Old export file "/home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/export_day2__rosidl_typesupport_fastrtps_cExport.cmake" will be replaced.  Removing files [/home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/export_day2__rosidl_typesupport_fastrtps_cExport-noconfig.cmake].
+[17.270s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/export_day2__rosidl_typesupport_fastrtps_cExport.cmake
+[17.270s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/export_day2__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[17.270s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/export_day2__rosidl_generator_cppExport.cmake
+[17.270s] -- Old export file "/home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/export_day2__rosidl_typesupport_fastrtps_cppExport.cmake" will be replaced.  Removing files [/home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/export_day2__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake].
+[17.270s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/export_day2__rosidl_typesupport_fastrtps_cppExport.cmake
+[17.270s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/export_day2__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[17.270s] -- Old export file "/home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/day2__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/day2__rosidl_typesupport_introspection_cExport-noconfig.cmake].
+[17.270s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/day2__rosidl_typesupport_introspection_cExport.cmake
+[17.271s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/day2__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[17.271s] -- Old export file "/home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/day2__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/day2__rosidl_typesupport_cExport-noconfig.cmake].
+[17.271s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/day2__rosidl_typesupport_cExport.cmake
+[17.271s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/day2__rosidl_typesupport_cExport-noconfig.cmake
+[17.271s] -- Old export file "/home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/day2__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/day2__rosidl_typesupport_introspection_cppExport-noconfig.cmake].
+[17.271s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/day2__rosidl_typesupport_introspection_cppExport.cmake
+[17.271s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/day2__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[17.271s] -- Old export file "/home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/day2__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/day2__rosidl_typesupport_cppExport-noconfig.cmake].
+[17.271s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/day2__rosidl_typesupport_cppExport.cmake
+[17.271s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/day2__rosidl_typesupport_cppExport-noconfig.cmake
+[17.272s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/export_day2__rosidl_generator_pyExport.cmake
+[17.272s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/export_day2__rosidl_generator_pyExport-noconfig.cmake
+[17.272s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/rosidl_cmake-extras.cmake
+[17.272s] -- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/ament_cmake_export_dependencies-extras.cmake
+[17.272s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/ament_cmake_export_include_directories-extras.cmake
+[17.272s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/ament_cmake_export_libraries-extras.cmake
+[17.272s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/ament_cmake_export_targets-extras.cmake
+[17.272s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[17.272s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[17.272s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/day2Config.cmake
+[17.272s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/day2Config-version.cmake
+[17.272s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/package.xml
+[17.274s] Invoked command in '/home/yalcinolgac/ros2_ws/build/day2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yalcinolgac/ros2_ws/build/day2

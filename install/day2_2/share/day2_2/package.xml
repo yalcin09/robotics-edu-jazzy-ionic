@@ -16,6 +16,8 @@
   <depend>std_msgs</depend>            <!-- Standard messages -->
   <depend>geometry_msgs</depend>       <!-- Geometry messages -->
   <depend>day2</depend>                <!-- Custom message paketimiz -->
+  <depend>rclcpp_action</depend>       <!-- ROS2 Action library -->
+
 
   <!-- Test dependencies -->
   <test_depend>ament_lint_auto</test_depend>

@@ -31,7 +31,10 @@ set(srv_files
 
 # Action dosyalarını tanımla (şimdilik boş, ileriki günlerde kullanacağız)  
 set(action_files
-  # Burada action dosyaları tanımlanacak
+  "action/Navigate.action"          # Robot navigation action
+  "action/PickAndPlace.action"      # Object manipulation action
+  "action/MapArea.action"           # Area mapping action
+  "action/ChargeBattery.action"     # Battery charging action
 )
 
 # Message/Service/Action generation

@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/day2__rosidl_generator_type_description"
+  "rosidl_generator_type_description/day2/action/ChargeBattery.json"
+  "rosidl_generator_type_description/day2/action/MapArea.json"
+  "rosidl_generator_type_description/day2/action/Navigate.json"
+  "rosidl_generator_type_description/day2/action/PickAndPlace.json"
   "rosidl_generator_type_description/day2/msg/MotorStatus.json"
   "rosidl_generator_type_description/day2/msg/RobotArray.json"
   "rosidl_generator_type_description/day2/msg/RobotStatus.json"

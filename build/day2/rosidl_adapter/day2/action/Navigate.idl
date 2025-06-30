@@ -1,0 +1,178 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from day2/action/Navigate.action
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+#include "geometry_msgs/msg/Point.idl"
+#include "geometry_msgs/msg/PoseStamped.idl"
+
+module day2 {
+  module action {
+    @verbatim (language="comment", text=
+      "Dosya: ~/ros2_ws/src/day2/action/Navigate.action")
+    struct Navigate_Goal {
+      @verbatim (language="comment", text=
+        "GOAL - Navigation başlatmak için gerekli bilgiler" "\n"
+        "Hedef pozisyon ve oryantasyon")
+      geometry_msgs::msg::PoseStamped target_pose;
+
+      @verbatim (language="comment", text=
+        "Maksimum hız (m/s)")
+      float max_speed;
+
+      @verbatim (language="comment", text=
+        "Hedefe yakınlık toleransı (m)")
+      float tolerance_distance;
+
+      @verbatim (language="comment", text=
+        "Açı toleransı (rad)")
+      float tolerance_angle;
+
+      @verbatim (language="comment", text=
+        "Engel kaçınma aktif mi?")
+      boolean use_obstacle_avoidance;
+
+      @verbatim (language="comment", text=
+        "Kullanılacak planning algoritması")
+      string planning_algorithm;
+
+      @verbatim (language="comment", text=
+        "Ara geçiş noktaları")
+      sequence<geometry_msgs::msg::Point> waypoints;
+
+      @verbatim (language="comment", text=
+        "Maksimum süre")
+      float timeout_seconds;
+
+      @verbatim (language="comment", text=
+        "Başarısızlık durumunda davranış")
+      string behavior_on_failure;
+    };
+    module Navigate_Result_Constants {
+      const uint32 ERROR_NONE = 0;
+      const uint32 ERROR_TIMEOUT = 1;
+      const uint32 ERROR_OBSTACLE_STUCK = 2;
+      const uint32 ERROR_GOAL_UNREACHABLE = 3;
+      const uint32 ERROR_PLANNING_FAILED = 4;
+      const uint32 ERROR_HARDWARE_FAILURE = 5;
+      const uint32 ERROR_PREEMPTED = 6;
+    };
+    struct Navigate_Result {
+      @verbatim (language="comment", text=
+        "RESULT - Navigation tamamlandığında dönen sonuç" "\n"
+        "Navigasyon başarılı mı?")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "Detaylı sonuç mesajı")
+      string result_message;
+
+      @verbatim (language="comment", text=
+        "Son pozisyon")
+      geometry_msgs::msg::PoseStamped final_pose;
+
+      @verbatim (language="comment", text=
+        "Kat edilen toplam mesafe")
+      float total_distance_traveled;
+
+      @verbatim (language="comment", text=
+        "Geçen toplam süre")
+      float total_time_elapsed;
+
+      @verbatim (language="comment", text=
+        "Ortalama hız")
+      float average_speed;
+
+      @verbatim (language="comment", text=
+        "Kaç engelle karşılaştı")
+      uint32 obstacle_encounters;
+
+      @verbatim (language="comment", text=
+        "Uyarı mesajları")
+      sequence<string> warnings;
+
+      @verbatim (language="comment", text=
+        "Navigation quality metrics" "\n"
+        "Yol verimliliği (0.0-1.0)")
+      float path_efficiency;
+
+      @verbatim (language="comment", text=
+        "Hareket yumuşaklığı (0.0-1.0)")
+      float smoothness_score;
+
+      @verbatim (language="comment", text=
+        "Kaç kez yol yeniden planlandı")
+      uint32 replanning_count;
+
+      @verbatim (language="comment", text=
+        "Error information" "\n"
+        "Hata kodu")
+      uint32 error_code;
+    };
+    struct Navigate_Feedback {
+      @verbatim (language="comment", text=
+        "FEEDBACK - Navigation sırasında sürekli dönen feedback" "\n"
+        "Şu anki pozisyon")
+      geometry_msgs::msg::PoseStamped current_pose;
+
+      @verbatim (language="comment", text=
+        "Hedefe kalan mesafe")
+      float distance_to_goal;
+
+      @verbatim (language="comment", text=
+        "Tahmini kalan süre")
+      float estimated_time_remaining;
+
+      @verbatim (language="comment", text=
+        "Şu anki hız")
+      float current_speed;
+
+      @verbatim (language="comment", text=
+        "Tamamlanma yüzdesi (0.0-100.0)")
+      float completion_percentage;
+
+      @verbatim (language="comment", text=
+        "Path information" "\n"
+        "Kalan yol noktaları")
+      sequence<geometry_msgs::msg::Point> remaining_path;
+
+      @verbatim (language="comment", text=
+        "Şu anki waypoint indeksi")
+      uint32 current_waypoint_index;
+
+      @verbatim (language="comment", text=
+        "Şu anki davranış modu")
+      string current_behavior;
+
+      @verbatim (language="comment", text=
+        "Real-time status" "\n"
+        "Engel tespit edildi mi?")
+      boolean obstacle_detected;
+
+      @verbatim (language="comment", text=
+        "Şu anki durum açıklaması")
+      string current_status;
+
+      @verbatim (language="comment", text=
+        "Planlanan yoldan sapma (m)")
+      float path_deviation;
+
+      @verbatim (language="comment", text=
+        "Batarya tüketim oranı")
+      float battery_consumption_rate;
+
+      @verbatim (language="comment", text=
+        "Performance metrics" "\n"
+        "CPU kullanımı (%)")
+      float cpu_usage;
+
+      @verbatim (language="comment", text=
+        "Memory kullanımı (%)")
+      float memory_usage;
+
+      @verbatim (language="comment", text=
+        "Son güncelleme zamanı")
+      builtin_interfaces::msg::Time last_update_time;
+    };
+  };
+};

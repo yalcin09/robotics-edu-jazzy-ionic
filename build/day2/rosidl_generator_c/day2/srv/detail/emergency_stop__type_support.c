@@ -4,10 +4,10 @@
 
 #include <string.h>
 
+#include "day2/srv/detail/emergency_stop__type_support.h"
 #include "day2/srv/detail/emergency_stop__struct.h"
 #include "day2/srv/detail/emergency_stop__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
-#include "day2/srv/detail/emergency_stop__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

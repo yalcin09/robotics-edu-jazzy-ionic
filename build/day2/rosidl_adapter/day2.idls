@@ -6,3 +6,7 @@
 /home/yalcinolgac/ros2_ws/build/day2/rosidl_adapter/day2:srv/GetRobotStatus.idl
 /home/yalcinolgac/ros2_ws/build/day2/rosidl_adapter/day2:srv/CalculatePath.idl
 /home/yalcinolgac/ros2_ws/build/day2/rosidl_adapter/day2:srv/EmergencyStop.idl
+/home/yalcinolgac/ros2_ws/build/day2/rosidl_adapter/day2:action/Navigate.idl
+/home/yalcinolgac/ros2_ws/build/day2/rosidl_adapter/day2:action/PickAndPlace.idl
+/home/yalcinolgac/ros2_ws/build/day2/rosidl_adapter/day2:action/MapArea.idl
+/home/yalcinolgac/ros2_ws/build/day2/rosidl_adapter/day2:action/ChargeBattery.idl

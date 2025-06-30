@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "day2/srv/detail/calculate_path__type_support.h"
 #include "day2/srv/detail/calculate_path__functions.h"
-#include "day2/srv/detail/calculate_path__struct.h"
+#include "day2/srv/detail/calculate_path__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "day2/srv/detail/calculate_path__struct.h"
 
 #ifdef __cplusplus
 extern "C"

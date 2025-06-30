@@ -259,4 +259,20 @@ CMakeFiles/day2_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/day2/_d
  /home/yalcinolgac/ros2_ws/build/day2/rosidl_generator_c/day2/srv/detail/calculate_path__functions.h \
  /home/yalcinolgac/ros2_ws/build/day2/rosidl_generator_c/day2/srv/detail/emergency_stop__type_support.h \
  /home/yalcinolgac/ros2_ws/build/day2/rosidl_generator_c/day2/srv/detail/emergency_stop__struct.h \
- /home/yalcinolgac/ros2_ws/build/day2/rosidl_generator_c/day2/srv/detail/emergency_stop__functions.h
+ /home/yalcinolgac/ros2_ws/build/day2/rosidl_generator_c/day2/srv/detail/emergency_stop__functions.h \
+ /home/yalcinolgac/ros2_ws/build/day2/rosidl_generator_c/day2/action/detail/navigate__type_support.h \
+ /home/yalcinolgac/ros2_ws/build/day2/rosidl_generator_c/day2/action/detail/navigate__struct.h \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.h \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.h \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.h \
+ /opt/ros/jazzy/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
+ /home/yalcinolgac/ros2_ws/build/day2/rosidl_generator_c/day2/action/detail/navigate__functions.h \
+ /home/yalcinolgac/ros2_ws/build/day2/rosidl_generator_c/day2/action/detail/pick_and_place__type_support.h \
+ /home/yalcinolgac/ros2_ws/build/day2/rosidl_generator_c/day2/action/detail/pick_and_place__struct.h \
+ /home/yalcinolgac/ros2_ws/build/day2/rosidl_generator_c/day2/action/detail/pick_and_place__functions.h \
+ /home/yalcinolgac/ros2_ws/build/day2/rosidl_generator_c/day2/action/detail/map_area__type_support.h \
+ /home/yalcinolgac/ros2_ws/build/day2/rosidl_generator_c/day2/action/detail/map_area__struct.h \
+ /home/yalcinolgac/ros2_ws/build/day2/rosidl_generator_c/day2/action/detail/map_area__functions.h \
+ /home/yalcinolgac/ros2_ws/build/day2/rosidl_generator_c/day2/action/detail/charge_battery__type_support.h \
+ /home/yalcinolgac/ros2_ws/build/day2/rosidl_generator_c/day2/action/detail/charge_battery__struct.h \
+ /home/yalcinolgac/ros2_ws/build/day2/rosidl_generator_c/day2/action/detail/charge_battery__functions.h

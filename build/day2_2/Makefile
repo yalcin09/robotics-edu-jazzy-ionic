@@ -314,6 +314,32 @@ robot_status_service_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_status_service_node.dir/build.make CMakeFiles/robot_status_service_node.dir/build
 .PHONY : robot_status_service_node/fast
 
+#=============================================================================
+# Target rules for targets named navigate_action_server
+
+# Build rule for target.
+navigate_action_server: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 navigate_action_server
+.PHONY : navigate_action_server
+
+# fast build rule for target.
+navigate_action_server/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/navigate_action_server.dir/build.make CMakeFiles/navigate_action_server.dir/build
+.PHONY : navigate_action_server/fast
+
+#=============================================================================
+# Target rules for targets named navigate_action_client
+
+# Build rule for target.
+navigate_action_client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 navigate_action_client
+.PHONY : navigate_action_client
+
+# fast build rule for target.
+navigate_action_client/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/navigate_action_client.dir/build.make CMakeFiles/navigate_action_client.dir/build
+.PHONY : navigate_action_client/fast
+
 src/filtering_subscriber.o: src/filtering_subscriber.cpp.o
 .PHONY : src/filtering_subscriber.o
 
@@ -361,6 +387,54 @@ src/message_analyzer.s: src/message_analyzer.cpp.s
 src/message_analyzer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/message_analyzer_node.dir/build.make CMakeFiles/message_analyzer_node.dir/src/message_analyzer.cpp.s
 .PHONY : src/message_analyzer.cpp.s
+
+src/navigate_action_client.o: src/navigate_action_client.cpp.o
+.PHONY : src/navigate_action_client.o
+
+# target to build an object file
+src/navigate_action_client.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/navigate_action_client.dir/build.make CMakeFiles/navigate_action_client.dir/src/navigate_action_client.cpp.o
+.PHONY : src/navigate_action_client.cpp.o
+
+src/navigate_action_client.i: src/navigate_action_client.cpp.i
+.PHONY : src/navigate_action_client.i
+
+# target to preprocess a source file
+src/navigate_action_client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/navigate_action_client.dir/build.make CMakeFiles/navigate_action_client.dir/src/navigate_action_client.cpp.i
+.PHONY : src/navigate_action_client.cpp.i
+
+src/navigate_action_client.s: src/navigate_action_client.cpp.s
+.PHONY : src/navigate_action_client.s
+
+# target to generate assembly for a file
+src/navigate_action_client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/navigate_action_client.dir/build.make CMakeFiles/navigate_action_client.dir/src/navigate_action_client.cpp.s
+.PHONY : src/navigate_action_client.cpp.s
+
+src/navigate_action_server.o: src/navigate_action_server.cpp.o
+.PHONY : src/navigate_action_server.o
+
+# target to build an object file
+src/navigate_action_server.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/navigate_action_server.dir/build.make CMakeFiles/navigate_action_server.dir/src/navigate_action_server.cpp.o
+.PHONY : src/navigate_action_server.cpp.o
+
+src/navigate_action_server.i: src/navigate_action_server.cpp.i
+.PHONY : src/navigate_action_server.i
+
+# target to preprocess a source file
+src/navigate_action_server.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/navigate_action_server.dir/build.make CMakeFiles/navigate_action_server.dir/src/navigate_action_server.cpp.i
+.PHONY : src/navigate_action_server.cpp.i
+
+src/navigate_action_server.s: src/navigate_action_server.cpp.s
+.PHONY : src/navigate_action_server.s
+
+# target to generate assembly for a file
+src/navigate_action_server.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/navigate_action_server.dir/build.make CMakeFiles/navigate_action_server.dir/src/navigate_action_server.cpp.s
+.PHONY : src/navigate_action_server.cpp.s
 
 src/performance_test.o: src/performance_test.cpp.o
 .PHONY : src/performance_test.o
@@ -547,6 +621,8 @@ help:
 	@echo "... uninstall"
 	@echo "... filtering_subscriber_node"
 	@echo "... message_analyzer_node"
+	@echo "... navigate_action_client"
+	@echo "... navigate_action_server"
 	@echo "... performance_test_node"
 	@echo "... robot_command_client_node"
 	@echo "... robot_command_server_node"
@@ -560,6 +636,12 @@ help:
 	@echo "... src/message_analyzer.o"
 	@echo "... src/message_analyzer.i"
 	@echo "... src/message_analyzer.s"
+	@echo "... src/navigate_action_client.o"
+	@echo "... src/navigate_action_client.i"
+	@echo "... src/navigate_action_client.s"
+	@echo "... src/navigate_action_server.o"
+	@echo "... src/navigate_action_server.i"
+	@echo "... src/navigate_action_server.s"
 	@echo "... src/performance_test.o"
 	@echo "... src/performance_test.i"
 	@echo "... src/performance_test.s"

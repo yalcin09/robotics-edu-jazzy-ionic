@@ -10,7 +10,11 @@
     "/home/yalcinolgac/ros2_ws/build/day2/rosidl_adapter/day2:srv/RobotCommand.idl",
     "/home/yalcinolgac/ros2_ws/build/day2/rosidl_adapter/day2:srv/GetRobotStatus.idl",
     "/home/yalcinolgac/ros2_ws/build/day2/rosidl_adapter/day2:srv/CalculatePath.idl",
-    "/home/yalcinolgac/ros2_ws/build/day2/rosidl_adapter/day2:srv/EmergencyStop.idl"
+    "/home/yalcinolgac/ros2_ws/build/day2/rosidl_adapter/day2:srv/EmergencyStop.idl",
+    "/home/yalcinolgac/ros2_ws/build/day2/rosidl_adapter/day2:action/Navigate.idl",
+    "/home/yalcinolgac/ros2_ws/build/day2/rosidl_adapter/day2:action/PickAndPlace.idl",
+    "/home/yalcinolgac/ros2_ws/build/day2/rosidl_adapter/day2:action/MapArea.idl",
+    "/home/yalcinolgac/ros2_ws/build/day2/rosidl_adapter/day2:action/ChargeBattery.idl"
   ],
   "ros_interface_files": [
     "/home/yalcinolgac/ros2_ws/src/day2/msg/RobotStatus.msg",
@@ -20,7 +24,11 @@
     "/home/yalcinolgac/ros2_ws/src/day2/srv/RobotCommand.srv",
     "/home/yalcinolgac/ros2_ws/src/day2/srv/GetRobotStatus.srv",
     "/home/yalcinolgac/ros2_ws/src/day2/srv/CalculatePath.srv",
-    "/home/yalcinolgac/ros2_ws/src/day2/srv/EmergencyStop.srv"
+    "/home/yalcinolgac/ros2_ws/src/day2/srv/EmergencyStop.srv",
+    "/home/yalcinolgac/ros2_ws/src/day2/action/Navigate.action",
+    "/home/yalcinolgac/ros2_ws/src/day2/action/PickAndPlace.action",
+    "/home/yalcinolgac/ros2_ws/src/day2/action/MapArea.action",
+    "/home/yalcinolgac/ros2_ws/src/day2/action/ChargeBattery.action"
   ],
   "ros_interface_dependencies": [
     "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
@@ -87,7 +95,12 @@
     "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs/msg/VelocityStamped.idl",
     "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs/msg/Wrench.idl",
     "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs/msg/WrenchStamped.idl",
-    "service_msgs:/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl"
+    "service_msgs:/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs/msg/GoalInfo.idl",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs/msg/GoalStatus.idl",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs/msg/GoalStatusArray.idl",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs/srv/CancelGoal.idl",
+    "unique_identifier_msgs:/opt/ros/jazzy/share/unique_identifier_msgs/msg/UUID.idl"
   ],
   "target_dependencies": [
     "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
@@ -117,6 +130,10 @@
     "/home/yalcinolgac/ros2_ws/build/day2/rosidl_adapter/day2/srv/GetRobotStatus.idl",
     "/home/yalcinolgac/ros2_ws/build/day2/rosidl_adapter/day2/srv/CalculatePath.idl",
     "/home/yalcinolgac/ros2_ws/build/day2/rosidl_adapter/day2/srv/EmergencyStop.idl",
+    "/home/yalcinolgac/ros2_ws/build/day2/rosidl_adapter/day2/action/Navigate.idl",
+    "/home/yalcinolgac/ros2_ws/build/day2/rosidl_adapter/day2/action/PickAndPlace.idl",
+    "/home/yalcinolgac/ros2_ws/build/day2/rosidl_adapter/day2/action/MapArea.idl",
+    "/home/yalcinolgac/ros2_ws/build/day2/rosidl_adapter/day2/action/ChargeBattery.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl",
     "/opt/ros/jazzy/share/std_msgs/msg/Bool.idl",
@@ -181,7 +198,12 @@
     "/opt/ros/jazzy/share/geometry_msgs/msg/VelocityStamped.idl",
     "/opt/ros/jazzy/share/geometry_msgs/msg/Wrench.idl",
     "/opt/ros/jazzy/share/geometry_msgs/msg/WrenchStamped.idl",
-    "/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl"
+    "/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
+    "/opt/ros/jazzy/share/action_msgs/msg/GoalInfo.idl",
+    "/opt/ros/jazzy/share/action_msgs/msg/GoalStatus.idl",
+    "/opt/ros/jazzy/share/action_msgs/msg/GoalStatusArray.idl",
+    "/opt/ros/jazzy/share/action_msgs/srv/CancelGoal.idl",
+    "/opt/ros/jazzy/share/unique_identifier_msgs/msg/UUID.idl"
   ],
   "type_description_tuples": [
     "msg/RobotStatus.idl:/home/yalcinolgac/ros2_ws/build/day2/rosidl_generator_type_description/day2/msg/RobotStatus.json",
@@ -191,6 +213,10 @@
     "srv/RobotCommand.idl:/home/yalcinolgac/ros2_ws/build/day2/rosidl_generator_type_description/day2/srv/RobotCommand.json",
     "srv/GetRobotStatus.idl:/home/yalcinolgac/ros2_ws/build/day2/rosidl_generator_type_description/day2/srv/GetRobotStatus.json",
     "srv/CalculatePath.idl:/home/yalcinolgac/ros2_ws/build/day2/rosidl_generator_type_description/day2/srv/CalculatePath.json",
-    "srv/EmergencyStop.idl:/home/yalcinolgac/ros2_ws/build/day2/rosidl_generator_type_description/day2/srv/EmergencyStop.json"
+    "srv/EmergencyStop.idl:/home/yalcinolgac/ros2_ws/build/day2/rosidl_generator_type_description/day2/srv/EmergencyStop.json",
+    "action/Navigate.idl:/home/yalcinolgac/ros2_ws/build/day2/rosidl_generator_type_description/day2/action/Navigate.json",
+    "action/PickAndPlace.idl:/home/yalcinolgac/ros2_ws/build/day2/rosidl_generator_type_description/day2/action/PickAndPlace.json",
+    "action/MapArea.idl:/home/yalcinolgac/ros2_ws/build/day2/rosidl_generator_type_description/day2/action/MapArea.json",
+    "action/ChargeBattery.idl:/home/yalcinolgac/ros2_ws/build/day2/rosidl_generator_type_description/day2/action/ChargeBattery.json"
   ]
 }

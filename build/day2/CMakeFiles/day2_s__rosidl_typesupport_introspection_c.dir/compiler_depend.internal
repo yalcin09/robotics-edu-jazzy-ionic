@@ -3,6 +3,18 @@
 
 CMakeFiles/day2_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/day2/_day2_s.ep.rosidl_typesupport_introspection_c.c.o
  /home/yalcinolgac/ros2_ws/build/day2/rosidl_generator_py/day2/_day2_s.ep.rosidl_typesupport_introspection_c.c
+ /home/yalcinolgac/ros2_ws/build/day2/rosidl_generator_c/day2/action/detail/charge_battery__functions.h
+ /home/yalcinolgac/ros2_ws/build/day2/rosidl_generator_c/day2/action/detail/charge_battery__struct.h
+ /home/yalcinolgac/ros2_ws/build/day2/rosidl_generator_c/day2/action/detail/charge_battery__type_support.h
+ /home/yalcinolgac/ros2_ws/build/day2/rosidl_generator_c/day2/action/detail/map_area__functions.h
+ /home/yalcinolgac/ros2_ws/build/day2/rosidl_generator_c/day2/action/detail/map_area__struct.h
+ /home/yalcinolgac/ros2_ws/build/day2/rosidl_generator_c/day2/action/detail/map_area__type_support.h
+ /home/yalcinolgac/ros2_ws/build/day2/rosidl_generator_c/day2/action/detail/navigate__functions.h
+ /home/yalcinolgac/ros2_ws/build/day2/rosidl_generator_c/day2/action/detail/navigate__struct.h
+ /home/yalcinolgac/ros2_ws/build/day2/rosidl_generator_c/day2/action/detail/navigate__type_support.h
+ /home/yalcinolgac/ros2_ws/build/day2/rosidl_generator_c/day2/action/detail/pick_and_place__functions.h
+ /home/yalcinolgac/ros2_ws/build/day2/rosidl_generator_c/day2/action/detail/pick_and_place__struct.h
+ /home/yalcinolgac/ros2_ws/build/day2/rosidl_generator_c/day2/action/detail/pick_and_place__type_support.h
  /home/yalcinolgac/ros2_ws/build/day2/rosidl_generator_c/day2/msg/detail/motor_status__functions.h
  /home/yalcinolgac/ros2_ws/build/day2/rosidl_generator_c/day2/msg/detail/motor_status__struct.h
  /home/yalcinolgac/ros2_ws/build/day2/rosidl_generator_c/day2/msg/detail/motor_status__type_support.h
@@ -30,6 +42,9 @@ CMakeFiles/day2_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/da
  /home/yalcinolgac/ros2_ws/build/day2/rosidl_generator_c/day2/srv/detail/robot_command__type_support.h
  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.h
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.h
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.h
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.h
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.h
  /opt/ros/jazzy/include/rcutils/rcutils/allocator.h
@@ -53,6 +68,7 @@ CMakeFiles/day2_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/da
  /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h
  /opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.h
  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.h
+ /opt/ros/jazzy/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h
  /usr/include/alloca.h
  /usr/include/asm-generic/bitsperlong.h
  /usr/include/asm-generic/errno-base.h

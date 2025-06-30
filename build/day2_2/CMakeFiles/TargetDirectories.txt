@@ -9,6 +9,8 @@
 /home/yalcinolgac/ros2_ws/build/day2_2/CMakeFiles/robot_command_server_node.dir
 /home/yalcinolgac/ros2_ws/build/day2_2/CMakeFiles/robot_command_client_node.dir
 /home/yalcinolgac/ros2_ws/build/day2_2/CMakeFiles/robot_status_service_node.dir
+/home/yalcinolgac/ros2_ws/build/day2_2/CMakeFiles/navigate_action_server.dir
+/home/yalcinolgac/ros2_ws/build/day2_2/CMakeFiles/navigate_action_client.dir
 /home/yalcinolgac/ros2_ws/build/day2_2/CMakeFiles/test.dir
 /home/yalcinolgac/ros2_ws/build/day2_2/CMakeFiles/edit_cache.dir
 /home/yalcinolgac/ros2_ws/build/day2_2/CMakeFiles/rebuild_cache.dir

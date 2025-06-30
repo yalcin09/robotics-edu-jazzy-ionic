@@ -1,0 +1,102 @@
+# Dosya: ~/ros2_ws/src/day2/action/ChargeBattery.action
+
+# GOAL - Battery charging görevi parametreleri
+float32 target_charge_level                    # Hedef şarj seviyesi (0.0-1.0)
+string charging_mode                           # Şarj modu ("fast", "normal", "slow", "maintenance")
+bool return_to_dock                            # Dock'a geri dön
+geometry_msgs/Point charging_station_location  # Şarj istasyonu konumu
+float32 max_charging_time                      # Maksimum şarj süresi (saniye)
+
+# Charging parameters
+float32 max_charging_current                   # Maksimum şarj akımı (A)
+float32 max_charging_voltage                   # Maksimum şarj voltajı (V)
+bool enable_temperature_monitoring             # Sıcaklık izleme aktif
+float32 max_battery_temperature                # Maksimum batarya sıcaklığı (°C)
+
+# Safety parameters
+bool enable_safety_monitoring                  # Güvenlik izleme
+float32 emergency_stop_voltage                 # Acil durdurma voltajı
+float32 emergency_stop_temperature             # Acil durdurma sıcaklığı
+bool auto_disconnect_when_full                 # Dolu olunca otomatik ayır
+
+# Navigation to charging station
+bool navigate_to_charger                       # Şarj cihazına git
+float32 docking_precision                      # Dock hassasiyeti (m)
+string docking_approach                        # Yaklaşma stratejisi
+
+---
+
+# RESULT - Charging tamamlandığında sonuç
+bool success                                   # Şarj başarılı mı?
+string result_message                          # Sonuç mesajı
+float32 final_charge_level                     # Son şarj seviyesi
+float32 total_charging_time                    # Toplam şarj süresi
+
+# Charging statistics
+float32 energy_transferred                     # Transfer edilen enerji (Wh)
+float32 average_charging_power                 # Ortalama şarj gücü (W)
+float32 charging_efficiency                    # Şarj verimliliği (%)
+float32 max_temperature_reached                # Ulaşılan maksimum sıcaklık
+
+# Battery health information
+float32 battery_health_score                   # Batarya sağlık skoru (0.0-1.0)
+uint32 charging_cycles_count                   # Şarj döngüsü sayısı
+float32 estimated_battery_lifespan             # Tahmini batarya ömrü (hours)
+
+# Navigation results (if applicable)
+bool docking_successful                        # Dock etme başarılı mı?
+float32 docking_time                           # Dock etme süresi
+float32 navigation_time                        # Navigasyon süresi
+geometry_msgs/Point final_docked_position      # Son dock pozisyonu
+
+# Error information
+uint32 error_code
+uint32 ERROR_NONE=0
+uint32 ERROR_CHARGING_STATION_NOT_FOUND=1
+uint32 ERROR_DOCKING_FAILED=2
+uint32 ERROR_CHARGER_CONNECTION_FAILED=3
+uint32 ERROR_OVERVOLTAGE=4
+uint32 ERROR_OVERCURRENT=5
+uint32 ERROR_OVERTEMPERATURE=6
+uint32 ERROR_CHARGING_TIMEOUT=7
+uint32 ERROR_BATTERY_FAULT=8
+
+---
+
+# FEEDBACK - Charging sırasında sürekli feedback
+string current_phase                           # Şu anki faz ("navigating", "docking", "charging", "completing")
+float32 current_charge_level                   # Şu anki şarj seviyesi (0.0-1.0)
+float32 charging_progress_percentage           # Şarj ilerleme yüzdesi
+float32 estimated_time_to_completion           # Tahmini tamamlanma süresi
+
+# Real-time charging data
+float32 current_voltage                        # Şu anki voltaj (V)
+float32 current_amperage                       # Şu anki akım (A)
+float32 current_power                          # Şu anki güç (W)
+float32 current_temperature                    # Şu anki sıcaklık (°C)
+
+# Charging curve information
+float32 charging_rate                          # Şarj oranı (%/hour)
+string charging_state                          # Şarj durumu ("CC", "CV", "float", "maintenance")
+float32 time_elapsed                           # Geçen süre
+
+# Navigation feedback (if navigating)
+geometry_msgs/Point current_position           # Şu anki pozisyon
+float32 distance_to_charger                    # Şarj cihazına mesafe
+bool charger_in_sight                          # Şarj cihazı görüş alanında mı?
+
+# Docking feedback (if docking)
+bool docking_initiated                         # Dock etme başladı mı?
+float32 docking_alignment_error                # Dock hizalama hatası (m)
+bool connection_established                    # Bağlantı kuruldu mu?
+
+# Safety monitoring
+bool temperature_warning                       # Sıcaklık uyarısı
+bool voltage_warning                           # Voltaj uyarısı
+bool current_warning                           # Akım uyarısı
+string[] active_warnings                       # Aktif uyarılar
+
+# System status
+float32 charger_efficiency                     # Şarj cihazı verimliliği
+bool charger_connected                         # Şarj cihazı bağlı mı?
+builtin_interfaces/Time charging_start_time    # Şarj başlangıç zamanı

@@ -9,12 +9,18 @@
     "/home/yalcinolgac/ros2_ws/build/day2/rosidl_adapter/day2:srv/RobotCommand.idl",
     "/home/yalcinolgac/ros2_ws/build/day2/rosidl_adapter/day2:srv/GetRobotStatus.idl",
     "/home/yalcinolgac/ros2_ws/build/day2/rosidl_adapter/day2:srv/CalculatePath.idl",
-    "/home/yalcinolgac/ros2_ws/build/day2/rosidl_adapter/day2:srv/EmergencyStop.idl"
+    "/home/yalcinolgac/ros2_ws/build/day2/rosidl_adapter/day2:srv/EmergencyStop.idl",
+    "/home/yalcinolgac/ros2_ws/build/day2/rosidl_adapter/day2:action/Navigate.idl",
+    "/home/yalcinolgac/ros2_ws/build/day2/rosidl_adapter/day2:action/PickAndPlace.idl",
+    "/home/yalcinolgac/ros2_ws/build/day2/rosidl_adapter/day2:action/MapArea.idl",
+    "/home/yalcinolgac/ros2_ws/build/day2/rosidl_adapter/day2:action/ChargeBattery.idl"
   ],
   "include_paths": [
     "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
     "std_msgs:/opt/ros/jazzy/share/std_msgs",
     "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
-    "service_msgs:/opt/ros/jazzy/share/service_msgs"
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs",
+    "unique_identifier_msgs:/opt/ros/jazzy/share/unique_identifier_msgs"
   ]
 }

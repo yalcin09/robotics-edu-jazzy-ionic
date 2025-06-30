@@ -275,7 +275,10 @@ SITE:STRING=yalcinolgac
 TinyXML2_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/tinyxml2
 
 //Path to a library.
-_lib:FILEPATH=/home/yalcinolgac/ros2_ws/install/day2/lib/libday2__rosidl_typesupport_fastrtps_cpp.so
+_lib:FILEPATH=/opt/ros/jazzy/lib/librcl_action.so
+
+//The directory containing a CMake configuration file for action_msgs.
+action_msgs_DIR:PATH=/opt/ros/jazzy/share/action_msgs/cmake
 
 //The directory containing a CMake configuration file for ament_cmake.
 ament_cmake_DIR:PATH=/opt/ros/jazzy/share/ament_cmake/cmake
@@ -370,6 +373,9 @@ pkgcfg_lib__OPENSSL_ssl:FILEPATH=/usr/lib/x86_64-linux-gnu/libssl.so
 //The directory containing a CMake configuration file for rcl.
 rcl_DIR:PATH=/opt/ros/jazzy/share/rcl/cmake
 
+//The directory containing a CMake configuration file for rcl_action.
+rcl_action_DIR:PATH=/opt/ros/jazzy/share/rcl_action/cmake
+
 //The directory containing a CMake configuration file for rcl_interfaces.
 rcl_interfaces_DIR:PATH=/opt/ros/jazzy/share/rcl_interfaces/cmake
 
@@ -381,6 +387,9 @@ rcl_yaml_param_parser_DIR:PATH=/opt/ros/jazzy/share/rcl_yaml_param_parser/cmake
 
 //The directory containing a CMake configuration file for rclcpp.
 rclcpp_DIR:PATH=/opt/ros/jazzy/share/rclcpp/cmake
+
+//The directory containing a CMake configuration file for rclcpp_action.
+rclcpp_action_DIR:PATH=/opt/ros/jazzy/share/rclcpp_action/cmake
 
 //The directory containing a CMake configuration file for rcpputils.
 rcpputils_DIR:PATH=/opt/ros/jazzy/share/rcpputils/cmake
@@ -471,6 +480,9 @@ tracetools_DIR:PATH=/opt/ros/jazzy/share/tracetools/cmake
 
 //The directory containing a CMake configuration file for type_description_interfaces.
 type_description_interfaces_DIR:PATH=/opt/ros/jazzy/share/type_description_interfaces/cmake
+
+//The directory containing a CMake configuration file for unique_identifier_msgs.
+unique_identifier_msgs_DIR:PATH=/opt/ros/jazzy/share/unique_identifier_msgs/cmake
 
 
 ########################

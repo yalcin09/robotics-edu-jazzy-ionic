@@ -106,6 +106,26 @@ CMakeFiles/day2__cpp: rosidl_generator_cpp/day2/srv/detail/emergency_stop__build
 CMakeFiles/day2__cpp: rosidl_generator_cpp/day2/srv/detail/emergency_stop__struct.hpp
 CMakeFiles/day2__cpp: rosidl_generator_cpp/day2/srv/detail/emergency_stop__traits.hpp
 CMakeFiles/day2__cpp: rosidl_generator_cpp/day2/srv/detail/emergency_stop__type_support.hpp
+CMakeFiles/day2__cpp: rosidl_generator_cpp/day2/action/navigate.hpp
+CMakeFiles/day2__cpp: rosidl_generator_cpp/day2/action/detail/navigate__builder.hpp
+CMakeFiles/day2__cpp: rosidl_generator_cpp/day2/action/detail/navigate__struct.hpp
+CMakeFiles/day2__cpp: rosidl_generator_cpp/day2/action/detail/navigate__traits.hpp
+CMakeFiles/day2__cpp: rosidl_generator_cpp/day2/action/detail/navigate__type_support.hpp
+CMakeFiles/day2__cpp: rosidl_generator_cpp/day2/action/pick_and_place.hpp
+CMakeFiles/day2__cpp: rosidl_generator_cpp/day2/action/detail/pick_and_place__builder.hpp
+CMakeFiles/day2__cpp: rosidl_generator_cpp/day2/action/detail/pick_and_place__struct.hpp
+CMakeFiles/day2__cpp: rosidl_generator_cpp/day2/action/detail/pick_and_place__traits.hpp
+CMakeFiles/day2__cpp: rosidl_generator_cpp/day2/action/detail/pick_and_place__type_support.hpp
+CMakeFiles/day2__cpp: rosidl_generator_cpp/day2/action/map_area.hpp
+CMakeFiles/day2__cpp: rosidl_generator_cpp/day2/action/detail/map_area__builder.hpp
+CMakeFiles/day2__cpp: rosidl_generator_cpp/day2/action/detail/map_area__struct.hpp
+CMakeFiles/day2__cpp: rosidl_generator_cpp/day2/action/detail/map_area__traits.hpp
+CMakeFiles/day2__cpp: rosidl_generator_cpp/day2/action/detail/map_area__type_support.hpp
+CMakeFiles/day2__cpp: rosidl_generator_cpp/day2/action/charge_battery.hpp
+CMakeFiles/day2__cpp: rosidl_generator_cpp/day2/action/detail/charge_battery__builder.hpp
+CMakeFiles/day2__cpp: rosidl_generator_cpp/day2/action/detail/charge_battery__struct.hpp
+CMakeFiles/day2__cpp: rosidl_generator_cpp/day2/action/detail/charge_battery__traits.hpp
+CMakeFiles/day2__cpp: rosidl_generator_cpp/day2/action/detail/charge_battery__type_support.hpp
 CMakeFiles/day2__cpp: rosidl_generator_cpp/day2/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/day2/msg/robot_status.hpp: /opt/ros/jazzy/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -135,6 +155,10 @@ rosidl_generator_cpp/day2/msg/robot_status.hpp: rosidl_adapter/day2/srv/RobotCom
 rosidl_generator_cpp/day2/msg/robot_status.hpp: rosidl_adapter/day2/srv/GetRobotStatus.idl
 rosidl_generator_cpp/day2/msg/robot_status.hpp: rosidl_adapter/day2/srv/CalculatePath.idl
 rosidl_generator_cpp/day2/msg/robot_status.hpp: rosidl_adapter/day2/srv/EmergencyStop.idl
+rosidl_generator_cpp/day2/msg/robot_status.hpp: rosidl_adapter/day2/action/Navigate.idl
+rosidl_generator_cpp/day2/msg/robot_status.hpp: rosidl_adapter/day2/action/PickAndPlace.idl
+rosidl_generator_cpp/day2/msg/robot_status.hpp: rosidl_adapter/day2/action/MapArea.idl
+rosidl_generator_cpp/day2/msg/robot_status.hpp: rosidl_adapter/day2/action/ChargeBattery.idl
 rosidl_generator_cpp/day2/msg/robot_status.hpp: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_cpp/day2/msg/robot_status.hpp: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
 rosidl_generator_cpp/day2/msg/robot_status.hpp: /opt/ros/jazzy/share/std_msgs/msg/Bool.idl
@@ -200,6 +224,11 @@ rosidl_generator_cpp/day2/msg/robot_status.hpp: /opt/ros/jazzy/share/geometry_ms
 rosidl_generator_cpp/day2/msg/robot_status.hpp: /opt/ros/jazzy/share/geometry_msgs/msg/Wrench.idl
 rosidl_generator_cpp/day2/msg/robot_status.hpp: /opt/ros/jazzy/share/geometry_msgs/msg/WrenchStamped.idl
 rosidl_generator_cpp/day2/msg/robot_status.hpp: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
+rosidl_generator_cpp/day2/msg/robot_status.hpp: /opt/ros/jazzy/share/action_msgs/msg/GoalInfo.idl
+rosidl_generator_cpp/day2/msg/robot_status.hpp: /opt/ros/jazzy/share/action_msgs/msg/GoalStatus.idl
+rosidl_generator_cpp/day2/msg/robot_status.hpp: /opt/ros/jazzy/share/action_msgs/msg/GoalStatusArray.idl
+rosidl_generator_cpp/day2/msg/robot_status.hpp: /opt/ros/jazzy/share/action_msgs/srv/CancelGoal.idl
+rosidl_generator_cpp/day2/msg/robot_status.hpp: /opt/ros/jazzy/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/yalcinolgac/ros2_ws/build/day2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/yalcinolgac/ros2_ws/build/day2/rosidl_generator_cpp__arguments.json
 
@@ -320,10 +349,90 @@ rosidl_generator_cpp/day2/srv/detail/emergency_stop__traits.hpp: rosidl_generato
 rosidl_generator_cpp/day2/srv/detail/emergency_stop__type_support.hpp: rosidl_generator_cpp/day2/msg/robot_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/day2/srv/detail/emergency_stop__type_support.hpp
 
+rosidl_generator_cpp/day2/action/navigate.hpp: rosidl_generator_cpp/day2/msg/robot_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/day2/action/navigate.hpp
+
+rosidl_generator_cpp/day2/action/detail/navigate__builder.hpp: rosidl_generator_cpp/day2/msg/robot_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/day2/action/detail/navigate__builder.hpp
+
+rosidl_generator_cpp/day2/action/detail/navigate__struct.hpp: rosidl_generator_cpp/day2/msg/robot_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/day2/action/detail/navigate__struct.hpp
+
+rosidl_generator_cpp/day2/action/detail/navigate__traits.hpp: rosidl_generator_cpp/day2/msg/robot_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/day2/action/detail/navigate__traits.hpp
+
+rosidl_generator_cpp/day2/action/detail/navigate__type_support.hpp: rosidl_generator_cpp/day2/msg/robot_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/day2/action/detail/navigate__type_support.hpp
+
+rosidl_generator_cpp/day2/action/pick_and_place.hpp: rosidl_generator_cpp/day2/msg/robot_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/day2/action/pick_and_place.hpp
+
+rosidl_generator_cpp/day2/action/detail/pick_and_place__builder.hpp: rosidl_generator_cpp/day2/msg/robot_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/day2/action/detail/pick_and_place__builder.hpp
+
+rosidl_generator_cpp/day2/action/detail/pick_and_place__struct.hpp: rosidl_generator_cpp/day2/msg/robot_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/day2/action/detail/pick_and_place__struct.hpp
+
+rosidl_generator_cpp/day2/action/detail/pick_and_place__traits.hpp: rosidl_generator_cpp/day2/msg/robot_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/day2/action/detail/pick_and_place__traits.hpp
+
+rosidl_generator_cpp/day2/action/detail/pick_and_place__type_support.hpp: rosidl_generator_cpp/day2/msg/robot_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/day2/action/detail/pick_and_place__type_support.hpp
+
+rosidl_generator_cpp/day2/action/map_area.hpp: rosidl_generator_cpp/day2/msg/robot_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/day2/action/map_area.hpp
+
+rosidl_generator_cpp/day2/action/detail/map_area__builder.hpp: rosidl_generator_cpp/day2/msg/robot_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/day2/action/detail/map_area__builder.hpp
+
+rosidl_generator_cpp/day2/action/detail/map_area__struct.hpp: rosidl_generator_cpp/day2/msg/robot_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/day2/action/detail/map_area__struct.hpp
+
+rosidl_generator_cpp/day2/action/detail/map_area__traits.hpp: rosidl_generator_cpp/day2/msg/robot_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/day2/action/detail/map_area__traits.hpp
+
+rosidl_generator_cpp/day2/action/detail/map_area__type_support.hpp: rosidl_generator_cpp/day2/msg/robot_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/day2/action/detail/map_area__type_support.hpp
+
+rosidl_generator_cpp/day2/action/charge_battery.hpp: rosidl_generator_cpp/day2/msg/robot_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/day2/action/charge_battery.hpp
+
+rosidl_generator_cpp/day2/action/detail/charge_battery__builder.hpp: rosidl_generator_cpp/day2/msg/robot_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/day2/action/detail/charge_battery__builder.hpp
+
+rosidl_generator_cpp/day2/action/detail/charge_battery__struct.hpp: rosidl_generator_cpp/day2/msg/robot_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/day2/action/detail/charge_battery__struct.hpp
+
+rosidl_generator_cpp/day2/action/detail/charge_battery__traits.hpp: rosidl_generator_cpp/day2/msg/robot_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/day2/action/detail/charge_battery__traits.hpp
+
+rosidl_generator_cpp/day2/action/detail/charge_battery__type_support.hpp: rosidl_generator_cpp/day2/msg/robot_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/day2/action/detail/charge_battery__type_support.hpp
+
 rosidl_generator_cpp/day2/msg/rosidl_generator_cpp__visibility_control.hpp: rosidl_generator_cpp/day2/msg/robot_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/day2/msg/rosidl_generator_cpp__visibility_control.hpp
 
 day2__cpp: CMakeFiles/day2__cpp
+day2__cpp: rosidl_generator_cpp/day2/action/charge_battery.hpp
+day2__cpp: rosidl_generator_cpp/day2/action/detail/charge_battery__builder.hpp
+day2__cpp: rosidl_generator_cpp/day2/action/detail/charge_battery__struct.hpp
+day2__cpp: rosidl_generator_cpp/day2/action/detail/charge_battery__traits.hpp
+day2__cpp: rosidl_generator_cpp/day2/action/detail/charge_battery__type_support.hpp
+day2__cpp: rosidl_generator_cpp/day2/action/detail/map_area__builder.hpp
+day2__cpp: rosidl_generator_cpp/day2/action/detail/map_area__struct.hpp
+day2__cpp: rosidl_generator_cpp/day2/action/detail/map_area__traits.hpp
+day2__cpp: rosidl_generator_cpp/day2/action/detail/map_area__type_support.hpp
+day2__cpp: rosidl_generator_cpp/day2/action/detail/navigate__builder.hpp
+day2__cpp: rosidl_generator_cpp/day2/action/detail/navigate__struct.hpp
+day2__cpp: rosidl_generator_cpp/day2/action/detail/navigate__traits.hpp
+day2__cpp: rosidl_generator_cpp/day2/action/detail/navigate__type_support.hpp
+day2__cpp: rosidl_generator_cpp/day2/action/detail/pick_and_place__builder.hpp
+day2__cpp: rosidl_generator_cpp/day2/action/detail/pick_and_place__struct.hpp
+day2__cpp: rosidl_generator_cpp/day2/action/detail/pick_and_place__traits.hpp
+day2__cpp: rosidl_generator_cpp/day2/action/detail/pick_and_place__type_support.hpp
+day2__cpp: rosidl_generator_cpp/day2/action/map_area.hpp
+day2__cpp: rosidl_generator_cpp/day2/action/navigate.hpp
+day2__cpp: rosidl_generator_cpp/day2/action/pick_and_place.hpp
 day2__cpp: rosidl_generator_cpp/day2/msg/detail/motor_status__builder.hpp
 day2__cpp: rosidl_generator_cpp/day2/msg/detail/motor_status__struct.hpp
 day2__cpp: rosidl_generator_cpp/day2/msg/detail/motor_status__traits.hpp

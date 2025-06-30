@@ -1,0 +1,91 @@
+# Dosya: ~/ros2_ws/src/day2/action/PickAndPlace.action
+
+# GOAL - Pick and place görevi için parametreler
+string object_id                               # Alınacak objenin ID'si
+geometry_msgs/Point pickup_location            # Alma pozisyonu
+geometry_msgs/Point place_location             # Bırakma pozisyonu
+string object_type                             # Obje türü ("box", "cylinder", etc.)
+float32 object_weight                          # Obje ağırlığı (kg)
+geometry_msgs/Vector3 object_dimensions        # Obje boyutları (m)
+
+# Grasping parameters
+string grasp_type                              # Kavrama türü ("top", "side", "custom")
+float32 grasp_force                            # Kavrama kuvveti (N)
+float32 approach_distance                      # Yaklaşma mesafesi (m)
+float32 lift_height                            # Kaldırma yüksekliği (m)
+
+# Motion parameters
+float32 max_velocity                           # Maksimum hareket hızı
+float32 max_acceleration                       # Maksimum ivme
+bool use_careful_mode                          # Dikkatli mod (hassas objeler için)
+float32 timeout_seconds                        # Maksimum süre
+
+# Safety parameters
+float32 collision_threshold                    # Çarpışma eşiği
+bool enable_force_feedback                     # Kuvvet geri bildirimi
+string[] forbidden_zones                       # Yasak bölgeler
+
+---
+
+# RESULT - Pick and place tamamlandığında sonuç
+bool success                                   # Görev başarılı mı?
+string result_message                          # Detaylı sonuç açıklaması
+geometry_msgs/Point final_object_location      # Objenin son pozisyonu
+float32 total_task_time                        # Toplam görev süresi
+
+# Task phases completion
+bool pickup_successful                         # Alma başarılı mı?
+bool transport_successful                      # Taşıma başarılı mı?
+bool place_successful                          # Bırakma başarılı mı?
+
+# Performance metrics
+float32 pickup_duration                        # Alma süresi
+float32 transport_duration                     # Taşıma süresi
+float32 place_duration                         # Bırakma süresi
+float32 accuracy_score                         # Doğruluk skoru (0.0-1.0)
+
+# Force/torque information
+float32 max_force_applied                      # Uygulanan maksimum kuvvet
+float32 grasp_quality                          # Kavrama kalitesi (0.0-1.0)
+
+# Error information
+uint32 error_code
+uint32 ERROR_NONE=0
+uint32 ERROR_OBJECT_NOT_FOUND=1
+uint32 ERROR_GRASP_FAILED=2
+uint32 ERROR_OBJECT_DROPPED=3
+uint32 ERROR_COLLISION_DETECTED=4
+uint32 ERROR_PLACE_LOCATION_BLOCKED=5
+uint32 ERROR_FORCE_LIMIT_EXCEEDED=6
+uint32 ERROR_TIMEOUT=7
+
+string error_details                           # Detaylı hata bilgisi
+
+---
+
+# FEEDBACK - Pick and place sırasında sürekli feedback
+string current_phase                           # Şu anki faz ("approaching", "grasping", etc.)
+float32 completion_percentage                  # Tamamlanma yüzdesi
+geometry_msgs/Point gripper_position           # Gripper'ın pozisyonu
+geometry_msgs/Point object_position            # Objenin pozisyonu
+
+# Phase-specific feedback
+bool object_detected                           # Obje tespit edildi mi?
+bool object_in_grasp                          # Obje kavrandı mı?
+float32 current_grasp_force                   # Şu anki kavrama kuvveti
+float32 transport_progress                     # Taşıma ilerlemesi (%)
+
+# Real-time sensor data
+float32[] force_torque_readings                # Kuvvet/tork sensör değerleri
+bool collision_warning                         # Çarpışma uyarısı
+float32 estimated_time_remaining               # Tahmini kalan süre
+
+# Motion state
+geometry_msgs/Twist current_velocity           # Şu anki hız
+string current_behavior                        # Şu anki davranış
+bool is_moving                                 # Hareket halinde mi?
+
+# Quality indicators
+float32 grasp_stability                        # Kavrama kararlılığı
+float32 path_deviation                         # Planlanan yoldan sapma
+builtin_interfaces/Time phase_start_time       # Faz başlangıç zamanı

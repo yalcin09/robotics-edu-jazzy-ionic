@@ -4,6 +4,11 @@ day2.egg-info/PKG-INFO
 day2.egg-info/SOURCES.txt
 day2.egg-info/dependency_links.txt
 day2.egg-info/top_level.txt
+day2/action/__init__.py
+day2/action/_charge_battery.py
+day2/action/_map_area.py
+day2/action/_navigate.py
+day2/action/_pick_and_place.py
 day2/msg/__init__.py
 day2/msg/_motor_status.py
 day2/msg/_robot_array.py

@@ -1,4 +1,12 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/day2__rosidl_generator_py.dir/rosidl_generator_py/day2/action/_charge_battery_s.c.o"
+  "CMakeFiles/day2__rosidl_generator_py.dir/rosidl_generator_py/day2/action/_charge_battery_s.c.o.d"
+  "CMakeFiles/day2__rosidl_generator_py.dir/rosidl_generator_py/day2/action/_map_area_s.c.o"
+  "CMakeFiles/day2__rosidl_generator_py.dir/rosidl_generator_py/day2/action/_map_area_s.c.o.d"
+  "CMakeFiles/day2__rosidl_generator_py.dir/rosidl_generator_py/day2/action/_navigate_s.c.o"
+  "CMakeFiles/day2__rosidl_generator_py.dir/rosidl_generator_py/day2/action/_navigate_s.c.o.d"
+  "CMakeFiles/day2__rosidl_generator_py.dir/rosidl_generator_py/day2/action/_pick_and_place_s.c.o"
+  "CMakeFiles/day2__rosidl_generator_py.dir/rosidl_generator_py/day2/action/_pick_and_place_s.c.o.d"
   "CMakeFiles/day2__rosidl_generator_py.dir/rosidl_generator_py/day2/msg/_motor_status_s.c.o"
   "CMakeFiles/day2__rosidl_generator_py.dir/rosidl_generator_py/day2/msg/_motor_status_s.c.o.d"
   "CMakeFiles/day2__rosidl_generator_py.dir/rosidl_generator_py/day2/msg/_robot_array_s.c.o"

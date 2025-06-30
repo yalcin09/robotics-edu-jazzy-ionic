@@ -8,6 +8,10 @@
     "/home/yalcinolgac/ros2_ws/src/day2:srv/RobotCommand.srv",
     "/home/yalcinolgac/ros2_ws/src/day2:srv/GetRobotStatus.srv",
     "/home/yalcinolgac/ros2_ws/src/day2:srv/CalculatePath.srv",
-    "/home/yalcinolgac/ros2_ws/src/day2:srv/EmergencyStop.srv"
+    "/home/yalcinolgac/ros2_ws/src/day2:srv/EmergencyStop.srv",
+    "/home/yalcinolgac/ros2_ws/src/day2:action/Navigate.action",
+    "/home/yalcinolgac/ros2_ws/src/day2:action/PickAndPlace.action",
+    "/home/yalcinolgac/ros2_ws/src/day2:action/MapArea.action",
+    "/home/yalcinolgac/ros2_ws/src/day2:action/ChargeBattery.action"
   ]
 }

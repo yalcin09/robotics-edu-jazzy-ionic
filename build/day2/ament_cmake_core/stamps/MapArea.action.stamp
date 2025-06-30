@@ -1,0 +1,99 @@
+# Dosya: ~/ros2_ws/src/day2/action/MapArea.action
+
+# GOAL - Mapping görevi parametreleri
+geometry_msgs/Point[] boundary_points          # Haritalaması istenen alan sınırları
+float32 resolution                             # Harita çözünürlüğü (m/pixel)
+string mapping_mode                            # Mapping modu ("exploration", "detailed", "fast")
+float32 coverage_percentage                    # İstenen kapsama yüzdesi (%)
+bool include_3d_data                          # 3D veri dahil edilsin mi?
+
+# Motion parameters
+float32 max_exploration_speed                  # Maksimum keşif hızı
+float32 sensor_overlap_ratio                   # Sensör veri çakışma oranı
+float32 waypoint_spacing                       # Waypoint arası mesafe
+string exploration_pattern                     # Keşif pattern'i ("spiral", "grid", "adaptive")
+
+# Sensor configuration
+string[] active_sensors                        # Aktif sensörler listesi
+float32 sensor_range                           # Sensör menzili
+bool use_slam                                  # SLAM kullan
+string slam_algorithm                          # SLAM algoritması
+
+# Quality parameters
+float32 min_quality_threshold                  # Minimum kalite eşiği
+bool optimize_for_accuracy                     # Doğruluk için optimize et
+bool optimize_for_speed                        # Hız için optimize et
+float32 timeout_seconds                        # Maksimum süre
+
+---
+
+# RESULT - Mapping tamamlandığında sonuç
+bool success                                   # Mapping başarılı mı?
+string result_message                          # Sonuç mesajı
+string map_topic                               # Haritanın yayınlandığı topic
+string map_file_path                          # Kaydedilen harita dosyası yolu
+
+# Map quality metrics
+float32 area_covered                           # Haritalanan alan (m²)
+float32 coverage_percentage                    # Kapsama yüzdesi
+float32 map_accuracy                           # Harita doğruluğu (0.0-1.0)
+float32 feature_density                        # Özellik yoğunluğu (features/m²)
+
+# Performance statistics
+float32 total_mapping_time                     # Toplam mapping süresi
+float32 total_distance_traveled                # Kat edilen mesafe
+uint32 total_sensor_readings                   # Toplam sensör okuması
+float32 average_mapping_speed                  # Ortalama mapping hızı
+
+# Map data summary
+uint32 map_width_pixels                        # Harita genişliği (pixel)
+uint32 map_height_pixels                       # Harita yüksekliği (pixel)
+uint32 occupied_cells                          # Dolu hücre sayısı
+uint32 free_cells                              # Boş hücre sayısı
+uint32 unknown_cells                           # Bilinmeyen hücre sayısı
+
+# Error information
+uint32 error_code
+uint32 ERROR_NONE=0
+uint32 ERROR_AREA_TOO_LARGE=1
+uint32 ERROR_SENSOR_FAILURE=2
+uint32 ERROR_LOCALIZATION_LOST=3
+uint32 ERROR_INSUFFICIENT_COVERAGE=4
+uint32 ERROR_MAP_QUALITY_LOW=5
+uint32 ERROR_TIMEOUT=6
+
+---
+
+# FEEDBACK - Mapping sırasında sürekli feedback
+geometry_msgs/Point current_position           # Şu anki pozisyon
+float32 area_mapped_so_far                     # Şimdiye kadar haritalanan alan
+float32 coverage_percentage                    # Kapsama yüzdesi
+float32 estimated_time_remaining               # Tahmini kalan süre
+
+# Current mapping state
+string current_phase                           # Şu anki faz ("exploring", "detailing", "returning")
+geometry_msgs/Point next_target                # Sonraki hedef nokta
+uint32 waypoints_completed                     # Tamamlanan waypoint sayısı
+uint32 total_waypoints                         # Toplam waypoint sayısı
+
+# Real-time map data
+uint32 current_map_width                       # Şu anki harita genişliği
+uint32 current_map_height                      # Şu anki harita yüksekliği
+float32 current_resolution                     # Şu anki çözünürlük
+uint32 new_features_detected                   # Yeni tespit edilen özellikler
+
+# Sensor status
+bool[] sensor_active_status                    # Her sensörün aktif durumu
+float32[] sensor_data_quality                  # Sensör veri kalitesi
+uint32 sensor_readings_per_second              # Saniyedeki sensör okuması
+
+# SLAM status (if enabled)
+float32 localization_confidence                # Lokalizasyon güveni
+uint32 loop_closures_detected                  # Tespit edilen loop closure'lar
+float32 pose_uncertainty                       # Pozisyon belirsizliği
+
+# Performance monitoring
+float32 cpu_usage                              # CPU kullanımı
+float32 memory_usage                           # Memory kullanımı
+float32 storage_space_used                     # Kullanılan depolama alanı (MB)
+builtin_interfaces/Time last_sensor_update     # Son sensör güncellemesi

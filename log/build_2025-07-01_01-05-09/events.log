@@ -1,0 +1,875 @@
+[0.000000] (-) TimerEvent: {}
+[0.000249] (day1) JobQueued: {'identifier': 'day1', 'dependencies': OrderedDict()}
+[0.000284] (day2) JobQueued: {'identifier': 'day2', 'dependencies': OrderedDict()}
+[0.000306] (day2_2) JobQueued: {'identifier': 'day2_2', 'dependencies': OrderedDict({'day2': '/home/yalcinolgac/ros2_ws/install/day2'})}
+[0.000328] (day2) JobStarted: {'identifier': 'day2'}
+[0.009030] (day1) JobStarted: {'identifier': 'day1'}
+[0.012314] (day2) JobProgress: {'identifier': 'day2', 'progress': 'cmake'}
+[0.013430] (day2) JobProgress: {'identifier': 'day2', 'progress': 'build'}
+[0.013904] (day2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yalcinolgac/ros2_ws/build/day2', '--', '-j32', '-l32'], 'cwd': '/home/yalcinolgac/ros2_ws/build/day2', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yalcinolgac', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yalcinolgac/ros2_ws/install/day2/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/yalcinolgac', 'OLDPWD': '/home/yalcinolgac', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/yalcinolgac/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'yalcinolgac', 'NAME': 'yalcinolgac', 'WSL_INTEROP': '/run/WSL/637_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/snap/bin:/home/yalcinolgac/Android/Sdk/cmdline-tools/latest/bin:/home/yalcinolgac/Android/Sdk/platform-tools:/home/yalcinolgac/Android/Sdk/emulator', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/yalcinolgac/ros2_ws/install/day2_2:/home/yalcinolgac/ros2_ws/install/day2:/home/yalcinolgac/ros2_ws/install/day1:/opt/ros/jazzy', 'ANDROID_NDK_ROOT': '/home/yalcinolgac/Android/Sdk/ndk/25.2.9519653', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'ANDROID_SDK_ROOT': '/home/yalcinolgac/Android/Sdk', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'JAVA_HOME': '/usr/lib/jvm/java-17-openjdk-amd64', 'PWD': '/home/yalcinolgac/ros2_ws/build/day2', 'ANDROID_HOME': '/home/yalcinolgac/Android/Sdk', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/yalcinolgac/ros2_ws/install/day2_2:/home/yalcinolgac/ros2_ws/install/day2:/home/yalcinolgac/ros2_ws/install/day1:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[0.024232] (day1) JobProgress: {'identifier': 'day1', 'progress': 'cmake'}
+[0.025454] (day1) JobProgress: {'identifier': 'day1', 'progress': 'build'}
+[0.025495] (day1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yalcinolgac/ros2_ws/build/day1', '--', '-j32', '-l32'], 'cwd': '/home/yalcinolgac/ros2_ws/build/day1', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yalcinolgac', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yalcinolgac/ros2_ws/install/day2/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/yalcinolgac', 'OLDPWD': '/home/yalcinolgac', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/yalcinolgac/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'yalcinolgac', 'NAME': 'yalcinolgac', 'WSL_INTEROP': '/run/WSL/637_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/snap/bin:/home/yalcinolgac/Android/Sdk/cmdline-tools/latest/bin:/home/yalcinolgac/Android/Sdk/platform-tools:/home/yalcinolgac/Android/Sdk/emulator', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/yalcinolgac/ros2_ws/install/day2_2:/home/yalcinolgac/ros2_ws/install/day2:/home/yalcinolgac/ros2_ws/install/day1:/opt/ros/jazzy', 'ANDROID_NDK_ROOT': '/home/yalcinolgac/Android/Sdk/ndk/25.2.9519653', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'ANDROID_SDK_ROOT': '/home/yalcinolgac/Android/Sdk', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'JAVA_HOME': '/usr/lib/jvm/java-17-openjdk-amd64', 'PWD': '/home/yalcinolgac/ros2_ws/build/day1', 'ANDROID_HOME': '/home/yalcinolgac/Android/Sdk', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/yalcinolgac/ros2_ws/install/day2_2:/home/yalcinolgac/ros2_ws/install/day2:/home/yalcinolgac/ros2_ws/install/day1:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[0.096390] (day2) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099738] (-) TimerEvent: {}
+[0.117010] (day2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.134020] (day1) StdoutLine: {'line': b'[100%] Built target subscriber_node\n'}
+[0.134170] (day1) StdoutLine: {'line': b'[100%] Built target publisher_node\n'}
+[0.140490] (day1) CommandEnded: {'returncode': 0}
+[0.141515] (day1) JobProgress: {'identifier': 'day1', 'progress': 'install'}
+[0.146511] (day1) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yalcinolgac/ros2_ws/build/day1'], 'cwd': '/home/yalcinolgac/ros2_ws/build/day1', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yalcinolgac', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yalcinolgac/ros2_ws/install/day2/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/yalcinolgac', 'OLDPWD': '/home/yalcinolgac', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/yalcinolgac/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'yalcinolgac', 'NAME': 'yalcinolgac', 'WSL_INTEROP': '/run/WSL/637_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/snap/bin:/home/yalcinolgac/Android/Sdk/cmdline-tools/latest/bin:/home/yalcinolgac/Android/Sdk/platform-tools:/home/yalcinolgac/Android/Sdk/emulator', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/yalcinolgac/ros2_ws/install/day2_2:/home/yalcinolgac/ros2_ws/install/day2:/home/yalcinolgac/ros2_ws/install/day1:/opt/ros/jazzy', 'ANDROID_NDK_ROOT': '/home/yalcinolgac/Android/Sdk/ndk/25.2.9519653', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'ANDROID_SDK_ROOT': '/home/yalcinolgac/Android/Sdk', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'JAVA_HOME': '/usr/lib/jvm/java-17-openjdk-amd64', 'PWD': '/home/yalcinolgac/ros2_ws/build/day1', 'ANDROID_HOME': '/home/yalcinolgac/Android/Sdk', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/yalcinolgac/ros2_ws/install/day2_2:/home/yalcinolgac/ros2_ws/install/day2:/home/yalcinolgac/ros2_ws/install/day1:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[0.151781] (day1) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.153576] (day1) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day1/lib/day1/publisher_node\n'}
+[0.155048] (day1) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day1/lib/day1/subscriber_node\n'}
+[0.155280] (day1) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day1/share/ament_index/resource_index/package_run_dependencies/day1\n'}
+[0.155447] (day1) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day1/share/ament_index/resource_index/parent_prefix_path/day1\n'}
+[0.155497] (day1) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day1/share/day1/environment/ament_prefix_path.sh\n'}
+[0.155529] (day1) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day1/share/day1/environment/ament_prefix_path.dsv\n'}
+[0.155564] (day1) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day1/share/day1/environment/path.sh\n'}
+[0.155591] (day1) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day1/share/day1/environment/path.dsv\n'}
+[0.155618] (day1) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day1/share/day1/local_setup.bash\n'}
+[0.155643] (day1) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day1/share/day1/local_setup.sh\n'}
+[0.155669] (day1) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day1/share/day1/local_setup.zsh\n'}
+[0.155694] (day1) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day1/share/day1/local_setup.dsv\n'}
+[0.155721] (day1) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day1/share/day1/package.dsv\n'}
+[0.156348] (day1) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day1/share/ament_index/resource_index/packages/day1\n'}
+[0.156416] (day1) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day1/share/day1/cmake/day1Config.cmake\n'}
+[0.156448] (day1) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day1/share/day1/cmake/day1Config-version.cmake\n'}
+[0.156475] (day1) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day1/share/day1/package.xml\n'}
+[0.157614] (day1) CommandEnded: {'returncode': 0}
+[0.173192] (day1) JobEnded: {'identifier': 'day1', 'rc': 0}
+[0.183652] (day2) StdoutLine: {'line': b'-- Found builtin_interfaces: 2.0.2 (/opt/ros/jazzy/share/builtin_interfaces/cmake)\n'}
+[0.199909] (-) TimerEvent: {}
+[0.224186] (day2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.232562] (day2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.244277] (day2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.255947] (day2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.266101] (day2) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.277495] (day2) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.289774] (day2) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.297214] (day2) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.299983] (-) TimerEvent: {}
+[0.400241] (-) TimerEvent: {}
+[0.500476] (-) TimerEvent: {}
+[0.600781] (-) TimerEvent: {}
+[0.611961] (day2) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[0.700879] (-) TimerEvent: {}
+[0.780278] (day2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.801000] (-) TimerEvent: {}
+[0.848629] (day2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.850113] (day2) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[0.901113] (-) TimerEvent: {}
+[1.001519] (-) TimerEvent: {}
+[1.045452] (day2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[1.072647] (day2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.089882] (day2) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.091790] (day2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.092968] (day2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.095693] (day2) StdoutLine: {'line': b'-- Configuring done (1.0s)\n'}
+[1.101574] (-) TimerEvent: {}
+[1.148962] (day2) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.157844] (day2) StdoutLine: {'line': b'-- Build files have been written to: /home/yalcinolgac/ros2_ws/build/day2\n'}
+[1.179770] (day2) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[1.196787] (day2) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_day2\n'}
+[1.201685] (-) TimerEvent: {}
+[1.301960] (-) TimerEvent: {}
+[1.318549] (day2) StdoutLine: {'line': b'running egg_info\n'}
+[1.329512] (day2) StdoutLine: {'line': b'writing day2.egg-info/PKG-INFO\n'}
+[1.330543] (day2) StdoutLine: {'line': b'writing dependency_links to day2.egg-info/dependency_links.txt\n'}
+[1.330652] (day2) StdoutLine: {'line': b'writing top-level names to day2.egg-info/top_level.txt\n'}
+[1.365008] (day2) StdoutLine: {'line': b"reading manifest file 'day2.egg-info/SOURCES.txt'\n"}
+[1.365634] (day2) StdoutLine: {'line': b"writing manifest file 'day2.egg-info/SOURCES.txt'\n"}
+[1.381902] (day2) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_build_day2_egg\n'}
+[1.402073] (-) TimerEvent: {}
+[1.502294] (-) TimerEvent: {}
+[1.602520] (-) TimerEvent: {}
+[1.702756] (-) TimerEvent: {}
+[1.803014] (-) TimerEvent: {}
+[1.903250] (-) TimerEvent: {}
+[2.003629] (-) TimerEvent: {}
+[2.103876] (-) TimerEvent: {}
+[2.204090] (-) TimerEvent: {}
+[2.304322] (-) TimerEvent: {}
+[2.404535] (-) TimerEvent: {}
+[2.504751] (-) TimerEvent: {}
+[2.604983] (-) TimerEvent: {}
+[2.705314] (-) TimerEvent: {}
+[2.805558] (-) TimerEvent: {}
+[2.905814] (-) TimerEvent: {}
+[3.006148] (-) TimerEvent: {}
+[3.106439] (-) TimerEvent: {}
+[3.206713] (-) TimerEvent: {}
+[3.299666] (day2) StdoutLine: {'line': b'[  1%] Built target day2__rosidl_generator_type_description\n'}
+[3.306372] (day2) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.306829] (-) TimerEvent: {}
+[3.312819] (day2) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.406935] (-) TimerEvent: {}
+[3.507275] (-) TimerEvent: {}
+[3.607692] (-) TimerEvent: {}
+[3.708006] (-) TimerEvent: {}
+[3.808331] (-) TimerEvent: {}
+[3.908747] (-) TimerEvent: {}
+[4.009249] (-) TimerEvent: {}
+[4.109488] (-) TimerEvent: {}
+[4.209734] (-) TimerEvent: {}
+[4.309902] (-) TimerEvent: {}
+[4.410183] (-) TimerEvent: {}
+[4.510497] (-) TimerEvent: {}
+[4.610763] (-) TimerEvent: {}
+[4.711169] (-) TimerEvent: {}
+[4.811506] (-) TimerEvent: {}
+[4.911786] (-) TimerEvent: {}
+[5.012103] (-) TimerEvent: {}
+[5.112343] (-) TimerEvent: {}
+[5.212629] (-) TimerEvent: {}
+[5.312876] (-) TimerEvent: {}
+[5.413094] (-) TimerEvent: {}
+[5.513359] (-) TimerEvent: {}
+[5.613695] (-) TimerEvent: {}
+[5.713912] (-) TimerEvent: {}
+[5.814112] (-) TimerEvent: {}
+[5.914435] (-) TimerEvent: {}
+[6.014733] (-) TimerEvent: {}
+[6.075463] (day2) StdoutLine: {'line': b'[  2%] Built target day2__cpp\n'}
+[6.115121] (-) TimerEvent: {}
+[6.181186] (day2) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/msg/detail/robot_status__type_support.c.o\x1b[0m\n'}
+[6.181451] (day2) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/msg/detail/robot_status__functions.c.o\x1b[0m\n'}
+[6.181635] (day2) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/msg/detail/robot_status__description.c.o\x1b[0m\n'}
+[6.181715] (day2) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/msg/detail/sensor_data__description.c.o\x1b[0m\n'}
+[6.182061] (day2) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/msg/detail/sensor_data__functions.c.o\x1b[0m\n'}
+[6.182264] (day2) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/msg/detail/sensor_data__type_support.c.o\x1b[0m\n'}
+[6.183663] (day2) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/msg/detail/motor_status__type_support.c.o\x1b[0m\n'}
+[6.184985] (day2) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/msg/detail/robot_array__type_support.c.o\x1b[0m\n'}
+[6.186527] (day2) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/msg/detail/motor_status__description.c.o\x1b[0m\n'}
+[6.186857] (day2) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/srv/detail/get_robot_status__functions.c.o\x1b[0m\n'}
+[6.187425] (day2) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/msg/detail/motor_status__functions.c.o\x1b[0m\n'}
+[6.187991] (day2) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/msg/detail/robot_array__description.c.o\x1b[0m\n'}
+[6.188560] (day2) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/msg/detail/robot_array__functions.c.o\x1b[0m\n'}
+[6.188962] (day2) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/srv/detail/robot_command__type_support.c.o\x1b[0m\n'}
+[6.189292] (day2) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/srv/detail/get_robot_status__description.c.o\x1b[0m\n'}
+[6.189440] (day2) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/srv/detail/robot_command__description.c.o\x1b[0m\n'}
+[6.189528] (day2) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/srv/detail/get_robot_status__type_support.c.o\x1b[0m\n'}
+[6.189608] (day2) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/srv/detail/robot_command__functions.c.o\x1b[0m\n'}
+[6.190378] (day2) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/srv/detail/emergency_stop__description.c.o\x1b[0m\n'}
+[6.190472] (day2) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/srv/detail/calculate_path__functions.c.o\x1b[0m\n'}
+[6.191458] (day2) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/srv/detail/calculate_path__description.c.o\x1b[0m\n'}
+[6.191932] (day2) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/navigate__description.c.o\x1b[0m\n'}
+[6.192557] (day2) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/navigate__functions.c.o\x1b[0m\n'}
+[6.192779] (day2) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/navigate__type_support.c.o\x1b[0m\n'}
+[6.192932] (day2) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/pick_and_place__description.c.o\x1b[0m\n'}
+[6.193779] (day2) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/srv/detail/calculate_path__type_support.c.o\x1b[0m\n'}
+[6.194590] (day2) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/srv/detail/emergency_stop__functions.c.o\x1b[0m\n'}
+[6.194762] (day2) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/srv/detail/emergency_stop__type_support.c.o\x1b[0m\n'}
+[6.196489] (day2) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/pick_and_place__functions.c.o\x1b[0m\n'}
+[6.196678] (day2) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/pick_and_place__type_support.c.o\x1b[0m\n'}
+[6.197726] (day2) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/map_area__description.c.o\x1b[0m\n'}
+[6.202285] (day2) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/map_area__functions.c.o\x1b[0m\n'}
+[6.215246] (-) TimerEvent: {}
+[6.265209] (day2) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/map_area__type_support.c.o\x1b[0m\n'}
+[6.265763] (day2) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/charge_battery__type_support.c.o\x1b[0m\n'}
+[6.266118] (day2) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/charge_battery__functions.c.o\x1b[0m\n'}
+[6.270705] (day2) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/charge_battery__description.c.o\x1b[0m\n'}
+[6.315357] (-) TimerEvent: {}
+[6.391172] (day2) StdoutLine: {'line': b'[ 27%] \x1b[32m\x1b[1mLinking C shared library libday2__rosidl_generator_c.so\x1b[0m\n'}
+[6.415463] (-) TimerEvent: {}
+[6.432102] (day2) StdoutLine: {'line': b'[ 27%] Built target day2__rosidl_generator_c\n'}
+[6.438808] (day2) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.438932] (day2) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.438966] (day2) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[6.438996] (day2) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.439147] (day2) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[6.439268] (day2) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.515764] (-) TimerEvent: {}
+[6.616099] (-) TimerEvent: {}
+[6.716419] (-) TimerEvent: {}
+[6.816643] (-) TimerEvent: {}
+[6.916930] (-) TimerEvent: {}
+[7.017317] (-) TimerEvent: {}
+[7.117702] (-) TimerEvent: {}
+[7.217990] (-) TimerEvent: {}
+[7.318241] (-) TimerEvent: {}
+[7.418495] (-) TimerEvent: {}
+[7.518745] (-) TimerEvent: {}
+[7.618944] (-) TimerEvent: {}
+[7.719223] (-) TimerEvent: {}
+[7.819485] (-) TimerEvent: {}
+[7.919727] (-) TimerEvent: {}
+[8.019986] (-) TimerEvent: {}
+[8.120242] (-) TimerEvent: {}
+[8.220495] (-) TimerEvent: {}
+[8.320734] (-) TimerEvent: {}
+[8.420966] (-) TimerEvent: {}
+[8.521241] (-) TimerEvent: {}
+[8.621507] (-) TimerEvent: {}
+[8.721754] (-) TimerEvent: {}
+[8.821996] (-) TimerEvent: {}
+[8.922240] (-) TimerEvent: {}
+[8.935428] (day2) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_c.dir/rosidl_typesupport_c/day2/msg/sensor_data__type_support.cpp.o\x1b[0m\n'}
+[8.936076] (day2) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_c.dir/rosidl_typesupport_c/day2/msg/motor_status__type_support.cpp.o\x1b[0m\n'}
+[8.936389] (day2) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_c.dir/rosidl_typesupport_c/day2/msg/robot_array__type_support.cpp.o\x1b[0m\n'}
+[8.937351] (day2) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_c.dir/rosidl_typesupport_c/day2/msg/robot_status__type_support.cpp.o\x1b[0m\n'}
+[8.938079] (day2) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_c.dir/rosidl_typesupport_c/day2/srv/robot_command__type_support.cpp.o\x1b[0m\n'}
+[8.938403] (day2) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_c.dir/rosidl_typesupport_c/day2/srv/emergency_stop__type_support.cpp.o\x1b[0m\n'}
+[8.938821] (day2) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_c.dir/rosidl_typesupport_c/day2/srv/calculate_path__type_support.cpp.o\x1b[0m\n'}
+[8.940347] (day2) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_c.dir/rosidl_typesupport_c/day2/action/map_area__type_support.cpp.o\x1b[0m\n'}
+[8.940524] (day2) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_c.dir/rosidl_typesupport_c/day2/srv/get_robot_status__type_support.cpp.o\x1b[0m\n'}
+[8.941492] (day2) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_c.dir/rosidl_typesupport_c/day2/action/navigate__type_support.cpp.o\x1b[0m\n'}
+[8.941654] (day2) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_c.dir/rosidl_typesupport_c/day2/action/pick_and_place__type_support.cpp.o\x1b[0m\n'}
+[8.942217] (day2) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_c.dir/rosidl_typesupport_c/day2/action/charge_battery__type_support.cpp.o\x1b[0m\n'}
+[8.960786] (day2) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/day2/msg/robot_array__type_support.cpp.o\x1b[0m\n'}
+[8.961007] (day2) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/day2/srv/calculate_path__type_support.cpp.o\x1b[0m\n'}
+[8.961791] (day2) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/day2/srv/emergency_stop__type_support.cpp.o\x1b[0m\n'}
+[8.962187] (day2) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/day2/msg/robot_status__type_support.cpp.o\x1b[0m\n'}
+[8.962470] (day2) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/day2/srv/get_robot_status__type_support.cpp.o\x1b[0m\n'}
+[8.962626] (day2) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/day2/msg/sensor_data__type_support.cpp.o\x1b[0m\n'}
+[8.962836] (day2) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/day2/msg/motor_status__type_support.cpp.o\x1b[0m\n'}
+[8.963108] (day2) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/day2/srv/robot_command__type_support.cpp.o\x1b[0m\n'}
+[8.963215] (day2) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/day2/action/pick_and_place__type_support.cpp.o\x1b[0m\n'}
+[8.963851] (day2) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/day2/action/map_area__type_support.cpp.o\x1b[0m\n'}
+[8.964187] (day2) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/day2/action/charge_battery__type_support.cpp.o\x1b[0m\n'}
+[8.964461] (day2) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/day2/action/navigate__type_support.cpp.o\x1b[0m\n'}
+[9.022328] (-) TimerEvent: {}
+[9.043693] (day2) StdoutLine: {'line': b'[ 49%] \x1b[32m\x1b[1mLinking CXX shared library libday2__rosidl_typesupport_c.so\x1b[0m\n'}
+[9.093098] (day2) StdoutLine: {'line': b'[ 49%] Built target day2__rosidl_typesupport_c\n'}
+[9.122470] (-) TimerEvent: {}
+[9.188497] (day2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/day2/msg/detail/sensor_data__type_support.cpp.o\x1b[0m\n'}
+[9.188822] (day2) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/day2/msg/detail/robot_status__type_support.cpp.o\x1b[0m\n'}
+[9.189115] (day2) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/day2/msg/detail/robot_array__type_support.cpp.o\x1b[0m\n'}
+[9.190442] (day2) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/day2/srv/detail/emergency_stop__type_support.cpp.o\x1b[0m\n'}
+[9.191994] (day2) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/day2/srv/detail/calculate_path__type_support.cpp.o\x1b[0m\n'}
+[9.192458] (day2) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/day2/msg/detail/motor_status__type_support.cpp.o\x1b[0m\n'}
+[9.192692] (day2) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/day2/srv/detail/robot_command__type_support.cpp.o\x1b[0m\n'}
+[9.192968] (day2) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/day2/srv/detail/get_robot_status__type_support.cpp.o\x1b[0m\n'}
+[9.194608] (day2) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/day2/action/detail/navigate__type_support.cpp.o\x1b[0m\n'}
+[9.194766] (day2) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/day2/action/detail/charge_battery__type_support.cpp.o\x1b[0m\n'}
+[9.195824] (day2) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/day2/action/detail/pick_and_place__type_support.cpp.o\x1b[0m\n'}
+[9.195971] (day2) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/day2/action/detail/map_area__type_support.cpp.o\x1b[0m\n'}
+[9.222610] (-) TimerEvent: {}
+[9.322961] (-) TimerEvent: {}
+[9.423295] (-) TimerEvent: {}
+[9.439851] (day2) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/day2/msg/detail/motor_status__type_support.c.o\x1b[0m\n'}
+[9.440787] (day2) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/day2/msg/detail/robot_status__type_support.c.o\x1b[0m\n'}
+[9.441313] (day2) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/day2/msg/detail/robot_array__type_support.c.o\x1b[0m\n'}
+[9.441783] (day2) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/day2/msg/detail/sensor_data__type_support.c.o\x1b[0m\n'}
+[9.442183] (day2) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/day2/srv/detail/calculate_path__type_support.c.o\x1b[0m\n'}
+[9.442600] (day2) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/day2/srv/detail/robot_command__type_support.c.o\x1b[0m\n'}
+[9.442974] (day2) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/day2/srv/detail/get_robot_status__type_support.c.o\x1b[0m\n'}
+[9.443397] (day2) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/day2/srv/detail/emergency_stop__type_support.c.o\x1b[0m\n'}
+[9.443937] (day2) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/day2/action/detail/navigate__type_support.c.o\x1b[0m\n'}
+[9.446366] (day2) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/day2/action/detail/pick_and_place__type_support.c.o\x1b[0m\n'}
+[9.485555] (day2) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/day2/action/detail/map_area__type_support.c.o\x1b[0m\n'}
+[9.494803] (day2) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/day2/action/detail/charge_battery__type_support.c.o\x1b[0m\n'}
+[9.524091] (-) TimerEvent: {}
+[9.580439] (day2) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking C shared library libday2__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[9.624233] (-) TimerEvent: {}
+[9.626162] (day2) StdoutLine: {'line': b'[ 67%] Built target day2__rosidl_typesupport_introspection_c\n'}
+[9.724405] (-) TimerEvent: {}
+[9.824833] (-) TimerEvent: {}
+[9.855418] (day2) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libday2__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[9.925064] (-) TimerEvent: {}
+[9.934727] (day2) StdoutLine: {'line': b'[ 67%] Built target day2__rosidl_typesupport_cpp\n'}
+[10.025261] (-) TimerEvent: {}
+[10.061112] (day2) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/day2/msg/detail/dds_fastrtps/robot_status__type_support.cpp.o\x1b[0m\n'}
+[10.061500] (day2) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/day2/msg/detail/dds_fastrtps/sensor_data__type_support.cpp.o\x1b[0m\n'}
+[10.062130] (day2) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/day2/msg/detail/dds_fastrtps/robot_array__type_support.cpp.o\x1b[0m\n'}
+[10.062839] (day2) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/day2/srv/detail/dds_fastrtps/calculate_path__type_support.cpp.o\x1b[0m\n'}
+[10.063129] (day2) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/navigate__type_support.cpp.o\x1b[0m\n'}
+[10.063474] (day2) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/map_area__type_support.cpp.o\x1b[0m\n'}
+[10.063545] (day2) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/day2/srv/detail/dds_fastrtps/robot_command__type_support.cpp.o\x1b[0m\n'}
+[10.063809] (day2) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/charge_battery__type_support.cpp.o\x1b[0m\n'}
+[10.064396] (day2) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/day2/msg/detail/dds_fastrtps/motor_status__type_support.cpp.o\x1b[0m\n'}
+[10.066141] (day2) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/day2/srv/detail/dds_fastrtps/get_robot_status__type_support.cpp.o\x1b[0m\n'}
+[10.066240] (day2) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/pick_and_place__type_support.cpp.o\x1b[0m\n'}
+[10.066615] (day2) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/day2/srv/detail/dds_fastrtps/emergency_stop__type_support.cpp.o\x1b[0m\n'}
+[10.071521] (day2) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libday2__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[10.091573] (day2) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/day2/msg/detail/robot_status__type_support_c.cpp.o\x1b[0m\n'}
+[10.094960] (day2) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/day2/msg/detail/robot_array__type_support_c.cpp.o\x1b[0m\n'}
+[10.095795] (day2) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/day2/msg/detail/sensor_data__type_support_c.cpp.o\x1b[0m\n'}
+[10.096008] (day2) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/day2/msg/detail/motor_status__type_support_c.cpp.o\x1b[0m\n'}
+[10.097565] (day2) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/day2/srv/detail/robot_command__type_support_c.cpp.o\x1b[0m\n'}
+[10.097776] (day2) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/day2/action/detail/map_area__type_support_c.cpp.o\x1b[0m\n'}
+[10.097846] (day2) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/day2/srv/detail/get_robot_status__type_support_c.cpp.o\x1b[0m\n'}
+[10.098002] (day2) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/day2/action/detail/pick_and_place__type_support_c.cpp.o\x1b[0m\n'}
+[10.098781] (day2) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/day2/srv/detail/emergency_stop__type_support_c.cpp.o\x1b[0m\n'}
+[10.098911] (day2) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/day2/srv/detail/calculate_path__type_support_c.cpp.o\x1b[0m\n'}
+[10.100232] (day2) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/day2/action/detail/navigate__type_support_c.cpp.o\x1b[0m\n'}
+[10.100486] (day2) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/day2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/day2/action/detail/charge_battery__type_support_c.cpp.o\x1b[0m\n'}
+[10.125390] (-) TimerEvent: {}
+[10.225685] (day2) StdoutLine: {'line': b'[ 83%] Built target day2__rosidl_typesupport_introspection_cpp\n'}
+[10.225968] (-) TimerEvent: {}
+[10.326379] (-) TimerEvent: {}
+[10.426682] (-) TimerEvent: {}
+[10.527071] (-) TimerEvent: {}
+[10.627441] (-) TimerEvent: {}
+[10.727810] (-) TimerEvent: {}
+[10.828069] (-) TimerEvent: {}
+[10.869614] (day2) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX shared library libday2__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[10.928337] (-) TimerEvent: {}
+[10.949739] (day2) StdoutLine: {'line': b'[ 84%] Built target day2__rosidl_typesupport_fastrtps_c\n'}
+[11.028508] (-) TimerEvent: {}
+[11.128804] (-) TimerEvent: {}
+[11.171849] (day2) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX shared library libday2__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[11.229011] (-) TimerEvent: {}
+[11.246318] (day2) StdoutLine: {'line': b'[ 85%] Built target day2__rosidl_typesupport_fastrtps_cpp\n'}
+[11.258907] (day2) StdoutLine: {'line': b'[ 85%] Built target day2\n'}
+[11.271818] (day2) StdoutLine: {'line': b'[ 86%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[11.329185] (-) TimerEvent: {}
+[11.429533] (-) TimerEvent: {}
+[11.529812] (-) TimerEvent: {}
+[11.630050] (-) TimerEvent: {}
+[11.730357] (-) TimerEvent: {}
+[11.830604] (-) TimerEvent: {}
+[11.930832] (-) TimerEvent: {}
+[12.031097] (-) TimerEvent: {}
+[12.131569] (-) TimerEvent: {}
+[12.231837] (-) TimerEvent: {}
+[12.332080] (-) TimerEvent: {}
+[12.432402] (-) TimerEvent: {}
+[12.532678] (-) TimerEvent: {}
+[12.632916] (-) TimerEvent: {}
+[12.733208] (-) TimerEvent: {}
+[12.833428] (-) TimerEvent: {}
+[12.933787] (-) TimerEvent: {}
+[13.034119] (-) TimerEvent: {}
+[13.134361] (-) TimerEvent: {}
+[13.234662] (-) TimerEvent: {}
+[13.334951] (-) TimerEvent: {}
+[13.435270] (-) TimerEvent: {}
+[13.535580] (-) TimerEvent: {}
+[13.635857] (-) TimerEvent: {}
+[13.736093] (-) TimerEvent: {}
+[13.836324] (-) TimerEvent: {}
+[13.936632] (-) TimerEvent: {}
+[14.036957] (-) TimerEvent: {}
+[14.137180] (-) TimerEvent: {}
+[14.237447] (-) TimerEvent: {}
+[14.337680] (-) TimerEvent: {}
+[14.438159] (-) TimerEvent: {}
+[14.538467] (-) TimerEvent: {}
+[14.638734] (-) TimerEvent: {}
+[14.738983] (-) TimerEvent: {}
+[14.839297] (-) TimerEvent: {}
+[14.939506] (-) TimerEvent: {}
+[15.039768] (-) TimerEvent: {}
+[15.140292] (-) TimerEvent: {}
+[15.240628] (-) TimerEvent: {}
+[15.340867] (-) TimerEvent: {}
+[15.441176] (-) TimerEvent: {}
+[15.541499] (-) TimerEvent: {}
+[15.641741] (-) TimerEvent: {}
+[15.742206] (-) TimerEvent: {}
+[15.842543] (-) TimerEvent: {}
+[15.942772] (-) TimerEvent: {}
+[16.043144] (-) TimerEvent: {}
+[16.143512] (-) TimerEvent: {}
+[16.243763] (-) TimerEvent: {}
+[16.344030] (-) TimerEvent: {}
+[16.444267] (-) TimerEvent: {}
+[16.544523] (-) TimerEvent: {}
+[16.644940] (-) TimerEvent: {}
+[16.655968] (day2) StdoutLine: {'line': b'[ 86%] Built target day2__py\n'}
+[16.677283] (day2) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_generator_py.dir/rosidl_generator_py/day2/msg/_robot_status_s.c.o\x1b[0m\n'}
+[16.677512] (day2) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_generator_py.dir/rosidl_generator_py/day2/msg/_sensor_data_s.c.o\x1b[0m\n'}
+[16.677985] (day2) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_generator_py.dir/rosidl_generator_py/day2/msg/_motor_status_s.c.o\x1b[0m\n'}
+[16.678186] (day2) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_generator_py.dir/rosidl_generator_py/day2/msg/_robot_array_s.c.o\x1b[0m\n'}
+[16.678698] (day2) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_generator_py.dir/rosidl_generator_py/day2/srv/_robot_command_s.c.o\x1b[0m\n'}
+[16.680659] (day2) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_generator_py.dir/rosidl_generator_py/day2/srv/_calculate_path_s.c.o\x1b[0m\n'}
+[16.681384] (day2) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_generator_py.dir/rosidl_generator_py/day2/srv/_get_robot_status_s.c.o\x1b[0m\n'}
+[16.682807] (day2) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_generator_py.dir/rosidl_generator_py/day2/action/_navigate_s.c.o\x1b[0m\n'}
+[16.682893] (day2) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_generator_py.dir/rosidl_generator_py/day2/srv/_emergency_stop_s.c.o\x1b[0m\n'}
+[16.684275] (day2) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_generator_py.dir/rosidl_generator_py/day2/action/_charge_battery_s.c.o\x1b[0m\n'}
+[16.684913] (day2) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_generator_py.dir/rosidl_generator_py/day2/action/_map_area_s.c.o\x1b[0m\n'}
+[16.685065] (day2) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/day2__rosidl_generator_py.dir/rosidl_generator_py/day2/action/_pick_and_place_s.c.o\x1b[0m\n'}
+[16.745025] (-) TimerEvent: {}
+[16.845388] (-) TimerEvent: {}
+[16.906706] (day2) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library libday2__rosidl_generator_py.so\x1b[0m\n'}
+[16.941792] (day2) StdoutLine: {'line': b'[ 95%] Built target day2__rosidl_generator_py\n'}
+[16.945505] (-) TimerEvent: {}
+[16.956774] (day2) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/day2_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/day2/_day2_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[16.956908] (day2) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/day2_s__rosidl_typesupport_c.dir/rosidl_generator_py/day2/_day2_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[16.957232] (day2) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/day2_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/day2/_day2_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[17.045732] (-) TimerEvent: {}
+[17.106037] (day2) StdoutLine: {'line': b'[ 99%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/day2/day2_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[17.106178] (day2) StdoutLine: {'line': b'[ 99%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/day2/day2_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[17.109576] (day2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/day2/day2_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[17.125992] (day2) StdoutLine: {'line': b'[100%] Built target day2_s__rosidl_typesupport_c\n'}
+[17.126424] (day2) StdoutLine: {'line': b'[100%] Built target day2_s__rosidl_typesupport_fastrtps_c\n'}
+[17.129822] (day2) StdoutLine: {'line': b'[100%] Built target day2_s__rosidl_typesupport_introspection_c\n'}
+[17.136890] (day2) CommandEnded: {'returncode': 0}
+[17.137337] (day2) JobProgress: {'identifier': 'day2', 'progress': 'install'}
+[17.137617] (day2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yalcinolgac/ros2_ws/build/day2'], 'cwd': '/home/yalcinolgac/ros2_ws/build/day2', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yalcinolgac', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yalcinolgac/ros2_ws/install/day2/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/yalcinolgac', 'OLDPWD': '/home/yalcinolgac', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/yalcinolgac/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'yalcinolgac', 'NAME': 'yalcinolgac', 'WSL_INTEROP': '/run/WSL/637_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/snap/bin:/home/yalcinolgac/Android/Sdk/cmdline-tools/latest/bin:/home/yalcinolgac/Android/Sdk/platform-tools:/home/yalcinolgac/Android/Sdk/emulator', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/yalcinolgac/ros2_ws/install/day2_2:/home/yalcinolgac/ros2_ws/install/day2:/home/yalcinolgac/ros2_ws/install/day1:/opt/ros/jazzy', 'ANDROID_NDK_ROOT': '/home/yalcinolgac/Android/Sdk/ndk/25.2.9519653', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'ANDROID_SDK_ROOT': '/home/yalcinolgac/Android/Sdk', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'JAVA_HOME': '/usr/lib/jvm/java-17-openjdk-amd64', 'PWD': '/home/yalcinolgac/ros2_ws/build/day2', 'ANDROID_HOME': '/home/yalcinolgac/Android/Sdk', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/yalcinolgac/ros2_ws/install/day2_2:/home/yalcinolgac/ros2_ws/install/day2:/home/yalcinolgac/ros2_ws/install/day1:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[17.142833] (day2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.142917] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/ament_index/resource_index/rosidl_interfaces/day2\n'}
+[17.143013] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/msg/RobotStatus.json\n'}
+[17.143155] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/msg/SensorData.json\n'}
+[17.143194] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/msg/MotorStatus.json\n'}
+[17.143224] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/msg/RobotArray.json\n'}
+[17.143338] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/srv/RobotCommand.json\n'}
+[17.143397] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/srv/GetRobotStatus.json\n'}
+[17.143517] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/srv/CalculatePath.json\n'}
+[17.143604] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/srv/EmergencyStop.json\n'}
+[17.143745] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/action/Navigate.json\n'}
+[17.143852] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/action/PickAndPlace.json\n'}
+[17.143928] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/action/MapArea.json\n'}
+[17.144003] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/action/ChargeBattery.json\n'}
+[17.144086] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2\n'}
+[17.144206] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg\n'}
+[17.144253] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail\n'}
+[17.144335] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/motor_status__functions.h\n'}
+[17.144462] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_array__struct.h\n'}
+[17.144501] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_array__functions.h\n'}
+[17.144568] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_status__functions.h\n'}
+[17.144649] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/sensor_data__functions.h\n'}
+[17.144783] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_array__type_support.c\n'}
+[17.144881] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/motor_status__description.c\n'}
+[17.144967] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/motor_status__struct.h\n'}
+[17.145047] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/sensor_data__functions.c\n'}
+[17.145131] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_status__description.c\n'}
+[17.145270] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/sensor_data__type_support.c\n'}
+[17.145309] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_status__type_support.h\n'}
+[17.145347] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_array__description.c\n'}
+[17.145429] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_status__struct.h\n'}
+[17.145510] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_array__functions.c\n'}
+[17.145591] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/motor_status__type_support.h\n'}
+[17.145672] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/motor_status__type_support.c\n'}
+[17.145751] (-) TimerEvent: {}
+[17.145914] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_status__functions.c\n'}
+[17.146011] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/sensor_data__type_support.h\n'}
+[17.146048] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/motor_status__functions.c\n'}
+[17.146209] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_status__type_support.c\n'}
+[17.146402] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/sensor_data__description.c\n'}
+[17.146454] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/sensor_data__struct.h\n'}
+[17.146668] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_array__type_support.h\n'}
+[17.146764] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/motor_status.h\n'}
+[17.146845] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/robot_array.h\n'}
+[17.146926] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/sensor_data.h\n'}
+[17.147006] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/robot_status.h\n'}
+[17.147085] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/rosidl_generator_c__visibility_control.h\n'}
+[17.147165] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action\n'}
+[17.147309] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail\n'}
+[17.147350] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/map_area__description.c\n'}
+[17.147402] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/map_area__struct.h\n'}
+[17.147526] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/map_area__type_support.h\n'}
+[17.147634] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/pick_and_place__description.c\n'}
+[17.147675] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/navigate__type_support.h\n'}
+[17.147745] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/navigate__struct.h\n'}
+[17.147826] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/charge_battery__functions.c\n'}
+[17.147907] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/navigate__functions.h\n'}
+[17.147987] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/charge_battery__description.c\n'}
+[17.148141] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/navigate__functions.c\n'}
+[17.148209] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/pick_and_place__type_support.h\n'}
+[17.148284] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/map_area__type_support.c\n'}
+[17.148366] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/pick_and_place__struct.h\n'}
+[17.148451] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/charge_battery__type_support.c\n'}
+[17.148481] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/charge_battery__functions.h\n'}
+[17.148520] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/navigate__type_support.c\n'}
+[17.148602] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/pick_and_place__functions.c\n'}
+[17.148683] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/navigate__description.c\n'}
+[17.148763] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/pick_and_place__functions.h\n'}
+[17.148843] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/map_area__functions.c\n'}
+[17.148995] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/pick_and_place__type_support.c\n'}
+[17.149043] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/map_area__functions.h\n'}
+[17.149073] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/charge_battery__struct.h\n'}
+[17.149154] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/charge_battery__type_support.h\n'}
+[17.149234] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/pick_and_place.h\n'}
+[17.149315] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/charge_battery.h\n'}
+[17.149396] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/map_area.h\n'}
+[17.149477] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/navigate.h\n'}
+[17.149557] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv\n'}
+[17.149640] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail\n'}
+[17.149724] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/robot_command__type_support.c\n'}
+[17.149855] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/calculate_path__struct.h\n'}
+[17.149904] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/calculate_path__type_support.c\n'}
+[17.150017] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/robot_command__type_support.h\n'}
+[17.150090] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/get_robot_status__description.c\n'}
+[17.150172] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/get_robot_status__type_support.h\n'}
+[17.150245] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/calculate_path__description.c\n'}
+[17.150299] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/robot_command__description.c\n'}
+[17.150329] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/emergency_stop__struct.h\n'}
+[17.150358] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/robot_command__struct.h\n'}
+[17.150401] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/get_robot_status__functions.h\n'}
+[17.150484] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/emergency_stop__type_support.c\n'}
+[17.150571] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/robot_command__functions.h\n'}
+[17.150652] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/calculate_path__functions.h\n'}
+[17.150838] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/get_robot_status__type_support.c\n'}
+[17.150937] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/emergency_stop__description.c\n'}
+[17.150973] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/calculate_path__type_support.h\n'}
+[17.151002] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/robot_command__functions.c\n'}
+[17.151036] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/get_robot_status__functions.c\n'}
+[17.151098] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/emergency_stop__type_support.h\n'}
+[17.151179] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/calculate_path__functions.c\n'}
+[17.151260] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/emergency_stop__functions.h\n'}
+[17.151340] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/get_robot_status__struct.h\n'}
+[17.151429] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/emergency_stop__functions.c\n'}
+[17.151662] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/get_robot_status.h\n'}
+[17.151771] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/robot_command.h\n'}
+[17.151813] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/calculate_path.h\n'}
+[17.151842] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/emergency_stop.h\n'}
+[17.151870] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/environment/library_path.sh\n'}
+[17.151897] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/environment/library_path.dsv\n'}
+[17.152073] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/libday2__rosidl_generator_c.so\n'}
+[17.152855] (day2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/yalcinolgac/ros2_ws/install/day2/lib/libday2__rosidl_generator_c.so" to ""\n'}
+[17.152915] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2\n'}
+[17.153000] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg\n'}
+[17.153082] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail\n'}
+[17.153163] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/sensor_data__rosidl_typesupport_fastrtps_c.h\n'}
+[17.153297] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_array__rosidl_typesupport_fastrtps_c.h\n'}
+[17.153381] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/motor_status__rosidl_typesupport_fastrtps_c.h\n'}
+[17.153464] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_status__rosidl_typesupport_fastrtps_c.h\n'}
+[17.153546] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[17.153627] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action\n'}
+[17.153708] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail\n'}
+[17.153788] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/pick_and_place__rosidl_typesupport_fastrtps_c.h\n'}
+[17.153869] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/charge_battery__rosidl_typesupport_fastrtps_c.h\n'}
+[17.154023] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/navigate__rosidl_typesupport_fastrtps_c.h\n'}
+[17.154076] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/map_area__rosidl_typesupport_fastrtps_c.h\n'}
+[17.154105] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv\n'}
+[17.154133] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail\n'}
+[17.154160] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/robot_command__rosidl_typesupport_fastrtps_c.h\n'}
+[17.154188] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/emergency_stop__rosidl_typesupport_fastrtps_c.h\n'}
+[17.154223] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/get_robot_status__rosidl_typesupport_fastrtps_c.h\n'}
+[17.154249] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/calculate_path__rosidl_typesupport_fastrtps_c.h\n'}
+[17.154753] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/libday2__rosidl_typesupport_fastrtps_c.so\n'}
+[17.155308] (day2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/yalcinolgac/ros2_ws/install/day2/lib/libday2__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[17.155480] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2\n'}
+[17.155518] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg\n'}
+[17.155547] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/sensor_data.hpp\n'}
+[17.155888] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/robot_array.hpp\n'}
+[17.155940] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail\n'}
+[17.155970] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_status__builder.hpp\n'}
+[17.155998] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/motor_status__traits.hpp\n'}
+[17.156195] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_array__traits.hpp\n'}
+[17.156263] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_array__builder.hpp\n'}
+[17.156346] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/sensor_data__builder.hpp\n'}
+[17.156465] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_array__struct.hpp\n'}
+[17.156581] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/sensor_data__struct.hpp\n'}
+[17.156663] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/motor_status__builder.hpp\n'}
+[17.156744] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/sensor_data__type_support.hpp\n'}
+[17.156858] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/motor_status__type_support.hpp\n'}
+[17.156951] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_array__type_support.hpp\n'}
+[17.157071] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/sensor_data__traits.hpp\n'}
+[17.157153] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_status__traits.hpp\n'}
+[17.157235] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/motor_status__struct.hpp\n'}
+[17.157315] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_status__struct.hpp\n'}
+[17.157432] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_status__type_support.hpp\n'}
+[17.157514] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/motor_status.hpp\n'}
+[17.157595] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[17.157738] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/robot_status.hpp\n'}
+[17.157777] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action\n'}
+[17.157808] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/charge_battery.hpp\n'}
+[17.157851] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail\n'}
+[17.157878] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/pick_and_place__type_support.hpp\n'}
+[17.157906] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/map_area__type_support.hpp\n'}
+[17.157933] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/pick_and_place__traits.hpp\n'}
+[17.157959] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/navigate__type_support.hpp\n'}
+[17.158013] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/charge_battery__builder.hpp\n'}
+[17.158095] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/navigate__builder.hpp\n'}
+[17.158175] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/navigate__struct.hpp\n'}
+[17.158263] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/map_area__traits.hpp\n'}
+[17.158343] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/charge_battery__struct.hpp\n'}
+[17.158466] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/pick_and_place__builder.hpp\n'}
+[17.158549] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/pick_and_place__struct.hpp\n'}
+[17.158719] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/navigate__traits.hpp\n'}
+[17.158833] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/charge_battery__traits.hpp\n'}
+[17.158918] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/charge_battery__type_support.hpp\n'}
+[17.159003] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/map_area__struct.hpp\n'}
+[17.159084] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/map_area__builder.hpp\n'}
+[17.159166] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/map_area.hpp\n'}
+[17.159247] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/navigate.hpp\n'}
+[17.159329] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/pick_and_place.hpp\n'}
+[17.159424] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv\n'}
+[17.159462] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/get_robot_status.hpp\n'}
+[17.159492] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail\n'}
+[17.159521] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/get_robot_status__type_support.hpp\n'}
+[17.159552] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/emergency_stop__builder.hpp\n'}
+[17.159644] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/robot_command__struct.hpp\n'}
+[17.159877] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/emergency_stop__struct.hpp\n'}
+[17.159942] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/get_robot_status__builder.hpp\n'}
+[17.160012] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/robot_command__type_support.hpp\n'}
+[17.160135] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/robot_command__builder.hpp\n'}
+[17.160181] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/get_robot_status__traits.hpp\n'}
+[17.160254] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/calculate_path__builder.hpp\n'}
+[17.160336] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/emergency_stop__type_support.hpp\n'}
+[17.160417] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/emergency_stop__traits.hpp\n'}
+[17.160499] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/calculate_path__struct.hpp\n'}
+[17.160580] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/get_robot_status__struct.hpp\n'}
+[17.160660] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/calculate_path__type_support.hpp\n'}
+[17.160740] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/robot_command__traits.hpp\n'}
+[17.160821] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/calculate_path__traits.hpp\n'}
+[17.160902] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/robot_command.hpp\n'}
+[17.160983] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/calculate_path.hpp\n'}
+[17.161064] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/emergency_stop.hpp\n'}
+[17.161145] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2\n'}
+[17.161279] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg\n'}
+[17.161336] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail\n'}
+[17.161368] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.161396] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/motor_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.161432] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/sensor_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.161459] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/dds_fastrtps\n'}
+[17.161485] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.161510] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[17.161536] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action\n'}
+[17.161562] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail\n'}
+[17.161588] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/dds_fastrtps\n'}
+[17.161616] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/map_area__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.161641] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/charge_battery__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.161666] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/navigate__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.161692] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/pick_and_place__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.161717] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv\n'}
+[17.161742] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail\n'}
+[17.161766] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/get_robot_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.161791] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/emergency_stop__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.161816] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/dds_fastrtps\n'}
+[17.161842] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/robot_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.161867] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/calculate_path__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.162286] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/libday2__rosidl_typesupport_fastrtps_cpp.so\n'}
+[17.163663] (day2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/yalcinolgac/ros2_ws/install/day2/lib/libday2__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[17.163954] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2\n'}
+[17.164057] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg\n'}
+[17.164141] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail\n'}
+[17.164222] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_status__rosidl_typesupport_introspection_c.h\n'}
+[17.164305] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_array__type_support.c\n'}
+[17.164385] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/sensor_data__type_support.c\n'}
+[17.164466] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/motor_status__rosidl_typesupport_introspection_c.h\n'}
+[17.164546] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_array__rosidl_typesupport_introspection_c.h\n'}
+[17.164626] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/motor_status__type_support.c\n'}
+[17.164706] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/sensor_data__rosidl_typesupport_introspection_c.h\n'}
+[17.164842] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_status__type_support.c\n'}
+[17.164902] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[17.164953] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action\n'}
+[17.165027] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail\n'}
+[17.165060] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/map_area__type_support.c\n'}
+[17.165130] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/navigate__rosidl_typesupport_introspection_c.h\n'}
+[17.165232] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/charge_battery__rosidl_typesupport_introspection_c.h\n'}
+[17.165301] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/charge_battery__type_support.c\n'}
+[17.165383] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/navigate__type_support.c\n'}
+[17.165430] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/pick_and_place__type_support.c\n'}
+[17.165460] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/map_area__rosidl_typesupport_introspection_c.h\n'}
+[17.165488] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/pick_and_place__rosidl_typesupport_introspection_c.h\n'}
+[17.165529] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv\n'}
+[17.165611] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail\n'}
+[17.165692] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/robot_command__type_support.c\n'}
+[17.165773] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/calculate_path__type_support.c\n'}
+[17.165853] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/get_robot_status__rosidl_typesupport_introspection_c.h\n'}
+[17.165926] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/emergency_stop__type_support.c\n'}
+[17.165995] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/robot_command__rosidl_typesupport_introspection_c.h\n'}
+[17.166102] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/get_robot_status__type_support.c\n'}
+[17.166220] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/calculate_path__rosidl_typesupport_introspection_c.h\n'}
+[17.166259] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/emergency_stop__rosidl_typesupport_introspection_c.h\n'}
+[17.166844] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/libday2__rosidl_typesupport_introspection_c.so\n'}
+[17.167359] (day2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/yalcinolgac/ros2_ws/install/day2/lib/libday2__rosidl_typesupport_introspection_c.so" to ""\n'}
+[17.168131] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/libday2__rosidl_typesupport_c.so\n'}
+[17.168458] (day2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/yalcinolgac/ros2_ws/install/day2/lib/libday2__rosidl_typesupport_c.so" to ""\n'}
+[17.168548] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2\n'}
+[17.168598] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg\n'}
+[17.168627] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail\n'}
+[17.168655] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/motor_status__type_support.cpp\n'}
+[17.168709] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/motor_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.168740] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/sensor_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.168772] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_array__type_support.cpp\n'}
+[17.168875] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_status__type_support.cpp\n'}
+[17.168950] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.169090] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/sensor_data__type_support.cpp\n'}
+[17.169190] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/msg/detail/robot_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.169273] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action\n'}
+[17.169389] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail\n'}
+[17.169477] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/navigate__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.169614] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/map_area__type_support.cpp\n'}
+[17.169656] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/navigate__type_support.cpp\n'}
+[17.169730] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/charge_battery__type_support.cpp\n'}
+[17.169802] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/map_area__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.169883] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/charge_battery__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.170012] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/pick_and_place__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.170059] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/action/detail/pick_and_place__type_support.cpp\n'}
+[17.170141] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv\n'}
+[17.170221] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail\n'}
+[17.170301] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/robot_command__type_support.cpp\n'}
+[17.170429] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/calculate_path__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.170468] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/emergency_stop__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.170497] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/get_robot_status__type_support.cpp\n'}
+[17.170553] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/robot_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.170582] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/get_robot_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.170610] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/emergency_stop__type_support.cpp\n'}
+[17.170638] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/include/day2/day2/srv/detail/calculate_path__type_support.cpp\n'}
+[17.171459] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/libday2__rosidl_typesupport_introspection_cpp.so\n'}
+[17.172943] (day2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/yalcinolgac/ros2_ws/install/day2/lib/libday2__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[17.173776] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/libday2__rosidl_typesupport_cpp.so\n'}
+[17.174609] (day2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/yalcinolgac/ros2_ws/install/day2/lib/libday2__rosidl_typesupport_cpp.so" to ""\n'}
+[17.174708] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/environment/pythonpath.sh\n'}
+[17.174797] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/environment/pythonpath.dsv\n'}
+[17.174877] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2-1.0.0-py3.12.egg-info\n'}
+[17.175177] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2-1.0.0-py3.12.egg-info/PKG-INFO\n'}
+[17.175322] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2-1.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[17.175386] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2-1.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[17.175469] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2-1.0.0-py3.12.egg-info/top_level.txt\n'}
+[17.175503] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2\n'}
+[17.175532] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/_day2_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[17.175560] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/msg\n'}
+[17.175587] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/msg/_robot_status_s.c\n'}
+[17.175615] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/msg/_sensor_data.py\n'}
+[17.175729] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/msg/_robot_array_s.c\n'}
+[17.175894] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/msg/_sensor_data_s.c\n'}
+[17.175934] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/msg/_motor_status_s.c\n'}
+[17.176002] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/msg/__init__.py\n'}
+[17.176077] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/msg/_motor_status.py\n'}
+[17.176110] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/msg/_robot_status.py\n'}
+[17.176178] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/msg/_robot_array.py\n'}
+[17.176259] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/day2_s__rosidl_typesupport_fastrtps_c.so\n'}
+[17.176379] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/_day2_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[17.176443] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/action\n'}
+[17.176541] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/action/_charge_battery_s.c\n'}
+[17.176630] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/action/_charge_battery.py\n'}
+[17.176732] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/action/_pick_and_place.py\n'}
+[17.176837] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/action/_navigate.py\n'}
+[17.176941] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/action/_navigate_s.c\n'}
+[17.177025] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/action/_pick_and_place_s.c\n'}
+[17.177119] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/action/_map_area.py\n'}
+[17.177218] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/action/__init__.py\n'}
+[17.177298] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/action/_map_area_s.c\n'}
+[17.177370] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/__init__.py\n'}
+[17.177459] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/day2_s__rosidl_typesupport_c.so\n'}
+[17.177613] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/srv\n'}
+[17.177660] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/srv/_get_robot_status.py\n'}
+[17.177721] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/srv/_robot_command_s.c\n'}
+[17.177796] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/srv/_calculate_path.py\n'}
+[17.177893] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/srv/_emergency_stop_s.c\n'}
+[17.177979] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/srv/__init__.py\n'}
+[17.178059] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/srv/_emergency_stop.py\n'}
+[17.178139] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/srv/_robot_command.py\n'}
+[17.178222] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/srv/_get_robot_status_s.c\n'}
+[17.178305] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/srv/_calculate_path_s.c\n'}
+[17.178401] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/day2_s__rosidl_typesupport_introspection_c.so\n'}
+[17.178559] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/_day2_s.ep.rosidl_typesupport_c.c\n'}
+[17.245847] (-) TimerEvent: {}
+[17.261888] (day2) StdoutLine: {'line': b"Listing '/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2'...\n"}
+[17.262029] (day2) StdoutLine: {'line': b"Compiling '/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/__init__.py'...\n"}
+[17.262063] (day2) StdoutLine: {'line': b"Listing '/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/action'...\n"}
+[17.262094] (day2) StdoutLine: {'line': b"Compiling '/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/action/__init__.py'...\n"}
+[17.262122] (day2) StdoutLine: {'line': b"Compiling '/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/action/_charge_battery.py'...\n"}
+[17.262149] (day2) StdoutLine: {'line': b"Compiling '/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/action/_map_area.py'...\n"}
+[17.262175] (day2) StdoutLine: {'line': b"Compiling '/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/action/_navigate.py'...\n"}
+[17.262201] (day2) StdoutLine: {'line': b"Compiling '/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/action/_pick_and_place.py'...\n"}
+[17.262240] (day2) StdoutLine: {'line': b"Listing '/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/msg'...\n"}
+[17.262265] (day2) StdoutLine: {'line': b"Compiling '/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/msg/__init__.py'...\n"}
+[17.262289] (day2) StdoutLine: {'line': b"Compiling '/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/msg/_motor_status.py'...\n"}
+[17.262314] (day2) StdoutLine: {'line': b"Compiling '/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/msg/_robot_array.py'...\n"}
+[17.262339] (day2) StdoutLine: {'line': b"Compiling '/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/msg/_robot_status.py'...\n"}
+[17.262364] (day2) StdoutLine: {'line': b"Compiling '/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/msg/_sensor_data.py'...\n"}
+[17.262389] (day2) StdoutLine: {'line': b"Listing '/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/srv'...\n"}
+[17.262414] (day2) StdoutLine: {'line': b"Compiling '/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/srv/__init__.py'...\n"}
+[17.262439] (day2) StdoutLine: {'line': b"Compiling '/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/srv/_calculate_path.py'...\n"}
+[17.262465] (day2) StdoutLine: {'line': b"Compiling '/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/srv/_emergency_stop.py'...\n"}
+[17.262491] (day2) StdoutLine: {'line': b"Compiling '/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/srv/_get_robot_status.py'...\n"}
+[17.262516] (day2) StdoutLine: {'line': b"Compiling '/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/srv/_robot_command.py'...\n"}
+[17.265790] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/day2_s__rosidl_typesupport_fastrtps_c.so\n'}
+[17.265965] (day2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/day2_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[17.266153] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/day2_s__rosidl_typesupport_introspection_c.so\n'}
+[17.266260] (day2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/day2_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[17.266397] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/day2_s__rosidl_typesupport_c.so\n'}
+[17.266733] (day2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages/day2/day2_s__rosidl_typesupport_c.so" to ""\n'}
+[17.267456] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/lib/libday2__rosidl_generator_py.so\n'}
+[17.268573] (day2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/yalcinolgac/ros2_ws/install/day2/lib/libday2__rosidl_generator_py.so" to ""\n'}
+[17.268640] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/msg/RobotStatus.idl\n'}
+[17.268760] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/msg/SensorData.idl\n'}
+[17.268804] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/msg/MotorStatus.idl\n'}
+[17.268911] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/msg/RobotArray.idl\n'}
+[17.268947] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/srv/RobotCommand.idl\n'}
+[17.269003] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/srv/GetRobotStatus.idl\n'}
+[17.269034] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/srv/CalculatePath.idl\n'}
+[17.269062] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/srv/EmergencyStop.idl\n'}
+[17.269117] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/action/Navigate.idl\n'}
+[17.269148] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/action/PickAndPlace.idl\n'}
+[17.269177] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/action/MapArea.idl\n'}
+[17.269222] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/action/ChargeBattery.idl\n'}
+[17.269251] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/msg/RobotStatus.msg\n'}
+[17.269279] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/msg/SensorData.msg\n'}
+[17.269464] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/msg/MotorStatus.msg\n'}
+[17.269551] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/msg/RobotArray.msg\n'}
+[17.269585] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/srv/RobotCommand.srv\n'}
+[17.269633] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/srv/GetRobotStatus.srv\n'}
+[17.269693] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/srv/CalculatePath.srv\n'}
+[17.269753] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/srv/EmergencyStop.srv\n'}
+[17.269793] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/action/Navigate.action\n'}
+[17.269822] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/action/PickAndPlace.action\n'}
+[17.269852] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/action/MapArea.action\n'}
+[17.269898] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/action/ChargeBattery.action\n'}
+[17.269927] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/ament_index/resource_index/package_run_dependencies/day2\n'}
+[17.269957] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/ament_index/resource_index/parent_prefix_path/day2\n'}
+[17.269985] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/environment/ament_prefix_path.sh\n'}
+[17.270014] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/environment/ament_prefix_path.dsv\n'}
+[17.270063] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/environment/path.sh\n'}
+[17.270094] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/environment/path.dsv\n'}
+[17.270189] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/local_setup.bash\n'}
+[17.270218] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/local_setup.sh\n'}
+[17.270246] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/local_setup.zsh\n'}
+[17.270274] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/local_setup.dsv\n'}
+[17.270301] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/package.dsv\n'}
+[17.270327] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/ament_index/resource_index/packages/day2\n'}
+[17.270352] (day2) StdoutLine: {'line': b'-- Old export file "/home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/export_day2__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/export_day2__rosidl_generator_cExport-noconfig.cmake].\n'}
+[17.270384] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/export_day2__rosidl_generator_cExport.cmake\n'}
+[17.270411] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/export_day2__rosidl_generator_cExport-noconfig.cmake\n'}
+[17.270437] (day2) StdoutLine: {'line': b'-- Old export file "/home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/export_day2__rosidl_typesupport_fastrtps_cExport.cmake" will be replaced.  Removing files [/home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/export_day2__rosidl_typesupport_fastrtps_cExport-noconfig.cmake].\n'}
+[17.270465] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/export_day2__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[17.270568] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/export_day2__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[17.270609] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/export_day2__rosidl_generator_cppExport.cmake\n'}
+[17.270684] (day2) StdoutLine: {'line': b'-- Old export file "/home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/export_day2__rosidl_typesupport_fastrtps_cppExport.cmake" will be replaced.  Removing files [/home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/export_day2__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake].\n'}
+[17.270717] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/export_day2__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[17.270746] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/export_day2__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[17.270773] (day2) StdoutLine: {'line': b'-- Old export file "/home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/day2__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/day2__rosidl_typesupport_introspection_cExport-noconfig.cmake].\n'}
+[17.270802] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/day2__rosidl_typesupport_introspection_cExport.cmake\n'}
+[17.270908] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/day2__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[17.270960] (day2) StdoutLine: {'line': b'-- Old export file "/home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/day2__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/day2__rosidl_typesupport_cExport-noconfig.cmake].\n'}
+[17.270990] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/day2__rosidl_typesupport_cExport.cmake\n'}
+[17.271053] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/day2__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[17.271234] (day2) StdoutLine: {'line': b'-- Old export file "/home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/day2__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/day2__rosidl_typesupport_introspection_cppExport-noconfig.cmake].\n'}
+[17.271279] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/day2__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[17.271308] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/day2__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[17.271337] (day2) StdoutLine: {'line': b'-- Old export file "/home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/day2__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/day2__rosidl_typesupport_cppExport-noconfig.cmake].\n'}
+[17.271366] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/day2__rosidl_typesupport_cppExport.cmake\n'}
+[17.271392] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/day2__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[17.272070] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/export_day2__rosidl_generator_pyExport.cmake\n'}
+[17.272139] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/export_day2__rosidl_generator_pyExport-noconfig.cmake\n'}
+[17.272246] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/rosidl_cmake-extras.cmake\n'}
+[17.272311] (day2) StdoutLine: {'line': b'-- Installing: /home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[17.272393] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[17.272526] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[17.272565] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[17.272614] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[17.272644] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[17.272673] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/day2Config.cmake\n'}
+[17.272699] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake/day2Config-version.cmake\n'}
+[17.272726] (day2) StdoutLine: {'line': b'-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2/share/day2/package.xml\n'}
+[17.273836] (day2) CommandEnded: {'returncode': 0}
+[17.282436] (day2) JobEnded: {'identifier': 'day2', 'rc': 0}
+[17.283176] (day2_2) JobStarted: {'identifier': 'day2_2'}
+[17.290125] (day2_2) JobProgress: {'identifier': 'day2_2', 'progress': 'cmake'}
+[17.291256] (day2_2) JobProgress: {'identifier': 'day2_2', 'progress': 'build'}
+[17.291289] (day2_2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yalcinolgac/ros2_ws/build/day2_2', '--', '-j32', '-l32'], 'cwd': '/home/yalcinolgac/ros2_ws/build/day2_2', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yalcinolgac', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yalcinolgac/ros2_ws/install/day2/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/yalcinolgac', 'OLDPWD': '/home/yalcinolgac', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/yalcinolgac/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'yalcinolgac', 'NAME': 'yalcinolgac', 'WSL_INTEROP': '/run/WSL/637_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/snap/bin:/home/yalcinolgac/Android/Sdk/cmdline-tools/latest/bin:/home/yalcinolgac/Android/Sdk/platform-tools:/home/yalcinolgac/Android/Sdk/emulator', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/yalcinolgac/ros2_ws/install/day2_2:/home/yalcinolgac/ros2_ws/install/day2:/home/yalcinolgac/ros2_ws/install/day1:/opt/ros/jazzy', 'ANDROID_NDK_ROOT': '/home/yalcinolgac/Android/Sdk/ndk/25.2.9519653', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'ANDROID_SDK_ROOT': '/home/yalcinolgac/Android/Sdk', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'JAVA_HOME': '/usr/lib/jvm/java-17-openjdk-amd64', 'PWD': '/home/yalcinolgac/ros2_ws/build/day2_2', 'ANDROID_HOME': '/home/yalcinolgac/Android/Sdk', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/yalcinolgac/ros2_ws/install/day2:/home/yalcinolgac/ros2_ws/install/day2_2:/home/yalcinolgac/ros2_ws/install/day1:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[17.309551] (day2_2) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[17.345932] (-) TimerEvent: {}
+[17.444998] (day2_2) StdoutLine: {'line': b'-- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[17.446099] (-) TimerEvent: {}
+[17.465319] (day2_2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[17.469769] (day2_2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[17.475578] (day2_2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[17.482890] (day2_2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[17.534470] (day2_2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[17.536807] (day2_2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[17.546230] (-) TimerEvent: {}
+[17.588636] (day2_2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[17.646369] (-) TimerEvent: {}
+[17.648184] (day2_2) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[17.655424] (day2_2) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[17.663965] (day2_2) StdoutLine: {'line': b'-- Found day2: 1.0.0 (/home/yalcinolgac/ros2_ws/install/day2/share/day2/cmake)\n'}
+[17.708553] (day2_2) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):\n'}
+[17.708678] (day2_2) StderrLine: {'line': b"  ament_target_dependencies() the passed package name 'rclcpp_action' was not\n"}
+[17.708714] (day2_2) StderrLine: {'line': b'  found before\n'}
+[17.708745] (day2_2) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[17.708777] (day2_2) StderrLine: {'line': b'  CMakeLists.txt:121 (ament_target_dependencies)\n'}
+[17.708806] (day2_2) StderrLine: {'line': b'\n'}
+[17.708835] (day2_2) StderrLine: {'line': b'\x1b[0m\n'}
+[17.708862] (day2_2) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[17.713147] (day2_2) StderrLine: {'line': b'gmake: *** [Makefile:595: cmake_check_build_system] Error 1\n'}
+[17.714675] (day2_2) CommandEnded: {'returncode': 2}
+[17.718466] (day2_2) JobEnded: {'identifier': 'day2_2', 'rc': 2}
+[17.728869] (-) EventReactorShutdown: {}

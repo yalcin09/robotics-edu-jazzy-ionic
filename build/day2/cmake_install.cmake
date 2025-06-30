@@ -79,6 +79,22 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/day2/action" TYPE FILE FILES "/home/yalcinolgac/ros2_ws/build/day2/rosidl_generator_type_description/day2/action/Navigate.json")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/day2/action" TYPE FILE FILES "/home/yalcinolgac/ros2_ws/build/day2/rosidl_generator_type_description/day2/action/PickAndPlace.json")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/day2/action" TYPE FILE FILES "/home/yalcinolgac/ros2_ws/build/day2/rosidl_generator_type_description/day2/action/MapArea.json")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/day2/action" TYPE FILE FILES "/home/yalcinolgac/ros2_ws/build/day2/rosidl_generator_type_description/day2/action/ChargeBattery.json")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/day2/day2" TYPE DIRECTORY FILES "/home/yalcinolgac/ros2_ws/build/day2/rosidl_generator_c/day2/" REGEX "/[^/]*\\.h$")
 endif()
 
@@ -423,6 +439,22 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/day2/action" TYPE FILE FILES "/home/yalcinolgac/ros2_ws/build/day2/rosidl_adapter/day2/action/Navigate.idl")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/day2/action" TYPE FILE FILES "/home/yalcinolgac/ros2_ws/build/day2/rosidl_adapter/day2/action/PickAndPlace.idl")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/day2/action" TYPE FILE FILES "/home/yalcinolgac/ros2_ws/build/day2/rosidl_adapter/day2/action/MapArea.idl")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/day2/action" TYPE FILE FILES "/home/yalcinolgac/ros2_ws/build/day2/rosidl_adapter/day2/action/ChargeBattery.idl")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/day2/msg" TYPE FILE FILES "/home/yalcinolgac/ros2_ws/src/day2/msg/RobotStatus.msg")
 endif()
 
@@ -452,6 +484,22 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/day2/srv" TYPE FILE FILES "/home/yalcinolgac/ros2_ws/src/day2/srv/EmergencyStop.srv")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/day2/action" TYPE FILE FILES "/home/yalcinolgac/ros2_ws/src/day2/action/Navigate.action")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/day2/action" TYPE FILE FILES "/home/yalcinolgac/ros2_ws/src/day2/action/PickAndPlace.action")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/day2/action" TYPE FILE FILES "/home/yalcinolgac/ros2_ws/src/day2/action/MapArea.action")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/day2/action" TYPE FILE FILES "/home/yalcinolgac/ros2_ws/src/day2/action/ChargeBattery.action")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)

@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-40956e41194eab71dcab.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "day2_2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "day2_2_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-day2_2_uninstall-77d73260536e4783fca6.json",
+					"name" : "day2_2_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "filtering_subscriber_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-filtering_subscriber_node-3fbbc5e7a836bd984ce5.json",
+					"name" : "filtering_subscriber_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "message_analyzer_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-message_analyzer_node-3cda203512d14a45f7d1.json",
+					"name" : "message_analyzer_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navigate_action_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navigate_action_client-ef148e8cc1f4f57aea44.json",
+					"name" : "navigate_action_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navigate_action_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navigate_action_server-4c9cf7761d5b809d42da.json",
+					"name" : "navigate_action_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "performance_test_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-performance_test_node-eba74effe7c57445d724.json",
+					"name" : "performance_test_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_command_client_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_command_client_node-e740e10cbbb207dbe9d2.json",
+					"name" : "robot_command_client_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_command_server_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_command_server_node-94b092f6bbce43d32446.json",
+					"name" : "robot_command_server_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_publisher_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_publisher_node-d8ed16d7dc30f236303d.json",
+					"name" : "robot_publisher_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_status_service_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_status_service_node-3bd9ac48b4ce7f5f5727.json",
+					"name" : "robot_status_service_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_subscriber_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_subscriber_node-4ee4a0ca838ac28084f9.json",
+					"name" : "robot_subscriber_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensor_simulator_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensor_simulator_node-2162164d990317e08865.json",
+					"name" : "sensor_simulator_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-c67a195a7da1fc2ff50d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yalcinolgac/ros2_ws/build/day2_2",
+		"source" : "/home/yalcinolgac/ros2_ws/src/day2_2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

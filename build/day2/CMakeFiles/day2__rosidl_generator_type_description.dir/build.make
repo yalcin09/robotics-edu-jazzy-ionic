@@ -74,6 +74,10 @@ CMakeFiles/day2__rosidl_generator_type_description: rosidl_generator_type_descri
 CMakeFiles/day2__rosidl_generator_type_description: rosidl_generator_type_description/day2/srv/GetRobotStatus.json
 CMakeFiles/day2__rosidl_generator_type_description: rosidl_generator_type_description/day2/srv/CalculatePath.json
 CMakeFiles/day2__rosidl_generator_type_description: rosidl_generator_type_description/day2/srv/EmergencyStop.json
+CMakeFiles/day2__rosidl_generator_type_description: rosidl_generator_type_description/day2/action/Navigate.json
+CMakeFiles/day2__rosidl_generator_type_description: rosidl_generator_type_description/day2/action/PickAndPlace.json
+CMakeFiles/day2__rosidl_generator_type_description: rosidl_generator_type_description/day2/action/MapArea.json
+CMakeFiles/day2__rosidl_generator_type_description: rosidl_generator_type_description/day2/action/ChargeBattery.json
 
 rosidl_generator_type_description/day2/msg/RobotStatus.json: /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description
 rosidl_generator_type_description/day2/msg/RobotStatus.json: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py
@@ -85,6 +89,10 @@ rosidl_generator_type_description/day2/msg/RobotStatus.json: rosidl_adapter/day2
 rosidl_generator_type_description/day2/msg/RobotStatus.json: rosidl_adapter/day2/srv/GetRobotStatus.idl
 rosidl_generator_type_description/day2/msg/RobotStatus.json: rosidl_adapter/day2/srv/CalculatePath.idl
 rosidl_generator_type_description/day2/msg/RobotStatus.json: rosidl_adapter/day2/srv/EmergencyStop.idl
+rosidl_generator_type_description/day2/msg/RobotStatus.json: rosidl_adapter/day2/action/Navigate.idl
+rosidl_generator_type_description/day2/msg/RobotStatus.json: rosidl_adapter/day2/action/PickAndPlace.idl
+rosidl_generator_type_description/day2/msg/RobotStatus.json: rosidl_adapter/day2/action/MapArea.idl
+rosidl_generator_type_description/day2/msg/RobotStatus.json: rosidl_adapter/day2/action/ChargeBattery.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/yalcinolgac/ros2_ws/build/day2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating type hashes for ROS interfaces"
 	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /home/yalcinolgac/ros2_ws/build/day2/rosidl_generator_type_description__arguments.json
 
@@ -109,7 +117,23 @@ rosidl_generator_type_description/day2/srv/CalculatePath.json: rosidl_generator_
 rosidl_generator_type_description/day2/srv/EmergencyStop.json: rosidl_generator_type_description/day2/msg/RobotStatus.json
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_type_description/day2/srv/EmergencyStop.json
 
+rosidl_generator_type_description/day2/action/Navigate.json: rosidl_generator_type_description/day2/msg/RobotStatus.json
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_type_description/day2/action/Navigate.json
+
+rosidl_generator_type_description/day2/action/PickAndPlace.json: rosidl_generator_type_description/day2/msg/RobotStatus.json
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_type_description/day2/action/PickAndPlace.json
+
+rosidl_generator_type_description/day2/action/MapArea.json: rosidl_generator_type_description/day2/msg/RobotStatus.json
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_type_description/day2/action/MapArea.json
+
+rosidl_generator_type_description/day2/action/ChargeBattery.json: rosidl_generator_type_description/day2/msg/RobotStatus.json
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_type_description/day2/action/ChargeBattery.json
+
 day2__rosidl_generator_type_description: CMakeFiles/day2__rosidl_generator_type_description
+day2__rosidl_generator_type_description: rosidl_generator_type_description/day2/action/ChargeBattery.json
+day2__rosidl_generator_type_description: rosidl_generator_type_description/day2/action/MapArea.json
+day2__rosidl_generator_type_description: rosidl_generator_type_description/day2/action/Navigate.json
+day2__rosidl_generator_type_description: rosidl_generator_type_description/day2/action/PickAndPlace.json
 day2__rosidl_generator_type_description: rosidl_generator_type_description/day2/msg/MotorStatus.json
 day2__rosidl_generator_type_description: rosidl_generator_type_description/day2/msg/RobotArray.json
 day2__rosidl_generator_type_description: rosidl_generator_type_description/day2/msg/RobotStatus.json

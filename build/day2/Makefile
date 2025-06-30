@@ -418,6 +418,294 @@ day2__py/fast:
 	$(MAKE) $(MAKESILENT) -f /home/yalcinolgac/ros2_ws/build/day2/day2__py/CMakeFiles/day2__py.dir/build.make /home/yalcinolgac/ros2_ws/build/day2/day2__py/CMakeFiles/day2__py.dir/build
 .PHONY : day2__py/fast
 
+rosidl_generator_c/day2/action/detail/charge_battery__description.o: rosidl_generator_c/day2/action/detail/charge_battery__description.c.o
+.PHONY : rosidl_generator_c/day2/action/detail/charge_battery__description.o
+
+# target to build an object file
+rosidl_generator_c/day2/action/detail/charge_battery__description.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_generator_c.dir/build.make CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/charge_battery__description.c.o
+.PHONY : rosidl_generator_c/day2/action/detail/charge_battery__description.c.o
+
+rosidl_generator_c/day2/action/detail/charge_battery__description.i: rosidl_generator_c/day2/action/detail/charge_battery__description.c.i
+.PHONY : rosidl_generator_c/day2/action/detail/charge_battery__description.i
+
+# target to preprocess a source file
+rosidl_generator_c/day2/action/detail/charge_battery__description.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_generator_c.dir/build.make CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/charge_battery__description.c.i
+.PHONY : rosidl_generator_c/day2/action/detail/charge_battery__description.c.i
+
+rosidl_generator_c/day2/action/detail/charge_battery__description.s: rosidl_generator_c/day2/action/detail/charge_battery__description.c.s
+.PHONY : rosidl_generator_c/day2/action/detail/charge_battery__description.s
+
+# target to generate assembly for a file
+rosidl_generator_c/day2/action/detail/charge_battery__description.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_generator_c.dir/build.make CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/charge_battery__description.c.s
+.PHONY : rosidl_generator_c/day2/action/detail/charge_battery__description.c.s
+
+rosidl_generator_c/day2/action/detail/charge_battery__functions.o: rosidl_generator_c/day2/action/detail/charge_battery__functions.c.o
+.PHONY : rosidl_generator_c/day2/action/detail/charge_battery__functions.o
+
+# target to build an object file
+rosidl_generator_c/day2/action/detail/charge_battery__functions.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_generator_c.dir/build.make CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/charge_battery__functions.c.o
+.PHONY : rosidl_generator_c/day2/action/detail/charge_battery__functions.c.o
+
+rosidl_generator_c/day2/action/detail/charge_battery__functions.i: rosidl_generator_c/day2/action/detail/charge_battery__functions.c.i
+.PHONY : rosidl_generator_c/day2/action/detail/charge_battery__functions.i
+
+# target to preprocess a source file
+rosidl_generator_c/day2/action/detail/charge_battery__functions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_generator_c.dir/build.make CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/charge_battery__functions.c.i
+.PHONY : rosidl_generator_c/day2/action/detail/charge_battery__functions.c.i
+
+rosidl_generator_c/day2/action/detail/charge_battery__functions.s: rosidl_generator_c/day2/action/detail/charge_battery__functions.c.s
+.PHONY : rosidl_generator_c/day2/action/detail/charge_battery__functions.s
+
+# target to generate assembly for a file
+rosidl_generator_c/day2/action/detail/charge_battery__functions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_generator_c.dir/build.make CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/charge_battery__functions.c.s
+.PHONY : rosidl_generator_c/day2/action/detail/charge_battery__functions.c.s
+
+rosidl_generator_c/day2/action/detail/charge_battery__type_support.o: rosidl_generator_c/day2/action/detail/charge_battery__type_support.c.o
+.PHONY : rosidl_generator_c/day2/action/detail/charge_battery__type_support.o
+
+# target to build an object file
+rosidl_generator_c/day2/action/detail/charge_battery__type_support.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_generator_c.dir/build.make CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/charge_battery__type_support.c.o
+.PHONY : rosidl_generator_c/day2/action/detail/charge_battery__type_support.c.o
+
+rosidl_generator_c/day2/action/detail/charge_battery__type_support.i: rosidl_generator_c/day2/action/detail/charge_battery__type_support.c.i
+.PHONY : rosidl_generator_c/day2/action/detail/charge_battery__type_support.i
+
+# target to preprocess a source file
+rosidl_generator_c/day2/action/detail/charge_battery__type_support.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_generator_c.dir/build.make CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/charge_battery__type_support.c.i
+.PHONY : rosidl_generator_c/day2/action/detail/charge_battery__type_support.c.i
+
+rosidl_generator_c/day2/action/detail/charge_battery__type_support.s: rosidl_generator_c/day2/action/detail/charge_battery__type_support.c.s
+.PHONY : rosidl_generator_c/day2/action/detail/charge_battery__type_support.s
+
+# target to generate assembly for a file
+rosidl_generator_c/day2/action/detail/charge_battery__type_support.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_generator_c.dir/build.make CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/charge_battery__type_support.c.s
+.PHONY : rosidl_generator_c/day2/action/detail/charge_battery__type_support.c.s
+
+rosidl_generator_c/day2/action/detail/map_area__description.o: rosidl_generator_c/day2/action/detail/map_area__description.c.o
+.PHONY : rosidl_generator_c/day2/action/detail/map_area__description.o
+
+# target to build an object file
+rosidl_generator_c/day2/action/detail/map_area__description.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_generator_c.dir/build.make CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/map_area__description.c.o
+.PHONY : rosidl_generator_c/day2/action/detail/map_area__description.c.o
+
+rosidl_generator_c/day2/action/detail/map_area__description.i: rosidl_generator_c/day2/action/detail/map_area__description.c.i
+.PHONY : rosidl_generator_c/day2/action/detail/map_area__description.i
+
+# target to preprocess a source file
+rosidl_generator_c/day2/action/detail/map_area__description.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_generator_c.dir/build.make CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/map_area__description.c.i
+.PHONY : rosidl_generator_c/day2/action/detail/map_area__description.c.i
+
+rosidl_generator_c/day2/action/detail/map_area__description.s: rosidl_generator_c/day2/action/detail/map_area__description.c.s
+.PHONY : rosidl_generator_c/day2/action/detail/map_area__description.s
+
+# target to generate assembly for a file
+rosidl_generator_c/day2/action/detail/map_area__description.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_generator_c.dir/build.make CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/map_area__description.c.s
+.PHONY : rosidl_generator_c/day2/action/detail/map_area__description.c.s
+
+rosidl_generator_c/day2/action/detail/map_area__functions.o: rosidl_generator_c/day2/action/detail/map_area__functions.c.o
+.PHONY : rosidl_generator_c/day2/action/detail/map_area__functions.o
+
+# target to build an object file
+rosidl_generator_c/day2/action/detail/map_area__functions.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_generator_c.dir/build.make CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/map_area__functions.c.o
+.PHONY : rosidl_generator_c/day2/action/detail/map_area__functions.c.o
+
+rosidl_generator_c/day2/action/detail/map_area__functions.i: rosidl_generator_c/day2/action/detail/map_area__functions.c.i
+.PHONY : rosidl_generator_c/day2/action/detail/map_area__functions.i
+
+# target to preprocess a source file
+rosidl_generator_c/day2/action/detail/map_area__functions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_generator_c.dir/build.make CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/map_area__functions.c.i
+.PHONY : rosidl_generator_c/day2/action/detail/map_area__functions.c.i
+
+rosidl_generator_c/day2/action/detail/map_area__functions.s: rosidl_generator_c/day2/action/detail/map_area__functions.c.s
+.PHONY : rosidl_generator_c/day2/action/detail/map_area__functions.s
+
+# target to generate assembly for a file
+rosidl_generator_c/day2/action/detail/map_area__functions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_generator_c.dir/build.make CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/map_area__functions.c.s
+.PHONY : rosidl_generator_c/day2/action/detail/map_area__functions.c.s
+
+rosidl_generator_c/day2/action/detail/map_area__type_support.o: rosidl_generator_c/day2/action/detail/map_area__type_support.c.o
+.PHONY : rosidl_generator_c/day2/action/detail/map_area__type_support.o
+
+# target to build an object file
+rosidl_generator_c/day2/action/detail/map_area__type_support.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_generator_c.dir/build.make CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/map_area__type_support.c.o
+.PHONY : rosidl_generator_c/day2/action/detail/map_area__type_support.c.o
+
+rosidl_generator_c/day2/action/detail/map_area__type_support.i: rosidl_generator_c/day2/action/detail/map_area__type_support.c.i
+.PHONY : rosidl_generator_c/day2/action/detail/map_area__type_support.i
+
+# target to preprocess a source file
+rosidl_generator_c/day2/action/detail/map_area__type_support.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_generator_c.dir/build.make CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/map_area__type_support.c.i
+.PHONY : rosidl_generator_c/day2/action/detail/map_area__type_support.c.i
+
+rosidl_generator_c/day2/action/detail/map_area__type_support.s: rosidl_generator_c/day2/action/detail/map_area__type_support.c.s
+.PHONY : rosidl_generator_c/day2/action/detail/map_area__type_support.s
+
+# target to generate assembly for a file
+rosidl_generator_c/day2/action/detail/map_area__type_support.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_generator_c.dir/build.make CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/map_area__type_support.c.s
+.PHONY : rosidl_generator_c/day2/action/detail/map_area__type_support.c.s
+
+rosidl_generator_c/day2/action/detail/navigate__description.o: rosidl_generator_c/day2/action/detail/navigate__description.c.o
+.PHONY : rosidl_generator_c/day2/action/detail/navigate__description.o
+
+# target to build an object file
+rosidl_generator_c/day2/action/detail/navigate__description.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_generator_c.dir/build.make CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/navigate__description.c.o
+.PHONY : rosidl_generator_c/day2/action/detail/navigate__description.c.o
+
+rosidl_generator_c/day2/action/detail/navigate__description.i: rosidl_generator_c/day2/action/detail/navigate__description.c.i
+.PHONY : rosidl_generator_c/day2/action/detail/navigate__description.i
+
+# target to preprocess a source file
+rosidl_generator_c/day2/action/detail/navigate__description.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_generator_c.dir/build.make CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/navigate__description.c.i
+.PHONY : rosidl_generator_c/day2/action/detail/navigate__description.c.i
+
+rosidl_generator_c/day2/action/detail/navigate__description.s: rosidl_generator_c/day2/action/detail/navigate__description.c.s
+.PHONY : rosidl_generator_c/day2/action/detail/navigate__description.s
+
+# target to generate assembly for a file
+rosidl_generator_c/day2/action/detail/navigate__description.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_generator_c.dir/build.make CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/navigate__description.c.s
+.PHONY : rosidl_generator_c/day2/action/detail/navigate__description.c.s
+
+rosidl_generator_c/day2/action/detail/navigate__functions.o: rosidl_generator_c/day2/action/detail/navigate__functions.c.o
+.PHONY : rosidl_generator_c/day2/action/detail/navigate__functions.o
+
+# target to build an object file
+rosidl_generator_c/day2/action/detail/navigate__functions.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_generator_c.dir/build.make CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/navigate__functions.c.o
+.PHONY : rosidl_generator_c/day2/action/detail/navigate__functions.c.o
+
+rosidl_generator_c/day2/action/detail/navigate__functions.i: rosidl_generator_c/day2/action/detail/navigate__functions.c.i
+.PHONY : rosidl_generator_c/day2/action/detail/navigate__functions.i
+
+# target to preprocess a source file
+rosidl_generator_c/day2/action/detail/navigate__functions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_generator_c.dir/build.make CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/navigate__functions.c.i
+.PHONY : rosidl_generator_c/day2/action/detail/navigate__functions.c.i
+
+rosidl_generator_c/day2/action/detail/navigate__functions.s: rosidl_generator_c/day2/action/detail/navigate__functions.c.s
+.PHONY : rosidl_generator_c/day2/action/detail/navigate__functions.s
+
+# target to generate assembly for a file
+rosidl_generator_c/day2/action/detail/navigate__functions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_generator_c.dir/build.make CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/navigate__functions.c.s
+.PHONY : rosidl_generator_c/day2/action/detail/navigate__functions.c.s
+
+rosidl_generator_c/day2/action/detail/navigate__type_support.o: rosidl_generator_c/day2/action/detail/navigate__type_support.c.o
+.PHONY : rosidl_generator_c/day2/action/detail/navigate__type_support.o
+
+# target to build an object file
+rosidl_generator_c/day2/action/detail/navigate__type_support.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_generator_c.dir/build.make CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/navigate__type_support.c.o
+.PHONY : rosidl_generator_c/day2/action/detail/navigate__type_support.c.o
+
+rosidl_generator_c/day2/action/detail/navigate__type_support.i: rosidl_generator_c/day2/action/detail/navigate__type_support.c.i
+.PHONY : rosidl_generator_c/day2/action/detail/navigate__type_support.i
+
+# target to preprocess a source file
+rosidl_generator_c/day2/action/detail/navigate__type_support.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_generator_c.dir/build.make CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/navigate__type_support.c.i
+.PHONY : rosidl_generator_c/day2/action/detail/navigate__type_support.c.i
+
+rosidl_generator_c/day2/action/detail/navigate__type_support.s: rosidl_generator_c/day2/action/detail/navigate__type_support.c.s
+.PHONY : rosidl_generator_c/day2/action/detail/navigate__type_support.s
+
+# target to generate assembly for a file
+rosidl_generator_c/day2/action/detail/navigate__type_support.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_generator_c.dir/build.make CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/navigate__type_support.c.s
+.PHONY : rosidl_generator_c/day2/action/detail/navigate__type_support.c.s
+
+rosidl_generator_c/day2/action/detail/pick_and_place__description.o: rosidl_generator_c/day2/action/detail/pick_and_place__description.c.o
+.PHONY : rosidl_generator_c/day2/action/detail/pick_and_place__description.o
+
+# target to build an object file
+rosidl_generator_c/day2/action/detail/pick_and_place__description.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_generator_c.dir/build.make CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/pick_and_place__description.c.o
+.PHONY : rosidl_generator_c/day2/action/detail/pick_and_place__description.c.o
+
+rosidl_generator_c/day2/action/detail/pick_and_place__description.i: rosidl_generator_c/day2/action/detail/pick_and_place__description.c.i
+.PHONY : rosidl_generator_c/day2/action/detail/pick_and_place__description.i
+
+# target to preprocess a source file
+rosidl_generator_c/day2/action/detail/pick_and_place__description.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_generator_c.dir/build.make CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/pick_and_place__description.c.i
+.PHONY : rosidl_generator_c/day2/action/detail/pick_and_place__description.c.i
+
+rosidl_generator_c/day2/action/detail/pick_and_place__description.s: rosidl_generator_c/day2/action/detail/pick_and_place__description.c.s
+.PHONY : rosidl_generator_c/day2/action/detail/pick_and_place__description.s
+
+# target to generate assembly for a file
+rosidl_generator_c/day2/action/detail/pick_and_place__description.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_generator_c.dir/build.make CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/pick_and_place__description.c.s
+.PHONY : rosidl_generator_c/day2/action/detail/pick_and_place__description.c.s
+
+rosidl_generator_c/day2/action/detail/pick_and_place__functions.o: rosidl_generator_c/day2/action/detail/pick_and_place__functions.c.o
+.PHONY : rosidl_generator_c/day2/action/detail/pick_and_place__functions.o
+
+# target to build an object file
+rosidl_generator_c/day2/action/detail/pick_and_place__functions.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_generator_c.dir/build.make CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/pick_and_place__functions.c.o
+.PHONY : rosidl_generator_c/day2/action/detail/pick_and_place__functions.c.o
+
+rosidl_generator_c/day2/action/detail/pick_and_place__functions.i: rosidl_generator_c/day2/action/detail/pick_and_place__functions.c.i
+.PHONY : rosidl_generator_c/day2/action/detail/pick_and_place__functions.i
+
+# target to preprocess a source file
+rosidl_generator_c/day2/action/detail/pick_and_place__functions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_generator_c.dir/build.make CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/pick_and_place__functions.c.i
+.PHONY : rosidl_generator_c/day2/action/detail/pick_and_place__functions.c.i
+
+rosidl_generator_c/day2/action/detail/pick_and_place__functions.s: rosidl_generator_c/day2/action/detail/pick_and_place__functions.c.s
+.PHONY : rosidl_generator_c/day2/action/detail/pick_and_place__functions.s
+
+# target to generate assembly for a file
+rosidl_generator_c/day2/action/detail/pick_and_place__functions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_generator_c.dir/build.make CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/pick_and_place__functions.c.s
+.PHONY : rosidl_generator_c/day2/action/detail/pick_and_place__functions.c.s
+
+rosidl_generator_c/day2/action/detail/pick_and_place__type_support.o: rosidl_generator_c/day2/action/detail/pick_and_place__type_support.c.o
+.PHONY : rosidl_generator_c/day2/action/detail/pick_and_place__type_support.o
+
+# target to build an object file
+rosidl_generator_c/day2/action/detail/pick_and_place__type_support.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_generator_c.dir/build.make CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/pick_and_place__type_support.c.o
+.PHONY : rosidl_generator_c/day2/action/detail/pick_and_place__type_support.c.o
+
+rosidl_generator_c/day2/action/detail/pick_and_place__type_support.i: rosidl_generator_c/day2/action/detail/pick_and_place__type_support.c.i
+.PHONY : rosidl_generator_c/day2/action/detail/pick_and_place__type_support.i
+
+# target to preprocess a source file
+rosidl_generator_c/day2/action/detail/pick_and_place__type_support.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_generator_c.dir/build.make CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/pick_and_place__type_support.c.i
+.PHONY : rosidl_generator_c/day2/action/detail/pick_and_place__type_support.c.i
+
+rosidl_generator_c/day2/action/detail/pick_and_place__type_support.s: rosidl_generator_c/day2/action/detail/pick_and_place__type_support.c.s
+.PHONY : rosidl_generator_c/day2/action/detail/pick_and_place__type_support.s
+
+# target to generate assembly for a file
+rosidl_generator_c/day2/action/detail/pick_and_place__type_support.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_generator_c.dir/build.make CMakeFiles/day2__rosidl_generator_c.dir/rosidl_generator_c/day2/action/detail/pick_and_place__type_support.c.s
+.PHONY : rosidl_generator_c/day2/action/detail/pick_and_place__type_support.c.s
+
 rosidl_generator_c/day2/msg/detail/motor_status__description.o: rosidl_generator_c/day2/msg/detail/motor_status__description.c.o
 .PHONY : rosidl_generator_c/day2/msg/detail/motor_status__description.o
 
@@ -1066,6 +1354,102 @@ rosidl_generator_py/day2/_day2_s.ep.rosidl_typesupport_introspection_c.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2_s__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/day2_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/day2/_day2_s.ep.rosidl_typesupport_introspection_c.c.s
 .PHONY : rosidl_generator_py/day2/_day2_s.ep.rosidl_typesupport_introspection_c.c.s
 
+rosidl_generator_py/day2/action/_charge_battery_s.o: rosidl_generator_py/day2/action/_charge_battery_s.c.o
+.PHONY : rosidl_generator_py/day2/action/_charge_battery_s.o
+
+# target to build an object file
+rosidl_generator_py/day2/action/_charge_battery_s.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_generator_py.dir/build.make CMakeFiles/day2__rosidl_generator_py.dir/rosidl_generator_py/day2/action/_charge_battery_s.c.o
+.PHONY : rosidl_generator_py/day2/action/_charge_battery_s.c.o
+
+rosidl_generator_py/day2/action/_charge_battery_s.i: rosidl_generator_py/day2/action/_charge_battery_s.c.i
+.PHONY : rosidl_generator_py/day2/action/_charge_battery_s.i
+
+# target to preprocess a source file
+rosidl_generator_py/day2/action/_charge_battery_s.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_generator_py.dir/build.make CMakeFiles/day2__rosidl_generator_py.dir/rosidl_generator_py/day2/action/_charge_battery_s.c.i
+.PHONY : rosidl_generator_py/day2/action/_charge_battery_s.c.i
+
+rosidl_generator_py/day2/action/_charge_battery_s.s: rosidl_generator_py/day2/action/_charge_battery_s.c.s
+.PHONY : rosidl_generator_py/day2/action/_charge_battery_s.s
+
+# target to generate assembly for a file
+rosidl_generator_py/day2/action/_charge_battery_s.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_generator_py.dir/build.make CMakeFiles/day2__rosidl_generator_py.dir/rosidl_generator_py/day2/action/_charge_battery_s.c.s
+.PHONY : rosidl_generator_py/day2/action/_charge_battery_s.c.s
+
+rosidl_generator_py/day2/action/_map_area_s.o: rosidl_generator_py/day2/action/_map_area_s.c.o
+.PHONY : rosidl_generator_py/day2/action/_map_area_s.o
+
+# target to build an object file
+rosidl_generator_py/day2/action/_map_area_s.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_generator_py.dir/build.make CMakeFiles/day2__rosidl_generator_py.dir/rosidl_generator_py/day2/action/_map_area_s.c.o
+.PHONY : rosidl_generator_py/day2/action/_map_area_s.c.o
+
+rosidl_generator_py/day2/action/_map_area_s.i: rosidl_generator_py/day2/action/_map_area_s.c.i
+.PHONY : rosidl_generator_py/day2/action/_map_area_s.i
+
+# target to preprocess a source file
+rosidl_generator_py/day2/action/_map_area_s.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_generator_py.dir/build.make CMakeFiles/day2__rosidl_generator_py.dir/rosidl_generator_py/day2/action/_map_area_s.c.i
+.PHONY : rosidl_generator_py/day2/action/_map_area_s.c.i
+
+rosidl_generator_py/day2/action/_map_area_s.s: rosidl_generator_py/day2/action/_map_area_s.c.s
+.PHONY : rosidl_generator_py/day2/action/_map_area_s.s
+
+# target to generate assembly for a file
+rosidl_generator_py/day2/action/_map_area_s.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_generator_py.dir/build.make CMakeFiles/day2__rosidl_generator_py.dir/rosidl_generator_py/day2/action/_map_area_s.c.s
+.PHONY : rosidl_generator_py/day2/action/_map_area_s.c.s
+
+rosidl_generator_py/day2/action/_navigate_s.o: rosidl_generator_py/day2/action/_navigate_s.c.o
+.PHONY : rosidl_generator_py/day2/action/_navigate_s.o
+
+# target to build an object file
+rosidl_generator_py/day2/action/_navigate_s.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_generator_py.dir/build.make CMakeFiles/day2__rosidl_generator_py.dir/rosidl_generator_py/day2/action/_navigate_s.c.o
+.PHONY : rosidl_generator_py/day2/action/_navigate_s.c.o
+
+rosidl_generator_py/day2/action/_navigate_s.i: rosidl_generator_py/day2/action/_navigate_s.c.i
+.PHONY : rosidl_generator_py/day2/action/_navigate_s.i
+
+# target to preprocess a source file
+rosidl_generator_py/day2/action/_navigate_s.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_generator_py.dir/build.make CMakeFiles/day2__rosidl_generator_py.dir/rosidl_generator_py/day2/action/_navigate_s.c.i
+.PHONY : rosidl_generator_py/day2/action/_navigate_s.c.i
+
+rosidl_generator_py/day2/action/_navigate_s.s: rosidl_generator_py/day2/action/_navigate_s.c.s
+.PHONY : rosidl_generator_py/day2/action/_navigate_s.s
+
+# target to generate assembly for a file
+rosidl_generator_py/day2/action/_navigate_s.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_generator_py.dir/build.make CMakeFiles/day2__rosidl_generator_py.dir/rosidl_generator_py/day2/action/_navigate_s.c.s
+.PHONY : rosidl_generator_py/day2/action/_navigate_s.c.s
+
+rosidl_generator_py/day2/action/_pick_and_place_s.o: rosidl_generator_py/day2/action/_pick_and_place_s.c.o
+.PHONY : rosidl_generator_py/day2/action/_pick_and_place_s.o
+
+# target to build an object file
+rosidl_generator_py/day2/action/_pick_and_place_s.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_generator_py.dir/build.make CMakeFiles/day2__rosidl_generator_py.dir/rosidl_generator_py/day2/action/_pick_and_place_s.c.o
+.PHONY : rosidl_generator_py/day2/action/_pick_and_place_s.c.o
+
+rosidl_generator_py/day2/action/_pick_and_place_s.i: rosidl_generator_py/day2/action/_pick_and_place_s.c.i
+.PHONY : rosidl_generator_py/day2/action/_pick_and_place_s.i
+
+# target to preprocess a source file
+rosidl_generator_py/day2/action/_pick_and_place_s.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_generator_py.dir/build.make CMakeFiles/day2__rosidl_generator_py.dir/rosidl_generator_py/day2/action/_pick_and_place_s.c.i
+.PHONY : rosidl_generator_py/day2/action/_pick_and_place_s.c.i
+
+rosidl_generator_py/day2/action/_pick_and_place_s.s: rosidl_generator_py/day2/action/_pick_and_place_s.c.s
+.PHONY : rosidl_generator_py/day2/action/_pick_and_place_s.s
+
+# target to generate assembly for a file
+rosidl_generator_py/day2/action/_pick_and_place_s.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_generator_py.dir/build.make CMakeFiles/day2__rosidl_generator_py.dir/rosidl_generator_py/day2/action/_pick_and_place_s.c.s
+.PHONY : rosidl_generator_py/day2/action/_pick_and_place_s.c.s
+
 rosidl_generator_py/day2/msg/_motor_status_s.o: rosidl_generator_py/day2/msg/_motor_status_s.c.o
 .PHONY : rosidl_generator_py/day2/msg/_motor_status_s.o
 
@@ -1257,6 +1641,102 @@ rosidl_generator_py/day2/srv/_robot_command_s.s: rosidl_generator_py/day2/srv/_r
 rosidl_generator_py/day2/srv/_robot_command_s.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_generator_py.dir/build.make CMakeFiles/day2__rosidl_generator_py.dir/rosidl_generator_py/day2/srv/_robot_command_s.c.s
 .PHONY : rosidl_generator_py/day2/srv/_robot_command_s.c.s
+
+rosidl_typesupport_c/day2/action/charge_battery__type_support.o: rosidl_typesupport_c/day2/action/charge_battery__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/day2/action/charge_battery__type_support.o
+
+# target to build an object file
+rosidl_typesupport_c/day2/action/charge_battery__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_c.dir/build.make CMakeFiles/day2__rosidl_typesupport_c.dir/rosidl_typesupport_c/day2/action/charge_battery__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/day2/action/charge_battery__type_support.cpp.o
+
+rosidl_typesupport_c/day2/action/charge_battery__type_support.i: rosidl_typesupport_c/day2/action/charge_battery__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/day2/action/charge_battery__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_c/day2/action/charge_battery__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_c.dir/build.make CMakeFiles/day2__rosidl_typesupport_c.dir/rosidl_typesupport_c/day2/action/charge_battery__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/day2/action/charge_battery__type_support.cpp.i
+
+rosidl_typesupport_c/day2/action/charge_battery__type_support.s: rosidl_typesupport_c/day2/action/charge_battery__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/day2/action/charge_battery__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_c/day2/action/charge_battery__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_c.dir/build.make CMakeFiles/day2__rosidl_typesupport_c.dir/rosidl_typesupport_c/day2/action/charge_battery__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/day2/action/charge_battery__type_support.cpp.s
+
+rosidl_typesupport_c/day2/action/map_area__type_support.o: rosidl_typesupport_c/day2/action/map_area__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/day2/action/map_area__type_support.o
+
+# target to build an object file
+rosidl_typesupport_c/day2/action/map_area__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_c.dir/build.make CMakeFiles/day2__rosidl_typesupport_c.dir/rosidl_typesupport_c/day2/action/map_area__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/day2/action/map_area__type_support.cpp.o
+
+rosidl_typesupport_c/day2/action/map_area__type_support.i: rosidl_typesupport_c/day2/action/map_area__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/day2/action/map_area__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_c/day2/action/map_area__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_c.dir/build.make CMakeFiles/day2__rosidl_typesupport_c.dir/rosidl_typesupport_c/day2/action/map_area__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/day2/action/map_area__type_support.cpp.i
+
+rosidl_typesupport_c/day2/action/map_area__type_support.s: rosidl_typesupport_c/day2/action/map_area__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/day2/action/map_area__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_c/day2/action/map_area__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_c.dir/build.make CMakeFiles/day2__rosidl_typesupport_c.dir/rosidl_typesupport_c/day2/action/map_area__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/day2/action/map_area__type_support.cpp.s
+
+rosidl_typesupport_c/day2/action/navigate__type_support.o: rosidl_typesupport_c/day2/action/navigate__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/day2/action/navigate__type_support.o
+
+# target to build an object file
+rosidl_typesupport_c/day2/action/navigate__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_c.dir/build.make CMakeFiles/day2__rosidl_typesupport_c.dir/rosidl_typesupport_c/day2/action/navigate__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/day2/action/navigate__type_support.cpp.o
+
+rosidl_typesupport_c/day2/action/navigate__type_support.i: rosidl_typesupport_c/day2/action/navigate__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/day2/action/navigate__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_c/day2/action/navigate__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_c.dir/build.make CMakeFiles/day2__rosidl_typesupport_c.dir/rosidl_typesupport_c/day2/action/navigate__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/day2/action/navigate__type_support.cpp.i
+
+rosidl_typesupport_c/day2/action/navigate__type_support.s: rosidl_typesupport_c/day2/action/navigate__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/day2/action/navigate__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_c/day2/action/navigate__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_c.dir/build.make CMakeFiles/day2__rosidl_typesupport_c.dir/rosidl_typesupport_c/day2/action/navigate__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/day2/action/navigate__type_support.cpp.s
+
+rosidl_typesupport_c/day2/action/pick_and_place__type_support.o: rosidl_typesupport_c/day2/action/pick_and_place__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/day2/action/pick_and_place__type_support.o
+
+# target to build an object file
+rosidl_typesupport_c/day2/action/pick_and_place__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_c.dir/build.make CMakeFiles/day2__rosidl_typesupport_c.dir/rosidl_typesupport_c/day2/action/pick_and_place__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/day2/action/pick_and_place__type_support.cpp.o
+
+rosidl_typesupport_c/day2/action/pick_and_place__type_support.i: rosidl_typesupport_c/day2/action/pick_and_place__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/day2/action/pick_and_place__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_c/day2/action/pick_and_place__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_c.dir/build.make CMakeFiles/day2__rosidl_typesupport_c.dir/rosidl_typesupport_c/day2/action/pick_and_place__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/day2/action/pick_and_place__type_support.cpp.i
+
+rosidl_typesupport_c/day2/action/pick_and_place__type_support.s: rosidl_typesupport_c/day2/action/pick_and_place__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/day2/action/pick_and_place__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_c/day2/action/pick_and_place__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_c.dir/build.make CMakeFiles/day2__rosidl_typesupport_c.dir/rosidl_typesupport_c/day2/action/pick_and_place__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/day2/action/pick_and_place__type_support.cpp.s
 
 rosidl_typesupport_c/day2/msg/motor_status__type_support.o: rosidl_typesupport_c/day2/msg/motor_status__type_support.cpp.o
 .PHONY : rosidl_typesupport_c/day2/msg/motor_status__type_support.o
@@ -1450,6 +1930,102 @@ rosidl_typesupport_c/day2/srv/robot_command__type_support.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_c.dir/build.make CMakeFiles/day2__rosidl_typesupport_c.dir/rosidl_typesupport_c/day2/srv/robot_command__type_support.cpp.s
 .PHONY : rosidl_typesupport_c/day2/srv/robot_command__type_support.cpp.s
 
+rosidl_typesupport_cpp/day2/action/charge_battery__type_support.o: rosidl_typesupport_cpp/day2/action/charge_battery__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/day2/action/charge_battery__type_support.o
+
+# target to build an object file
+rosidl_typesupport_cpp/day2/action/charge_battery__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_cpp.dir/build.make CMakeFiles/day2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/day2/action/charge_battery__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/day2/action/charge_battery__type_support.cpp.o
+
+rosidl_typesupport_cpp/day2/action/charge_battery__type_support.i: rosidl_typesupport_cpp/day2/action/charge_battery__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/day2/action/charge_battery__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_cpp/day2/action/charge_battery__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_cpp.dir/build.make CMakeFiles/day2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/day2/action/charge_battery__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/day2/action/charge_battery__type_support.cpp.i
+
+rosidl_typesupport_cpp/day2/action/charge_battery__type_support.s: rosidl_typesupport_cpp/day2/action/charge_battery__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/day2/action/charge_battery__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_cpp/day2/action/charge_battery__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_cpp.dir/build.make CMakeFiles/day2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/day2/action/charge_battery__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/day2/action/charge_battery__type_support.cpp.s
+
+rosidl_typesupport_cpp/day2/action/map_area__type_support.o: rosidl_typesupport_cpp/day2/action/map_area__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/day2/action/map_area__type_support.o
+
+# target to build an object file
+rosidl_typesupport_cpp/day2/action/map_area__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_cpp.dir/build.make CMakeFiles/day2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/day2/action/map_area__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/day2/action/map_area__type_support.cpp.o
+
+rosidl_typesupport_cpp/day2/action/map_area__type_support.i: rosidl_typesupport_cpp/day2/action/map_area__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/day2/action/map_area__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_cpp/day2/action/map_area__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_cpp.dir/build.make CMakeFiles/day2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/day2/action/map_area__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/day2/action/map_area__type_support.cpp.i
+
+rosidl_typesupport_cpp/day2/action/map_area__type_support.s: rosidl_typesupport_cpp/day2/action/map_area__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/day2/action/map_area__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_cpp/day2/action/map_area__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_cpp.dir/build.make CMakeFiles/day2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/day2/action/map_area__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/day2/action/map_area__type_support.cpp.s
+
+rosidl_typesupport_cpp/day2/action/navigate__type_support.o: rosidl_typesupport_cpp/day2/action/navigate__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/day2/action/navigate__type_support.o
+
+# target to build an object file
+rosidl_typesupport_cpp/day2/action/navigate__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_cpp.dir/build.make CMakeFiles/day2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/day2/action/navigate__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/day2/action/navigate__type_support.cpp.o
+
+rosidl_typesupport_cpp/day2/action/navigate__type_support.i: rosidl_typesupport_cpp/day2/action/navigate__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/day2/action/navigate__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_cpp/day2/action/navigate__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_cpp.dir/build.make CMakeFiles/day2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/day2/action/navigate__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/day2/action/navigate__type_support.cpp.i
+
+rosidl_typesupport_cpp/day2/action/navigate__type_support.s: rosidl_typesupport_cpp/day2/action/navigate__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/day2/action/navigate__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_cpp/day2/action/navigate__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_cpp.dir/build.make CMakeFiles/day2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/day2/action/navigate__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/day2/action/navigate__type_support.cpp.s
+
+rosidl_typesupport_cpp/day2/action/pick_and_place__type_support.o: rosidl_typesupport_cpp/day2/action/pick_and_place__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/day2/action/pick_and_place__type_support.o
+
+# target to build an object file
+rosidl_typesupport_cpp/day2/action/pick_and_place__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_cpp.dir/build.make CMakeFiles/day2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/day2/action/pick_and_place__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/day2/action/pick_and_place__type_support.cpp.o
+
+rosidl_typesupport_cpp/day2/action/pick_and_place__type_support.i: rosidl_typesupport_cpp/day2/action/pick_and_place__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/day2/action/pick_and_place__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_cpp/day2/action/pick_and_place__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_cpp.dir/build.make CMakeFiles/day2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/day2/action/pick_and_place__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/day2/action/pick_and_place__type_support.cpp.i
+
+rosidl_typesupport_cpp/day2/action/pick_and_place__type_support.s: rosidl_typesupport_cpp/day2/action/pick_and_place__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/day2/action/pick_and_place__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_cpp/day2/action/pick_and_place__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_cpp.dir/build.make CMakeFiles/day2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/day2/action/pick_and_place__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/day2/action/pick_and_place__type_support.cpp.s
+
 rosidl_typesupport_cpp/day2/msg/motor_status__type_support.o: rosidl_typesupport_cpp/day2/msg/motor_status__type_support.cpp.o
 .PHONY : rosidl_typesupport_cpp/day2/msg/motor_status__type_support.o
 
@@ -1641,6 +2217,102 @@ rosidl_typesupport_cpp/day2/srv/robot_command__type_support.s: rosidl_typesuppor
 rosidl_typesupport_cpp/day2/srv/robot_command__type_support.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_cpp.dir/build.make CMakeFiles/day2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/day2/srv/robot_command__type_support.cpp.s
 .PHONY : rosidl_typesupport_cpp/day2/srv/robot_command__type_support.cpp.s
+
+rosidl_typesupport_fastrtps_c/day2/action/detail/charge_battery__type_support_c.o: rosidl_typesupport_fastrtps_c/day2/action/detail/charge_battery__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/day2/action/detail/charge_battery__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_c/day2/action/detail/charge_battery__type_support_c.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/day2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/day2/action/detail/charge_battery__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/day2/action/detail/charge_battery__type_support_c.cpp.o
+
+rosidl_typesupport_fastrtps_c/day2/action/detail/charge_battery__type_support_c.i: rosidl_typesupport_fastrtps_c/day2/action/detail/charge_battery__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/day2/action/detail/charge_battery__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_c/day2/action/detail/charge_battery__type_support_c.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/day2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/day2/action/detail/charge_battery__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/day2/action/detail/charge_battery__type_support_c.cpp.i
+
+rosidl_typesupport_fastrtps_c/day2/action/detail/charge_battery__type_support_c.s: rosidl_typesupport_fastrtps_c/day2/action/detail/charge_battery__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/day2/action/detail/charge_battery__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_c/day2/action/detail/charge_battery__type_support_c.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/day2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/day2/action/detail/charge_battery__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/day2/action/detail/charge_battery__type_support_c.cpp.s
+
+rosidl_typesupport_fastrtps_c/day2/action/detail/map_area__type_support_c.o: rosidl_typesupport_fastrtps_c/day2/action/detail/map_area__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/day2/action/detail/map_area__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_c/day2/action/detail/map_area__type_support_c.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/day2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/day2/action/detail/map_area__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/day2/action/detail/map_area__type_support_c.cpp.o
+
+rosidl_typesupport_fastrtps_c/day2/action/detail/map_area__type_support_c.i: rosidl_typesupport_fastrtps_c/day2/action/detail/map_area__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/day2/action/detail/map_area__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_c/day2/action/detail/map_area__type_support_c.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/day2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/day2/action/detail/map_area__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/day2/action/detail/map_area__type_support_c.cpp.i
+
+rosidl_typesupport_fastrtps_c/day2/action/detail/map_area__type_support_c.s: rosidl_typesupport_fastrtps_c/day2/action/detail/map_area__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/day2/action/detail/map_area__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_c/day2/action/detail/map_area__type_support_c.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/day2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/day2/action/detail/map_area__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/day2/action/detail/map_area__type_support_c.cpp.s
+
+rosidl_typesupport_fastrtps_c/day2/action/detail/navigate__type_support_c.o: rosidl_typesupport_fastrtps_c/day2/action/detail/navigate__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/day2/action/detail/navigate__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_c/day2/action/detail/navigate__type_support_c.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/day2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/day2/action/detail/navigate__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/day2/action/detail/navigate__type_support_c.cpp.o
+
+rosidl_typesupport_fastrtps_c/day2/action/detail/navigate__type_support_c.i: rosidl_typesupport_fastrtps_c/day2/action/detail/navigate__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/day2/action/detail/navigate__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_c/day2/action/detail/navigate__type_support_c.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/day2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/day2/action/detail/navigate__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/day2/action/detail/navigate__type_support_c.cpp.i
+
+rosidl_typesupport_fastrtps_c/day2/action/detail/navigate__type_support_c.s: rosidl_typesupport_fastrtps_c/day2/action/detail/navigate__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/day2/action/detail/navigate__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_c/day2/action/detail/navigate__type_support_c.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/day2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/day2/action/detail/navigate__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/day2/action/detail/navigate__type_support_c.cpp.s
+
+rosidl_typesupport_fastrtps_c/day2/action/detail/pick_and_place__type_support_c.o: rosidl_typesupport_fastrtps_c/day2/action/detail/pick_and_place__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/day2/action/detail/pick_and_place__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_c/day2/action/detail/pick_and_place__type_support_c.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/day2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/day2/action/detail/pick_and_place__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/day2/action/detail/pick_and_place__type_support_c.cpp.o
+
+rosidl_typesupport_fastrtps_c/day2/action/detail/pick_and_place__type_support_c.i: rosidl_typesupport_fastrtps_c/day2/action/detail/pick_and_place__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/day2/action/detail/pick_and_place__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_c/day2/action/detail/pick_and_place__type_support_c.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/day2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/day2/action/detail/pick_and_place__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/day2/action/detail/pick_and_place__type_support_c.cpp.i
+
+rosidl_typesupport_fastrtps_c/day2/action/detail/pick_and_place__type_support_c.s: rosidl_typesupport_fastrtps_c/day2/action/detail/pick_and_place__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/day2/action/detail/pick_and_place__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_c/day2/action/detail/pick_and_place__type_support_c.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/day2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/day2/action/detail/pick_and_place__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/day2/action/detail/pick_and_place__type_support_c.cpp.s
 
 rosidl_typesupport_fastrtps_c/day2/msg/detail/motor_status__type_support_c.o: rosidl_typesupport_fastrtps_c/day2/msg/detail/motor_status__type_support_c.cpp.o
 .PHONY : rosidl_typesupport_fastrtps_c/day2/msg/detail/motor_status__type_support_c.o
@@ -1834,6 +2506,102 @@ rosidl_typesupport_fastrtps_c/day2/srv/detail/robot_command__type_support_c.cpp.
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/day2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/day2/srv/detail/robot_command__type_support_c.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_c/day2/srv/detail/robot_command__type_support_c.cpp.s
 
+rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/charge_battery__type_support.o: rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/charge_battery__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/charge_battery__type_support.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/charge_battery__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/day2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/charge_battery__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/charge_battery__type_support.cpp.o
+
+rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/charge_battery__type_support.i: rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/charge_battery__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/charge_battery__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/charge_battery__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/day2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/charge_battery__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/charge_battery__type_support.cpp.i
+
+rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/charge_battery__type_support.s: rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/charge_battery__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/charge_battery__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/charge_battery__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/day2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/charge_battery__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/charge_battery__type_support.cpp.s
+
+rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/map_area__type_support.o: rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/map_area__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/map_area__type_support.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/map_area__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/day2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/map_area__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/map_area__type_support.cpp.o
+
+rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/map_area__type_support.i: rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/map_area__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/map_area__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/map_area__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/day2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/map_area__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/map_area__type_support.cpp.i
+
+rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/map_area__type_support.s: rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/map_area__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/map_area__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/map_area__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/day2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/map_area__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/map_area__type_support.cpp.s
+
+rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/navigate__type_support.o: rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/navigate__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/navigate__type_support.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/navigate__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/day2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/navigate__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/navigate__type_support.cpp.o
+
+rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/navigate__type_support.i: rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/navigate__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/navigate__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/navigate__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/day2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/navigate__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/navigate__type_support.cpp.i
+
+rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/navigate__type_support.s: rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/navigate__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/navigate__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/navigate__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/day2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/navigate__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/navigate__type_support.cpp.s
+
+rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/pick_and_place__type_support.o: rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/pick_and_place__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/pick_and_place__type_support.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/pick_and_place__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/day2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/pick_and_place__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/pick_and_place__type_support.cpp.o
+
+rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/pick_and_place__type_support.i: rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/pick_and_place__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/pick_and_place__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/pick_and_place__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/day2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/pick_and_place__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/pick_and_place__type_support.cpp.i
+
+rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/pick_and_place__type_support.s: rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/pick_and_place__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/pick_and_place__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/pick_and_place__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/day2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/pick_and_place__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/pick_and_place__type_support.cpp.s
+
 rosidl_typesupport_fastrtps_cpp/day2/msg/detail/dds_fastrtps/motor_status__type_support.o: rosidl_typesupport_fastrtps_cpp/day2/msg/detail/dds_fastrtps/motor_status__type_support.cpp.o
 .PHONY : rosidl_typesupport_fastrtps_cpp/day2/msg/detail/dds_fastrtps/motor_status__type_support.o
 
@@ -2026,6 +2794,102 @@ rosidl_typesupport_fastrtps_cpp/day2/srv/detail/dds_fastrtps/robot_command__type
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/day2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/day2/srv/detail/dds_fastrtps/robot_command__type_support.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_cpp/day2/srv/detail/dds_fastrtps/robot_command__type_support.cpp.s
 
+rosidl_typesupport_introspection_c/day2/action/detail/charge_battery__type_support.o: rosidl_typesupport_introspection_c/day2/action/detail/charge_battery__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/day2/action/detail/charge_battery__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_c/day2/action/detail/charge_battery__type_support.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/day2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/day2/action/detail/charge_battery__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/day2/action/detail/charge_battery__type_support.c.o
+
+rosidl_typesupport_introspection_c/day2/action/detail/charge_battery__type_support.i: rosidl_typesupport_introspection_c/day2/action/detail/charge_battery__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/day2/action/detail/charge_battery__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_c/day2/action/detail/charge_battery__type_support.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/day2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/day2/action/detail/charge_battery__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/day2/action/detail/charge_battery__type_support.c.i
+
+rosidl_typesupport_introspection_c/day2/action/detail/charge_battery__type_support.s: rosidl_typesupport_introspection_c/day2/action/detail/charge_battery__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/day2/action/detail/charge_battery__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_c/day2/action/detail/charge_battery__type_support.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/day2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/day2/action/detail/charge_battery__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/day2/action/detail/charge_battery__type_support.c.s
+
+rosidl_typesupport_introspection_c/day2/action/detail/map_area__type_support.o: rosidl_typesupport_introspection_c/day2/action/detail/map_area__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/day2/action/detail/map_area__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_c/day2/action/detail/map_area__type_support.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/day2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/day2/action/detail/map_area__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/day2/action/detail/map_area__type_support.c.o
+
+rosidl_typesupport_introspection_c/day2/action/detail/map_area__type_support.i: rosidl_typesupport_introspection_c/day2/action/detail/map_area__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/day2/action/detail/map_area__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_c/day2/action/detail/map_area__type_support.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/day2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/day2/action/detail/map_area__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/day2/action/detail/map_area__type_support.c.i
+
+rosidl_typesupport_introspection_c/day2/action/detail/map_area__type_support.s: rosidl_typesupport_introspection_c/day2/action/detail/map_area__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/day2/action/detail/map_area__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_c/day2/action/detail/map_area__type_support.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/day2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/day2/action/detail/map_area__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/day2/action/detail/map_area__type_support.c.s
+
+rosidl_typesupport_introspection_c/day2/action/detail/navigate__type_support.o: rosidl_typesupport_introspection_c/day2/action/detail/navigate__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/day2/action/detail/navigate__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_c/day2/action/detail/navigate__type_support.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/day2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/day2/action/detail/navigate__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/day2/action/detail/navigate__type_support.c.o
+
+rosidl_typesupport_introspection_c/day2/action/detail/navigate__type_support.i: rosidl_typesupport_introspection_c/day2/action/detail/navigate__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/day2/action/detail/navigate__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_c/day2/action/detail/navigate__type_support.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/day2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/day2/action/detail/navigate__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/day2/action/detail/navigate__type_support.c.i
+
+rosidl_typesupport_introspection_c/day2/action/detail/navigate__type_support.s: rosidl_typesupport_introspection_c/day2/action/detail/navigate__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/day2/action/detail/navigate__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_c/day2/action/detail/navigate__type_support.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/day2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/day2/action/detail/navigate__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/day2/action/detail/navigate__type_support.c.s
+
+rosidl_typesupport_introspection_c/day2/action/detail/pick_and_place__type_support.o: rosidl_typesupport_introspection_c/day2/action/detail/pick_and_place__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/day2/action/detail/pick_and_place__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_c/day2/action/detail/pick_and_place__type_support.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/day2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/day2/action/detail/pick_and_place__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/day2/action/detail/pick_and_place__type_support.c.o
+
+rosidl_typesupport_introspection_c/day2/action/detail/pick_and_place__type_support.i: rosidl_typesupport_introspection_c/day2/action/detail/pick_and_place__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/day2/action/detail/pick_and_place__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_c/day2/action/detail/pick_and_place__type_support.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/day2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/day2/action/detail/pick_and_place__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/day2/action/detail/pick_and_place__type_support.c.i
+
+rosidl_typesupport_introspection_c/day2/action/detail/pick_and_place__type_support.s: rosidl_typesupport_introspection_c/day2/action/detail/pick_and_place__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/day2/action/detail/pick_and_place__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_c/day2/action/detail/pick_and_place__type_support.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/day2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/day2/action/detail/pick_and_place__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/day2/action/detail/pick_and_place__type_support.c.s
+
 rosidl_typesupport_introspection_c/day2/msg/detail/motor_status__type_support.o: rosidl_typesupport_introspection_c/day2/msg/detail/motor_status__type_support.c.o
 .PHONY : rosidl_typesupport_introspection_c/day2/msg/detail/motor_status__type_support.o
 
@@ -2217,6 +3081,102 @@ rosidl_typesupport_introspection_c/day2/srv/detail/robot_command__type_support.s
 rosidl_typesupport_introspection_c/day2/srv/detail/robot_command__type_support.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/day2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/day2/srv/detail/robot_command__type_support.c.s
 .PHONY : rosidl_typesupport_introspection_c/day2/srv/detail/robot_command__type_support.c.s
+
+rosidl_typesupport_introspection_cpp/day2/action/detail/charge_battery__type_support.o: rosidl_typesupport_introspection_cpp/day2/action/detail/charge_battery__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/day2/action/detail/charge_battery__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_cpp/day2/action/detail/charge_battery__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/day2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/day2/action/detail/charge_battery__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/day2/action/detail/charge_battery__type_support.cpp.o
+
+rosidl_typesupport_introspection_cpp/day2/action/detail/charge_battery__type_support.i: rosidl_typesupport_introspection_cpp/day2/action/detail/charge_battery__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/day2/action/detail/charge_battery__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_cpp/day2/action/detail/charge_battery__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/day2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/day2/action/detail/charge_battery__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/day2/action/detail/charge_battery__type_support.cpp.i
+
+rosidl_typesupport_introspection_cpp/day2/action/detail/charge_battery__type_support.s: rosidl_typesupport_introspection_cpp/day2/action/detail/charge_battery__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/day2/action/detail/charge_battery__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_cpp/day2/action/detail/charge_battery__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/day2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/day2/action/detail/charge_battery__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/day2/action/detail/charge_battery__type_support.cpp.s
+
+rosidl_typesupport_introspection_cpp/day2/action/detail/map_area__type_support.o: rosidl_typesupport_introspection_cpp/day2/action/detail/map_area__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/day2/action/detail/map_area__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_cpp/day2/action/detail/map_area__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/day2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/day2/action/detail/map_area__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/day2/action/detail/map_area__type_support.cpp.o
+
+rosidl_typesupport_introspection_cpp/day2/action/detail/map_area__type_support.i: rosidl_typesupport_introspection_cpp/day2/action/detail/map_area__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/day2/action/detail/map_area__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_cpp/day2/action/detail/map_area__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/day2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/day2/action/detail/map_area__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/day2/action/detail/map_area__type_support.cpp.i
+
+rosidl_typesupport_introspection_cpp/day2/action/detail/map_area__type_support.s: rosidl_typesupport_introspection_cpp/day2/action/detail/map_area__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/day2/action/detail/map_area__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_cpp/day2/action/detail/map_area__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/day2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/day2/action/detail/map_area__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/day2/action/detail/map_area__type_support.cpp.s
+
+rosidl_typesupport_introspection_cpp/day2/action/detail/navigate__type_support.o: rosidl_typesupport_introspection_cpp/day2/action/detail/navigate__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/day2/action/detail/navigate__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_cpp/day2/action/detail/navigate__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/day2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/day2/action/detail/navigate__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/day2/action/detail/navigate__type_support.cpp.o
+
+rosidl_typesupport_introspection_cpp/day2/action/detail/navigate__type_support.i: rosidl_typesupport_introspection_cpp/day2/action/detail/navigate__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/day2/action/detail/navigate__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_cpp/day2/action/detail/navigate__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/day2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/day2/action/detail/navigate__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/day2/action/detail/navigate__type_support.cpp.i
+
+rosidl_typesupport_introspection_cpp/day2/action/detail/navigate__type_support.s: rosidl_typesupport_introspection_cpp/day2/action/detail/navigate__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/day2/action/detail/navigate__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_cpp/day2/action/detail/navigate__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/day2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/day2/action/detail/navigate__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/day2/action/detail/navigate__type_support.cpp.s
+
+rosidl_typesupport_introspection_cpp/day2/action/detail/pick_and_place__type_support.o: rosidl_typesupport_introspection_cpp/day2/action/detail/pick_and_place__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/day2/action/detail/pick_and_place__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_cpp/day2/action/detail/pick_and_place__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/day2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/day2/action/detail/pick_and_place__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/day2/action/detail/pick_and_place__type_support.cpp.o
+
+rosidl_typesupport_introspection_cpp/day2/action/detail/pick_and_place__type_support.i: rosidl_typesupport_introspection_cpp/day2/action/detail/pick_and_place__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/day2/action/detail/pick_and_place__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_cpp/day2/action/detail/pick_and_place__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/day2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/day2/action/detail/pick_and_place__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/day2/action/detail/pick_and_place__type_support.cpp.i
+
+rosidl_typesupport_introspection_cpp/day2/action/detail/pick_and_place__type_support.s: rosidl_typesupport_introspection_cpp/day2/action/detail/pick_and_place__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/day2/action/detail/pick_and_place__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_cpp/day2/action/detail/pick_and_place__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/day2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/day2/action/detail/pick_and_place__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/day2/action/detail/pick_and_place__type_support.cpp.s
 
 rosidl_typesupport_introspection_cpp/day2/msg/detail/motor_status__type_support.o: rosidl_typesupport_introspection_cpp/day2/msg/detail/motor_status__type_support.cpp.o
 .PHONY : rosidl_typesupport_introspection_cpp/day2/msg/detail/motor_status__type_support.o
@@ -2442,6 +3402,42 @@ help:
 	@echo "... day2_s__rosidl_typesupport_c"
 	@echo "... day2_s__rosidl_typesupport_fastrtps_c"
 	@echo "... day2_s__rosidl_typesupport_introspection_c"
+	@echo "... rosidl_generator_c/day2/action/detail/charge_battery__description.o"
+	@echo "... rosidl_generator_c/day2/action/detail/charge_battery__description.i"
+	@echo "... rosidl_generator_c/day2/action/detail/charge_battery__description.s"
+	@echo "... rosidl_generator_c/day2/action/detail/charge_battery__functions.o"
+	@echo "... rosidl_generator_c/day2/action/detail/charge_battery__functions.i"
+	@echo "... rosidl_generator_c/day2/action/detail/charge_battery__functions.s"
+	@echo "... rosidl_generator_c/day2/action/detail/charge_battery__type_support.o"
+	@echo "... rosidl_generator_c/day2/action/detail/charge_battery__type_support.i"
+	@echo "... rosidl_generator_c/day2/action/detail/charge_battery__type_support.s"
+	@echo "... rosidl_generator_c/day2/action/detail/map_area__description.o"
+	@echo "... rosidl_generator_c/day2/action/detail/map_area__description.i"
+	@echo "... rosidl_generator_c/day2/action/detail/map_area__description.s"
+	@echo "... rosidl_generator_c/day2/action/detail/map_area__functions.o"
+	@echo "... rosidl_generator_c/day2/action/detail/map_area__functions.i"
+	@echo "... rosidl_generator_c/day2/action/detail/map_area__functions.s"
+	@echo "... rosidl_generator_c/day2/action/detail/map_area__type_support.o"
+	@echo "... rosidl_generator_c/day2/action/detail/map_area__type_support.i"
+	@echo "... rosidl_generator_c/day2/action/detail/map_area__type_support.s"
+	@echo "... rosidl_generator_c/day2/action/detail/navigate__description.o"
+	@echo "... rosidl_generator_c/day2/action/detail/navigate__description.i"
+	@echo "... rosidl_generator_c/day2/action/detail/navigate__description.s"
+	@echo "... rosidl_generator_c/day2/action/detail/navigate__functions.o"
+	@echo "... rosidl_generator_c/day2/action/detail/navigate__functions.i"
+	@echo "... rosidl_generator_c/day2/action/detail/navigate__functions.s"
+	@echo "... rosidl_generator_c/day2/action/detail/navigate__type_support.o"
+	@echo "... rosidl_generator_c/day2/action/detail/navigate__type_support.i"
+	@echo "... rosidl_generator_c/day2/action/detail/navigate__type_support.s"
+	@echo "... rosidl_generator_c/day2/action/detail/pick_and_place__description.o"
+	@echo "... rosidl_generator_c/day2/action/detail/pick_and_place__description.i"
+	@echo "... rosidl_generator_c/day2/action/detail/pick_and_place__description.s"
+	@echo "... rosidl_generator_c/day2/action/detail/pick_and_place__functions.o"
+	@echo "... rosidl_generator_c/day2/action/detail/pick_and_place__functions.i"
+	@echo "... rosidl_generator_c/day2/action/detail/pick_and_place__functions.s"
+	@echo "... rosidl_generator_c/day2/action/detail/pick_and_place__type_support.o"
+	@echo "... rosidl_generator_c/day2/action/detail/pick_and_place__type_support.i"
+	@echo "... rosidl_generator_c/day2/action/detail/pick_and_place__type_support.s"
 	@echo "... rosidl_generator_c/day2/msg/detail/motor_status__description.o"
 	@echo "... rosidl_generator_c/day2/msg/detail/motor_status__description.i"
 	@echo "... rosidl_generator_c/day2/msg/detail/motor_status__description.s"
@@ -2523,6 +3519,18 @@ help:
 	@echo "... rosidl_generator_py/day2/_day2_s.ep.rosidl_typesupport_introspection_c.o"
 	@echo "... rosidl_generator_py/day2/_day2_s.ep.rosidl_typesupport_introspection_c.i"
 	@echo "... rosidl_generator_py/day2/_day2_s.ep.rosidl_typesupport_introspection_c.s"
+	@echo "... rosidl_generator_py/day2/action/_charge_battery_s.o"
+	@echo "... rosidl_generator_py/day2/action/_charge_battery_s.i"
+	@echo "... rosidl_generator_py/day2/action/_charge_battery_s.s"
+	@echo "... rosidl_generator_py/day2/action/_map_area_s.o"
+	@echo "... rosidl_generator_py/day2/action/_map_area_s.i"
+	@echo "... rosidl_generator_py/day2/action/_map_area_s.s"
+	@echo "... rosidl_generator_py/day2/action/_navigate_s.o"
+	@echo "... rosidl_generator_py/day2/action/_navigate_s.i"
+	@echo "... rosidl_generator_py/day2/action/_navigate_s.s"
+	@echo "... rosidl_generator_py/day2/action/_pick_and_place_s.o"
+	@echo "... rosidl_generator_py/day2/action/_pick_and_place_s.i"
+	@echo "... rosidl_generator_py/day2/action/_pick_and_place_s.s"
 	@echo "... rosidl_generator_py/day2/msg/_motor_status_s.o"
 	@echo "... rosidl_generator_py/day2/msg/_motor_status_s.i"
 	@echo "... rosidl_generator_py/day2/msg/_motor_status_s.s"
@@ -2547,6 +3555,18 @@ help:
 	@echo "... rosidl_generator_py/day2/srv/_robot_command_s.o"
 	@echo "... rosidl_generator_py/day2/srv/_robot_command_s.i"
 	@echo "... rosidl_generator_py/day2/srv/_robot_command_s.s"
+	@echo "... rosidl_typesupport_c/day2/action/charge_battery__type_support.o"
+	@echo "... rosidl_typesupport_c/day2/action/charge_battery__type_support.i"
+	@echo "... rosidl_typesupport_c/day2/action/charge_battery__type_support.s"
+	@echo "... rosidl_typesupport_c/day2/action/map_area__type_support.o"
+	@echo "... rosidl_typesupport_c/day2/action/map_area__type_support.i"
+	@echo "... rosidl_typesupport_c/day2/action/map_area__type_support.s"
+	@echo "... rosidl_typesupport_c/day2/action/navigate__type_support.o"
+	@echo "... rosidl_typesupport_c/day2/action/navigate__type_support.i"
+	@echo "... rosidl_typesupport_c/day2/action/navigate__type_support.s"
+	@echo "... rosidl_typesupport_c/day2/action/pick_and_place__type_support.o"
+	@echo "... rosidl_typesupport_c/day2/action/pick_and_place__type_support.i"
+	@echo "... rosidl_typesupport_c/day2/action/pick_and_place__type_support.s"
 	@echo "... rosidl_typesupport_c/day2/msg/motor_status__type_support.o"
 	@echo "... rosidl_typesupport_c/day2/msg/motor_status__type_support.i"
 	@echo "... rosidl_typesupport_c/day2/msg/motor_status__type_support.s"
@@ -2571,6 +3591,18 @@ help:
 	@echo "... rosidl_typesupport_c/day2/srv/robot_command__type_support.o"
 	@echo "... rosidl_typesupport_c/day2/srv/robot_command__type_support.i"
 	@echo "... rosidl_typesupport_c/day2/srv/robot_command__type_support.s"
+	@echo "... rosidl_typesupport_cpp/day2/action/charge_battery__type_support.o"
+	@echo "... rosidl_typesupport_cpp/day2/action/charge_battery__type_support.i"
+	@echo "... rosidl_typesupport_cpp/day2/action/charge_battery__type_support.s"
+	@echo "... rosidl_typesupport_cpp/day2/action/map_area__type_support.o"
+	@echo "... rosidl_typesupport_cpp/day2/action/map_area__type_support.i"
+	@echo "... rosidl_typesupport_cpp/day2/action/map_area__type_support.s"
+	@echo "... rosidl_typesupport_cpp/day2/action/navigate__type_support.o"
+	@echo "... rosidl_typesupport_cpp/day2/action/navigate__type_support.i"
+	@echo "... rosidl_typesupport_cpp/day2/action/navigate__type_support.s"
+	@echo "... rosidl_typesupport_cpp/day2/action/pick_and_place__type_support.o"
+	@echo "... rosidl_typesupport_cpp/day2/action/pick_and_place__type_support.i"
+	@echo "... rosidl_typesupport_cpp/day2/action/pick_and_place__type_support.s"
 	@echo "... rosidl_typesupport_cpp/day2/msg/motor_status__type_support.o"
 	@echo "... rosidl_typesupport_cpp/day2/msg/motor_status__type_support.i"
 	@echo "... rosidl_typesupport_cpp/day2/msg/motor_status__type_support.s"
@@ -2595,6 +3627,18 @@ help:
 	@echo "... rosidl_typesupport_cpp/day2/srv/robot_command__type_support.o"
 	@echo "... rosidl_typesupport_cpp/day2/srv/robot_command__type_support.i"
 	@echo "... rosidl_typesupport_cpp/day2/srv/robot_command__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_c/day2/action/detail/charge_battery__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/day2/action/detail/charge_battery__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/day2/action/detail/charge_battery__type_support_c.s"
+	@echo "... rosidl_typesupport_fastrtps_c/day2/action/detail/map_area__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/day2/action/detail/map_area__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/day2/action/detail/map_area__type_support_c.s"
+	@echo "... rosidl_typesupport_fastrtps_c/day2/action/detail/navigate__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/day2/action/detail/navigate__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/day2/action/detail/navigate__type_support_c.s"
+	@echo "... rosidl_typesupport_fastrtps_c/day2/action/detail/pick_and_place__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/day2/action/detail/pick_and_place__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/day2/action/detail/pick_and_place__type_support_c.s"
 	@echo "... rosidl_typesupport_fastrtps_c/day2/msg/detail/motor_status__type_support_c.o"
 	@echo "... rosidl_typesupport_fastrtps_c/day2/msg/detail/motor_status__type_support_c.i"
 	@echo "... rosidl_typesupport_fastrtps_c/day2/msg/detail/motor_status__type_support_c.s"
@@ -2619,6 +3663,18 @@ help:
 	@echo "... rosidl_typesupport_fastrtps_c/day2/srv/detail/robot_command__type_support_c.o"
 	@echo "... rosidl_typesupport_fastrtps_c/day2/srv/detail/robot_command__type_support_c.i"
 	@echo "... rosidl_typesupport_fastrtps_c/day2/srv/detail/robot_command__type_support_c.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/charge_battery__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/charge_battery__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/charge_battery__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/map_area__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/map_area__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/map_area__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/navigate__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/navigate__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/navigate__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/pick_and_place__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/pick_and_place__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/day2/action/detail/dds_fastrtps/pick_and_place__type_support.s"
 	@echo "... rosidl_typesupport_fastrtps_cpp/day2/msg/detail/dds_fastrtps/motor_status__type_support.o"
 	@echo "... rosidl_typesupport_fastrtps_cpp/day2/msg/detail/dds_fastrtps/motor_status__type_support.i"
 	@echo "... rosidl_typesupport_fastrtps_cpp/day2/msg/detail/dds_fastrtps/motor_status__type_support.s"
@@ -2643,6 +3699,18 @@ help:
 	@echo "... rosidl_typesupport_fastrtps_cpp/day2/srv/detail/dds_fastrtps/robot_command__type_support.o"
 	@echo "... rosidl_typesupport_fastrtps_cpp/day2/srv/detail/dds_fastrtps/robot_command__type_support.i"
 	@echo "... rosidl_typesupport_fastrtps_cpp/day2/srv/detail/dds_fastrtps/robot_command__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/day2/action/detail/charge_battery__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/day2/action/detail/charge_battery__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/day2/action/detail/charge_battery__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/day2/action/detail/map_area__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/day2/action/detail/map_area__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/day2/action/detail/map_area__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/day2/action/detail/navigate__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/day2/action/detail/navigate__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/day2/action/detail/navigate__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/day2/action/detail/pick_and_place__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/day2/action/detail/pick_and_place__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/day2/action/detail/pick_and_place__type_support.s"
 	@echo "... rosidl_typesupport_introspection_c/day2/msg/detail/motor_status__type_support.o"
 	@echo "... rosidl_typesupport_introspection_c/day2/msg/detail/motor_status__type_support.i"
 	@echo "... rosidl_typesupport_introspection_c/day2/msg/detail/motor_status__type_support.s"
@@ -2667,6 +3735,18 @@ help:
 	@echo "... rosidl_typesupport_introspection_c/day2/srv/detail/robot_command__type_support.o"
 	@echo "... rosidl_typesupport_introspection_c/day2/srv/detail/robot_command__type_support.i"
 	@echo "... rosidl_typesupport_introspection_c/day2/srv/detail/robot_command__type_support.s"
+	@echo "... rosidl_typesupport_introspection_cpp/day2/action/detail/charge_battery__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/day2/action/detail/charge_battery__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/day2/action/detail/charge_battery__type_support.s"
+	@echo "... rosidl_typesupport_introspection_cpp/day2/action/detail/map_area__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/day2/action/detail/map_area__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/day2/action/detail/map_area__type_support.s"
+	@echo "... rosidl_typesupport_introspection_cpp/day2/action/detail/navigate__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/day2/action/detail/navigate__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/day2/action/detail/navigate__type_support.s"
+	@echo "... rosidl_typesupport_introspection_cpp/day2/action/detail/pick_and_place__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/day2/action/detail/pick_and_place__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/day2/action/detail/pick_and_place__type_support.s"
 	@echo "... rosidl_typesupport_introspection_cpp/day2/msg/detail/motor_status__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/day2/msg/detail/motor_status__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/day2/msg/detail/motor_status__type_support.s"

@@ -4,10 +4,10 @@
 
 #include <string.h>
 
+#include "day2/msg/detail/robot_array__type_support.h"
 #include "day2/msg/detail/robot_array__struct.h"
 #include "day2/msg/detail/robot_array__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
-#include "day2/msg/detail/robot_array__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

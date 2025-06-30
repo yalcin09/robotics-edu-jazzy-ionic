@@ -4,8 +4,8 @@
 
 #include <string.h>
 
-#include "day2/msg/detail/sensor_data__type_support.h"
 #include "day2/msg/detail/sensor_data__struct.h"
+#include "day2/msg/detail/sensor_data__type_support.h"
 #include "day2/msg/detail/sensor_data__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
 

@@ -6,8 +6,8 @@
 
 #include "day2/srv/detail/robot_command__functions.h"
 #include "day2/srv/detail/robot_command__struct.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "day2/srv/detail/robot_command__type_support.h"
+#include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus
 extern "C"

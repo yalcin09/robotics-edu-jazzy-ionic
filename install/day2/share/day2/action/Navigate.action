@@ -1,0 +1,64 @@
+# Dosya: ~/ros2_ws/src/day2/action/Navigate.action
+
+# GOAL - Navigation başlatmak için gerekli bilgiler
+geometry_msgs/PoseStamped target_pose          # Hedef pozisyon ve oryantasyon
+float32 max_speed                              # Maksimum hız (m/s)
+float32 tolerance_distance                     # Hedefe yakınlık toleransı (m)
+float32 tolerance_angle                        # Açı toleransı (rad)
+bool use_obstacle_avoidance                    # Engel kaçınma aktif mi?
+string planning_algorithm                      # Kullanılacak planning algoritması
+geometry_msgs/Point[] waypoints                # Ara geçiş noktaları
+float32 timeout_seconds                        # Maksimum süre
+string behavior_on_failure                     # Başarısızlık durumunda davranış
+
+---
+
+# RESULT - Navigation tamamlandığında dönen sonuç
+bool success                                   # Navigasyon başarılı mı?
+string result_message                          # Detaylı sonuç mesajı
+geometry_msgs/PoseStamped final_pose           # Son pozisyon
+float32 total_distance_traveled                # Kat edilen toplam mesafe
+float32 total_time_elapsed                     # Geçen toplam süre
+float32 average_speed                          # Ortalama hız
+uint32 obstacle_encounters                     # Kaç engelle karşılaştı
+string[] warnings                              # Uyarı mesajları
+
+# Navigation quality metrics
+float32 path_efficiency                        # Yol verimliliği (0.0-1.0)
+float32 smoothness_score                       # Hareket yumuşaklığı (0.0-1.0)
+uint32 replanning_count                        # Kaç kez yol yeniden planlandı
+
+# Error information
+uint32 error_code                              # Hata kodu
+uint32 ERROR_NONE=0
+uint32 ERROR_TIMEOUT=1
+uint32 ERROR_OBSTACLE_STUCK=2
+uint32 ERROR_GOAL_UNREACHABLE=3
+uint32 ERROR_PLANNING_FAILED=4
+uint32 ERROR_HARDWARE_FAILURE=5
+uint32 ERROR_PREEMPTED=6
+
+---
+
+# FEEDBACK - Navigation sırasında sürekli dönen feedback
+geometry_msgs/PoseStamped current_pose         # Şu anki pozisyon
+float32 distance_to_goal                       # Hedefe kalan mesafe
+float32 estimated_time_remaining               # Tahmini kalan süre
+float32 current_speed                          # Şu anki hız
+float32 completion_percentage                  # Tamamlanma yüzdesi (0.0-100.0)
+
+# Path information
+geometry_msgs/Point[] remaining_path           # Kalan yol noktaları
+uint32 current_waypoint_index                  # Şu anki waypoint indeksi
+string current_behavior                        # Şu anki davranış modu
+
+# Real-time status
+bool obstacle_detected                         # Engel tespit edildi mi?
+string current_status                          # Şu anki durum açıklaması
+float32 path_deviation                         # Planlanan yoldan sapma (m)
+float32 battery_consumption_rate               # Batarya tüketim oranı
+
+# Performance metrics
+float32 cpu_usage                              # CPU kullanımı (%)
+float32 memory_usage                           # Memory kullanımı (%)
+builtin_interfaces/Time last_update_time       # Son güncelleme zamanı

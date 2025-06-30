@@ -1,3 +1,11 @@
+action/ChargeBattery.action
+action/ChargeBattery.idl
+action/MapArea.action
+action/MapArea.idl
+action/Navigate.action
+action/Navigate.idl
+action/PickAndPlace.action
+action/PickAndPlace.idl
 msg/MotorStatus.idl
 msg/MotorStatus.msg
 msg/RobotArray.idl

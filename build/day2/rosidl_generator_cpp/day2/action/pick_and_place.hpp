@@ -1,0 +1,12 @@
+// generated from rosidl_generator_cpp/resource/idl.hpp.em
+// generated code does not contain a copyright notice
+
+#ifndef DAY2__ACTION__PICK_AND_PLACE_HPP_
+#define DAY2__ACTION__PICK_AND_PLACE_HPP_
+
+#include "day2/action/detail/pick_and_place__struct.hpp"
+#include "day2/action/detail/pick_and_place__builder.hpp"
+#include "day2/action/detail/pick_and_place__traits.hpp"
+#include "day2/action/detail/pick_and_place__type_support.hpp"
+
+#endif  // DAY2__ACTION__PICK_AND_PLACE_HPP_

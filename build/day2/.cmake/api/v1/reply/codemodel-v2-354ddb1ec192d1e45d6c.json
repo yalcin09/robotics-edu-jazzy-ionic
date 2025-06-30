@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-96445b36d6defe55329b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "day2__py",
+					"jsonFile" : "directory-day2__py-78ee22e0091f726e882d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/yalcinolgac/ros2_ws/build/day2/day2__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "day2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_day2_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_day2_egg-ea351d7ea0ab9985e2f8.json",
+					"name" : "ament_cmake_python_build_day2_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_day2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_day2-2e04e5bb10415cfb0838.json",
+					"name" : "ament_cmake_python_copy_day2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "day2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-day2-ea638af5880b3a1e2ca0.json",
+					"name" : "day2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "day2__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-day2__cpp-ba3c76f68892b3450c5c.json",
+					"name" : "day2__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "day2__py::@2e1c24c8a89a19afd8aa",
+					"jsonFile" : "target-day2__py-015c1e8fd705c2d5d8af.json",
+					"name" : "day2__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "day2__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-day2__rosidl_generator_c-3890e49caf633d841bbe.json",
+					"name" : "day2__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "day2__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-day2__rosidl_generator_py-62e490f9fb411df4c8c3.json",
+					"name" : "day2__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "day2__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-day2__rosidl_generator_type_description-3d95cb2b172569ff9ebe.json",
+					"name" : "day2__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "day2__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-day2__rosidl_typesupport_c-af82fdf7c1b4d8d12618.json",
+					"name" : "day2__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "day2__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-day2__rosidl_typesupport_cpp-550bc187d3bc9666ee8a.json",
+					"name" : "day2__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "day2__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-day2__rosidl_typesupport_fastrtps_c-d8e28ab581cb62da801a.json",
+					"name" : "day2__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "day2__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-day2__rosidl_typesupport_fastrtps_cpp-e72376a30878b104dd43.json",
+					"name" : "day2__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "day2__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-day2__rosidl_typesupport_introspection_c-013ddf0731788e3d6912.json",
+					"name" : "day2__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "day2__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-day2__rosidl_typesupport_introspection_cpp-ec2755fafeda3035ff2f.json",
+					"name" : "day2__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "day2_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-day2_s__rosidl_typesupport_c-9bcc35427ef01cdd8ba6.json",
+					"name" : "day2_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "day2_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-day2_s__rosidl_typesupport_fastrtps_c-f9403058447e855bc815.json",
+					"name" : "day2_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "day2_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-day2_s__rosidl_typesupport_introspection_c-bc5b3948d3b73ba4d6e3.json",
+					"name" : "day2_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "day2_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-day2_uninstall-6f2b1cb29716ae05ebbc.json",
+					"name" : "day2_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-1cc063cf38ccb18b39b6.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yalcinolgac/ros2_ws/build/day2",
+		"source" : "/home/yalcinolgac/ros2_ws/src/day2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

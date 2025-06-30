@@ -12,6 +12,8 @@ find_package(rclcpp REQUIRED)                   # ROS2 C++ client library
 find_package(std_msgs REQUIRED)                 # Standard messages
 find_package(geometry_msgs REQUIRED)            # Geometry messages
 find_package(day2 REQUIRED)                     # Custom message paketimiz
+find_package(rclcpp_action REQUIRED)
+
 
 # Robot Status Publisher executable
 add_executable(robot_publisher_node src/robot_publisher.cpp)
@@ -111,6 +113,25 @@ target_compile_features(robot_status_service_node PUBLIC c_std_99 cxx_std_17)
 ament_target_dependencies(robot_status_service_node rclcpp std_msgs geometry_msgs day2)
 
 
+
+# Navigate Action Server executable
+add_executable(navigate_action_server src/navigate_action_server.cpp)
+target_include_directories(navigate_action_server PUBLIC
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+  $<INSTALL_INTERFACE:include>)
+target_compile_features(navigate_action_server PUBLIC c_std_99 cxx_std_17)
+ament_target_dependencies(navigate_action_server rclcpp rclcpp_action std_msgs geometry_msgs day2)
+
+# Navigate Action Client executable
+add_executable(navigate_action_client src/navigate_action_client.cpp)
+target_include_directories(navigate_action_client PUBLIC
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+  $<INSTALL_INTERFACE:include>)
+target_compile_features(navigate_action_client PUBLIC c_std_99 cxx_std_17)
+ament_target_dependencies(navigate_action_client rclcpp rclcpp_action std_msgs geometry_msgs day2)
+
+
+
 # Executable'ları install et
 install(TARGETS 
   robot_publisher_node
@@ -122,6 +143,8 @@ install(TARGETS
   robot_command_server_node
   robot_command_client_node
   robot_status_service_node
+  navigate_action_server
+  navigate_action_client
   DESTINATION lib/${PROJECT_NAME}
 )
 

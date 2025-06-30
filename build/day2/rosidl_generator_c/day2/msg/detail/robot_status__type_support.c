@@ -5,8 +5,8 @@
 #include <string.h>
 
 #include "day2/msg/detail/robot_status__struct.h"
-#include "day2/msg/detail/robot_status__type_support.h"
 #include "day2/msg/detail/robot_status__functions.h"
+#include "day2/msg/detail/robot_status__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus

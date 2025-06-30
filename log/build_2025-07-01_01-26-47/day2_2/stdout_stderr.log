@@ -1,0 +1,56 @@
+[  9%] Built target robot_publisher_node
+[ 18%] Built target robot_subscriber_node
+[ 27%] Built target filtering_subscriber_node
+[ 36%] Built target performance_test_node
+[ 45%] Built target sensor_simulator_node
+[ 54%] Built target robot_command_client_node
+[ 63%] Built target message_analyzer_node
+[ 72%] Built target robot_status_service_node
+[ 81%] Built target robot_command_server_node
+[ 86%] [32mBuilding CXX object CMakeFiles/navigate_action_client.dir/src/navigate_action_client.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/navigate_action_server.dir/src/navigate_action_server.cpp.o[0m
+[ 95%] [32m[1mLinking CXX executable navigate_action_server[0m
+[100%] [32m[1mLinking CXX executable navigate_action_client[0m
+[100%] Built target navigate_action_server
+[100%] Built target navigate_action_client
+-- Install configuration: ""
+-- Installing: /home/yalcinolgac/ros2_ws/install/day2_2/lib/day2_2/robot_publisher_node
+-- Set non-toolchain portion of runtime path of "/home/yalcinolgac/ros2_ws/install/day2_2/lib/day2_2/robot_publisher_node" to ""
+-- Installing: /home/yalcinolgac/ros2_ws/install/day2_2/lib/day2_2/robot_subscriber_node
+-- Set non-toolchain portion of runtime path of "/home/yalcinolgac/ros2_ws/install/day2_2/lib/day2_2/robot_subscriber_node" to ""
+-- Installing: /home/yalcinolgac/ros2_ws/install/day2_2/lib/day2_2/sensor_simulator_node
+-- Set non-toolchain portion of runtime path of "/home/yalcinolgac/ros2_ws/install/day2_2/lib/day2_2/sensor_simulator_node" to ""
+-- Installing: /home/yalcinolgac/ros2_ws/install/day2_2/lib/day2_2/message_analyzer_node
+-- Set non-toolchain portion of runtime path of "/home/yalcinolgac/ros2_ws/install/day2_2/lib/day2_2/message_analyzer_node" to ""
+-- Installing: /home/yalcinolgac/ros2_ws/install/day2_2/lib/day2_2/filtering_subscriber_node
+-- Set non-toolchain portion of runtime path of "/home/yalcinolgac/ros2_ws/install/day2_2/lib/day2_2/filtering_subscriber_node" to ""
+-- Installing: /home/yalcinolgac/ros2_ws/install/day2_2/lib/day2_2/performance_test_node
+-- Set non-toolchain portion of runtime path of "/home/yalcinolgac/ros2_ws/install/day2_2/lib/day2_2/performance_test_node" to ""
+-- Installing: /home/yalcinolgac/ros2_ws/install/day2_2/lib/day2_2/robot_command_server_node
+-- Set non-toolchain portion of runtime path of "/home/yalcinolgac/ros2_ws/install/day2_2/lib/day2_2/robot_command_server_node" to ""
+-- Installing: /home/yalcinolgac/ros2_ws/install/day2_2/lib/day2_2/robot_command_client_node
+-- Set non-toolchain portion of runtime path of "/home/yalcinolgac/ros2_ws/install/day2_2/lib/day2_2/robot_command_client_node" to ""
+-- Installing: /home/yalcinolgac/ros2_ws/install/day2_2/lib/day2_2/robot_status_service_node
+-- Set non-toolchain portion of runtime path of "/home/yalcinolgac/ros2_ws/install/day2_2/lib/day2_2/robot_status_service_node" to ""
+-- Installing: /home/yalcinolgac/ros2_ws/install/day2_2/lib/day2_2/navigate_action_server
+-- Set non-toolchain portion of runtime path of "/home/yalcinolgac/ros2_ws/install/day2_2/lib/day2_2/navigate_action_server" to ""
+-- Installing: /home/yalcinolgac/ros2_ws/install/day2_2/lib/day2_2/navigate_action_client
+-- Set non-toolchain portion of runtime path of "/home/yalcinolgac/ros2_ws/install/day2_2/lib/day2_2/navigate_action_client" to ""
+-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/launch
+-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/launch/day2_3.launch.py
+-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/launch/day2_2.launch.py
+-- Installing: /home/yalcinolgac/ros2_ws/install/day2_2/share/ament_index/resource_index/package_run_dependencies/day2_2
+-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2_2/share/ament_index/resource_index/parent_prefix_path/day2_2
+-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/environment/ament_prefix_path.sh
+-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/environment/path.sh
+-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/environment/path.dsv
+-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/local_setup.bash
+-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/local_setup.sh
+-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/local_setup.zsh
+-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/local_setup.dsv
+-- Installing: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/package.dsv
+-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2_2/share/ament_index/resource_index/packages/day2_2
+-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/cmake/day2_2Config.cmake
+-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/cmake/day2_2Config-version.cmake
+-- Installing: /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/package.xml

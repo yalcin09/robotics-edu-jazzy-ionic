@@ -18,6 +18,8 @@
   <depend>builtin_interfaces</depend>     <!-- Time, Duration -->
   <depend>std_msgs</depend>               <!-- Header, String -->
   <depend>geometry_msgs</depend>          <!-- Point, Vector3, Twist -->
+  <depend>rclcpp_action</depend>       <!-- ROS2 Action library -->
+
   
   <!-- Message generation için gerekli -->
   <exec_depend>rosidl_default_runtime</exec_depend>

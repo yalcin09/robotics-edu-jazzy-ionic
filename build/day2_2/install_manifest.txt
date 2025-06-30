@@ -7,6 +7,8 @@
 /home/yalcinolgac/ros2_ws/install/day2_2/lib/day2_2/robot_command_server_node
 /home/yalcinolgac/ros2_ws/install/day2_2/lib/day2_2/robot_command_client_node
 /home/yalcinolgac/ros2_ws/install/day2_2/lib/day2_2/robot_status_service_node
+/home/yalcinolgac/ros2_ws/install/day2_2/lib/day2_2/navigate_action_server
+/home/yalcinolgac/ros2_ws/install/day2_2/lib/day2_2/navigate_action_client
 /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/launch/day2_3.launch.py
 /home/yalcinolgac/ros2_ws/install/day2_2/share/day2_2/launch/day2_2.launch.py
 /home/yalcinolgac/ros2_ws/install/day2_2/share/ament_index/resource_index/package_run_dependencies/day2_2

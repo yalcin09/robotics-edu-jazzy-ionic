@@ -1,0 +1,266 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from day2/action/ChargeBattery.action
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+#include "geometry_msgs/msg/Point.idl"
+
+module day2 {
+  module action {
+    @verbatim (language="comment", text=
+      "Dosya: ~/ros2_ws/src/day2/action/ChargeBattery.action")
+    struct ChargeBattery_Goal {
+      @verbatim (language="comment", text=
+        "GOAL - Battery charging görevi parametreleri" "\n"
+        "Hedef şarj seviyesi (0.0-1.0)")
+      float target_charge_level;
+
+      @verbatim (language="comment", text=
+        "Şarj modu (\"fast\", \"normal\", \"slow\", \"maintenance\")")
+      string charging_mode;
+
+      @verbatim (language="comment", text=
+        "Dock'a geri dön")
+      boolean return_to_dock;
+
+      @verbatim (language="comment", text=
+        "Şarj istasyonu konumu")
+      geometry_msgs::msg::Point charging_station_location;
+
+      @verbatim (language="comment", text=
+        "Maksimum şarj süresi (saniye)")
+      float max_charging_time;
+
+      @verbatim (language="comment", text=
+        "Charging parameters" "\n"
+        "Maksimum şarj akımı (A)")
+      float max_charging_current;
+
+      @verbatim (language="comment", text=
+        "Maksimum şarj voltajı (V)")
+      float max_charging_voltage;
+
+      @verbatim (language="comment", text=
+        "Sıcaklık izleme aktif")
+      boolean enable_temperature_monitoring;
+
+      @verbatim (language="comment", text=
+        "Maksimum batarya sıcaklığı (°C)")
+      float max_battery_temperature;
+
+      @verbatim (language="comment", text=
+        "Safety parameters" "\n"
+        "Güvenlik izleme")
+      boolean enable_safety_monitoring;
+
+      @verbatim (language="comment", text=
+        "Acil durdurma voltajı")
+      float emergency_stop_voltage;
+
+      @verbatim (language="comment", text=
+        "Acil durdurma sıcaklığı")
+      float emergency_stop_temperature;
+
+      @verbatim (language="comment", text=
+        "Dolu olunca otomatik ayır")
+      boolean auto_disconnect_when_full;
+
+      @verbatim (language="comment", text=
+        "Navigation to charging station" "\n"
+        "Şarj cihazına git")
+      boolean navigate_to_charger;
+
+      @verbatim (language="comment", text=
+        "Dock hassasiyeti (m)")
+      float docking_precision;
+
+      @verbatim (language="comment", text=
+        "Yaklaşma stratejisi")
+      string docking_approach;
+    };
+    module ChargeBattery_Result_Constants {
+      const uint32 ERROR_NONE = 0;
+      const uint32 ERROR_CHARGING_STATION_NOT_FOUND = 1;
+      const uint32 ERROR_DOCKING_FAILED = 2;
+      const uint32 ERROR_CHARGER_CONNECTION_FAILED = 3;
+      const uint32 ERROR_OVERVOLTAGE = 4;
+      const uint32 ERROR_OVERCURRENT = 5;
+      const uint32 ERROR_OVERTEMPERATURE = 6;
+      const uint32 ERROR_CHARGING_TIMEOUT = 7;
+      const uint32 ERROR_BATTERY_FAULT = 8;
+    };
+    struct ChargeBattery_Result {
+      @verbatim (language="comment", text=
+        "RESULT - Charging tamamlandığında sonuç" "\n"
+        "Şarj başarılı mı?")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "Sonuç mesajı")
+      string result_message;
+
+      @verbatim (language="comment", text=
+        "Son şarj seviyesi")
+      float final_charge_level;
+
+      @verbatim (language="comment", text=
+        "Toplam şarj süresi")
+      float total_charging_time;
+
+      @verbatim (language="comment", text=
+        "Charging statistics" "\n"
+        "Transfer edilen enerji (Wh)")
+      float energy_transferred;
+
+      @verbatim (language="comment", text=
+        "Ortalama şarj gücü (W)")
+      float average_charging_power;
+
+      @verbatim (language="comment", text=
+        "Şarj verimliliği (%)")
+      float charging_efficiency;
+
+      @verbatim (language="comment", text=
+        "Ulaşılan maksimum sıcaklık")
+      float max_temperature_reached;
+
+      @verbatim (language="comment", text=
+        "Battery health information" "\n"
+        "Batarya sağlık skoru (0.0-1.0)")
+      float battery_health_score;
+
+      @verbatim (language="comment", text=
+        "Şarj döngüsü sayısı")
+      uint32 charging_cycles_count;
+
+      @verbatim (language="comment", text=
+        "Tahmini batarya ömrü (hours)")
+      float estimated_battery_lifespan;
+
+      @verbatim (language="comment", text=
+        "Navigation results (if applicable)" "\n"
+        "Dock etme başarılı mı?")
+      boolean docking_successful;
+
+      @verbatim (language="comment", text=
+        "Dock etme süresi")
+      float docking_time;
+
+      @verbatim (language="comment", text=
+        "Navigasyon süresi")
+      float navigation_time;
+
+      @verbatim (language="comment", text=
+        "Son dock pozisyonu")
+      geometry_msgs::msg::Point final_docked_position;
+
+      @verbatim (language="comment", text=
+        "Error information")
+      uint32 error_code;
+    };
+    struct ChargeBattery_Feedback {
+      @verbatim (language="comment", text=
+        "FEEDBACK - Charging sırasında sürekli feedback" "\n"
+        "Şu anki faz (\"navigating\", \"docking\", \"charging\", \"completing\")")
+      string current_phase;
+
+      @verbatim (language="comment", text=
+        "Şu anki şarj seviyesi (0.0-1.0)")
+      float current_charge_level;
+
+      @verbatim (language="comment", text=
+        "Şarj ilerleme yüzdesi")
+      float charging_progress_percentage;
+
+      @verbatim (language="comment", text=
+        "Tahmini tamamlanma süresi")
+      float estimated_time_to_completion;
+
+      @verbatim (language="comment", text=
+        "Real-time charging data" "\n"
+        "Şu anki voltaj (V)")
+      float current_voltage;
+
+      @verbatim (language="comment", text=
+        "Şu anki akım (A)")
+      float current_amperage;
+
+      @verbatim (language="comment", text=
+        "Şu anki güç (W)")
+      float current_power;
+
+      @verbatim (language="comment", text=
+        "Şu anki sıcaklık (°C)")
+      float current_temperature;
+
+      @verbatim (language="comment", text=
+        "Charging curve information" "\n"
+        "Şarj oranı (%/hour)")
+      float charging_rate;
+
+      @verbatim (language="comment", text=
+        "Şarj durumu (\"CC\", \"CV\", \"float\", \"maintenance\")")
+      string charging_state;
+
+      @verbatim (language="comment", text=
+        "Geçen süre")
+      float time_elapsed;
+
+      @verbatim (language="comment", text=
+        "Navigation feedback (if navigating)" "\n"
+        "Şu anki pozisyon")
+      geometry_msgs::msg::Point current_position;
+
+      @verbatim (language="comment", text=
+        "Şarj cihazına mesafe")
+      float distance_to_charger;
+
+      @verbatim (language="comment", text=
+        "Şarj cihazı görüş alanında mı?")
+      boolean charger_in_sight;
+
+      @verbatim (language="comment", text=
+        "Docking feedback (if docking)" "\n"
+        "Dock etme başladı mı?")
+      boolean docking_initiated;
+
+      @verbatim (language="comment", text=
+        "Dock hizalama hatası (m)")
+      float docking_alignment_error;
+
+      @verbatim (language="comment", text=
+        "Bağlantı kuruldu mu?")
+      boolean connection_established;
+
+      @verbatim (language="comment", text=
+        "Safety monitoring" "\n"
+        "Sıcaklık uyarısı")
+      boolean temperature_warning;
+
+      @verbatim (language="comment", text=
+        "Voltaj uyarısı")
+      boolean voltage_warning;
+
+      @verbatim (language="comment", text=
+        "Akım uyarısı")
+      boolean current_warning;
+
+      @verbatim (language="comment", text=
+        "Aktif uyarılar")
+      sequence<string> active_warnings;
+
+      @verbatim (language="comment", text=
+        "System status" "\n"
+        "Şarj cihazı verimliliği")
+      float charger_efficiency;
+
+      @verbatim (language="comment", text=
+        "Şarj cihazı bağlı mı?")
+      boolean charger_connected;
+
+      @verbatim (language="comment", text=
+        "Şarj başlangıç zamanı")
+      builtin_interfaces::msg::Time charging_start_time;
+    };
+  };
+};
