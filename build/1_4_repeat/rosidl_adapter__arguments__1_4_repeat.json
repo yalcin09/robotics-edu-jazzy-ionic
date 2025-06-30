@@ -1,0 +1,8 @@
+{
+  "package_name": "1_4_repeat",
+  "non_idl_tuples": [
+    "/home/yalcinolgac/ros2_ws/src/1_4_repeat:msg/Position.msg",
+    "/home/yalcinolgac/ros2_ws/src/1_4_repeat:srv/MoveRobot.srv",
+    "/home/yalcinolgac/ros2_ws/src/1_4_repeat:action/GoToPoint.action"
+  ]
+}

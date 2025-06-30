@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from repeat_1_4/msg/Position.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module repeat_1_4 {
+  module msg {
+    @verbatim (language="comment", text=
+      "Çok basit robot pozisyonu")
+    struct Position {
+      @verbatim (language="comment", text=
+        "X koordinatı")
+      float x;
+
+      @verbatim (language="comment", text=
+        "Y koordinatı")
+      float y;
+
+      @verbatim (language="comment", text=
+        "Robot durumu (\"moving\", \"stopped\", \"error\")")
+      string status;
+
+      builtin_interfaces::msg::Time timestamp;
+    };
+  };
+};

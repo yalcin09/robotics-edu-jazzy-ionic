@@ -1,0 +1,18 @@
+# GOAL - Hedefe gitmek için
+float32 target_x       # Hedef X
+float32 target_y       # Hedef Y
+
+---
+
+# RESULT - Sonuç
+bool success          # Başarılı mı?
+string message        # Sonuç mesajı
+float32 final_x       # Son pozisyon X
+float32 final_y       # Son pozisyon Y
+
+---
+
+# FEEDBACK - İlerleme
+float32 current_x     # Şu anki X
+float32 current_y     # Şu anki Y
+float32 progress      # İlerleme %0-100

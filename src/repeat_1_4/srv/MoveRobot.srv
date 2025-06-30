@@ -1,0 +1,11 @@
+# REQUEST - Robot'u hareket ettirmek için
+float32 target_x        # Hedef X pozisyonu
+float32 target_y        # Hedef Y pozisyonu
+float32 speed           # Hareket hızı
+
+---
+
+# RESPONSE - Hareket komutunun sonucu
+bool success           # Komut başarılı mı?
+string message         # Sonuç mesajı
+float32 distance       # Hedef mesafe

@@ -1,0 +1,220 @@
+[0.006s] Invoking command in '/home/yalcinolgac/ros2_ws/build/repeat_1_4': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yalcinolgac/ros2_ws/src/repeat_1_4 -DCMAKE_INSTALL_PREFIX=/home/yalcinolgac/ros2_ws/install/repeat_1_4
+[0.015s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.135s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.156s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.160s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.166s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.173s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.205s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.206s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.242s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.276s] -- Found rclcpp_action: 28.1.9 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[0.296s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.304s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.308s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.667s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.112s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.284s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.291s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.367s] -- Found PythonExtra: /usr/bin/python3  
+[1.654s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[1.680s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[1.680s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[1.680s]   rosidl_target_interfaces().  i.e:
+[1.680s] 
+[1.680s]     rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")
+[1.681s]     target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")
+[1.681s] 
+[1.681s] Call Stack (most recent call first):
+[1.681s]   CMakeLists.txt:34 (rosidl_target_interfaces)
+[1.681s] 
+[1.681s] [0m
+[1.681s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[1.681s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[1.681s]   rosidl_target_interfaces().  i.e:
+[1.681s] 
+[1.681s]     rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")
+[1.681s]     target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")
+[1.681s] 
+[1.681s] Call Stack (most recent call first):
+[1.681s]   CMakeLists.txt:39 (rosidl_target_interfaces)
+[1.681s] 
+[1.681s] [0m
+[1.681s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[1.681s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[1.681s]   rosidl_target_interfaces().  i.e:
+[1.681s] 
+[1.681s]     rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")
+[1.681s]     target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")
+[1.681s] 
+[1.682s] Call Stack (most recent call first):
+[1.682s]   CMakeLists.txt:44 (rosidl_target_interfaces)
+[1.682s] 
+[1.682s] [0m
+[1.682s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[1.682s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[1.682s]   rosidl_target_interfaces().  i.e:
+[1.682s] 
+[1.682s]     rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")
+[1.682s]     target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")
+[1.682s] 
+[1.682s] Call Stack (most recent call first):
+[1.682s]   CMakeLists.txt:49 (rosidl_target_interfaces)
+[1.682s] 
+[1.682s] [0m
+[1.682s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[1.682s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[1.682s]   rosidl_target_interfaces().  i.e:
+[1.682s] 
+[1.683s]     rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")
+[1.683s]     target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")
+[1.683s] 
+[1.683s] Call Stack (most recent call first):
+[1.683s]   CMakeLists.txt:54 (rosidl_target_interfaces)
+[1.683s] 
+[1.683s] [0m
+[1.683s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[1.683s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[1.683s]   rosidl_target_interfaces().  i.e:
+[1.683s] 
+[1.683s]     rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")
+[1.683s]     target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")
+[1.683s] 
+[1.683s] Call Stack (most recent call first):
+[1.683s]   CMakeLists.txt:59 (rosidl_target_interfaces)
+[1.683s] 
+[1.683s] [0m
+[1.690s] -- Configuring done (1.7s)
+[1.736s] -- Generating done (0.0s)
+[1.747s] -- Build files have been written to: /home/yalcinolgac/ros2_ws/build/repeat_1_4
+[1.754s] Invoked command in '/home/yalcinolgac/ros2_ws/build/repeat_1_4' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yalcinolgac/ros2_ws/src/repeat_1_4 -DCMAKE_INSTALL_PREFIX=/home/yalcinolgac/ros2_ws/install/repeat_1_4
+[1.755s] Invoking command in '/home/yalcinolgac/ros2_ws/build/repeat_1_4': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yalcinolgac/ros2_ws/build/repeat_1_4 -- -j32 -l32
+[1.793s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[1.793s] [  1%] Built target ament_cmake_python_copy_repeat_1_4
+[1.918s] running egg_info
+[1.919s] creating repeat_1_4.egg-info
+[1.929s] writing repeat_1_4.egg-info/PKG-INFO
+[1.929s] writing dependency_links to repeat_1_4.egg-info/dependency_links.txt
+[1.930s] writing top-level names to repeat_1_4.egg-info/top_level.txt
+[1.930s] writing manifest file 'repeat_1_4.egg-info/SOURCES.txt'
+[1.963s] reading manifest file 'repeat_1_4.egg-info/SOURCES.txt'
+[1.964s] writing manifest file 'repeat_1_4.egg-info/SOURCES.txt'
+[1.980s] [  1%] Built target ament_cmake_python_build_repeat_1_4_egg
+[2.001s] [  1%] Built target repeat_1_4__rosidl_generator_type_description
+[2.008s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.014s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.355s] [  4%] Built target repeat_1_4__cpp
+[2.375s] [  6%] [32mBuilding C object CMakeFiles/repeat_1_4__rosidl_generator_c.dir/rosidl_generator_c/repeat_1_4/msg/detail/position__description.c.o[0m
+[2.375s] [  7%] [32mBuilding C object CMakeFiles/repeat_1_4__rosidl_generator_c.dir/rosidl_generator_c/repeat_1_4/msg/detail/position__type_support.c.o[0m
+[2.375s] [  9%] [32mBuilding C object CMakeFiles/repeat_1_4__rosidl_generator_c.dir/rosidl_generator_c/repeat_1_4/msg/detail/position__functions.c.o[0m
+[2.376s] [ 10%] [32mBuilding C object CMakeFiles/repeat_1_4__rosidl_generator_c.dir/rosidl_generator_c/repeat_1_4/srv/detail/move_robot__description.c.o[0m
+[2.376s] [ 12%] [32mBuilding C object CMakeFiles/repeat_1_4__rosidl_generator_c.dir/rosidl_generator_c/repeat_1_4/srv/detail/move_robot__functions.c.o[0m
+[2.377s] [ 13%] [32mBuilding C object CMakeFiles/repeat_1_4__rosidl_generator_c.dir/rosidl_generator_c/repeat_1_4/srv/detail/move_robot__type_support.c.o[0m
+[2.378s] [ 15%] [32mBuilding C object CMakeFiles/repeat_1_4__rosidl_generator_c.dir/rosidl_generator_c/repeat_1_4/action/detail/go_to_point__functions.c.o[0m
+[2.379s] [ 16%] [32mBuilding C object CMakeFiles/repeat_1_4__rosidl_generator_c.dir/rosidl_generator_c/repeat_1_4/action/detail/go_to_point__type_support.c.o[0m
+[2.381s] [ 18%] [32mBuilding C object CMakeFiles/repeat_1_4__rosidl_generator_c.dir/rosidl_generator_c/repeat_1_4/action/detail/go_to_point__description.c.o[0m
+[2.468s] [ 19%] [32m[1mLinking C shared library librepeat_1_4__rosidl_generator_c.so[0m
+[2.496s] [ 19%] Built target repeat_1_4__rosidl_generator_c
+[2.502s] [ 24%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.502s] [ 24%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.502s] [ 24%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.503s] [ 27%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.503s] [ 27%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.503s] [ 28%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.770s] [ 31%] [32mBuilding CXX object CMakeFiles/repeat_1_4__rosidl_typesupport_c.dir/rosidl_typesupport_c/repeat_1_4/msg/position__type_support.cpp.o[0m
+[2.770s] [ 31%] [32mBuilding CXX object CMakeFiles/repeat_1_4__rosidl_typesupport_c.dir/rosidl_typesupport_c/repeat_1_4/action/go_to_point__type_support.cpp.o[0m
+[2.771s] [ 33%] [32mBuilding CXX object CMakeFiles/repeat_1_4__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/repeat_1_4/msg/position__type_support.cpp.o[0m
+[2.771s] [ 34%] [32mBuilding CXX object CMakeFiles/repeat_1_4__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/repeat_1_4/srv/move_robot__type_support.cpp.o[0m
+[2.772s] [ 36%] [32mBuilding CXX object CMakeFiles/repeat_1_4__rosidl_typesupport_c.dir/rosidl_typesupport_c/repeat_1_4/srv/move_robot__type_support.cpp.o[0m
+[2.774s] [ 37%] [32mBuilding CXX object CMakeFiles/repeat_1_4__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/repeat_1_4/action/go_to_point__type_support.cpp.o[0m
+[2.805s] [ 39%] [32mBuilding CXX object CMakeFiles/repeat_1_4__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/repeat_1_4/action/detail/go_to_point__type_support.cpp.o[0m
+[2.806s] [ 40%] [32mBuilding CXX object CMakeFiles/repeat_1_4__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/repeat_1_4/srv/detail/move_robot__type_support.cpp.o[0m
+[2.808s] [ 42%] [32mBuilding CXX object CMakeFiles/repeat_1_4__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/repeat_1_4/msg/detail/position__type_support.cpp.o[0m
+[2.818s] [ 43%] [32m[1mLinking CXX shared library librepeat_1_4__rosidl_typesupport_c.so[0m
+[2.824s] [ 48%] [32mBuilding C object CMakeFiles/repeat_1_4__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/repeat_1_4/srv/detail/move_robot__type_support.c.o[0m
+[2.824s] [ 48%] [32mBuilding C object CMakeFiles/repeat_1_4__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/repeat_1_4/msg/detail/position__type_support.c.o[0m
+[2.824s] [ 48%] [32mBuilding C object CMakeFiles/repeat_1_4__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/repeat_1_4/action/detail/go_to_point__type_support.c.o[0m
+[2.860s] [ 48%] Built target repeat_1_4__rosidl_typesupport_c
+[2.885s] [ 50%] [32m[1mLinking C shared library librepeat_1_4__rosidl_typesupport_introspection_c.so[0m
+[2.913s] [ 51%] [32mBuilding CXX object CMakeFiles/repeat_1_4__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/repeat_1_4/srv/detail/dds_fastrtps/move_robot__type_support.cpp.o[0m
+[2.914s] [ 53%] [32mBuilding CXX object CMakeFiles/repeat_1_4__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/repeat_1_4/action/detail/dds_fastrtps/go_to_point__type_support.cpp.o[0m
+[2.914s] [ 53%] Built target repeat_1_4__rosidl_typesupport_introspection_c
+[2.916s] [ 54%] [32mBuilding CXX object CMakeFiles/repeat_1_4__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/repeat_1_4/msg/detail/dds_fastrtps/position__type_support.cpp.o[0m
+[2.930s] [ 56%] [32mBuilding CXX object CMakeFiles/repeat_1_4__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/repeat_1_4/msg/detail/position__type_support_c.cpp.o[0m
+[2.931s] [ 57%] [32mBuilding CXX object CMakeFiles/repeat_1_4__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/repeat_1_4/action/detail/go_to_point__type_support_c.cpp.o[0m
+[2.935s] [ 59%] [32mBuilding CXX object CMakeFiles/repeat_1_4__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/repeat_1_4/srv/detail/move_robot__type_support_c.cpp.o[0m
+[3.204s] [ 60%] [32m[1mLinking CXX shared library librepeat_1_4__rosidl_typesupport_cpp.so[0m
+[3.257s] [ 60%] Built target repeat_1_4__rosidl_typesupport_cpp
+[3.273s] [ 62%] [32m[1mLinking CXX shared library librepeat_1_4__rosidl_typesupport_introspection_cpp.so[0m
+[3.318s] [ 63%] [32m[1mLinking CXX shared library librepeat_1_4__rosidl_typesupport_fastrtps_c.so[0m
+[3.320s] [ 63%] Built target repeat_1_4__rosidl_typesupport_introspection_cpp
+[3.366s] [ 63%] Built target repeat_1_4__rosidl_typesupport_fastrtps_c
+[3.491s] [ 65%] [32m[1mLinking CXX shared library librepeat_1_4__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.540s] [ 65%] Built target repeat_1_4__rosidl_typesupport_fastrtps_cpp
+[3.552s] [ 65%] Built target repeat_1_4
+[3.565s] [ 69%] [32mBuilding CXX object CMakeFiles/move_service_server.dir/src/move_service_server.cpp.o[0m
+[3.565s] [ 69%] [32mBuilding CXX object CMakeFiles/goto_action_client.dir/src/goto_action_client.cpp.o[0m
+[3.565s] [ 69%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.565s] [ 71%] [32mBuilding CXX object CMakeFiles/position_publisher.dir/src/position_publisher.cpp.o[0m
+[3.565s] [ 72%] [32mBuilding CXX object CMakeFiles/move_service_client.dir/src/move_service_client.cpp.o[0m
+[3.567s] [ 74%] [32mBuilding CXX object CMakeFiles/position_subscriber.dir/src/position_subscriber.cpp.o[0m
+[3.567s] [ 75%] [32mBuilding CXX object CMakeFiles/goto_action_server.dir/src/goto_action_server.cpp.o[0m
+[4.249s] [ 75%] Built target repeat_1_4__py
+[4.276s] [ 77%] [32mBuilding C object CMakeFiles/repeat_1_4__rosidl_generator_py.dir/rosidl_generator_py/repeat_1_4/action/_go_to_point_s.c.o[0m
+[4.279s] [ 78%] [32mBuilding C object CMakeFiles/repeat_1_4__rosidl_generator_py.dir/rosidl_generator_py/repeat_1_4/msg/_position_s.c.o[0m
+[4.280s] [ 80%] [32mBuilding C object CMakeFiles/repeat_1_4__rosidl_generator_py.dir/rosidl_generator_py/repeat_1_4/srv/_move_robot_s.c.o[0m
+[4.499s] [ 81%] [32m[1mLinking C shared library librepeat_1_4__rosidl_generator_py.so[0m
+[4.543s] [ 81%] Built target repeat_1_4__rosidl_generator_py
+[4.563s] [ 83%] [32mBuilding C object CMakeFiles/repeat_1_4_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/repeat_1_4/_repeat_1_4_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.565s] [ 84%] [32mBuilding C object CMakeFiles/repeat_1_4_s__rosidl_typesupport_c.dir/rosidl_generator_py/repeat_1_4/_repeat_1_4_s.ep.rosidl_typesupport_c.c.o[0m
+[4.572s] [ 86%] [32mBuilding C object CMakeFiles/repeat_1_4_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/repeat_1_4/_repeat_1_4_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.699s] [ 87%] [32m[1mLinking C shared module rosidl_generator_py/repeat_1_4/repeat_1_4_s__rosidl_typesupport_fastrtps_c.so[0m
+[4.705s] [ 89%] [32m[1mLinking C shared module rosidl_generator_py/repeat_1_4/repeat_1_4_s__rosidl_typesupport_c.so[0m
+[4.719s] [ 90%] [32m[1mLinking C shared module rosidl_generator_py/repeat_1_4/repeat_1_4_s__rosidl_typesupport_introspection_c.so[0m
+[4.734s] [ 90%] Built target repeat_1_4_s__rosidl_typesupport_c
+[4.738s] [ 90%] Built target repeat_1_4_s__rosidl_typesupport_fastrtps_c
+[4.753s] [ 90%] Built target repeat_1_4_s__rosidl_typesupport_introspection_c
+[5.323s] [01m[K/home/yalcinolgac/ros2_ws/src/repeat_1_4/src/goto_action_client.cpp:[m[K In lambda function:
+[5.323s] [01m[K/home/yalcinolgac/ros2_ws/src/repeat_1_4/src/goto_action_client.cpp:51:24:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KUNKNOWN[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[5.323s]    51 |                 switch [01;35m[K([m[Kresult.code) {
+[5.323s]       |                        [01;35m[K^[m[K
+[5.346s] [01m[K/home/yalcinolgac/ros2_ws/src/repeat_1_4/src/goto_action_server.cpp:[m[K In constructor ‘[01m[KGoToActionServer::[01;32m[KGoToActionServer[m[K()[m[K’:
+[5.346s] [01m[K/home/yalcinolgac/ros2_ws/src/repeat_1_4/src/goto_action_server.cpp:20:71:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kcreate_server<GoToPointAction>(GoToActionServer*, const char [12], std::_Bind_helper<false, rclcpp_action::GoalResponse (GoToActionServer::*)(const std::array<unsigned char, 16>&, std::shared_ptr<const repeat_1_4::action::GoToPoint_Goal_<std::allocator<void> > >), GoToActionServer*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type, std::_Bind_helper<false, rclcpp_action::CancelResponse (GoToActionServer::*)(std::shared_ptr<rclcpp_action::ServerGoalHandle<repeat_1_4::action::GoToPoint> >), GoToActionServer*, const std::_Placeholder<1>&>::type, std::_Bind_helper<false, void (GoToActionServer::*)(std::shared_ptr<rclcpp_action::ServerGoalHandle<repeat_1_4::action::GoToPoint> >), GoToActionServer*, const std::_Placeholder<2>&>::type)[m[K’
+[5.346s]    20 |         action_server_ = [01;31m[Krclcpp_action::create_server<GoToPointAction>([m[K
+[5.346s]       |                          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[5.346s]    21 | [01;31m[K            this, "go_to_point",[m[K
+[5.346s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~[m[K                                       
+[5.346s]    22 | [01;31m[K            std::bind(&GoToActionServer::handle_goal, this, std::placeholders::_1, std::placeholders::_2),[m[K
+[5.346s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.347s]    23 | [01;31m[K            std::bind(&GoToActionServer::handle_cancel, this, std::placeholders::_1),[m[K
+[5.347s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.347s]    24 | [01;31m[K            std::bind(&GoToActionServer::handle_accepted, this, std::placeholders::_2))[m[K;
+[5.347s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.347s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:39[m[K,
+[5.347s]                  from [01m[K/home/yalcinolgac/ros2_ws/src/repeat_1_4/src/goto_action_server.cpp:7[m[K:
+[5.347s] [01m[K/opt/ros/jazzy/include/rclcpp_action/rclcpp_action/create_server.hpp:58:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ActionT> typename rclcpp_action::Server<ActionT>::SharedPtr rclcpp_action::[01;32m[Kcreate_server[m[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, rclcpp::node_interfaces::NodeClockInterface::SharedPtr, rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr, rclcpp::node_interfaces::NodeWaitablesInterface::SharedPtr, const std::string&, typename Server<ActionT>::GoalCallback, typename Server<ActionT>::CancelCallback, typename Server<ActionT>::AcceptedCallback, const rcl_action_server_options_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+[5.347s]    58 | [01;36m[Kcreate_server[m[K(
+[5.347s]       | [01;36m[K^~~~~~~~~~~~~[m[K
+[5.347s] [01m[K/opt/ros/jazzy/include/rclcpp_action/rclcpp_action/create_server.hpp:58:1:[m[K [01;36m[Knote: [m[K  candidate expects 8 arguments, 5 provided
+[5.347s] [01m[K/opt/ros/jazzy/include/rclcpp_action/rclcpp_action/create_server.hpp:132:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ActionT, class NodeT> typename rclcpp_action::Server<ActionT>::SharedPtr rclcpp_action::[01;32m[Kcreate_server[m[K(NodeT, const std::string&, typename Server<ActionT>::GoalCallback, typename Server<ActionT>::CancelCallback, typename Server<ActionT>::AcceptedCallback, const rcl_action_server_options_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+[5.347s]   132 | [01;36m[Kcreate_server[m[K(
+[5.347s]       | [01;36m[K^~~~~~~~~~~~~[m[K
+[5.347s] [01m[K/opt/ros/jazzy/include/rclcpp_action/rclcpp_action/create_server.hpp:132:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.347s] [01m[K/home/yalcinolgac/ros2_ws/src/repeat_1_4/src/goto_action_server.cpp:24:22:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kstd::bind(_Func&&, _BoundArgs&& ...) [with _Func = void (GoToActionServer::*)(shared_ptr<rclcpp_action::ServerGoalHandle<repeat_1_4::action::GoToPoint> >); _BoundArgs = {GoToActionServer*, const _Placeholder<2>&}; typename _Bind_helper<__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type = _Bind_helper<false, void (GoToActionServer::*)(shared_ptr<rclcpp_action::ServerGoalHandle<repeat_1_4::action::GoToPoint> >), GoToActionServer*, const _Placeholder<2>&>::type; __is_socketlike<_Func> = __is_socketlike<void (GoToActionServer::*)(shared_ptr<rclcpp_action::ServerGoalHandle<repeat_1_4::action::GoToPoint> >), void (GoToActionServer::*)(shared_ptr<rclcpp_action::ServerGoalHandle<repeat_1_4::action::GoToPoint> >)>; typename decay<_Tp>::type = void (GoToActionServer::*)(shared_ptr<rclcpp_action::ServerGoalHandle<repeat_1_4::action::GoToPoint> >)](((GoToActionServer*)this), std::placeholders::_2)[m[K’ (type ‘[01m[Kstd::_Bind_helper<false, void (GoToActionServer::*)(std::shared_ptr<rclcpp_action::ServerGoalHandle<repeat_1_4::action::GoToPoint> >), GoToActionServer*, const std::_Placeholder<2>&>::type[m[K’) to type ‘[01m[Krclcpp_action::Server<repeat_1_4::action::GoToPoint>::AcceptedCallback[m[K’ {aka ‘[01m[Kstd::function<void(std::shared_ptr<rclcpp_action::ServerGoalHandle<repeat_1_4::action::GoToPoint> >)>[m[K’}
+[5.347s]    24 |             [01;36m[Kstd::bind(&GoToActionServer::handle_accepted, this, std::placeholders::_2)[m[K);
+[5.347s]       |             [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.894s] gmake[2]: *** [CMakeFiles/goto_action_server.dir/build.make:76: CMakeFiles/goto_action_server.dir/src/goto_action_server.cpp.o] Error 1
+[5.894s] gmake[1]: *** [CMakeFiles/Makefile2:752: CMakeFiles/goto_action_server.dir/all] Error 2
+[5.894s] gmake[1]: *** Waiting for unfinished jobs....
+[6.207s] [ 92%] [32m[1mLinking CXX executable move_service_server[0m
+[6.275s] [ 93%] [32m[1mLinking CXX executable move_service_client[0m
+[6.337s] [ 93%] Built target move_service_server
+[6.365s] [ 93%] Built target move_service_client
+[6.389s] [ 95%] [32m[1mLinking CXX executable goto_action_client[0m
+[6.487s] [ 95%] Built target goto_action_client
+[6.584s] [ 96%] [32m[1mLinking CXX executable position_publisher[0m
+[6.684s] [ 96%] Built target position_publisher
+[8.367s] [ 98%] [32m[1mLinking CXX executable position_subscriber[0m
+[8.505s] [ 98%] Built target position_subscriber
+[8.507s] gmake: *** [Makefile:146: all] Error 2
+[8.509s] Invoked command in '/home/yalcinolgac/ros2_ws/build/repeat_1_4' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yalcinolgac/ros2_ws/build/repeat_1_4 -- -j32 -l32

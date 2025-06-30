@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "repeat_1_4__py",
+		"source" : "/home/yalcinolgac/ros2_ws/build/repeat_1_4/repeat_1_4__py"
+	}
+}

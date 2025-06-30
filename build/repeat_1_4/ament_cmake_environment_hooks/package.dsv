@@ -1,0 +1,4 @@
+source;share/repeat_1_4/local_setup.bash
+source;share/repeat_1_4/local_setup.dsv
+source;share/repeat_1_4/local_setup.sh
+source;share/repeat_1_4/local_setup.zsh

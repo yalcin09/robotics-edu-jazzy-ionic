@@ -1,0 +1,117 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_action: 28.1.9 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found PythonExtra: /usr/bin/python3  
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Configuring done (1.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/yalcinolgac/ros2_ws/build/repeat_1_4
+[  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  1%] Built target ament_cmake_python_copy_repeat_1_4
+running egg_info
+creating repeat_1_4.egg-info
+writing repeat_1_4.egg-info/PKG-INFO
+writing dependency_links to repeat_1_4.egg-info/dependency_links.txt
+writing top-level names to repeat_1_4.egg-info/top_level.txt
+writing manifest file 'repeat_1_4.egg-info/SOURCES.txt'
+reading manifest file 'repeat_1_4.egg-info/SOURCES.txt'
+writing manifest file 'repeat_1_4.egg-info/SOURCES.txt'
+[  1%] Built target ament_cmake_python_build_repeat_1_4_egg
+[  1%] Built target repeat_1_4__rosidl_generator_type_description
+[  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  4%] Built target repeat_1_4__cpp
+[  6%] [32mBuilding C object CMakeFiles/repeat_1_4__rosidl_generator_c.dir/rosidl_generator_c/repeat_1_4/msg/detail/position__description.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/repeat_1_4__rosidl_generator_c.dir/rosidl_generator_c/repeat_1_4/msg/detail/position__type_support.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/repeat_1_4__rosidl_generator_c.dir/rosidl_generator_c/repeat_1_4/msg/detail/position__functions.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/repeat_1_4__rosidl_generator_c.dir/rosidl_generator_c/repeat_1_4/srv/detail/move_robot__description.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/repeat_1_4__rosidl_generator_c.dir/rosidl_generator_c/repeat_1_4/srv/detail/move_robot__functions.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/repeat_1_4__rosidl_generator_c.dir/rosidl_generator_c/repeat_1_4/srv/detail/move_robot__type_support.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/repeat_1_4__rosidl_generator_c.dir/rosidl_generator_c/repeat_1_4/action/detail/go_to_point__functions.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/repeat_1_4__rosidl_generator_c.dir/rosidl_generator_c/repeat_1_4/action/detail/go_to_point__type_support.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/repeat_1_4__rosidl_generator_c.dir/rosidl_generator_c/repeat_1_4/action/detail/go_to_point__description.c.o[0m
+[ 19%] [32m[1mLinking C shared library librepeat_1_4__rosidl_generator_c.so[0m
+[ 19%] Built target repeat_1_4__rosidl_generator_c
+[ 24%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 24%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 24%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 27%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 27%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 28%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/repeat_1_4__rosidl_typesupport_c.dir/rosidl_typesupport_c/repeat_1_4/msg/position__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/repeat_1_4__rosidl_typesupport_c.dir/rosidl_typesupport_c/repeat_1_4/action/go_to_point__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/repeat_1_4__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/repeat_1_4/msg/position__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/repeat_1_4__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/repeat_1_4/srv/move_robot__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/repeat_1_4__rosidl_typesupport_c.dir/rosidl_typesupport_c/repeat_1_4/srv/move_robot__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/repeat_1_4__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/repeat_1_4/action/go_to_point__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/repeat_1_4__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/repeat_1_4/action/detail/go_to_point__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/repeat_1_4__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/repeat_1_4/srv/detail/move_robot__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/repeat_1_4__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/repeat_1_4/msg/detail/position__type_support.cpp.o[0m
+[ 43%] [32m[1mLinking CXX shared library librepeat_1_4__rosidl_typesupport_c.so[0m
+[ 48%] [32mBuilding C object CMakeFiles/repeat_1_4__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/repeat_1_4/srv/detail/move_robot__type_support.c.o[0m
+[ 48%] [32mBuilding C object CMakeFiles/repeat_1_4__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/repeat_1_4/msg/detail/position__type_support.c.o[0m
+[ 48%] [32mBuilding C object CMakeFiles/repeat_1_4__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/repeat_1_4/action/detail/go_to_point__type_support.c.o[0m
+[ 48%] Built target repeat_1_4__rosidl_typesupport_c
+[ 50%] [32m[1mLinking C shared library librepeat_1_4__rosidl_typesupport_introspection_c.so[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/repeat_1_4__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/repeat_1_4/srv/detail/dds_fastrtps/move_robot__type_support.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/repeat_1_4__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/repeat_1_4/action/detail/dds_fastrtps/go_to_point__type_support.cpp.o[0m
+[ 53%] Built target repeat_1_4__rosidl_typesupport_introspection_c
+[ 54%] [32mBuilding CXX object CMakeFiles/repeat_1_4__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/repeat_1_4/msg/detail/dds_fastrtps/position__type_support.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/repeat_1_4__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/repeat_1_4/msg/detail/position__type_support_c.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/repeat_1_4__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/repeat_1_4/action/detail/go_to_point__type_support_c.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/repeat_1_4__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/repeat_1_4/srv/detail/move_robot__type_support_c.cpp.o[0m
+[ 60%] [32m[1mLinking CXX shared library librepeat_1_4__rosidl_typesupport_cpp.so[0m
+[ 60%] Built target repeat_1_4__rosidl_typesupport_cpp
+[ 62%] [32m[1mLinking CXX shared library librepeat_1_4__rosidl_typesupport_introspection_cpp.so[0m
+[ 63%] [32m[1mLinking CXX shared library librepeat_1_4__rosidl_typesupport_fastrtps_c.so[0m
+[ 63%] Built target repeat_1_4__rosidl_typesupport_introspection_cpp
+[ 63%] Built target repeat_1_4__rosidl_typesupport_fastrtps_c
+[ 65%] [32m[1mLinking CXX shared library librepeat_1_4__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 65%] Built target repeat_1_4__rosidl_typesupport_fastrtps_cpp
+[ 65%] Built target repeat_1_4
+[ 69%] [32mBuilding CXX object CMakeFiles/move_service_server.dir/src/move_service_server.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/goto_action_client.dir/src/goto_action_client.cpp.o[0m
+[ 69%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/position_publisher.dir/src/position_publisher.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/move_service_client.dir/src/move_service_client.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/position_subscriber.dir/src/position_subscriber.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/goto_action_server.dir/src/goto_action_server.cpp.o[0m
+[ 75%] Built target repeat_1_4__py
+[ 77%] [32mBuilding C object CMakeFiles/repeat_1_4__rosidl_generator_py.dir/rosidl_generator_py/repeat_1_4/action/_go_to_point_s.c.o[0m
+[ 78%] [32mBuilding C object CMakeFiles/repeat_1_4__rosidl_generator_py.dir/rosidl_generator_py/repeat_1_4/msg/_position_s.c.o[0m
+[ 80%] [32mBuilding C object CMakeFiles/repeat_1_4__rosidl_generator_py.dir/rosidl_generator_py/repeat_1_4/srv/_move_robot_s.c.o[0m
+[ 81%] [32m[1mLinking C shared library librepeat_1_4__rosidl_generator_py.so[0m
+[ 81%] Built target repeat_1_4__rosidl_generator_py
+[ 83%] [32mBuilding C object CMakeFiles/repeat_1_4_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/repeat_1_4/_repeat_1_4_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 84%] [32mBuilding C object CMakeFiles/repeat_1_4_s__rosidl_typesupport_c.dir/rosidl_generator_py/repeat_1_4/_repeat_1_4_s.ep.rosidl_typesupport_c.c.o[0m
+[ 86%] [32mBuilding C object CMakeFiles/repeat_1_4_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/repeat_1_4/_repeat_1_4_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 87%] [32m[1mLinking C shared module rosidl_generator_py/repeat_1_4/repeat_1_4_s__rosidl_typesupport_fastrtps_c.so[0m
+[ 89%] [32m[1mLinking C shared module rosidl_generator_py/repeat_1_4/repeat_1_4_s__rosidl_typesupport_c.so[0m
+[ 90%] [32m[1mLinking C shared module rosidl_generator_py/repeat_1_4/repeat_1_4_s__rosidl_typesupport_introspection_c.so[0m
+[ 90%] Built target repeat_1_4_s__rosidl_typesupport_c
+[ 90%] Built target repeat_1_4_s__rosidl_typesupport_fastrtps_c
+[ 90%] Built target repeat_1_4_s__rosidl_typesupport_introspection_c
+[ 92%] [32m[1mLinking CXX executable move_service_server[0m
+[ 93%] [32m[1mLinking CXX executable move_service_client[0m
+[ 93%] Built target move_service_server
+[ 93%] Built target move_service_client
+[ 95%] [32m[1mLinking CXX executable goto_action_client[0m
+[ 95%] Built target goto_action_client
+[ 96%] [32m[1mLinking CXX executable position_publisher[0m
+[ 96%] Built target position_publisher
+[ 98%] [32m[1mLinking CXX executable position_subscriber[0m
+[ 98%] Built target position_subscriber

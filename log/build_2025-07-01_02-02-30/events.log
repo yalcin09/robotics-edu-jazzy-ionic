@@ -1,0 +1,92 @@
+[0.000000] (-) TimerEvent: {}
+[0.000110] (-) JobUnselected: {'identifier': 'day1'}
+[0.000127] (-) JobUnselected: {'identifier': 'day2'}
+[0.000136] (-) JobUnselected: {'identifier': 'day2_2'}
+[0.000144] (repeat_1_4) JobQueued: {'identifier': 'repeat_1_4', 'dependencies': OrderedDict()}
+[0.000153] (repeat_1_4) JobStarted: {'identifier': 'repeat_1_4'}
+[0.005938] (repeat_1_4) JobProgress: {'identifier': 'repeat_1_4', 'progress': 'cmake'}
+[0.006575] (repeat_1_4) Command: {'cmd': ['/usr/bin/cmake', '/home/yalcinolgac/ros2_ws/src/repeat_1_4', '-DCMAKE_INSTALL_PREFIX=/home/yalcinolgac/ros2_ws/install/repeat_1_4'], 'cwd': '/home/yalcinolgac/ros2_ws/build/repeat_1_4', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yalcinolgac', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yalcinolgac/ros2_ws/install/day2/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/yalcinolgac', 'OLDPWD': '/home/yalcinolgac/ros2_ws/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/yalcinolgac/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'yalcinolgac', 'NAME': 'yalcinolgac', 'WSL_INTEROP': '/run/WSL/637_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/snap/bin:/home/yalcinolgac/Android/Sdk/cmdline-tools/latest/bin:/home/yalcinolgac/Android/Sdk/platform-tools:/home/yalcinolgac/Android/Sdk/emulator', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/yalcinolgac/ros2_ws/install/day2_2:/home/yalcinolgac/ros2_ws/install/day2:/home/yalcinolgac/ros2_ws/install/day1:/opt/ros/jazzy', 'ANDROID_NDK_ROOT': '/home/yalcinolgac/Android/Sdk/ndk/25.2.9519653', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'ANDROID_SDK_ROOT': '/home/yalcinolgac/Android/Sdk', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'JAVA_HOME': '/usr/lib/jvm/java-17-openjdk-amd64', 'PWD': '/home/yalcinolgac/ros2_ws/build/repeat_1_4', 'ANDROID_HOME': '/home/yalcinolgac/Android/Sdk', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/yalcinolgac/ros2_ws/install/day2_2:/home/yalcinolgac/ros2_ws/install/day2:/home/yalcinolgac/ros2_ws/install/day1:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[0.040079] (repeat_1_4) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.071505] (repeat_1_4) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.080815] (repeat_1_4) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.098988] (-) TimerEvent: {}
+[0.134135] (repeat_1_4) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.138951] (repeat_1_4) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.139129] (repeat_1_4) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.139268] (repeat_1_4) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.145042] (repeat_1_4) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199097] (-) TimerEvent: {}
+[0.205622] (repeat_1_4) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.210316] (repeat_1_4) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.210535] (repeat_1_4) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.210772] (repeat_1_4) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.213363] (repeat_1_4) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.299274] (-) TimerEvent: {}
+[0.304752] (repeat_1_4) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.377430] (repeat_1_4) StdoutLine: {'line': b'-- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.399368] (-) TimerEvent: {}
+[0.416780] (repeat_1_4) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.426931] (repeat_1_4) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.438540] (repeat_1_4) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.451950] (repeat_1_4) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.499529] (-) TimerEvent: {}
+[0.504223] (repeat_1_4) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.507283] (repeat_1_4) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.562068] (repeat_1_4) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[0.574764] (repeat_1_4) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[0.589476] (repeat_1_4) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.599787] (-) TimerEvent: {}
+[0.637653] (repeat_1_4) StdoutLine: {'line': b'-- Found rclcpp_action: 28.1.9 (/opt/ros/jazzy/share/rclcpp_action/cmake)\n'}
+[0.665514] (repeat_1_4) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.674641] (repeat_1_4) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.685608] (repeat_1_4) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.699920] (-) TimerEvent: {}
+[0.800124] (-) TimerEvent: {}
+[0.837513] (repeat_1_4) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):\n'}
+[0.837690] (repeat_1_4) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name\n'}
+[0.837757] (repeat_1_4) StderrLine: {'line': b'  1_4_repeat --arguments-file\n'}
+[0.837789] (repeat_1_4) StderrLine: {'line': b'  /home/yalcinolgac/ros2_ws/build/repeat_1_4/rosidl_adapter__arguments__1_4_repeat.json\n'}
+[0.837844] (repeat_1_4) StderrLine: {'line': b'  --output-dir\n'}
+[0.837881] (repeat_1_4) StderrLine: {'line': b'  /home/yalcinolgac/ros2_ws/build/repeat_1_4/rosidl_adapter/1_4_repeat\n'}
+[0.837910] (repeat_1_4) StderrLine: {'line': b'  --output-file\n'}
+[0.837967] (repeat_1_4) StderrLine: {'line': b'  /home/yalcinolgac/ros2_ws/build/repeat_1_4/rosidl_adapter/1_4_repeat.idls)\n'}
+[0.837998] (repeat_1_4) StderrLine: {'line': b'  returned error code 1:\n'}
+[0.838025] (repeat_1_4) StderrLine: {'line': b'\n'}
+[0.838208] (repeat_1_4) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[0.838242] (repeat_1_4) StderrLine: {'line': b'\n'}
+[0.838271] (repeat_1_4) StderrLine: {'line': b'    File "<frozen runpy>", line 198, in _run_module_as_main\n'}
+[0.838298] (repeat_1_4) StderrLine: {'line': b'    File "<frozen runpy>", line 88, in _run_code\n'}
+[0.838326] (repeat_1_4) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[0.838352] (repeat_1_4) StderrLine: {'line': b'      sys.exit(main())\n'}
+[0.838377] (repeat_1_4) StderrLine: {'line': b'               ^^^^^^\n'}
+[0.838403] (repeat_1_4) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[0.838428] (repeat_1_4) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[0.838454] (repeat_1_4) StderrLine: {'line': b'                     ^^^^^^^^^^^^^^^\n'}
+[0.838478] (repeat_1_4) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl\n'}
+[0.838503] (repeat_1_4) StderrLine: {'line': b'      return convert_msg_to_idl(\n'}
+[0.838533] (repeat_1_4) StderrLine: {'line': b'             ^^^^^^^^^^^^^^^^^^^\n'}
+[0.838558] (repeat_1_4) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl\n'}
+[0.838583] (repeat_1_4) StderrLine: {'line': b'      msg = parse_message_string(package_name, input_file.stem, content)\n'}
+[0.838610] (repeat_1_4) StderrLine: {'line': b'            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[0.838636] (repeat_1_4) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 545, in parse_message_string\n'}
+[0.838721] (repeat_1_4) StderrLine: {'line': b'      msg = MessageSpecification(pkg_name, msg_name, fields, constants)\n'}
+[0.838754] (repeat_1_4) StderrLine: {'line': b'            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[0.838782] (repeat_1_4) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 389, in __init__\n'}
+[0.838809] (repeat_1_4) StderrLine: {'line': b'      self.base_type = BaseType(\n'}
+[0.838835] (repeat_1_4) StderrLine: {'line': b'                       ^^^^^^^^^\n'}
+[0.838861] (repeat_1_4) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 202, in __init__\n'}
+[0.838887] (repeat_1_4) StderrLine: {'line': b'      raise InvalidResourceName(\n'}
+[0.838913] (repeat_1_4) StderrLine: {'line': b'\n'}
+[0.838938] (repeat_1_4) StderrLine: {'line': b"  rosidl_adapter.parser.InvalidResourceName: '1_4_repeat' is an invalid\n"}
+[0.838965] (repeat_1_4) StderrLine: {'line': b'  package name.  It should have the pattern\n'}
+[0.838990] (repeat_1_4) StderrLine: {'line': b"  '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'\n"}
+[0.839015] (repeat_1_4) StderrLine: {'line': b'\n'}
+[0.839041] (repeat_1_4) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.839067] (repeat_1_4) StderrLine: {'line': b'  /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)\n'}
+[0.839093] (repeat_1_4) StderrLine: {'line': b'  CMakeLists.txt:22 (rosidl_generate_interfaces)\n'}
+[0.839120] (repeat_1_4) StderrLine: {'line': b'\n'}
+[0.839145] (repeat_1_4) StderrLine: {'line': b'\x1b[0m\n'}
+[0.839170] (repeat_1_4) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.844624] (repeat_1_4) CommandEnded: {'returncode': 1}
+[0.863671] (repeat_1_4) JobEnded: {'identifier': 'repeat_1_4', 'rc': 1}
+[0.874200] (-) EventReactorShutdown: {}

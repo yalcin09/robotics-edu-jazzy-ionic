@@ -1,0 +1,52 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from repeat_1_4/action/GoToPoint.action
+// generated code does not contain a copyright notice
+
+
+module repeat_1_4 {
+  module action {
+    @verbatim (language="comment", text=
+      "GOAL - Hedefe gitmek için")
+    struct GoToPoint_Goal {
+      @verbatim (language="comment", text=
+        "Hedef X")
+      float target_x;
+
+      @verbatim (language="comment", text=
+        "Hedef Y")
+      float target_y;
+    };
+    struct GoToPoint_Result {
+      @verbatim (language="comment", text=
+        "RESULT - Sonuç" "\n"
+        "Başarılı mı?")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "Sonuç mesajı")
+      string message;
+
+      @verbatim (language="comment", text=
+        "Son pozisyon X")
+      float final_x;
+
+      @verbatim (language="comment", text=
+        "Son pozisyon Y")
+      float final_y;
+    };
+    struct GoToPoint_Feedback {
+      @verbatim (language="comment", text=
+        "FEEDBACK - İlerleme" "\n"
+        "Şu anki X")
+      float current_x;
+
+      @verbatim (language="comment", text=
+        "Şu anki Y")
+      float current_y;
+
+      @verbatim (language="comment", text=
+        "İlerleme %0-100")
+      float progress;
+    };
+  };
+};

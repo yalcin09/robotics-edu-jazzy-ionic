@@ -1,0 +1,99 @@
+[0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+  Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+  rosidl_target_interfaces().  i.e:
+
+    rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")
+    target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")
+
+Call Stack (most recent call first):
+  CMakeLists.txt:34 (rosidl_target_interfaces)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+  Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+  rosidl_target_interfaces().  i.e:
+
+    rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")
+    target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")
+
+Call Stack (most recent call first):
+  CMakeLists.txt:39 (rosidl_target_interfaces)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+  Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+  rosidl_target_interfaces().  i.e:
+
+    rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")
+    target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")
+
+Call Stack (most recent call first):
+  CMakeLists.txt:44 (rosidl_target_interfaces)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+  Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+  rosidl_target_interfaces().  i.e:
+
+    rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")
+    target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")
+
+Call Stack (most recent call first):
+  CMakeLists.txt:49 (rosidl_target_interfaces)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+  Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+  rosidl_target_interfaces().  i.e:
+
+    rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")
+    target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")
+
+Call Stack (most recent call first):
+  CMakeLists.txt:54 (rosidl_target_interfaces)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+  Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+  rosidl_target_interfaces().  i.e:
+
+    rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")
+    target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")
+
+Call Stack (most recent call first):
+  CMakeLists.txt:59 (rosidl_target_interfaces)
+
+[0m
+[01m[K/home/yalcinolgac/ros2_ws/src/repeat_1_4/src/goto_action_client.cpp:[m[K In lambda function:
+[01m[K/home/yalcinolgac/ros2_ws/src/repeat_1_4/src/goto_action_client.cpp:51:24:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KUNKNOWN[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+   51 |                 switch [01;35m[K([m[Kresult.code) {
+      |                        [01;35m[K^[m[K
+[01m[K/home/yalcinolgac/ros2_ws/src/repeat_1_4/src/goto_action_server.cpp:[m[K In constructor ‘[01m[KGoToActionServer::[01;32m[KGoToActionServer[m[K()[m[K’:
+[01m[K/home/yalcinolgac/ros2_ws/src/repeat_1_4/src/goto_action_server.cpp:20:71:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kcreate_server<GoToPointAction>(GoToActionServer*, const char [12], std::_Bind_helper<false, rclcpp_action::GoalResponse (GoToActionServer::*)(const std::array<unsigned char, 16>&, std::shared_ptr<const repeat_1_4::action::GoToPoint_Goal_<std::allocator<void> > >), GoToActionServer*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type, std::_Bind_helper<false, rclcpp_action::CancelResponse (GoToActionServer::*)(std::shared_ptr<rclcpp_action::ServerGoalHandle<repeat_1_4::action::GoToPoint> >), GoToActionServer*, const std::_Placeholder<1>&>::type, std::_Bind_helper<false, void (GoToActionServer::*)(std::shared_ptr<rclcpp_action::ServerGoalHandle<repeat_1_4::action::GoToPoint> >), GoToActionServer*, const std::_Placeholder<2>&>::type)[m[K’
+   20 |         action_server_ = [01;31m[Krclcpp_action::create_server<GoToPointAction>([m[K
+      |                          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   21 | [01;31m[K            this, "go_to_point",[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~[m[K                                       
+   22 | [01;31m[K            std::bind(&GoToActionServer::handle_goal, this, std::placeholders::_1, std::placeholders::_2),[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   23 | [01;31m[K            std::bind(&GoToActionServer::handle_cancel, this, std::placeholders::_1),[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   24 | [01;31m[K            std::bind(&GoToActionServer::handle_accepted, this, std::placeholders::_2))[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:39[m[K,
+                 from [01m[K/home/yalcinolgac/ros2_ws/src/repeat_1_4/src/goto_action_server.cpp:7[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp_action/rclcpp_action/create_server.hpp:58:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ActionT> typename rclcpp_action::Server<ActionT>::SharedPtr rclcpp_action::[01;32m[Kcreate_server[m[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, rclcpp::node_interfaces::NodeClockInterface::SharedPtr, rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr, rclcpp::node_interfaces::NodeWaitablesInterface::SharedPtr, const std::string&, typename Server<ActionT>::GoalCallback, typename Server<ActionT>::CancelCallback, typename Server<ActionT>::AcceptedCallback, const rcl_action_server_options_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+   58 | [01;36m[Kcreate_server[m[K(
+      | [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp_action/rclcpp_action/create_server.hpp:58:1:[m[K [01;36m[Knote: [m[K  candidate expects 8 arguments, 5 provided
+[01m[K/opt/ros/jazzy/include/rclcpp_action/rclcpp_action/create_server.hpp:132:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ActionT, class NodeT> typename rclcpp_action::Server<ActionT>::SharedPtr rclcpp_action::[01;32m[Kcreate_server[m[K(NodeT, const std::string&, typename Server<ActionT>::GoalCallback, typename Server<ActionT>::CancelCallback, typename Server<ActionT>::AcceptedCallback, const rcl_action_server_options_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  132 | [01;36m[Kcreate_server[m[K(
+      | [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp_action/rclcpp_action/create_server.hpp:132:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/yalcinolgac/ros2_ws/src/repeat_1_4/src/goto_action_server.cpp:24:22:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kstd::bind(_Func&&, _BoundArgs&& ...) [with _Func = void (GoToActionServer::*)(shared_ptr<rclcpp_action::ServerGoalHandle<repeat_1_4::action::GoToPoint> >); _BoundArgs = {GoToActionServer*, const _Placeholder<2>&}; typename _Bind_helper<__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type = _Bind_helper<false, void (GoToActionServer::*)(shared_ptr<rclcpp_action::ServerGoalHandle<repeat_1_4::action::GoToPoint> >), GoToActionServer*, const _Placeholder<2>&>::type; __is_socketlike<_Func> = __is_socketlike<void (GoToActionServer::*)(shared_ptr<rclcpp_action::ServerGoalHandle<repeat_1_4::action::GoToPoint> >), void (GoToActionServer::*)(shared_ptr<rclcpp_action::ServerGoalHandle<repeat_1_4::action::GoToPoint> >)>; typename decay<_Tp>::type = void (GoToActionServer::*)(shared_ptr<rclcpp_action::ServerGoalHandle<repeat_1_4::action::GoToPoint> >)](((GoToActionServer*)this), std::placeholders::_2)[m[K’ (type ‘[01m[Kstd::_Bind_helper<false, void (GoToActionServer::*)(std::shared_ptr<rclcpp_action::ServerGoalHandle<repeat_1_4::action::GoToPoint> >), GoToActionServer*, const std::_Placeholder<2>&>::type[m[K’) to type ‘[01m[Krclcpp_action::Server<repeat_1_4::action::GoToPoint>::AcceptedCallback[m[K’ {aka ‘[01m[Kstd::function<void(std::shared_ptr<rclcpp_action::ServerGoalHandle<repeat_1_4::action::GoToPoint> >)>[m[K’}
+   24 |             [01;36m[Kstd::bind(&GoToActionServer::handle_accepted, this, std::placeholders::_2)[m[K);
+      |             [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/goto_action_server.dir/build.make:76: CMakeFiles/goto_action_server.dir/src/goto_action_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:752: CMakeFiles/goto_action_server.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

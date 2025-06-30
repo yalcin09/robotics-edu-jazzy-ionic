@@ -1,0 +1,38 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from repeat_1_4/srv/MoveRobot.srv
+// generated code does not contain a copyright notice
+
+
+module repeat_1_4 {
+  module srv {
+    @verbatim (language="comment", text=
+      "REQUEST - Robot'u hareket ettirmek için")
+    struct MoveRobot_Request {
+      @verbatim (language="comment", text=
+        "Hedef X pozisyonu")
+      float target_x;
+
+      @verbatim (language="comment", text=
+        "Hedef Y pozisyonu")
+      float target_y;
+
+      @verbatim (language="comment", text=
+        "Hareket hızı")
+      float speed;
+    };
+    struct MoveRobot_Response {
+      @verbatim (language="comment", text=
+        "RESPONSE - Hareket komutunun sonucu" "\n"
+        "Komut başarılı mı?")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "Sonuç mesajı")
+      string message;
+
+      @verbatim (language="comment", text=
+        "Hedef mesafe")
+      float distance;
+    };
+  };
+};

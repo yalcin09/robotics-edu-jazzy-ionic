@@ -1,0 +1,314 @@
+[0.000000] (-) TimerEvent: {}
+[0.000304] (-) JobUnselected: {'identifier': 'day1'}
+[0.000329] (-) JobUnselected: {'identifier': 'day2'}
+[0.000340] (-) JobUnselected: {'identifier': 'day2_2'}
+[0.000351] (repeat_1_4) JobQueued: {'identifier': 'repeat_1_4', 'dependencies': OrderedDict()}
+[0.001296] (repeat_1_4) JobStarted: {'identifier': 'repeat_1_4'}
+[0.005772] (repeat_1_4) JobProgress: {'identifier': 'repeat_1_4', 'progress': 'cmake'}
+[0.006200] (repeat_1_4) Command: {'cmd': ['/usr/bin/cmake', '/home/yalcinolgac/ros2_ws/src/repeat_1_4', '-DCMAKE_INSTALL_PREFIX=/home/yalcinolgac/ros2_ws/install/repeat_1_4'], 'cwd': '/home/yalcinolgac/ros2_ws/build/repeat_1_4', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yalcinolgac', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yalcinolgac/ros2_ws/install/day2/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/yalcinolgac', 'OLDPWD': '/home/yalcinolgac/ros2_ws/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/yalcinolgac/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'yalcinolgac', 'NAME': 'yalcinolgac', 'WSL_INTEROP': '/run/WSL/637_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/snap/bin:/home/yalcinolgac/Android/Sdk/cmdline-tools/latest/bin:/home/yalcinolgac/Android/Sdk/platform-tools:/home/yalcinolgac/Android/Sdk/emulator', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/yalcinolgac/ros2_ws/install/day2_2:/home/yalcinolgac/ros2_ws/install/day2:/home/yalcinolgac/ros2_ws/install/day1:/opt/ros/jazzy', 'ANDROID_NDK_ROOT': '/home/yalcinolgac/Android/Sdk/ndk/25.2.9519653', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'ANDROID_SDK_ROOT': '/home/yalcinolgac/Android/Sdk', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'JAVA_HOME': '/usr/lib/jvm/java-17-openjdk-amd64', 'PWD': '/home/yalcinolgac/ros2_ws/build/repeat_1_4', 'ANDROID_HOME': '/home/yalcinolgac/Android/Sdk', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/yalcinolgac/ros2_ws/install/day2_2:/home/yalcinolgac/ros2_ws/install/day2:/home/yalcinolgac/ros2_ws/install/day1:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[0.016260] (repeat_1_4) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.100385] (-) TimerEvent: {}
+[0.136044] (repeat_1_4) StdoutLine: {'line': b'-- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.156893] (repeat_1_4) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.161287] (repeat_1_4) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.167333] (repeat_1_4) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.174471] (repeat_1_4) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.200457] (-) TimerEvent: {}
+[0.206669] (repeat_1_4) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.207330] (repeat_1_4) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.243543] (repeat_1_4) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.277028] (repeat_1_4) StdoutLine: {'line': b'-- Found rclcpp_action: 28.1.9 (/opt/ros/jazzy/share/rclcpp_action/cmake)\n'}
+[0.297004] (repeat_1_4) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.300725] (-) TimerEvent: {}
+[0.304851] (repeat_1_4) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.308974] (repeat_1_4) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.401129] (-) TimerEvent: {}
+[0.501572] (-) TimerEvent: {}
+[0.602000] (-) TimerEvent: {}
+[0.668276] (repeat_1_4) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[0.702282] (-) TimerEvent: {}
+[0.802617] (-) TimerEvent: {}
+[0.902968] (-) TimerEvent: {}
+[1.003235] (-) TimerEvent: {}
+[1.103715] (-) TimerEvent: {}
+[1.113329] (repeat_1_4) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.203988] (-) TimerEvent: {}
+[1.285324] (repeat_1_4) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.292078] (repeat_1_4) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[1.304067] (-) TimerEvent: {}
+[1.368440] (repeat_1_4) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[1.404283] (-) TimerEvent: {}
+[1.504803] (-) TimerEvent: {}
+[1.605284] (-) TimerEvent: {}
+[1.654942] (repeat_1_4) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[1.681579] (repeat_1_4) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[1.681697] (repeat_1_4) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[1.681731] (repeat_1_4) StderrLine: {'line': b'  rosidl_target_interfaces().  i.e:\n'}
+[1.681760] (repeat_1_4) StderrLine: {'line': b'\n'}
+[1.681787] (repeat_1_4) StderrLine: {'line': b'    rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")\n'}
+[1.681813] (repeat_1_4) StderrLine: {'line': b'    target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")\n'}
+[1.681840] (repeat_1_4) StderrLine: {'line': b'\n'}
+[1.681866] (repeat_1_4) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.681891] (repeat_1_4) StderrLine: {'line': b'  CMakeLists.txt:34 (rosidl_target_interfaces)\n'}
+[1.681916] (repeat_1_4) StderrLine: {'line': b'\n'}
+[1.681941] (repeat_1_4) StderrLine: {'line': b'\x1b[0m\n'}
+[1.682042] (repeat_1_4) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[1.682084] (repeat_1_4) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[1.682113] (repeat_1_4) StderrLine: {'line': b'  rosidl_target_interfaces().  i.e:\n'}
+[1.682142] (repeat_1_4) StderrLine: {'line': b'\n'}
+[1.682171] (repeat_1_4) StderrLine: {'line': b'    rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")\n'}
+[1.682200] (repeat_1_4) StderrLine: {'line': b'    target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")\n'}
+[1.682229] (repeat_1_4) StderrLine: {'line': b'\n'}
+[1.682256] (repeat_1_4) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.682283] (repeat_1_4) StderrLine: {'line': b'  CMakeLists.txt:39 (rosidl_target_interfaces)\n'}
+[1.682309] (repeat_1_4) StderrLine: {'line': b'\n'}
+[1.682337] (repeat_1_4) StderrLine: {'line': b'\x1b[0m\n'}
+[1.682461] (repeat_1_4) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[1.682505] (repeat_1_4) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[1.682534] (repeat_1_4) StderrLine: {'line': b'  rosidl_target_interfaces().  i.e:\n'}
+[1.682562] (repeat_1_4) StderrLine: {'line': b'\n'}
+[1.682734] (repeat_1_4) StderrLine: {'line': b'    rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")\n'}
+[1.682767] (repeat_1_4) StderrLine: {'line': b'    target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")\n'}
+[1.682798] (repeat_1_4) StderrLine: {'line': b'\n'}
+[1.682825] (repeat_1_4) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.682853] (repeat_1_4) StderrLine: {'line': b'  CMakeLists.txt:44 (rosidl_target_interfaces)\n'}
+[1.682881] (repeat_1_4) StderrLine: {'line': b'\n'}
+[1.682910] (repeat_1_4) StderrLine: {'line': b'\x1b[0m\n'}
+[1.682937] (repeat_1_4) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[1.682969] (repeat_1_4) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[1.683051] (repeat_1_4) StderrLine: {'line': b'  rosidl_target_interfaces().  i.e:\n'}
+[1.683110] (repeat_1_4) StderrLine: {'line': b'\n'}
+[1.683143] (repeat_1_4) StderrLine: {'line': b'    rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")\n'}
+[1.683173] (repeat_1_4) StderrLine: {'line': b'    target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")\n'}
+[1.683227] (repeat_1_4) StderrLine: {'line': b'\n'}
+[1.683309] (repeat_1_4) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.683357] (repeat_1_4) StderrLine: {'line': b'  CMakeLists.txt:49 (rosidl_target_interfaces)\n'}
+[1.683388] (repeat_1_4) StderrLine: {'line': b'\n'}
+[1.683502] (repeat_1_4) StderrLine: {'line': b'\x1b[0m\n'}
+[1.683687] (repeat_1_4) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[1.683728] (repeat_1_4) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[1.683758] (repeat_1_4) StderrLine: {'line': b'  rosidl_target_interfaces().  i.e:\n'}
+[1.683787] (repeat_1_4) StderrLine: {'line': b'\n'}
+[1.683817] (repeat_1_4) StderrLine: {'line': b'    rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")\n'}
+[1.683846] (repeat_1_4) StderrLine: {'line': b'    target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")\n'}
+[1.683874] (repeat_1_4) StderrLine: {'line': b'\n'}
+[1.683902] (repeat_1_4) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.683934] (repeat_1_4) StderrLine: {'line': b'  CMakeLists.txt:54 (rosidl_target_interfaces)\n'}
+[1.683965] (repeat_1_4) StderrLine: {'line': b'\n'}
+[1.683992] (repeat_1_4) StderrLine: {'line': b'\x1b[0m\n'}
+[1.684020] (repeat_1_4) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[1.684047] (repeat_1_4) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[1.684074] (repeat_1_4) StderrLine: {'line': b'  rosidl_target_interfaces().  i.e:\n'}
+[1.684100] (repeat_1_4) StderrLine: {'line': b'\n'}
+[1.684126] (repeat_1_4) StderrLine: {'line': b'    rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")\n'}
+[1.684154] (repeat_1_4) StderrLine: {'line': b'    target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")\n'}
+[1.684180] (repeat_1_4) StderrLine: {'line': b'\n'}
+[1.684207] (repeat_1_4) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.684234] (repeat_1_4) StderrLine: {'line': b'  CMakeLists.txt:59 (rosidl_target_interfaces)\n'}
+[1.684261] (repeat_1_4) StderrLine: {'line': b'\n'}
+[1.684287] (repeat_1_4) StderrLine: {'line': b'\x1b[0m\n'}
+[1.691057] (repeat_1_4) StdoutLine: {'line': b'-- Configuring done (1.7s)\n'}
+[1.705428] (-) TimerEvent: {}
+[1.737719] (repeat_1_4) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.748741] (repeat_1_4) StdoutLine: {'line': b'-- Build files have been written to: /home/yalcinolgac/ros2_ws/build/repeat_1_4\n'}
+[1.755545] (repeat_1_4) CommandEnded: {'returncode': 0}
+[1.756625] (repeat_1_4) JobProgress: {'identifier': 'repeat_1_4', 'progress': 'build'}
+[1.756650] (repeat_1_4) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yalcinolgac/ros2_ws/build/repeat_1_4', '--', '-j32', '-l32'], 'cwd': '/home/yalcinolgac/ros2_ws/build/repeat_1_4', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yalcinolgac', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yalcinolgac/ros2_ws/install/day2/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/yalcinolgac', 'OLDPWD': '/home/yalcinolgac/ros2_ws/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/yalcinolgac/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'yalcinolgac', 'NAME': 'yalcinolgac', 'WSL_INTEROP': '/run/WSL/637_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/snap/bin:/home/yalcinolgac/Android/Sdk/cmdline-tools/latest/bin:/home/yalcinolgac/Android/Sdk/platform-tools:/home/yalcinolgac/Android/Sdk/emulator', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/yalcinolgac/ros2_ws/install/day2_2:/home/yalcinolgac/ros2_ws/install/day2:/home/yalcinolgac/ros2_ws/install/day1:/opt/ros/jazzy', 'ANDROID_NDK_ROOT': '/home/yalcinolgac/Android/Sdk/ndk/25.2.9519653', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'ANDROID_SDK_ROOT': '/home/yalcinolgac/Android/Sdk', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'JAVA_HOME': '/usr/lib/jvm/java-17-openjdk-amd64', 'PWD': '/home/yalcinolgac/ros2_ws/build/repeat_1_4', 'ANDROID_HOME': '/home/yalcinolgac/Android/Sdk', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yalcinolgac/ros2_ws/install/day2/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/yalcinolgac/ros2_ws/install/day2_2:/home/yalcinolgac/ros2_ws/install/day2:/home/yalcinolgac/ros2_ws/install/day1:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[1.787207] (repeat_1_4) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[1.794063] (repeat_1_4) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_repeat_1_4\n'}
+[1.805739] (-) TimerEvent: {}
+[1.906128] (-) TimerEvent: {}
+[1.919372] (repeat_1_4) StdoutLine: {'line': b'running egg_info\n'}
+[1.919883] (repeat_1_4) StdoutLine: {'line': b'creating repeat_1_4.egg-info\n'}
+[1.930597] (repeat_1_4) StdoutLine: {'line': b'writing repeat_1_4.egg-info/PKG-INFO\n'}
+[1.930719] (repeat_1_4) StdoutLine: {'line': b'writing dependency_links to repeat_1_4.egg-info/dependency_links.txt\n'}
+[1.930874] (repeat_1_4) StdoutLine: {'line': b'writing top-level names to repeat_1_4.egg-info/top_level.txt\n'}
+[1.930977] (repeat_1_4) StdoutLine: {'line': b"writing manifest file 'repeat_1_4.egg-info/SOURCES.txt'\n"}
+[1.964585] (repeat_1_4) StdoutLine: {'line': b"reading manifest file 'repeat_1_4.egg-info/SOURCES.txt'\n"}
+[1.964770] (repeat_1_4) StdoutLine: {'line': b"writing manifest file 'repeat_1_4.egg-info/SOURCES.txt'\n"}
+[1.981569] (repeat_1_4) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_build_repeat_1_4_egg\n'}
+[2.001948] (repeat_1_4) StdoutLine: {'line': b'[  1%] Built target repeat_1_4__rosidl_generator_type_description\n'}
+[2.006268] (-) TimerEvent: {}
+[2.008789] (repeat_1_4) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.015178] (repeat_1_4) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.106515] (-) TimerEvent: {}
+[2.206884] (-) TimerEvent: {}
+[2.307615] (-) TimerEvent: {}
+[2.355938] (repeat_1_4) StdoutLine: {'line': b'[  4%] Built target repeat_1_4__cpp\n'}
+[2.375996] (repeat_1_4) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/repeat_1_4__rosidl_generator_c.dir/rosidl_generator_c/repeat_1_4/msg/detail/position__description.c.o\x1b[0m\n'}
+[2.376241] (repeat_1_4) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/repeat_1_4__rosidl_generator_c.dir/rosidl_generator_c/repeat_1_4/msg/detail/position__type_support.c.o\x1b[0m\n'}
+[2.376525] (repeat_1_4) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/repeat_1_4__rosidl_generator_c.dir/rosidl_generator_c/repeat_1_4/msg/detail/position__functions.c.o\x1b[0m\n'}
+[2.377102] (repeat_1_4) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/repeat_1_4__rosidl_generator_c.dir/rosidl_generator_c/repeat_1_4/srv/detail/move_robot__description.c.o\x1b[0m\n'}
+[2.377378] (repeat_1_4) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/repeat_1_4__rosidl_generator_c.dir/rosidl_generator_c/repeat_1_4/srv/detail/move_robot__functions.c.o\x1b[0m\n'}
+[2.378580] (repeat_1_4) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/repeat_1_4__rosidl_generator_c.dir/rosidl_generator_c/repeat_1_4/srv/detail/move_robot__type_support.c.o\x1b[0m\n'}
+[2.378775] (repeat_1_4) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/repeat_1_4__rosidl_generator_c.dir/rosidl_generator_c/repeat_1_4/action/detail/go_to_point__functions.c.o\x1b[0m\n'}
+[2.379941] (repeat_1_4) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/repeat_1_4__rosidl_generator_c.dir/rosidl_generator_c/repeat_1_4/action/detail/go_to_point__type_support.c.o\x1b[0m\n'}
+[2.381911] (repeat_1_4) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/repeat_1_4__rosidl_generator_c.dir/rosidl_generator_c/repeat_1_4/action/detail/go_to_point__description.c.o\x1b[0m\n'}
+[2.407771] (-) TimerEvent: {}
+[2.468781] (repeat_1_4) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library librepeat_1_4__rosidl_generator_c.so\x1b[0m\n'}
+[2.496859] (repeat_1_4) StdoutLine: {'line': b'[ 19%] Built target repeat_1_4__rosidl_generator_c\n'}
+[2.503337] (repeat_1_4) StdoutLine: {'line': b'[ 24%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.503586] (repeat_1_4) StdoutLine: {'line': b'[ 24%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.503697] (repeat_1_4) StdoutLine: {'line': b'[ 24%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.503805] (repeat_1_4) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.503909] (repeat_1_4) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.504086] (repeat_1_4) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.507919] (-) TimerEvent: {}
+[2.608249] (-) TimerEvent: {}
+[2.708715] (-) TimerEvent: {}
+[2.771063] (repeat_1_4) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/repeat_1_4__rosidl_typesupport_c.dir/rosidl_typesupport_c/repeat_1_4/msg/position__type_support.cpp.o\x1b[0m\n'}
+[2.771200] (repeat_1_4) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/repeat_1_4__rosidl_typesupport_c.dir/rosidl_typesupport_c/repeat_1_4/action/go_to_point__type_support.cpp.o\x1b[0m\n'}
+[2.771713] (repeat_1_4) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/repeat_1_4__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/repeat_1_4/msg/position__type_support.cpp.o\x1b[0m\n'}
+[2.771969] (repeat_1_4) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/repeat_1_4__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/repeat_1_4/srv/move_robot__type_support.cpp.o\x1b[0m\n'}
+[2.773426] (repeat_1_4) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/repeat_1_4__rosidl_typesupport_c.dir/rosidl_typesupport_c/repeat_1_4/srv/move_robot__type_support.cpp.o\x1b[0m\n'}
+[2.774782] (repeat_1_4) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/repeat_1_4__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/repeat_1_4/action/go_to_point__type_support.cpp.o\x1b[0m\n'}
+[2.806469] (repeat_1_4) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/repeat_1_4__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/repeat_1_4/action/detail/go_to_point__type_support.cpp.o\x1b[0m\n'}
+[2.806743] (repeat_1_4) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/repeat_1_4__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/repeat_1_4/srv/detail/move_robot__type_support.cpp.o\x1b[0m\n'}
+[2.808801] (repeat_1_4) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/repeat_1_4__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/repeat_1_4/msg/detail/position__type_support.cpp.o\x1b[0m\n'}
+[2.809025] (-) TimerEvent: {}
+[2.818615] (repeat_1_4) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library librepeat_1_4__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.824855] (repeat_1_4) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/repeat_1_4__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/repeat_1_4/srv/detail/move_robot__type_support.c.o\x1b[0m\n'}
+[2.825029] (repeat_1_4) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/repeat_1_4__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/repeat_1_4/msg/detail/position__type_support.c.o\x1b[0m\n'}
+[2.825113] (repeat_1_4) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/repeat_1_4__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/repeat_1_4/action/detail/go_to_point__type_support.c.o\x1b[0m\n'}
+[2.861301] (repeat_1_4) StdoutLine: {'line': b'[ 48%] Built target repeat_1_4__rosidl_typesupport_c\n'}
+[2.886431] (repeat_1_4) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking C shared library librepeat_1_4__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.909196] (-) TimerEvent: {}
+[2.914625] (repeat_1_4) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/repeat_1_4__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/repeat_1_4/srv/detail/dds_fastrtps/move_robot__type_support.cpp.o\x1b[0m\n'}
+[2.914997] (repeat_1_4) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/repeat_1_4__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/repeat_1_4/action/detail/dds_fastrtps/go_to_point__type_support.cpp.o\x1b[0m\n'}
+[2.915719] (repeat_1_4) StdoutLine: {'line': b'[ 53%] Built target repeat_1_4__rosidl_typesupport_introspection_c\n'}
+[2.916871] (repeat_1_4) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/repeat_1_4__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/repeat_1_4/msg/detail/dds_fastrtps/position__type_support.cpp.o\x1b[0m\n'}
+[2.931469] (repeat_1_4) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/repeat_1_4__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/repeat_1_4/msg/detail/position__type_support_c.cpp.o\x1b[0m\n'}
+[2.931945] (repeat_1_4) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/repeat_1_4__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/repeat_1_4/action/detail/go_to_point__type_support_c.cpp.o\x1b[0m\n'}
+[2.935980] (repeat_1_4) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/repeat_1_4__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/repeat_1_4/srv/detail/move_robot__type_support_c.cpp.o\x1b[0m\n'}
+[3.009357] (-) TimerEvent: {}
+[3.109817] (-) TimerEvent: {}
+[3.205667] (repeat_1_4) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library librepeat_1_4__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.209967] (-) TimerEvent: {}
+[3.257726] (repeat_1_4) StdoutLine: {'line': b'[ 60%] Built target repeat_1_4__rosidl_typesupport_cpp\n'}
+[3.274150] (repeat_1_4) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX shared library librepeat_1_4__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.310116] (-) TimerEvent: {}
+[3.319524] (repeat_1_4) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library librepeat_1_4__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.321616] (repeat_1_4) StdoutLine: {'line': b'[ 63%] Built target repeat_1_4__rosidl_typesupport_introspection_cpp\n'}
+[3.367005] (repeat_1_4) StdoutLine: {'line': b'[ 63%] Built target repeat_1_4__rosidl_typesupport_fastrtps_c\n'}
+[3.410432] (-) TimerEvent: {}
+[3.492166] (repeat_1_4) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library librepeat_1_4__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.510733] (-) TimerEvent: {}
+[3.540925] (repeat_1_4) StdoutLine: {'line': b'[ 65%] Built target repeat_1_4__rosidl_typesupport_fastrtps_cpp\n'}
+[3.553118] (repeat_1_4) StdoutLine: {'line': b'[ 65%] Built target repeat_1_4\n'}
+[3.566237] (repeat_1_4) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/move_service_server.dir/src/move_service_server.cpp.o\x1b[0m\n'}
+[3.566530] (repeat_1_4) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/goto_action_client.dir/src/goto_action_client.cpp.o\x1b[0m\n'}
+[3.566605] (repeat_1_4) StdoutLine: {'line': b'[ 69%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.566673] (repeat_1_4) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/position_publisher.dir/src/position_publisher.cpp.o\x1b[0m\n'}
+[3.566738] (repeat_1_4) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/move_service_client.dir/src/move_service_client.cpp.o\x1b[0m\n'}
+[3.567782] (repeat_1_4) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/position_subscriber.dir/src/position_subscriber.cpp.o\x1b[0m\n'}
+[3.568500] (repeat_1_4) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/goto_action_server.dir/src/goto_action_server.cpp.o\x1b[0m\n'}
+[3.610888] (-) TimerEvent: {}
+[3.711866] (-) TimerEvent: {}
+[3.812198] (-) TimerEvent: {}
+[3.914727] (-) TimerEvent: {}
+[4.017723] (-) TimerEvent: {}
+[4.123519] (-) TimerEvent: {}
+[4.226252] (-) TimerEvent: {}
+[4.250194] (repeat_1_4) StdoutLine: {'line': b'[ 75%] Built target repeat_1_4__py\n'}
+[4.277060] (repeat_1_4) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/repeat_1_4__rosidl_generator_py.dir/rosidl_generator_py/repeat_1_4/action/_go_to_point_s.c.o\x1b[0m\n'}
+[4.280531] (repeat_1_4) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding C object CMakeFiles/repeat_1_4__rosidl_generator_py.dir/rosidl_generator_py/repeat_1_4/msg/_position_s.c.o\x1b[0m\n'}
+[4.280800] (repeat_1_4) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/repeat_1_4__rosidl_generator_py.dir/rosidl_generator_py/repeat_1_4/srv/_move_robot_s.c.o\x1b[0m\n'}
+[4.326560] (-) TimerEvent: {}
+[4.427140] (-) TimerEvent: {}
+[4.500337] (repeat_1_4) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking C shared library librepeat_1_4__rosidl_generator_py.so\x1b[0m\n'}
+[4.527465] (-) TimerEvent: {}
+[4.544254] (repeat_1_4) StdoutLine: {'line': b'[ 81%] Built target repeat_1_4__rosidl_generator_py\n'}
+[4.564526] (repeat_1_4) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/repeat_1_4_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/repeat_1_4/_repeat_1_4_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[4.565860] (repeat_1_4) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/repeat_1_4_s__rosidl_typesupport_c.dir/rosidl_generator_py/repeat_1_4/_repeat_1_4_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[4.572991] (repeat_1_4) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/repeat_1_4_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/repeat_1_4/_repeat_1_4_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[4.628627] (-) TimerEvent: {}
+[4.700133] (repeat_1_4) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/repeat_1_4/repeat_1_4_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.706314] (repeat_1_4) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/repeat_1_4/repeat_1_4_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.719930] (repeat_1_4) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/repeat_1_4/repeat_1_4_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.728945] (-) TimerEvent: {}
+[4.734979] (repeat_1_4) StdoutLine: {'line': b'[ 90%] Built target repeat_1_4_s__rosidl_typesupport_c\n'}
+[4.739302] (repeat_1_4) StdoutLine: {'line': b'[ 90%] Built target repeat_1_4_s__rosidl_typesupport_fastrtps_c\n'}
+[4.753897] (repeat_1_4) StdoutLine: {'line': b'[ 90%] Built target repeat_1_4_s__rosidl_typesupport_introspection_c\n'}
+[4.831819] (-) TimerEvent: {}
+[4.933543] (-) TimerEvent: {}
+[5.037958] (-) TimerEvent: {}
+[5.143702] (-) TimerEvent: {}
+[5.246220] (-) TimerEvent: {}
+[5.323592] (repeat_1_4) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yalcinolgac/ros2_ws/src/repeat_1_4/src/goto_action_client.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[5.323918] (repeat_1_4) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yalcinolgac/ros2_ws/src/repeat_1_4/src/goto_action_client.cpp:51:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kenumeration value \xe2\x80\x98\x1b[01m\x1b[KUNKNOWN\x1b[m\x1b[K\xe2\x80\x99 not handled in switch [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch\x07-Wswitch\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.324008] (repeat_1_4) StderrLine: {'line': b'   51 |                 switch \x1b[01;35m\x1b[K(\x1b[m\x1b[Kresult.code) {\n'}
+[5.324044] (repeat_1_4) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.347101] (repeat_1_4) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yalcinolgac/ros2_ws/src/repeat_1_4/src/goto_action_server.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KGoToActionServer::\x1b[01;32m\x1b[KGoToActionServer\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.347304] (-) TimerEvent: {}
+[5.347380] (repeat_1_4) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yalcinolgac/ros2_ws/src/repeat_1_4/src/goto_action_server.cpp:20:71:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kcreate_server<GoToPointAction>(GoToActionServer*, const char [12], std::_Bind_helper<false, rclcpp_action::GoalResponse (GoToActionServer::*)(const std::array<unsigned char, 16>&, std::shared_ptr<const repeat_1_4::action::GoToPoint_Goal_<std::allocator<void> > >), GoToActionServer*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type, std::_Bind_helper<false, rclcpp_action::CancelResponse (GoToActionServer::*)(std::shared_ptr<rclcpp_action::ServerGoalHandle<repeat_1_4::action::GoToPoint> >), GoToActionServer*, const std::_Placeholder<1>&>::type, std::_Bind_helper<false, void (GoToActionServer::*)(std::shared_ptr<rclcpp_action::ServerGoalHandle<repeat_1_4::action::GoToPoint> >), GoToActionServer*, const std::_Placeholder<2>&>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.347459] (repeat_1_4) StderrLine: {'line': b'   20 |         action_server_ = \x1b[01;31m\x1b[Krclcpp_action::create_server<GoToPointAction>(\x1b[m\x1b[K\n'}
+[5.347522] (repeat_1_4) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[5.347563] (repeat_1_4) StderrLine: {'line': b'   21 | \x1b[01;31m\x1b[K            this, "go_to_point",\x1b[m\x1b[K\n'}
+[5.347623] (repeat_1_4) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                                       \n'}
+[5.347692] (repeat_1_4) StderrLine: {'line': b'   22 | \x1b[01;31m\x1b[K            std::bind(&GoToActionServer::handle_goal, this, std::placeholders::_1, std::placeholders::_2),\x1b[m\x1b[K\n'}
+[5.347746] (repeat_1_4) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.347831] (repeat_1_4) StderrLine: {'line': b'   23 | \x1b[01;31m\x1b[K            std::bind(&GoToActionServer::handle_cancel, this, std::placeholders::_1),\x1b[m\x1b[K\n'}
+[5.347896] (repeat_1_4) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.347964] (repeat_1_4) StderrLine: {'line': b'   24 | \x1b[01;31m\x1b[K            std::bind(&GoToActionServer::handle_accepted, this, std::placeholders::_2))\x1b[m\x1b[K;\n'}
+[5.348025] (repeat_1_4) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.348266] (repeat_1_4) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:39\x1b[m\x1b[K,\n'}
+[5.348410] (repeat_1_4) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yalcinolgac/ros2_ws/src/repeat_1_4/src/goto_action_server.cpp:7\x1b[m\x1b[K:\n'}
+[5.348443] (repeat_1_4) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp_action/rclcpp_action/create_server.hpp:58:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ActionT> typename rclcpp_action::Server<ActionT>::SharedPtr rclcpp_action::\x1b[01;32m\x1b[Kcreate_server\x1b[m\x1b[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, rclcpp::node_interfaces::NodeClockInterface::SharedPtr, rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr, rclcpp::node_interfaces::NodeWaitablesInterface::SharedPtr, const std::string&, typename Server<ActionT>::GoalCallback, typename Server<ActionT>::CancelCallback, typename Server<ActionT>::AcceptedCallback, const rcl_action_server_options_t&, rclcpp::CallbackGroup::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.348478] (repeat_1_4) StderrLine: {'line': b'   58 | \x1b[01;36m\x1b[Kcreate_server\x1b[m\x1b[K(\n'}
+[5.348509] (repeat_1_4) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.348539] (repeat_1_4) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp_action/rclcpp_action/create_server.hpp:58:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 8 arguments, 5 provided\n'}
+[5.348570] (repeat_1_4) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp_action/rclcpp_action/create_server.hpp:132:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ActionT, class NodeT> typename rclcpp_action::Server<ActionT>::SharedPtr rclcpp_action::\x1b[01;32m\x1b[Kcreate_server\x1b[m\x1b[K(NodeT, const std::string&, typename Server<ActionT>::GoalCallback, typename Server<ActionT>::CancelCallback, typename Server<ActionT>::AcceptedCallback, const rcl_action_server_options_t&, rclcpp::CallbackGroup::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.348605] (repeat_1_4) StderrLine: {'line': b'  132 | \x1b[01;36m\x1b[Kcreate_server\x1b[m\x1b[K(\n'}
+[5.348635] (repeat_1_4) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.348664] (repeat_1_4) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp_action/rclcpp_action/create_server.hpp:132:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.348693] (repeat_1_4) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yalcinolgac/ros2_ws/src/repeat_1_4/src/goto_action_server.cpp:24:22:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kstd::bind(_Func&&, _BoundArgs&& ...) [with _Func = void (GoToActionServer::*)(shared_ptr<rclcpp_action::ServerGoalHandle<repeat_1_4::action::GoToPoint> >); _BoundArgs = {GoToActionServer*, const _Placeholder<2>&}; typename _Bind_helper<__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type = _Bind_helper<false, void (GoToActionServer::*)(shared_ptr<rclcpp_action::ServerGoalHandle<repeat_1_4::action::GoToPoint> >), GoToActionServer*, const _Placeholder<2>&>::type; __is_socketlike<_Func> = __is_socketlike<void (GoToActionServer::*)(shared_ptr<rclcpp_action::ServerGoalHandle<repeat_1_4::action::GoToPoint> >), void (GoToActionServer::*)(shared_ptr<rclcpp_action::ServerGoalHandle<repeat_1_4::action::GoToPoint> >)>; typename decay<_Tp>::type = void (GoToActionServer::*)(shared_ptr<rclcpp_action::ServerGoalHandle<repeat_1_4::action::GoToPoint> >)](((GoToActionServer*)this), std::placeholders::_2)\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kstd::_Bind_helper<false, void (GoToActionServer::*)(std::shared_ptr<rclcpp_action::ServerGoalHandle<repeat_1_4::action::GoToPoint> >), GoToActionServer*, const std::_Placeholder<2>&>::type\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Krclcpp_action::Server<repeat_1_4::action::GoToPoint>::AcceptedCallback\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::function<void(std::shared_ptr<rclcpp_action::ServerGoalHandle<repeat_1_4::action::GoToPoint> >)>\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[5.348752] (repeat_1_4) StderrLine: {'line': b'   24 |             \x1b[01;36m\x1b[Kstd::bind(&GoToActionServer::handle_accepted, this, std::placeholders::_2)\x1b[m\x1b[K);\n'}
+[5.348783] (repeat_1_4) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.449625] (-) TimerEvent: {}
+[5.553825] (-) TimerEvent: {}
+[5.654205] (-) TimerEvent: {}
+[5.754544] (-) TimerEvent: {}
+[5.854849] (-) TimerEvent: {}
+[5.894521] (repeat_1_4) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/goto_action_server.dir/build.make:76: CMakeFiles/goto_action_server.dir/src/goto_action_server.cpp.o] Error 1\n'}
+[5.894906] (repeat_1_4) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:752: CMakeFiles/goto_action_server.dir/all] Error 2\n'}
+[5.894985] (repeat_1_4) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[5.955126] (-) TimerEvent: {}
+[6.055511] (-) TimerEvent: {}
+[6.155879] (-) TimerEvent: {}
+[6.207767] (repeat_1_4) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable move_service_server\x1b[0m\n'}
+[6.255991] (-) TimerEvent: {}
+[6.276190] (repeat_1_4) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX executable move_service_client\x1b[0m\n'}
+[6.338595] (repeat_1_4) StdoutLine: {'line': b'[ 93%] Built target move_service_server\n'}
+[6.356142] (-) TimerEvent: {}
+[6.366043] (repeat_1_4) StdoutLine: {'line': b'[ 93%] Built target move_service_client\n'}
+[6.390287] (repeat_1_4) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable goto_action_client\x1b[0m\n'}
+[6.456307] (-) TimerEvent: {}
+[6.487897] (repeat_1_4) StdoutLine: {'line': b'[ 95%] Built target goto_action_client\n'}
+[6.556588] (-) TimerEvent: {}
+[6.584870] (repeat_1_4) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX executable position_publisher\x1b[0m\n'}
+[6.656805] (-) TimerEvent: {}
+[6.685499] (repeat_1_4) StdoutLine: {'line': b'[ 96%] Built target position_publisher\n'}
+[6.756918] (-) TimerEvent: {}
+[6.857229] (-) TimerEvent: {}
+[6.957599] (-) TimerEvent: {}
+[7.058042] (-) TimerEvent: {}
+[7.158365] (-) TimerEvent: {}
+[7.258697] (-) TimerEvent: {}
+[7.359119] (-) TimerEvent: {}
+[7.459528] (-) TimerEvent: {}
+[7.559896] (-) TimerEvent: {}
+[7.660182] (-) TimerEvent: {}
+[7.760464] (-) TimerEvent: {}
+[7.860894] (-) TimerEvent: {}
+[7.961228] (-) TimerEvent: {}
+[8.061528] (-) TimerEvent: {}
+[8.161896] (-) TimerEvent: {}
+[8.262353] (-) TimerEvent: {}
+[8.362843] (-) TimerEvent: {}
+[8.368449] (repeat_1_4) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX executable position_subscriber\x1b[0m\n'}
+[8.463301] (-) TimerEvent: {}
+[8.506696] (repeat_1_4) StdoutLine: {'line': b'[ 98%] Built target position_subscriber\n'}
+[8.507817] (repeat_1_4) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.510618] (repeat_1_4) CommandEnded: {'returncode': 2}
+[8.514730] (repeat_1_4) JobEnded: {'identifier': 'repeat_1_4', 'rc': 2}
+[8.515799] (-) EventReactorShutdown: {}

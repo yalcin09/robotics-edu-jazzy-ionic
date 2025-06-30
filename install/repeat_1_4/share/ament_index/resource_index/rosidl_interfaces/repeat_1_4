@@ -1,0 +1,6 @@
+action/GoToPoint.action
+action/GoToPoint.idl
+msg/Position.idl
+msg/Position.msg
+srv/MoveRobot.idl
+srv/MoveRobot.srv
