@@ -1,0 +1,379 @@
+# =============================================================================
+# DOSYA: config/day5_params.yaml
+# AMAÇ: Day5 paketinin tüm node'ları için merkezi parameter konfigürasyonu
+# KULLANIM: Launch file'larda load edilir veya command line'da kullanılır
+# ÖĞRENME: YAML formatında ROS2 parameter hierarchy ve organization
+# =============================================================================
+
+# YAML formatı hakkında önemli notlar:
+# - Girinti (indentation) çok önemlidir, Tab değil 2 space kullanın
+# - Node adları /** ile başlamalı (ROS2 namespace format'ı)
+# - Her node'un ros__parameters alt başlığı olmalı
+# - Boolean: true/false, sayılar: direkt, string: tırnak isteğe bağlı
+
+# =============================================================================
+# TEMEL PUBLISHER NODE KONFIGÜRASYONU
+# =============================================================================
+
+# Node path format: /namespace/node_name (launch file'daki namespace + name)
+/robot_alpha/advanced_publisher:
+  ros__parameters:  # ROS2 parameter namespace'i - zorunlu
+    
+    # Temel Publisher Ayarları
+    # ========================
+    
+    # Yayın frekansı (Hz) - Saniyede kaç mesaj yayınlanacak
+    # Launch file'dan override edilebilir
+    publish_frequency: 2.0
+    
+    # Yayınlanacak mesajın temel içeriği
+    # Emoji ve Unicode karakterler desteklenir
+    message_content: "🚀 Day5 YAML Config ile Parametreli Mesaj!"
+    
+    # Hedef topic adı - launch file'da remapping ile değiştirilir
+    topic_name: "basic_communication"
+    
+    # Publisher queue size - RAM vs mesaj kaybı tradeoff'u
+    # Yüksek değer: Daha fazla RAM, az mesaj kaybı
+    # Düşük değer: Az RAM, potansiyel mesaj kaybı
+    queue_size: 15
+    
+    # Debug mode - Development için detaylı loglar
+    # Production'da false olmalı (performans için)
+    debug_mode: true
+
+# =============================================================================
+# TEMEL SUBSCRIBER NODE KONFIGÜRASYONU
+# =============================================================================
+
+/robot_alpha/advanced_subscriber:
+  ros__parameters:
+    
+    # Subscriber Temel Ayarları
+    # =========================
+    
+    # Dinlenecek topic adı - publisher ile sync olmalı
+    topic_name: "basic_communication"
+    
+    # Gelen mesajlar için buffer boyutu
+    # Publisher'dan büyük olabilir (mesaj kaybını önlemek için)
+    queue_size: 20
+    
+    # Mesaj Görüntüleme ve İşleme Ayarları
+    # ====================================
+    
+    # Verbose mode - Her mesajı detaylı analiz et
+    # true: Mesaj içeriği, uzunluğu, zamanı, istatistikler
+    # false: Sadece kısa özet
+    verbose_mode: true
+    
+    # Log seviyesi (0-3 arası)
+    # 0: Sadece ERROR mesajları göster
+    # 1: ERROR + WARN mesajları göster  
+    # 2: ERROR + WARN + INFO mesajları göster (önerilen)
+    # 3: Tüm mesajlar (DEBUG dahil, çok detaylı)
+    log_level: 2
+    
+    # Mesaj Filtreleme Sistemi
+    # ========================
+    
+    # Filtreleme aktif mi? 
+    # true: Sadece filter_keyword içeren mesajları işle
+    # false: Tüm mesajları işle (önerilen başlangıç için)
+    enable_filtering: false
+    
+    # Filtreleme için anahtar kelime
+    # Bu kelimeyi içeren mesajlar kabul edilir
+    filter_keyword: "Day5"
+    
+    # İstatistik ve Monitoring
+    # ========================
+    
+    # İstatistik toplama aktif mi?
+    # true: Mesaj sayısı, hız, filtreleme oranı hesaplar
+    # false: Sadece mesajları gösterir (hafif)
+    enable_statistics: true
+
+# =============================================================================
+# CONFIGURABLE PUBLISHER KONFIGÜRASYONU
+# =============================================================================
+
+# Advanced namespace altında çalışan gelişmiş publisher
+/robot_alpha/advanced/config_publisher:
+  ros__parameters:
+    
+    # Multi-Topic Ayarları - Farklı topic'lere farklı türde mesajlar
+    # ==============================================================
+    
+    # String mesajlar için topic (sistem durumu)
+    string_topic: "sensors/status"
+    
+    # Sayısal mesajlar için topic (sensör değerleri)
+    number_topic: "sensors/raw_data"
+    
+    # Robot hareket komutları için topic
+    cmd_vel_topic: "control/velocity"
+    
+    # Frekans Ayarları - Her topic için ayrı frekans
+    # ==============================================
+    
+    # String mesajlar frekansı (sistem durumu - yavaş olabilir)
+    string_frequency: 1.0
+    
+    # Sayısal mesajlar frekansı (sensör verisi - hızlı olabilir)
+    number_frequency: 5.0
+    
+    # Robot komutları frekansı (kontrol için orta hızda)
+    cmd_vel_frequency: 10.0
+    
+    # Mesaj İçerik Konfigürasyonu
+    # ============================
+    
+    # String mesaj template'i (printf style formatting)
+    # %s: string placeholder, %f: float placeholder
+    string_template: "Robot durumu: %s | Zaman: %.3f"
+    
+    # Rastgele sayı üretimi için aralık
+    number_min: 0      # Minimum sensör değeri
+    number_max: 100    # Maksimum sensör değeri
+    
+    # Robot Hareket Parametreleri
+    # ============================
+    
+    # Linear hız (m/s) - İleri/geri hareket hızı
+    linear_speed: 0.5
+    
+    # Angular hız (rad/s) - Dönme hızı
+    # 1.0 rad/s ≈ 57 derece/saniye
+    angular_speed: 1.0
+    
+    # Güvenlik Parametreleri
+    # ======================
+    
+    # Maksimum güvenli hızlar - Güvenlik sınırları
+    max_linear_speed: 2.0      # 2 m/s maksimum ileri hız
+    max_angular_speed: 3.14    # 180 derece/saniye maksimum dönüş
+    
+    # Acil durum modu - true ise robot hareket etmez
+    # Production mode'da launch file tarafından true yapılabilir
+    emergency_stop: false
+    
+    # Queue Boyutları - Topic türüne göre optimize edilmiş
+    # ====================================================
+    
+    string_queue_size: 10      # String mesajlar için
+    number_queue_size: 50      # Sayısal data için büyük buffer
+    cmd_vel_queue_size: 5      # Robot komutları için küçük buffer (güvenlik)
+
+# =============================================================================
+# MULTI NODE EXAMPLE KONFIGÜRASYONU  
+# =============================================================================
+
+# Multi-node system'i için global ayarlar
+/robot_alpha/multi/multi_system:
+  ros__parameters:
+    
+    # Producer Node Ayarları
+    # ======================
+    
+    # Veri üretim frekansı
+    producer_frequency: 3.0
+    
+    # Producer topic adı
+    producer_topic: "pipeline/raw"
+    
+    # Üretilen mesajların prefix'i
+    producer_message_prefix: "Pipeline Data"
+    
+    # Consumer Node Ayarları
+    # ======================
+    
+    # Giriş ve çıkış topic'leri
+    input_topic: "pipeline/raw"
+    output_topic: "pipeline/processed"
+    
+    # Veri işleme gecikme simülasyonu (ms)
+    # Gerçek uygulamalarda hesaplama süresini simüle eder
+    processing_delay_ms: 100
+    
+    # İşlenmiş veriyi başka topic'e yayınla mı?
+    enable_output: true
+    
+    # Monitor Node Ayarları
+    # =====================
+    
+    # Monitoring rapor frekansı (Hz)
+    # 0.2 = 5 saniyede bir rapor
+    monitor_frequency: 0.2
+    
+    # Rapor topic'i
+    report_topic: "monitoring/reports"
+    
+    # Detaylı rapor mu yoksa özet mi?
+    # true: Çok detaylı sistem bilgisi
+    # false: Kısa durum özeti
+    detailed_reports: true
+
+# =============================================================================
+# MONITORING SYSTEM KONFIGÜRASYONU
+# =============================================================================
+
+# Sistem izleme node'u (system_monitor)
+/robot_alpha/monitoring/system_monitor:
+  ros__parameters:
+    
+    # Monitoring frekansı - Ne kadar sık sistem kontrolü yapılacak
+    publish_frequency: 0.2  # 5 saniyede bir
+    
+    # Sağlık durumu mesajı template'i
+    message_content: "System Health: OK | CPU: Normal | Memory: Available | Network: Connected"
+    
+    # Sağlık durumu topic'i
+    topic_name: "health_status"
+    
+    # Monitoring için küçük queue yeterli
+    queue_size: 5
+    
+    # Monitoring için minimal log (performans için)
+    debug_mode: false
+
+# Performance logger node'u
+/robot_alpha/monitoring/performance_logger:
+  ros__parameters:
+    
+    # İzlenecek topic (system_monitor'ın output'u)
+    topic_name: "health_status"
+    
+    # Performance logging için orta boyut buffer
+    queue_size: 15
+    
+    # Performance için verbose mode kapalı
+    verbose_mode: false
+    
+    # Filtreleme yok - tüm sağlık mesajlarını logla
+    enable_filtering: false
+    filter_keyword: ""
+    
+    # Performance istatistikleri aktif
+    enable_statistics: true
+    
+    # Sadece önemli mesajlar (WARN ve ERROR)
+    log_level: 1
+
+# =============================================================================
+# DEVELOPMENT VE PRODUCTION PROFILLER
+# =============================================================================
+
+# Development ortamı için hızlı iteration ayarları
+development_profile:
+  ros__parameters:
+    # Genel development ayarları
+    debug_mode: true
+    verbose_logging: true
+    detailed_statistics: true
+    fast_iteration: true
+    enable_all_features: true
+    
+    # Development için optimize frekanslar
+    default_frequency: 2.0
+    monitoring_frequency: 1.0
+    
+    # Development için büyük buffer'lar
+    default_queue_size: 50
+
+# Production ortamı için optimize ayarlar  
+production_profile:
+  ros__parameters:
+    # Production optimizasyonları
+    debug_mode: false
+    verbose_logging: false
+    minimal_statistics: true
+    performance_optimized: true
+    safety_checks_enabled: true
+    
+    # Production için kontrollü frekanslar
+    default_frequency: 1.0
+    monitoring_frequency: 0.1  # 10 saniyede bir
+    
+    # Production için küçük buffer'lar (memory efficient)
+    default_queue_size: 10
+    
+    # Production güvenlik ayarları
+    emergency_stop_ready: true
+    max_cpu_usage: 70
+    max_memory_usage: 80
+
+# Test ortamı için kontrollü ayarlar
+test_profile:
+  ros__parameters:
+    # Test için özel ayarlar
+    debug_mode: true
+    controlled_execution: true
+    deterministic_behavior: true
+    
+    # Test için yavaş ve kontrollü frekanslar
+    default_frequency: 0.5
+    monitoring_frequency: 0.2
+    
+    # Test için orta buffer'lar
+    default_queue_size: 20
+    
+    # Test için özel parametreler
+    test_mode_active: true
+    enable_test_hooks: true
+    predictable_timing: true
+
+# =============================================================================
+# NAMESPACE TEMPLATE'LER - Farklı Robot'lar İçin
+# =============================================================================
+
+# Robot Beta için ayarlar (robot_alpha'dan farklı namespace)
+/robot_beta/advanced_publisher:
+  ros__parameters:
+    publish_frequency: 3.0  # Biraz daha hızlı
+    message_content: "🤖 Robot Beta mesajı - Paralel sistem!"
+    topic_name: "beta_communication"
+    queue_size: 20
+    debug_mode: false  # Beta production modda
+
+/robot_beta/advanced_subscriber:
+  ros__parameters:
+    topic_name: "beta_communication"
+    queue_size: 25
+    verbose_mode: false  # Beta minimal log
+    enable_filtering: true
+    filter_keyword: "Beta"
+    enable_statistics: true
+    log_level: 1  # Sadece WARN ve ERROR
+
+# Robot Gamma için ayarlar
+/robot_gamma/advanced_publisher:
+  ros__parameters:
+    publish_frequency: 1.5
+    message_content: "🛸 Robot Gamma - Uzay misyonu mesajı!"
+    topic_name: "gamma_communication"
+    queue_size: 30
+    debug_mode: true  # Gamma development modda
+
+# =============================================================================
+# ÖZEL SCENARIO KONFIGÜRASYONLARI
+# =============================================================================
+
+# High frequency test scenario
+high_performance_test:
+  ros__parameters:
+    string_frequency: 50.0
+    number_frequency: 200.0
+    cmd_vel_frequency: 100.0
+    queue_size: 200
+    debug_mode: false
+
+# Low resource scenario
+minimal_resource:
+  ros__parameters:
+    string_frequency: 0.1
+    number_frequency: 0.5
+    cmd_vel_frequency: 1.0
+    queue_size: 5
+    debug_mode: false
+    enable_statistics: false

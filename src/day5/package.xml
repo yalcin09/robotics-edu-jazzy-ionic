@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>day5</name>
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+  <maintainer email="yalcinolgac95@gmail.com">yalcinolgac</maintainer>
+   <license>Apache-2.0</license>                    <!-- Lisans türü: Açık kaynak projeler için önerilen -->
+  
+  <!-- BUILD BAĞIMLILIKLARI: Bu paket derlenirken nelere ihtiyaç duyar -->
+  <buildtool_depend>ament_cmake</buildtool_depend>  <!-- CMake build sistemi için gerekli -->
+  
+  <!-- ÇALIŞMA ZAMANI BAĞIMLILIKLARI: Bu paket çalışırken hangi paketlere ihtiyaç duyar -->
+  <depend>rclcpp</depend>          <!-- ROS2 C++ client library - node oluşturma için -->
+  <depend>std_msgs</depend>        <!-- Standart mesaj türleri - String, Int32 vs. -->
+  <depend>geometry_msgs</depend>   <!-- Geometrik mesajlar - Point, Twist vs. -->
+  <depend>rclcpp_components</depend> <!-- Component node'ları için - daha gelişmiş node yapısı -->
+  
+  <!-- TEST BAĞIMLILIKLARI: Unit test ve integration test'ler için -->
+  <test_depend>ament_lint_auto</test_depend>      <!-- Otomatik kod kalitesi kontrolleri -->
+  <test_depend>ament_lint_common</test_depend>    <!-- Yaygın kullanılan lint araçları -->
+  
+  <!-- EXPORT BÖLÜMÜ: Bu paket hangi build sistemini kullandığını belirtir -->
+  <export>
+    <!-- ament_cmake: ROS2'nin standart C++ build sistemi -->
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

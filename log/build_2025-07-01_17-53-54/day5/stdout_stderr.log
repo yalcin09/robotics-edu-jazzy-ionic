@@ -1,0 +1,34 @@
+[ 75%] Built target parameter_subscriber
+[ 87%] Built target parameter_publisher
+[100%] Built target configurable_publisher
+[100%] Built target multi_node_example
+-- Install configuration: ""
+-- Installing: /home/yalcinolgac/ros2_ws/install/day5/lib/day5/parameter_publisher
+-- Set non-toolchain portion of runtime path of "/home/yalcinolgac/ros2_ws/install/day5/lib/day5/parameter_publisher" to ""
+-- Installing: /home/yalcinolgac/ros2_ws/install/day5/lib/day5/parameter_subscriber
+-- Set non-toolchain portion of runtime path of "/home/yalcinolgac/ros2_ws/install/day5/lib/day5/parameter_subscriber" to ""
+-- Installing: /home/yalcinolgac/ros2_ws/install/day5/lib/day5/configurable_publisher
+-- Set non-toolchain portion of runtime path of "/home/yalcinolgac/ros2_ws/install/day5/lib/day5/configurable_publisher" to ""
+-- Installing: /home/yalcinolgac/ros2_ws/install/day5/lib/day5/multi_node_example
+-- Set non-toolchain portion of runtime path of "/home/yalcinolgac/ros2_ws/install/day5/lib/day5/multi_node_example" to ""
+-- Installing: /home/yalcinolgac/ros2_ws/install/day5/share/day5//launch
+-- Installing: /home/yalcinolgac/ros2_ws/install/day5/share/day5//launch/simple_launch.py
+-- Installing: /home/yalcinolgac/ros2_ws/install/day5/share/day5//launch/advanced_launch.py
+-- Installing: /home/yalcinolgac/ros2_ws/install/day5/share/day5//config
+-- Installing: /home/yalcinolgac/ros2_ws/install/day5/share/day5//config/day5_params.yaml
+-- Installing: /home/yalcinolgac/ros2_ws/install/day5/share/day5//config/params.yaml
+-- Installing: /home/yalcinolgac/ros2_ws/install/day5/share/ament_index/resource_index/package_run_dependencies/day5
+-- Installing: /home/yalcinolgac/ros2_ws/install/day5/share/ament_index/resource_index/parent_prefix_path/day5
+-- Installing: /home/yalcinolgac/ros2_ws/install/day5/share/day5/environment/ament_prefix_path.sh
+-- Installing: /home/yalcinolgac/ros2_ws/install/day5/share/day5/environment/ament_prefix_path.dsv
+-- Installing: /home/yalcinolgac/ros2_ws/install/day5/share/day5/environment/path.sh
+-- Installing: /home/yalcinolgac/ros2_ws/install/day5/share/day5/environment/path.dsv
+-- Installing: /home/yalcinolgac/ros2_ws/install/day5/share/day5/local_setup.bash
+-- Installing: /home/yalcinolgac/ros2_ws/install/day5/share/day5/local_setup.sh
+-- Installing: /home/yalcinolgac/ros2_ws/install/day5/share/day5/local_setup.zsh
+-- Installing: /home/yalcinolgac/ros2_ws/install/day5/share/day5/local_setup.dsv
+-- Installing: /home/yalcinolgac/ros2_ws/install/day5/share/day5/package.dsv
+-- Installing: /home/yalcinolgac/ros2_ws/install/day5/share/ament_index/resource_index/packages/day5
+-- Installing: /home/yalcinolgac/ros2_ws/install/day5/share/day5/cmake/day5Config.cmake
+-- Installing: /home/yalcinolgac/ros2_ws/install/day5/share/day5/cmake/day5Config-version.cmake
+-- Installing: /home/yalcinolgac/ros2_ws/install/day5/share/day5/package.xml

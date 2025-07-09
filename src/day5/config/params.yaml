@@ -1,0 +1,228 @@
+# =============================================================================
+# DOSYA: config/params.yaml
+# AMAÇ: ROS2 node'ları için merkezi parameter konfigürasyonu
+# KULLANIM: Launch file'larda ya da command line'da load edilir
+# ÖĞRENME: YAML formatında ROS2 parameter tanımlama
+# =============================================================================
+
+# YAML formatı hakkında notlar:
+# - Girinti (indentation) önemlidir, Tab yerine Space kullanın
+# - Her seviye 2 space ile girintilenir
+# - Key-value çiftleri ":" ile ayrılır
+# - Liste elemanları "-" ile başlar
+# - String değerler tırnak içinde olabilir (zorunlu değil)
+# - Boolean: true/false, sayılar: direkt yazılır
+
+# =============================================================================
+# PARAMETER PUBLISHER KONFIGÜRASYONU
+# =============================================================================
+
+# Node adı tam path olarak belirtilir
+# Format: /**node_name**: (/** başlangıcı ROS2 namespace format'ı)
+parameter_publisher:
+  ros__parameters:  # ROS2 parameter namespace'i - zorunlu
+    
+    # Temel Publisher Ayarları
+    # ========================
+    
+    # Yayın frekansı (Hz) - Saniyede kaç mesaj yayınlanacak
+    # Örnekler: 0.5 (2 saniyede bir), 1.0 (saniyede bir), 10.0 (çok hızlı)
+    publish_frequency: 2.0
+    
+    # Yayınlanacak mesajın temel içeriği
+    # String değer - Unicode karakterler desteklenir
+    message_content: "🚀 ROS2 Jazzy ile Parametreli Mesaj!"
+    
+    # Hedef topic adı - "/" ile namespace belirtilebilir
+    # Örnek: "robot/status", "sensors/data", vb.
+    topic_name: "robot_chatter"
+    
+    # Publisher queue size - Buffer'da kaç mesaj saklanacak
+    # Büyük değer: Daha fazla memory, mesaj kaybı az
+    # Küçük değer: Az memory, ama mesaj kaybı riski
+    queue_size: 20
+    
+    # Debug mode - Detaylı log mesajları gösterilsin mi?
+    # true: Her mesaj için detay, false: Sadece özet
+    debug_mode: true
+
+# =============================================================================
+# PARAMETER SUBSCRIBER KONFIGÜRASYONU
+# =============================================================================
+
+parameter_subscriber:
+  ros__parameters:
+    
+    # Subscriber Temel Ayarları
+    # =========================
+    
+    # Dinlenecek topic adı - Publisher ile aynı olmalı
+    topic_name: "robot_chatter"
+    
+    # Subscriber queue size - Gelen mesajlar için buffer
+    queue_size: 15
+    
+    # Mesaj Görüntüleme Ayarları
+    # ===========================
+    
+    # Verbose mode - Her mesajı detaylı göster mi?
+    # true: Mesaj içeriği, uzunluğu, zamanı gösterir
+    # false: Sadece kısa özet gösterir
+    verbose_mode: true
+    
+    # Log seviyesi (0-3 arası)
+    # 0: Sadece ERROR mesajları
+    # 1: ERROR + WARN mesajları  
+    # 2: ERROR + WARN + INFO mesajları (varsayılan)
+    # 3: Tüm mesajlar (DEBUG dahil)
+    log_level: 2
+    
+    # Mesaj Filtreleme Ayarları
+    # =========================
+    
+    # Filtreleme aktif mi? 
+    # true: Sadece anahtar kelime içeren mesajları göster
+    # false: Tüm mesajları göster
+    enable_filtering: false
+    
+    # Filtreleme için anahtar kelime
+    # Bu kelimeyi içeren mesajlar gösterilir
+    filter_keyword: "ROS2"
+    
+    # İstatistik Ayarları
+    # ===================
+    
+    # İstatistik toplama aktif mi?
+    # true: Mesaj sayısı, hız, filtreleme oranı hesaplar
+    # false: Sadece mesajları gösterir
+    enable_statistics: true
+
+# =============================================================================
+# CONFIGURABLE PUBLISHER KONFIGÜRASYONU
+# =============================================================================
+
+# Daha gelişmiş publisher örneği - birden fazla topic'e yayın
+configurable_publisher:
+  ros__parameters:
+    
+    # Multi-Topic Ayarları
+    # ====================
+    
+    # String mesajlar için topic
+    string_topic: "multi/string_data"
+    
+    # Sayısal mesajlar için topic  
+    number_topic: "multi/number_data"
+    
+    # Robot hareket komutları için topic
+    cmd_vel_topic: "robot/cmd_vel"
+    
+    # Yayın Frekansları (Topic'e göre farklı)
+    # ========================================
+    
+    # String mesajlar için frekans
+    string_frequency: 1.0
+    
+    # Sayısal mesajlar için frekans (daha hızlı olabilir)
+    number_frequency: 5.0
+    
+    # Robot komutları için frekans (güvenlik için yavaş)
+    cmd_vel_frequency: 10.0
+    
+    # Mesaj İçerikleri
+    # ================
+    
+    # String mesaj template'i
+    string_template: "Sistem durumu: %s | Zaman: %f"
+    
+    # Sayısal mesaj aralığı
+    number_min: 0
+    number_max: 100
+    
+    # Robot hareket ayarları
+    # Linear hız (m/s) - İleri/geri hareket
+    linear_speed: 0.5
+    
+    # Angular hız (rad/s) - Dönme hareketi  
+    angular_speed: 1.0
+    
+    # Güvenlik Ayarları
+    # =================
+    
+    # Maksimum güvenli hızlar
+    max_linear_speed: 2.0
+    max_angular_speed: 3.14  # 180 derece/saniye
+    
+    # Acil durum modunda durdur
+    emergency_stop: false
+    
+    # Queue Sizes (Topic'e göre)
+    # ===========================
+    
+    string_queue_size: 10
+    number_queue_size: 50    # Sayısal data daha fazla buffer
+    cmd_vel_queue_size: 5    # Robot komutları için küçük buffer (güvenlik)
+
+# =============================================================================
+# MULTI NODE EXAMPLE KONFIGÜRASYONU  
+# =============================================================================
+
+# Tek executable'da birden fazla node çalıştırma örneği
+multi_node_example:
+  ros__parameters:
+    
+    # Node Activation Flags
+    # =====================
+    
+    # Hangi node'ları aktif edilecek
+    enable_publisher: true
+    enable_subscriber: true  
+    enable_timer_node: true
+    enable_service_node: false  # Service node'u şimdilik kapalı
+    
+    # Global Settings
+    # ===============
+    
+    # Tüm node'lar için ortak topic prefix
+    global_namespace: "multi_robot"
+    
+    # Ortak log seviyesi
+    global_log_level: 2
+    
+    # System monitoring aktif mi?
+    enable_monitoring: true
+    
+    # Node-Specific Settings
+    # ======================
+    
+    # Publisher node ayarları
+    pub_frequency: 3.0
+    pub_message: "Multi-node example mesajı"
+    
+    # Subscriber node ayarları  
+    sub_verbose: false        # Multi-node'da az log için
+    sub_statistics: true
+    
+    # Timer node ayarları
+    timer_interval: 5.0       # 5 saniyede bir çalış
+    timer_message: "Periyodik sistem kontrolü"
+
+# =============================================================================
+# DEVELOPMENT VE PRODUCTION AYARLARI
+# =============================================================================
+
+# Development ortamı için hızlı ayarlar
+development:
+  ros__parameters:
+    debug_mode: true
+    verbose_logging: true
+    fast_shutdown: true
+    enable_all_features: true
+
+# Production ortamı için optimize ayarlar  
+production:
+  ros__parameters:
+    debug_mode: false
+    verbose_logging: false
+    optimized_performance: true
+    safety_checks: true

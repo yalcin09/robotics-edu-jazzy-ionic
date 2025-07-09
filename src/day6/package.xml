@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>day6</name>
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+  <maintainer email="yalcinolgac95@gmail.com">yalcinolgac</maintainer>
+  <license>Apache-2.0</license>
+  
+  <!-- BUILD TOOL BAĞIMLILIKLARI -->
+  <buildtool_depend>ament_cmake</buildtool_depend>  <!-- CMake build sistemi -->
+  
+  <!-- ÇALIŞMA ZAMANI BAĞIMLILIKLARI -->
+  <!-- ROS2 Core Libraries -->
+  <depend>rclcpp</depend>                    <!-- ROS2 C++ client library -->
+  <depend>rclcpp_lifecycle</depend>          <!-- Lifecycle node management -->
+  
+  <!-- Message Türleri -->
+  <depend>std_msgs</depend>                  <!-- Standart mesaj türleri -->
+  <depend>geometry_msgs</depend>             <!-- Geometrik mesajlar -->
+  <depend>sensor_msgs</depend>               <!-- Sensör mesajları -->
+  <depend>diagnostic_msgs</depend>           <!-- Diagnostic mesajları -->
+  <depend>day2</depend>        <!-- Temel service interfaces -->
+  
+  <!-- DEBUG VE MONİTÖRİNG İÇİN EK PAKETLER -->
+  <exec_depend>rqt_common_plugins</exec_depend>    <!-- RQT graph, plot vs. -->
+  <exec_depend>rqt_robot_monitor</exec_depend>     <!-- Robot monitoring -->
+  <exec_depend>ros2_control</exec_depend>          <!-- Control system debugging -->
+  
+  <!-- TEST BAĞIMLILIKLARI -->
+  <test_depend>ament_lint_auto</test_depend>        <!-- Otomatik lint -->
+  <test_depend>ament_lint_common</test_depend>      <!-- Yaygın lint araçları -->
+  <test_depend>ament_cmake_cppcheck</test_depend>   <!-- C++ static analysis -->
+  <test_depend>ament_cmake_cpplint</test_depend>    <!-- C++ style checker -->
+  <test_depend>ament_cmake_flake8</test_depend>     <!-- Python style checker -->
+  <test_depend>ament_cmake_uncrustify</test_depend> <!-- Code formatter -->
+  <test_depend>ament_cmake_pytest</test_depend>     <!-- Python testing -->
+  
+  <!-- EXPORT BÖLÜMÜ -->
+  <export>
+    <build_type>ament_cmake</build_type>
+    
+    <!-- Debug araçları için özel metadata -->
+    <debug_tools>
+      <category>monitoring</category>
+      <category>debugging</category>
+      <category>diagnostics</category>
+      <provides>
+        <tool>system_monitor</tool>
+        <tool>topic_monitor</tool>
+        <tool>diagnostic_node</tool>
+        <tool>debug_publisher</tool>
+        <tool>service_debug</tool>
+      </provides>
+    </debug_tools>
+  </export>
+</package>

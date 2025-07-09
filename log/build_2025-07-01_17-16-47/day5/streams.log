@@ -1,0 +1,33 @@
+[0.011s] Invoking command in '/home/yalcinolgac/ros2_ws/build/day5': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yalcinolgac/ros2_ws/build/day5 -- -j32 -l32
+[0.080s] [ 50%] Built target parameter_publisher
+[0.080s] [ 50%] Built target configurable_publisher
+[0.080s] [ 75%] Built target multi_node_example
+[0.080s] [100%] Built target parameter_subscriber
+[0.086s] Invoked command in '/home/yalcinolgac/ros2_ws/build/day5' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yalcinolgac/ros2_ws/build/day5 -- -j32 -l32
+[0.092s] Invoking command in '/home/yalcinolgac/ros2_ws/build/day5': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yalcinolgac/ros2_ws/build/day5
+[0.096s] -- Install configuration: ""
+[0.097s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day5/lib/day5/parameter_publisher
+[0.098s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day5/lib/day5/parameter_subscriber
+[0.098s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day5/lib/day5/configurable_publisher
+[0.098s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day5/lib/day5/multi_node_example
+[0.098s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day5/share/day5//launch
+[0.098s] -- Installing: /home/yalcinolgac/ros2_ws/install/day5/share/day5//launch/simple_launch.py
+[0.098s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day5/share/day5//launch/advanced_launch.py  
+[0.098s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day5/share/day5//config
+[0.098s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day5/share/day5//config/params.yaml
+[0.098s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day5/share/ament_index/resource_index/package_run_dependencies/day5
+[0.098s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day5/share/ament_index/resource_index/parent_prefix_path/day5
+[0.098s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day5/share/day5/environment/ament_prefix_path.sh
+[0.098s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day5/share/day5/environment/ament_prefix_path.dsv
+[0.098s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day5/share/day5/environment/path.sh
+[0.098s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day5/share/day5/environment/path.dsv
+[0.098s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day5/share/day5/local_setup.bash
+[0.098s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day5/share/day5/local_setup.sh
+[0.099s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day5/share/day5/local_setup.zsh
+[0.099s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day5/share/day5/local_setup.dsv
+[0.099s] -- Installing: /home/yalcinolgac/ros2_ws/install/day5/share/day5/package.dsv
+[0.099s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day5/share/ament_index/resource_index/packages/day5
+[0.099s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day5/share/day5/cmake/day5Config.cmake
+[0.099s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day5/share/day5/cmake/day5Config-version.cmake
+[0.099s] -- Up-to-date: /home/yalcinolgac/ros2_ws/install/day5/share/day5/package.xml
+[0.100s] Invoked command in '/home/yalcinolgac/ros2_ws/build/day5' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yalcinolgac/ros2_ws/build/day5

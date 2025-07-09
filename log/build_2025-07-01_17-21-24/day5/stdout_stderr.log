@@ -1,0 +1,30 @@
+[ 75%] Built target configurable_publisher
+[ 75%] Built target parameter_publisher
+[ 75%] Built target parameter_subscriber
+[100%] Built target multi_node_example
+-- Install configuration: ""
+-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day5/lib/day5/parameter_publisher
+-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day5/lib/day5/parameter_subscriber
+-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day5/lib/day5/configurable_publisher
+-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day5/lib/day5/multi_node_example
+-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day5/share/day5//launch
+-- Installing: /home/yalcinolgac/ros2_ws/install/day5/share/day5//launch/advanced_launch.py 
+-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day5/share/day5//launch/simple_launch.py
+-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day5/share/day5//config
+-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day5/share/day5//config/day5_params.yaml
+-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day5/share/day5//config/params.yaml
+-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day5/share/ament_index/resource_index/package_run_dependencies/day5
+-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day5/share/ament_index/resource_index/parent_prefix_path/day5
+-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day5/share/day5/environment/ament_prefix_path.sh
+-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day5/share/day5/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day5/share/day5/environment/path.sh
+-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day5/share/day5/environment/path.dsv
+-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day5/share/day5/local_setup.bash
+-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day5/share/day5/local_setup.sh
+-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day5/share/day5/local_setup.zsh
+-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day5/share/day5/local_setup.dsv
+-- Installing: /home/yalcinolgac/ros2_ws/install/day5/share/day5/package.dsv
+-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day5/share/ament_index/resource_index/packages/day5
+-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day5/share/day5/cmake/day5Config.cmake
+-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day5/share/day5/cmake/day5Config-version.cmake
+-- Up-to-date: /home/yalcinolgac/ros2_ws/install/day5/share/day5/package.xml
