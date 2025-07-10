@@ -1,0 +1,2 @@
+Invoking command in '/home/yalcinolgac/ros2_ws/build/day7': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yalcinolgac/ros2_ws/build/day7 -- -j32 -l32
+Invoked command in '/home/yalcinolgac/ros2_ws/build/day7' returned '2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yalcinolgac/ros2_ws/build/day7 -- -j32 -l32

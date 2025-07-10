@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!-- 
+=============================================================================
+DOSYA: package.xml
+AMAÇ: ROS2 paketinin meta bilgilerini tanımlar
+KULLANIM: colcon build sisteminin paketi tanıması için gerekli
+ÖĞRENME: ROS2 package format, dependencies, build system
+=============================================================================
+-->
+
+<!-- Package format 3: ROS2 için modern format -->
+<package format="3">
+  
+  <!-- PAKET ADI: Bu isim workspace'te benzersiz olmalı -->
+  <name>day7</name>
+  
+  <!-- VERSİYON: Semantic versioning kullanılır (major.minor.patch) -->
+  <version>1.0.0</version>
+  
+  <!-- AÇIKLAMA: Paketin ne yaptığını kısa açıklama -->
+  <description>Day 7: Gazebo Temelleri - İlk simülasyon dünyası ve SDF formatı</description>
+  
+  <!-- SORUMLU KİŞİ: Paket maintainer bilgileri -->
+  <maintainer email="test@test.com">ROS2 Student</maintainer>
+  
+  <!-- LİSANS: Açık kaynak lisansı (Apache-2.0 ROS2 standardı) -->
+  <license>Apache-2.0</license>
+  
+  <!-- BUILD TOOL BAĞIMLILIĞI: CMake tabanlı build için gerekli -->
+  <!-- ament_cmake: ROS2'nin CMake extension'ı -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  
+  <!-- TEST BAĞIMLILIKLARI: Code quality ve testing için -->
+  <!-- ament_lint_auto: Otomatik kod kalitesi kontrolleri -->
+  <test_depend>ament_lint_auto</test_depend>
+  <!-- ament_lint_common: Yaygın kullanılan lint araçları -->
+  <test_depend>ament_lint_common</test_depend>
+  
+  <!-- EXPORT BÖLÜMÜ: Build sistemine paketin tipini bildirir -->
+  <export>
+    <!-- Build type: ament_cmake kullandığımızı belirtir -->
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

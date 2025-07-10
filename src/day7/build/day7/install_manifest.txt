@@ -1,0 +1,17 @@
+/home/yalcinolgac/ros2_ws/src/day7/install/day7/share/day7//worlds/my_world.sdf
+/home/yalcinolgac/ros2_ws/src/day7/install/day7/share/day7//launch/gazebo.py
+/home/yalcinolgac/ros2_ws/src/day7/install/day7/share/ament_index/resource_index/package_run_dependencies/day7
+/home/yalcinolgac/ros2_ws/src/day7/install/day7/share/ament_index/resource_index/parent_prefix_path/day7
+/home/yalcinolgac/ros2_ws/src/day7/install/day7/share/day7/environment/ament_prefix_path.sh
+/home/yalcinolgac/ros2_ws/src/day7/install/day7/share/day7/environment/ament_prefix_path.dsv
+/home/yalcinolgac/ros2_ws/src/day7/install/day7/share/day7/environment/path.sh
+/home/yalcinolgac/ros2_ws/src/day7/install/day7/share/day7/environment/path.dsv
+/home/yalcinolgac/ros2_ws/src/day7/install/day7/share/day7/local_setup.bash
+/home/yalcinolgac/ros2_ws/src/day7/install/day7/share/day7/local_setup.sh
+/home/yalcinolgac/ros2_ws/src/day7/install/day7/share/day7/local_setup.zsh
+/home/yalcinolgac/ros2_ws/src/day7/install/day7/share/day7/local_setup.dsv
+/home/yalcinolgac/ros2_ws/src/day7/install/day7/share/day7/package.dsv
+/home/yalcinolgac/ros2_ws/src/day7/install/day7/share/ament_index/resource_index/packages/day7
+/home/yalcinolgac/ros2_ws/src/day7/install/day7/share/day7/cmake/day7Config.cmake
+/home/yalcinolgac/ros2_ws/src/day7/install/day7/share/day7/cmake/day7Config-version.cmake
+/home/yalcinolgac/ros2_ws/src/day7/install/day7/share/day7/package.xml

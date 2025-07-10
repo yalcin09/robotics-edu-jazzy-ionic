@@ -1,0 +1,199 @@
+<?xml version="1.0" ?>
+<!-- 
+=============================================================================
+DOSYA: worlds/my_world.sdf
+AMAÇ: Gazebo simülasyon dünyasını tanımlayan SDF (Simulation Description Format) dosyası
+KULLANIM: gz sim my_world.sdf veya launch dosyası ile çalıştırılır
+ÖĞRENME: SDF format, world tanımlama, physics, lighting, models
+=============================================================================
+-->
+
+<!-- SDF VERSION: Gazebo Ionic ile uyumlu versiyon -->
+<!-- Her Gazebo versiyonu farklı SDF versiyonları destekler -->
+<sdf version="1.9">
+  
+  <!-- WORLD CONTAINER: Tüm simülasyon ortamını sarar -->
+  <!-- name: World'ün benzersiz adı (ROS2 topic'lerinde kullanılır) -->
+  <world name="my_world">
+    
+    <!-- =================================================================== -->
+    <!-- SİSTEM PLUGIN'LERİ - Simülasyonun çalışması için gerekli -->
+    <!-- =================================================================== -->
+    
+    <!-- PHYSICS SYSTEM: Fizik hesaplamalarını yapar -->
+    <!-- filename: Gazebo'nun physics plugin'inin dosya adı -->
+    <!-- name: Plugin'in benzersiz adı (namespace için) -->
+    <plugin filename="gz-sim-physics-system" name="gz::sim::systems::Physics"></plugin>
+    
+    <!-- USER COMMANDS SYSTEM: Kullanıcı etkileşimi için -->
+    <!-- GUI'den nesneleri hareket ettirme, seçme vs. -->
+    <plugin filename="gz-sim-user-commands-system" name="gz::sim::systems::UserCommands"></plugin>
+    
+    <!-- SCENE BROADCASTER: 3D sahne bilgilerini yayınlar -->
+    <!-- RViz2 ve diğer görselleştirme araçları için gerekli -->
+    <plugin filename="gz-sim-scene-broadcaster-system" name="gz::sim::systems::SceneBroadcaster"></plugin>
+    
+    <!-- =================================================================== -->
+    <!-- AYDINLATMA - Dünya aydınlatması -->
+    <!-- =================================================================== -->
+    
+    <!-- DIRECTIONAL LIGHT: Güneş ışığı benzeri paralel ışık -->
+    <!-- type="directional": Işık kaynağı sonsuz uzakta, ışınlar paralel -->
+    <light type="directional" name="sun">
+      <!-- POSE: Işığın pozisyonu (x y z roll pitch yaw) -->
+      <!-- z=10: 10 metre yükseklikte -->
+      <pose>0 0 10 0 0 0</pose>
+      
+      <!-- DIRECTION: Işığın yönü (x y z vector) -->
+      <!-- (-0.5, 0.1, -0.9): Yukarıdan aşağıya doğru eğik -->
+      <direction>-0.5 0.1 -0.9</direction>
+      
+      <!-- DIFFUSE: Yayılı ışık rengi (R G B A) -->
+      <!-- (1.0 1.0 1.0 1): Beyaz renk, tam opaklık -->
+      <diffuse>1.0 1.0 1.0 1</diffuse>
+    </light>
+    
+    <!-- =================================================================== -->
+    <!-- FİZİK AYARLARI -->
+    <!-- =================================================================== -->
+    
+    <!-- GRAVITY: Yerçekimi vektörü (x y z m/s²) -->
+    <!-- (0 0 -9.81): Z ekseninde aşağı doğru, Dünya yerçekimi -->
+    <gravity>0 0 -9.81</gravity>
+    
+    <!-- =================================================================== -->
+    <!-- ZEMİN MODELİ -->
+    <!-- =================================================================== -->
+    
+    <!-- MODEL: Gazebo'da her nesne bir model'dir -->
+    <!-- name: Modelin benzersiz adı (topic'lerde kullanılır) -->
+    <model name="ground">
+      
+      <!-- STATIC: True = hareket etmez, sonsuz kütleli -->
+      <!-- Zemin için ideal çünkü yerinde kalmalı -->
+      <static>true</static>
+      
+      <!-- LINK: Modelin fiziksel parçası -->
+      <!-- Her model en az bir link içermeli -->
+      <link name="ground_link">
+        
+        <!-- COLLISION: Fizik hesaplamaları için geometri -->
+        <!-- Diğer nesneler bununla çarpışır -->
+        <collision name="ground_collision">
+          <geometry>
+            <!-- PLANE: Sonsuz düz yüzey -->
+            <!-- normal: Yüzeyin normal vektörü (0 0 1 = yukarı bakan) -->
+            <plane>
+              <normal>0 0 1</normal>
+              <!-- size: Görünen boyut (x y metre) -->
+              <size>10 10</size>
+            </plane>
+          </geometry>
+        </collision>
+        
+        <!-- VISUAL: Ekranda nasıl görüneceği -->
+        <!-- Collision'dan farklı olabilir (performans için) -->
+        <visual name="ground_visual">
+          <geometry>
+            <!-- Collision ile aynı geometri kullanıyoruz -->
+            <plane>
+              <normal>0 0 1</normal>
+              <size>10 10</size>
+            </plane>
+          </geometry>
+          
+          <!-- MATERIAL: Renk ve yüzey özellikleri -->
+          <material>
+            <!-- ambient: Çevresel ışık rengi (R G B A) -->
+            <ambient>0.8 0.8 0.8 1</ambient>  <!-- Açık gri -->
+            <!-- diffuse: Yayılı ışık rengi -->
+            <diffuse>0.8 0.8 0.8 1</diffuse>
+          </material>
+        </visual>
+        
+      </link>
+    </model>
+    
+    <!-- =================================================================== -->
+    <!-- KIRMIZI KUTU MODELİ -->
+    <!-- =================================================================== -->
+    
+    <model name="box">
+      
+      <!-- POSE: Modelin pozisyonu ve rotasyonu -->
+      <!-- (x=1, y=0, z=0.5): 1 metre sağda, 0.5 metre yüksekte -->
+      <!-- (roll=0, pitch=0, yaw=0): Rotasyon yok -->
+      <pose>1 0 0.5 0 0 0</pose>
+      
+      <link name="box_link">
+        
+        <!-- COLLISION: Fizik için kutu geometrisi -->
+        <collision name="box_collision">
+          <geometry>
+            <!-- BOX: Dikdörtgen prizma -->
+            <!-- size: x, y, z boyutları (metre) -->
+            <box><size>1 1 1</size></box>  <!-- 1x1x1 metre küp -->
+          </geometry>
+        </collision>
+        
+        <!-- VISUAL: Görsel için aynı geometri -->
+        <visual name="box_visual">
+          <geometry>
+            <box><size>1 1 1</size></box>
+          </geometry>
+          
+          <!-- KIRMIZI MATERIAL -->
+          <material>
+            <!-- ambient: (1.0 0.0 0.0 1) = Kırmızı -->
+            <ambient>1.0 0.0 0.0 1</ambient>
+            <diffuse>1.0 0.0 0.0 1</diffuse>
+          </material>
+        </visual>
+        
+        <!-- INERTIAL: Fizik için kütle ve atalet özellikleri -->
+        <!-- mass: Nesnenin kütlesi (kg) -->
+        <inertial>
+          <mass>1.0</mass>  <!-- 1 kilogram -->
+          
+          <!-- NOT: İnertia tensörü eksik - Gazebo otomatik hesaplayacak -->
+          <!-- Küp için standart inertia: I = (1/6) * m * s² -->
+        </inertial>
+        
+      </link>
+    </model>
+    
+  </world>
+</sdf>
+
+<!-- 
+=============================================================================
+SDF DOSYASI HAKKINDA NOTLAR:
+
+1. COORDINATE SYSTEM:
+   - X: Kırmızı (ileri/geri)
+   - Y: Yeşil (sol/sağ)  
+   - Z: Mavi (yukarı/aşağı)
+   - Right-hand rule kullanılır
+
+2. UNITS (BİRİMLER):
+   - Length: metre
+   - Mass: kilogram
+   - Time: saniye
+   - Angle: radyan
+
+3. PHYSICS:
+   - Gravity: m/s²
+   - Force: Newton
+   - Torque: Newton-metre
+
+4. RENKLER:
+   - R G B A formatı
+   - Değerler 0.0 ile 1.0 arası
+   - A = Alpha (transparency): 1.0 = opak, 0.0 = şeffaf
+
+5. POSE FORMAT:
+   - x y z roll pitch yaw
+   - Position: metre cinsinden
+   - Rotation: radyan cinsinden (Euler angles)
+=============================================================================
+-->

@@ -1,0 +1,9 @@
+[0.000000] (-) TimerEvent: {}
+[0.000611] (-) JobUnselected: {'identifier': 'day1'}
+[0.000628] (-) JobUnselected: {'identifier': 'day2'}
+[0.000636] (-) JobUnselected: {'identifier': 'day2_2'}
+[0.000642] (-) JobUnselected: {'identifier': 'day5'}
+[0.000647] (-) JobUnselected: {'identifier': 'day6'}
+[0.000651] (-) JobUnselected: {'identifier': 'gazebo_basics'}
+[0.000656] (-) JobUnselected: {'identifier': 'repeat_1_4'}
+[0.000661] (-) EventReactorShutdown: {}

@@ -1,0 +1,8 @@
+[0.009s] Invoking command in '/home/yalcinolgac/ros2_ws/build/day7': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yalcinolgac/ros2_ws/build/day7 -- -j32 -l32
+[0.048s] [31mCMake Error at CMakeLists.txt:10:
+[0.048s]   Parse error.  Expected "(", got identifier with text "os".
+[0.048s] 
+[0.048s] [0m
+[0.049s] -- Configuring incomplete, errors occurred!
+[0.054s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.055s] Invoked command in '/home/yalcinolgac/ros2_ws/build/day7' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yalcinolgac/ros2_ws/build/day7 -- -j32 -l32

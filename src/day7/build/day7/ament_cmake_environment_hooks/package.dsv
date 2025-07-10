@@ -1,0 +1,4 @@
+source;share/day7/local_setup.bash
+source;share/day7/local_setup.dsv
+source;share/day7/local_setup.sh
+source;share/day7/local_setup.zsh
