@@ -1,0 +1,41 @@
+[100%] Built target simple_robot_controller_cpp
+[100%] Built target ament_cmake_python_symlink_day8
+running egg_info
+writing day8.egg-info/PKG-INFO
+writing dependency_links to day8.egg-info/dependency_links.txt
+writing top-level names to day8.egg-info/top_level.txt
+reading manifest file 'day8.egg-info/SOURCES.txt'
+writing manifest file 'day8.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_day8_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/yalcinolgac/ros2_ws/install/day8/lib/day8/simple_robot_controller_cpp
+-- Up-to-date symlink: /home/yalcinolgac/ros2_ws/install/day8/share/day8/environment/pythonpath.sh
+-- Up-to-date symlink: /home/yalcinolgac/ros2_ws/install/day8/share/day8/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/yalcinolgac/ros2_ws/install/day8/lib/python3.12/site-packages/day8-1.0.0-py3.12.egg-info/PKG-INFO
+-- Up-to-date symlink: /home/yalcinolgac/ros2_ws/install/day8/lib/python3.12/site-packages/day8-1.0.0-py3.12.egg-info/SOURCES.txt
+-- Up-to-date symlink: /home/yalcinolgac/ros2_ws/install/day8/lib/python3.12/site-packages/day8-1.0.0-py3.12.egg-info/dependency_links.txt
+-- Up-to-date symlink: /home/yalcinolgac/ros2_ws/install/day8/lib/python3.12/site-packages/day8-1.0.0-py3.12.egg-info/top_level.txt
+-- Up-to-date symlink: /home/yalcinolgac/ros2_ws/install/day8/lib/python3.12/site-packages/day8/__init__.py
+-- Up-to-date symlink: /home/yalcinolgac/ros2_ws/install/day8/lib/python3.12/site-packages/day8/simple_robot_controller.py
+-- Up-to-date symlink: /home/yalcinolgac/ros2_ws/install/day8/lib/day8/simple_robot_controller.py
+-- Up-to-date symlink: /home/yalcinolgac/ros2_ws/install/day8/share/day8/urdf/simple_robot.urdf
+-- Up-to-date symlink: /home/yalcinolgac/ros2_ws/install/day8/share/day8/launch/controller.py
+-- Up-to-date symlink: /home/yalcinolgac/ros2_ws/install/day8/share/day8/launch/robot_visualization.py
+-- Up-to-date symlink: /home/yalcinolgac/ros2_ws/install/day8/share/day8/rviz/robot_visualization.rviz
+-- Up-to-date symlink: /home/yalcinolgac/ros2_ws/install/day8/share/ament_index/resource_index/package_run_dependencies/day8
+-- Up-to-date symlink: /home/yalcinolgac/ros2_ws/install/day8/share/ament_index/resource_index/parent_prefix_path/day8
+-- Up-to-date symlink: /home/yalcinolgac/ros2_ws/install/day8/share/day8/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/yalcinolgac/ros2_ws/install/day8/share/day8/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/yalcinolgac/ros2_ws/install/day8/share/day8/environment/path.sh
+-- Up-to-date symlink: /home/yalcinolgac/ros2_ws/install/day8/share/day8/environment/path.dsv
+-- Up-to-date symlink: /home/yalcinolgac/ros2_ws/install/day8/share/day8/local_setup.bash
+-- Up-to-date symlink: /home/yalcinolgac/ros2_ws/install/day8/share/day8/local_setup.sh
+-- Up-to-date symlink: /home/yalcinolgac/ros2_ws/install/day8/share/day8/local_setup.zsh
+-- Up-to-date symlink: /home/yalcinolgac/ros2_ws/install/day8/share/day8/local_setup.dsv
+-- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/share/day8/package.dsv
+-- Up-to-date symlink: /home/yalcinolgac/ros2_ws/install/day8/share/ament_index/resource_index/packages/day8
+-- Up-to-date symlink: /home/yalcinolgac/ros2_ws/install/day8/share/day8/cmake/day8Config.cmake
+-- Up-to-date symlink: /home/yalcinolgac/ros2_ws/install/day8/share/day8/cmake/day8Config-version.cmake
+-- Up-to-date symlink: /home/yalcinolgac/ros2_ws/install/day8/share/day8/package.xml
+Listing '/home/yalcinolgac/ros2_ws/install/day8/lib/python3.12/site-packages/day8'...

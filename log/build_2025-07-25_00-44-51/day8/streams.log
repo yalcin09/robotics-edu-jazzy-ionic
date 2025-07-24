@@ -1,0 +1,82 @@
+[0.007s] Invoking command in '/home/yalcinolgac/ros2_ws/build/day8': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yalcinolgac/ros2_ws/src/day8 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yalcinolgac/ros2_ws/install/day8
+[0.095s] -- The C compiler identification is GNU 13.3.0
+[0.168s] -- The CXX compiler identification is GNU 13.3.0
+[0.180s] -- Detecting C compiler ABI info
+[0.234s] -- Detecting C compiler ABI info - done
+[0.239s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.240s] -- Detecting C compile features
+[0.241s] -- Detecting C compile features - done
+[0.246s] -- Detecting CXX compiler ABI info
+[0.302s] -- Detecting CXX compiler ABI info - done
+[0.307s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.307s] -- Detecting CXX compile features
+[0.307s] -- Detecting CXX compile features - done
+[0.319s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.407s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.447s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.484s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.524s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.535s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.549s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.563s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.618s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.621s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.675s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.687s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.701s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.753s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.886s] -- Configuring done (0.9s)
+[0.893s] -- Generating done (0.0s)
+[0.895s] -- Build files have been written to: /home/yalcinolgac/ros2_ws/build/day8
+[0.901s] Invoked command in '/home/yalcinolgac/ros2_ws/build/day8' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yalcinolgac/ros2_ws/src/day8 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yalcinolgac/ros2_ws/install/day8
+[0.901s] Invoking command in '/home/yalcinolgac/ros2_ws/build/day8': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yalcinolgac/ros2_ws/build/day8 -- -j32 -l32
+[0.931s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_robot_controller_cpp.dir/src/simple_robot_controller.cpp.o[0m
+[0.936s] [ 50%] Built target ament_cmake_python_symlink_day8
+[1.057s] running egg_info
+[1.058s] creating day8.egg-info
+[1.069s] writing day8.egg-info/PKG-INFO
+[1.069s] writing dependency_links to day8.egg-info/dependency_links.txt
+[1.069s] writing top-level names to day8.egg-info/top_level.txt
+[1.069s] writing manifest file 'day8.egg-info/SOURCES.txt'
+[1.101s] reading manifest file 'day8.egg-info/SOURCES.txt'
+[1.101s] writing manifest file 'day8.egg-info/SOURCES.txt'
+[1.116s] [ 50%] Built target ament_cmake_python_build_day8_egg
+[5.386s] [100%] [32m[1mLinking CXX executable simple_robot_controller_cpp[0m
+[5.543s] [100%] Built target simple_robot_controller_cpp
+[5.550s] Invoked command in '/home/yalcinolgac/ros2_ws/build/day8' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yalcinolgac/ros2_ws/build/day8 -- -j32 -l32
+[5.555s] Invoking command in '/home/yalcinolgac/ros2_ws/build/day8': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yalcinolgac/ros2_ws/build/day8
+[5.560s] -- Install configuration: ""
+[5.560s] -- Execute custom install script
+[5.561s] -- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/lib/day8/simple_robot_controller_cpp
+[5.566s] -- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/share/day8/environment/pythonpath.sh
+[5.571s] -- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/share/day8/environment/pythonpath.dsv
+[5.576s] -- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/lib/python3.12/site-packages/day8-1.0.0-py3.12.egg-info/PKG-INFO
+[5.581s] -- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/lib/python3.12/site-packages/day8-1.0.0-py3.12.egg-info/SOURCES.txt
+[5.586s] -- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/lib/python3.12/site-packages/day8-1.0.0-py3.12.egg-info/dependency_links.txt
+[5.591s] -- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/lib/python3.12/site-packages/day8-1.0.0-py3.12.egg-info/top_level.txt
+[5.596s] -- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/lib/python3.12/site-packages/day8/__init__.py
+[5.601s] -- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/lib/python3.12/site-packages/day8/simple_robot_controller.py
+[5.606s] -- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/lib/day8/simple_robot_controller.py
+[5.612s] -- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/share/day8/urdf/simple_robot.urdf
+[5.617s] -- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/share/day8/launch/controller.py
+[5.621s] -- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/share/day8/launch/robot_visualization.py
+[5.627s] -- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/share/day8/rviz/robot_visualization.rviz
+[5.632s] -- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/share/ament_index/resource_index/package_run_dependencies/day8
+[5.637s] -- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/share/ament_index/resource_index/parent_prefix_path/day8
+[5.642s] -- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/share/day8/environment/ament_prefix_path.sh
+[5.648s] -- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/share/day8/environment/ament_prefix_path.dsv
+[5.653s] -- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/share/day8/environment/path.sh
+[5.658s] -- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/share/day8/environment/path.dsv
+[5.663s] -- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/share/day8/local_setup.bash
+[5.668s] -- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/share/day8/local_setup.sh
+[5.674s] -- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/share/day8/local_setup.zsh
+[5.679s] -- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/share/day8/local_setup.dsv
+[5.684s] -- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/share/day8/package.dsv
+[5.689s] -- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/share/ament_index/resource_index/packages/day8
+[5.694s] -- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/share/day8/cmake/day8Config.cmake
+[5.699s] -- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/share/day8/cmake/day8Config-version.cmake
+[5.704s] -- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/share/day8/package.xml
+[5.731s] Listing '/home/yalcinolgac/ros2_ws/install/day8/lib/python3.12/site-packages/day8'...
+[5.731s] Compiling '/home/yalcinolgac/ros2_ws/install/day8/lib/python3.12/site-packages/day8/__init__.py'...
+[5.731s] Compiling '/home/yalcinolgac/ros2_ws/install/day8/lib/python3.12/site-packages/day8/simple_robot_controller.py'...
+[5.736s] Invoked command in '/home/yalcinolgac/ros2_ws/build/day8' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yalcinolgac/ros2_ws/build/day8

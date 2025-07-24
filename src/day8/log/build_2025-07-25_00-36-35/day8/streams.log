@@ -1,0 +1,49 @@
+[0.009s] Invoking command in '/home/yalcinolgac/ros2_ws/src/day8/build/day8': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yalcinolgac/ros2_ws/src/day8 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yalcinolgac/ros2_ws/src/day8/install/day8
+[0.126s] -- The C compiler identification is GNU 13.3.0
+[0.195s] -- The CXX compiler identification is GNU 13.3.0
+[0.212s] -- Detecting C compiler ABI info
+[0.270s] -- Detecting C compiler ABI info - done
+[0.275s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.275s] -- Detecting C compile features
+[0.276s] -- Detecting C compile features - done
+[0.282s] -- Detecting CXX compiler ABI info
+[0.338s] -- Detecting CXX compiler ABI info - done
+[0.343s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.343s] -- Detecting CXX compile features
+[0.343s] -- Detecting CXX compile features - done
+[0.361s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.450s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.505s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.550s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.608s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.621s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.639s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.658s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.735s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.739s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.805s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.820s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.833s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.900s] -- Found rclpy: 7.1.4 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.904s] -- Found urdf: 2.10.0 (/opt/ros/jazzy/share/urdf/cmake)
+[0.935s] -- Found xacro: 2.0.13 (/opt/ros/jazzy/share/xacro/cmake)
+[0.938s] -- Found robot_state_publisher: 3.3.3 (/opt/ros/jazzy/share/robot_state_publisher/cmake)
+[1.124s] [31mCMake Error at CMakeLists.txt:16 (find_package):
+[1.124s]   By not providing "Findjoint_state_publisher.cmake" in CMAKE_MODULE_PATH
+[1.124s]   this project has asked CMake to find a package configuration file provided
+[1.124s]   by "joint_state_publisher", but CMake did not find one.
+[1.124s] 
+[1.124s]   Could not find a package configuration file provided by
+[1.124s]   "joint_state_publisher" with any of the following names:
+[1.124s] 
+[1.124s]     joint_state_publisherConfig.cmake
+[1.125s]     joint_state_publisher-config.cmake
+[1.125s] 
+[1.125s]   Add the installation prefix of "joint_state_publisher" to CMAKE_PREFIX_PATH
+[1.125s]   or set "joint_state_publisher_DIR" to a directory containing one of the
+[1.125s]   above files.  If "joint_state_publisher" provides a separate development
+[1.125s]   package or SDK, be sure it has been installed.
+[1.125s] 
+[1.125s] [0m
+[1.125s] -- Configuring incomplete, errors occurred!
+[1.131s] Invoked command in '/home/yalcinolgac/ros2_ws/src/day8/build/day8' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yalcinolgac/ros2_ws/src/day8 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yalcinolgac/ros2_ws/src/day8/install/day8

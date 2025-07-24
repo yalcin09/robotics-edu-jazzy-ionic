@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>day8</name>
+  <version>1.0.0</version>
+  <description>Day 8: Robot Modeling ve URDF Fundamentals - Mobile robot description, URDF format, robot visualization</description>
+  <maintainer email="student@ros2.com">ROS2 Student</maintainer>
+  <license>Apache-2.0</license>
+
+  <!-- Build tool -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- 
+  Core ROS2 Dependencies 
+  Bunlar CMakeLists.txt'de find_package() ile aranabilir
+  -->
+  <depend>rclcpp</depend>
+  <depend>rclpy</depend>
+  <depend>urdf</depend>
+  <depend>xacro</depend>
+  <depend>robot_state_publisher</depend>
+  <depend>geometry_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+
+  <!-- 
+  Runtime Dependencies (Executables)
+  Bunlar CMakeLists.txt'de find_package() ile ARANMAZ
+  Sadece runtime'da gerekli olan executable'lar
+  -->
+  <depend>joint_state_publisher</depend>
+  <depend>joint_state_publisher_gui</depend>
+  <depend>rviz2</depend>
+  <depend>teleop_twist_keyboard</depend>
+
+  <!-- 
+  Gazebo Dependencies (Opsiyonel)
+  Gazebo kullanacaksak gerekli, yoksa skip edebiliriz
+  -->
+  <depend>gazebo_ros</depend>
+  <depend>gazebo_plugins</depend>
+
+  <!-- Test dependencies -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

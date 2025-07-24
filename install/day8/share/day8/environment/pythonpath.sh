@@ -1,0 +1,1 @@
+/home/yalcinolgac/ros2_ws/build/day8/ament_cmake_environment_hooks/pythonpath.sh

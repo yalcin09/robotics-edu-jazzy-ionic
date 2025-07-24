@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-76274674288263199c35.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "day8",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_day8_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_day8_egg-0f9ed5fd8528815e09a9.json",
+					"name" : "ament_cmake_python_build_day8_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_day8::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_day8-2630435d4b7c6c0b24a8.json",
+					"name" : "ament_cmake_python_symlink_day8",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "day8_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-day8_uninstall-5d72381b78b8ee3d6d19.json",
+					"name" : "day8_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_robot_controller_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_robot_controller_cpp-373ed7e11dd13a46976c.json",
+					"name" : "simple_robot_controller_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-cea74e21e4f7426a0f06.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yalcinolgac/ros2_ws/src/day8/build/day8",
+		"source" : "/home/yalcinolgac/ros2_ws/src/day8"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

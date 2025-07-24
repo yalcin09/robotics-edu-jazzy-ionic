@@ -1,0 +1,12 @@
+/home/yalcinolgac/ros2_ws/build/day8/CMakeFiles/uninstall.dir
+/home/yalcinolgac/ros2_ws/build/day8/CMakeFiles/day8_uninstall.dir
+/home/yalcinolgac/ros2_ws/build/day8/CMakeFiles/simple_robot_controller_cpp.dir
+/home/yalcinolgac/ros2_ws/build/day8/CMakeFiles/ament_cmake_python_symlink_day8.dir
+/home/yalcinolgac/ros2_ws/build/day8/CMakeFiles/ament_cmake_python_build_day8_egg.dir
+/home/yalcinolgac/ros2_ws/build/day8/CMakeFiles/test.dir
+/home/yalcinolgac/ros2_ws/build/day8/CMakeFiles/edit_cache.dir
+/home/yalcinolgac/ros2_ws/build/day8/CMakeFiles/rebuild_cache.dir
+/home/yalcinolgac/ros2_ws/build/day8/CMakeFiles/list_install_components.dir
+/home/yalcinolgac/ros2_ws/build/day8/CMakeFiles/install.dir
+/home/yalcinolgac/ros2_ws/build/day8/CMakeFiles/install/local.dir
+/home/yalcinolgac/ros2_ws/build/day8/CMakeFiles/install/strip.dir

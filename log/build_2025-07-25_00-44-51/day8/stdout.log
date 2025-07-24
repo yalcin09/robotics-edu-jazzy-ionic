@@ -1,0 +1,76 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Configuring done (0.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/yalcinolgac/ros2_ws/build/day8
+[ 50%] [32mBuilding CXX object CMakeFiles/simple_robot_controller_cpp.dir/src/simple_robot_controller.cpp.o[0m
+[ 50%] Built target ament_cmake_python_symlink_day8
+running egg_info
+creating day8.egg-info
+writing day8.egg-info/PKG-INFO
+writing dependency_links to day8.egg-info/dependency_links.txt
+writing top-level names to day8.egg-info/top_level.txt
+writing manifest file 'day8.egg-info/SOURCES.txt'
+reading manifest file 'day8.egg-info/SOURCES.txt'
+writing manifest file 'day8.egg-info/SOURCES.txt'
+[ 50%] Built target ament_cmake_python_build_day8_egg
+[100%] [32m[1mLinking CXX executable simple_robot_controller_cpp[0m
+[100%] Built target simple_robot_controller_cpp
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/lib/day8/simple_robot_controller_cpp
+-- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/share/day8/environment/pythonpath.sh
+-- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/share/day8/environment/pythonpath.dsv
+-- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/lib/python3.12/site-packages/day8-1.0.0-py3.12.egg-info/PKG-INFO
+-- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/lib/python3.12/site-packages/day8-1.0.0-py3.12.egg-info/SOURCES.txt
+-- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/lib/python3.12/site-packages/day8-1.0.0-py3.12.egg-info/dependency_links.txt
+-- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/lib/python3.12/site-packages/day8-1.0.0-py3.12.egg-info/top_level.txt
+-- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/lib/python3.12/site-packages/day8/__init__.py
+-- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/lib/python3.12/site-packages/day8/simple_robot_controller.py
+-- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/lib/day8/simple_robot_controller.py
+-- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/share/day8/urdf/simple_robot.urdf
+-- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/share/day8/launch/controller.py
+-- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/share/day8/launch/robot_visualization.py
+-- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/share/day8/rviz/robot_visualization.rviz
+-- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/share/ament_index/resource_index/package_run_dependencies/day8
+-- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/share/ament_index/resource_index/parent_prefix_path/day8
+-- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/share/day8/environment/ament_prefix_path.sh
+-- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/share/day8/environment/ament_prefix_path.dsv
+-- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/share/day8/environment/path.sh
+-- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/share/day8/environment/path.dsv
+-- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/share/day8/local_setup.bash
+-- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/share/day8/local_setup.sh
+-- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/share/day8/local_setup.zsh
+-- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/share/day8/local_setup.dsv
+-- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/share/day8/package.dsv
+-- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/share/ament_index/resource_index/packages/day8
+-- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/share/day8/cmake/day8Config.cmake
+-- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/share/day8/cmake/day8Config-version.cmake
+-- Symlinking: /home/yalcinolgac/ros2_ws/install/day8/share/day8/package.xml
+Listing '/home/yalcinolgac/ros2_ws/install/day8/lib/python3.12/site-packages/day8'...
+Compiling '/home/yalcinolgac/ros2_ws/install/day8/lib/python3.12/site-packages/day8/__init__.py'...
+Compiling '/home/yalcinolgac/ros2_ws/install/day8/lib/python3.12/site-packages/day8/simple_robot_controller.py'...

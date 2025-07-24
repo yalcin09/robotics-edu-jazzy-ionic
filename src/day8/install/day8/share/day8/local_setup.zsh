@@ -1,0 +1,1 @@
+/home/yalcinolgac/ros2_ws/src/day8/build/day8/ament_cmake_environment_hooks/local_setup.zsh
